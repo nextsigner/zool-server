@@ -19,7 +19,7 @@ sudo apt-get -y install postfix mailutils libsasl2-2 libsasl2-modules
 sudo dpkg-reconfigure postfix
 sudo service postfix start
 
-sudo apt-get install -y nodejs 
+sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 
 sudo apt install -y mongodb

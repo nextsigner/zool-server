@@ -1,9 +1,9 @@
 'user strict'
 
-const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+var mongoose = require('mongoose')
+var Schema = mongoose.Schema
 
-const zoolUserSchema = Schema({
+var zoolUserSchema = Schema({
                                   tipo: String,
                                   ms: Number,
                                   msmod: Number,

@@ -1,6 +1,6 @@
 ﻿module.exports=function(app){
 
-    const ZoolUser = require('./models/ZoolUsers')
+    var ZoolUser = require('./models/ZoolUsers')
     /*
                 descripcion
                 codigo
