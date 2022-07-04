@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>PPres</title>
+    </head>
+    <body>
+        <h1>Zool Users</h1>
+        <form id="formppres" action="/ppres/nuevoproducto" method="get">
+        <label for="cat">Seleccionar una categoria</label><br />
+        <select id="cat" name="categoria" form="formppres">
+          <option value="TIPO 1) ALARMAS ESTÁNDAR (Honeywell VISTA 48) - ABONO MENSUAL">TIPO 1) ALARMAS ESTÁNDAR (Honeywell VISTA 48) - ABONO MENSUAL</option>
+          <option value="TIPO 2) ALARMAS SMART o VIDEOVERIFICACION (RSI) - ABONO MENSUAL">TIPO 2) ALARMAS SMART o VIDEOVERIFICACION (RSI) - ABONO MENSUAL</option>
+          <option value="TIPO 3) ALARMAS HIBRIDAS SMART + 3 CANALES  (Tyco) - ABONO MENSUAL">TIPO 3) ALARMAS HIBRIDAS SMART + 3 CANALES  (Tyco) - ABONO MENSUAL</option>
+          </select>
+          <br />
+          <br />
+        <label for="nombre">Nombre del Nuevo Producto:</label>
+          <input type="text" id="nombre" name="nombre"><br><br>
+          <label for="precio">Precio $:</label>
+          <input type="number" id="precio" name="precio"><br><br>
+          <input type="submit" value="Agregar">
+        </form>
+    </body>
+</html>
