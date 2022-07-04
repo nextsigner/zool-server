@@ -1,11 +1,11 @@
 
 CONTEXTO
 
-El movimiento del zoolsever.desktop no funcionó.
+El movimiento del zool-server.desktop no funcionó.
 
 1) Instalar forever de manera global
     npm install forever -g
 
 2)
 
-Ejemplo: /root/zoolsever/forever start /root/zoolsever/index.js
+Ejemplo: /root/zool-server/forever start /root/zool-server/index.js

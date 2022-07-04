@@ -1,4 +1,4 @@
-var appServerName='zoolserver'
+var appServerName='zool-server'
 var args = process.argv.slice(2);
 var puertoApp = '8080'; //Puerto que recibe acciones
 var puertoStatico = '8081'; //Puerto para descargar archivos
@@ -49,6 +49,3 @@ mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res
         console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
     });
 })
-
-console.log('Nota: Comando forever a utilizar "forever start /root/zoolsever/index.js"')
-

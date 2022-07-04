@@ -24,7 +24,7 @@ sudo apt-get install -y npm
 
 npm install forever -g
 
-grep -qxF 'forever start /root/zoolsever/index.js' /etc/rc.local || echo 'forever start /root/zoolsever/index.js' >> /etc/rc.local
+grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local
 
 npm install
 
@@ -42,10 +42,10 @@ sudo cp vncserver /etc/init.d/vncserver
 sudo chmod +x /etc/init.d/vncserver
 sudo update-rc.d vncserver defaults
 
-echo "install.sh copiando archivo ~/.config/autostart/zoolserver.desktop..."
+echo "install.sh copiando archivo ~/.config/autostart/zool-server.desktop..."
 sudo mkdir ~/.config/autostart
-sudo cp zoolserver.desktop ~/.config/autostart/zoolserver.desktop
-sudo chmod +x ~/.config/autostart/zoolserver.desktop
+sudo cp zool-server.desktop ~/.config/autostart/zool-server.desktop
+sudo chmod +x ~/.config/autostart/zool-server.desktop
 
 #echo "install.sh copiando archivo /root/mercurio-server/mercurio-server-nodejs.sh..."
 #sudo mercurio-server-nodejs.sh /root/mercurio-server/mercurio-server-nodejs.sh
