@@ -32,7 +32,7 @@
                               //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
                               //Registra el ZoolUser porque no existe ninguno con ese nombre
 
-                              let zoolUser = new ZoolUser()
+                              var zoolUser = new ZoolUser()
                               zoolUser.tipo = req.query.tipo
                               zoolUser.ms = req.query.ms
                               zoolUser.msmod = req.query.msmod
@@ -60,7 +60,7 @@
                               return
                           }else{
                               console.log('Se intenta repetir el registro del ZoolUser '+req.query.n);
-                              let msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.n).replace(/ /g, '%20')
+                              var msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.n).replace(/ /g, '%20')
                               res.redirect('/res-add-producto.html?res='+msg)
                           }
                       })
@@ -96,8 +96,8 @@
                       })
     }
     setChatUser = function(req, res){
-        let userId = req.query.userId
-        let update = req.body
+        var userId = req.query.userId
+        var update = req.body
         ZoolUser.findByIdAndUpdate(userId, update, function(err, userUpdated){
             if(err) res.status(500).send(`Error when user register: ${err}`)
             console.log('setChatUser: '+userUpdated)
@@ -106,7 +106,7 @@
     }
     getChatUser = function(req, res){
         console.log('Receiving get '+req.query.userId)
-        let userid= req.query.userId
+        var userid= req.query.userId
         ZoolUser.findById(userid, function(err, user){
             if(err){
                 res.status(500).send({user: `Error al buscar usuario: ${err}`})

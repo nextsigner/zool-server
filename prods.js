@@ -31,7 +31,7 @@
                               console.log('Registrando el dato del producto '+req.query.nombre);
                               //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
                               //Registra el producto porque no existe ninguno con ese nombre
-                              let producto = new Producto()
+                              var producto = new Producto()
                               producto.categoria = req.query.categoria
                               producto.nombre = req.query.nombre
                               producto.precio = req.query.precio
@@ -48,7 +48,7 @@
                               return
                           }else{
                               console.log('Se intenta repetir el registro del producto '+req.query.nombre);
-                              let msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.nombre).replace(/ /g, '%20')
+                              var msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.nombre).replace(/ /g, '%20')
                               res.redirect('/res-add-producto.html?res='+msg)
                           }
                       })
@@ -84,8 +84,8 @@
                       })
     }
     setChatUser = function(req, res){
-        let userId = req.query.userId
-        let update = req.body
+        var userId = req.query.userId
+        var update = req.body
         Producto.findByIdAndUpdate(userId, update, function(err, userUpdated){
             if(err) res.status(500).send(`Error when user register: ${err}`)
             console.log('setChatUser: '+userUpdated)
@@ -94,7 +94,7 @@
     }
     getChatUser = function(req, res){
         console.log('Receiving get '+req.query.userId)
-        let userid= req.query.userId
+        var userid= req.query.userId
         Producto.findById(userid, function(err, user){
             if(err){
                 res.status(500).send({user: `Error al buscar usuario: ${err}`})

@@ -22,6 +22,8 @@ sudo service postfix start
 sudo apt-get install -y nodejs 
 sudo apt-get install -y npm
 
+sudo apt install -y mongodb
+
 npm install forever -g
 
 grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local

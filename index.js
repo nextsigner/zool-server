@@ -38,7 +38,7 @@ db.once('open', function() {
     console.log('db conectada!');
     // we're connected!
 });
-let urlMongoDatabase='mongodb://127.0.0.1:27017/'+appServerName
+var urlMongoDatabase='mongodb://127.0.0.1:27017/'+appServerName
 mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res){
     if(err){
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)

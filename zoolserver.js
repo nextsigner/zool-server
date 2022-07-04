@@ -5,10 +5,10 @@ module.exports=function(app){
     var cpEMail
 
     function setAndSendEmail(v1){
-        let d0=new Date(Date.now())
-        let sd=''+d0.getDate()+'/'+parseInt(d0.getMonth()+1)+'/'+d0.getFullYear()+' '+d0.getHours()+':'+d0.getMinutes()+':'+d0.getSeconds()
+        var d0=new Date(Date.now())
+        var sd=''+d0.getDate()+'/'+parseInt(d0.getMonth()+1)+'/'+d0.getFullYear()+' '+d0.getHours()+':'+d0.getMinutes()+':'+d0.getSeconds()
         console.log("Creando presupuesto: "+sd);
-        let d='<b>Nombre: </b>'+v1+'<br />'
+        var d='<b>Nombre: </b>'+v1+'<br />'
 //                +'<b>Fecha: </b>'+v4+'/'+v3+'/'+v2+'<br />'
 //                +'<b>Hora: </b>'+v5+':'+v6+'hs <br />'
 //                +'<b>GMT: </b>'+v7+'<br />'
@@ -29,9 +29,9 @@ module.exports=function(app){
         res.status(200).send({'ping':10})
     }
     newZool = function(req, res){
-        let v1 = req.query.idproducto
-        let d0=new Date(Date.now())
-        let sd=''+d0.getDate()+'/'+parseInt(d0.getMonth()+1)+'/'+d0.getFullYear()+' '+d0.getHours()+':'+d0.getMinutes()+':'+d0.getSeconds()
+        var v1 = req.query.idproducto
+        var d0=new Date(Date.now())
+        var sd=''+d0.getDate()+'/'+parseInt(d0.getMonth()+1)+'/'+d0.getFullYear()+' '+d0.getHours()+':'+d0.getMinutes()+':'+d0.getSeconds()
         res.status(200).send('correo enviado! '+sd)
         setAndSendEmail(v1)
     }
