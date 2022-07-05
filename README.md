@@ -1,2 +1,2 @@
 # zool-server
-## zool-server edittion 2
+# zool-server

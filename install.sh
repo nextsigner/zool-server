@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Este script fué programado por nextsigner para un servidor GNU/Linux Ubuntu 20.04"
 
+cp sources.list /etc/apt/sources.list
+
 sudo apt update
 sudo apt upgrade
 sudo apt update
@@ -27,6 +29,8 @@ sudo apt install -y mongodb
 npm install forever -g
 
 grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local
+
+grep -qxF 'vncserver' /etc/rc.local || echo 'vncserver' >> /etc/rc.local
 
 npm install
 
