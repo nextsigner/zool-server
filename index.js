@@ -1,7 +1,7 @@
 var appServerName='zool-server'
 var args = process.argv.slice(2);
-var puertoApp = '8080'; //Puerto que recibe acciones
-var puertoStatico = '8081'; //Puerto para descargar archivos
+var puertoApp = '8100'; //Puerto que recibe acciones
+var puertoStatico = '8101'; //Puerto para descargar archivos
 var folderFiles = 'files/';
 var serverEmail=process.env.EMAIL
 var serverEmailPass=process.env.EMAILPASS
