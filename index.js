@@ -23,8 +23,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //var mongoose = require('mongoose');
-require('./zoolserver')(app);
-require('./zoolusers')(app);
+//require('./zoolserver')(app);
+//require('./zoolusers')(app);
+//require('./zoolusers.js')(app);
+//require('./zoolParams')(app);
 //require('./pres')(app);
 
 //app.listen(app.get('port'), function() {
@@ -32,6 +34,7 @@ require('./zoolusers')(app);
 //    console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
 //});
 var mongoose = require('mongoose');
+require('./zoolusers')(app);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {

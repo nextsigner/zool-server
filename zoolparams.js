@@ -10,7 +10,7 @@
                 observaciones
     */
     nuevoZoolUser = function(req, res){
-        console.log('Insertando ZoolUser con nombre '+req.query.n)
+        console.log('Insertando ZoolUser con nombre '+req.query.nombre)
         ZoolUser.find({
                           //date: {$gt: h }
                           //date: {$gte: "2019-06-12T00:00:00+01:00", $lte: "2019-12-12T23:00:00+01:00" }
@@ -30,30 +30,38 @@
                           if(resultados.length===0){
                               console.log('Registrando el dato del ZoolUser '+req.query.nombre);
                               //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
+                              //Registra el ZoolUser porque no existe ninguno con ese nombre
 
                               var zoolUser = new ZoolUser()
+                              zoolUser.tipo = req.query.tipo
+                              zoolUser.ms = req.query.ms
+                              zoolUser.msmod = req.query.msmod
                               zoolUser.n  = req.query.n
-                              zoolUser.c = req.query.c
+                              zoolUser.d = req.query.d
+                              zoolUser.m = req.query.m
+                              zoolUser.a = req.query.a
+                              zoolUser.h = req.query.h
+                              zoolUser.min = req.query.min
+                              zoolUser.gmt = req.query.gmt
+                              zoolUser.lat = req.query.lat
+                              zoolUser.lon = req.query.lon
+                              zoolUser.ciudad = req.query.ciudad
+                              zoolUser.admin = req.query.admin
                               zoolUser.fechaRegistro = new Date(Date.now())
-                              console.log('Creando un nuevo ZoolUser nombre: '+zoolUser.n+'\nClave: '+zoolUser.c)
+                              console.log('Creando un nuevo ZoolUser nombre: Tipo:'+zoolUser.tipo+'\nMs: '+zoolUser.ms+'\nMsMod: '+zoolUser.msmod+'\nNombre: '+zoolUser.n+'\nDía: '+zoolUser.d+'\nMes: '+zoolUser.m+'\nAño: '+zoolUser.a+'\nHora: '+zoolUser.h+'\nMinuto: '+zoolUser.min+'\nGMT: '+zoolUser.gmt+'\nLatitud: '+zoolUser.lat+'\nLongitud: '+zoolUser.lon+'\nLugar: '+zoolUser.ciudad+'\nAdministrador: '+zoolUser.admin+'\nFecha de Registro: '+zoolUser.fechaRegistro)
                               zoolUser.save(function(err, userRegistered){
                                   if(err){
                                       res.status(500).send(`Error when user register: ${err}`)
                                       return
                                   }
-                                  //res.redirect('/res-add-producto.html?res=El+producto+se+ha+agregado+correctamente&pid='+userRegistered._id)
-
-                                  let jsonRes={user: userRegistered, isRec: true}
-                                  console.log('jsonRes: '+JSON.stringify(jsonRes))
-                                  res.status(200).send(jsonRes)
+                                  res.redirect('/res-add-producto.html?res=El+producto+se+ha+agregado+correctamente&pid='+userRegistered._id)
+                                  //res.status(200).send({producto: userRegistered})
                               })
                               return
                           }else{
                               console.log('Se intenta repetir el registro del ZoolUser '+req.query.n);
-                              //var msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.n).replace(/ /g, '%20')
-                              //res.redirect('/res-add-producto.html?res='+msg)
-                              let jsonRes={user:{}, isRec: false, msg: 'En la base de datos de Zool ya existe un usuario con el nombre '+req.query.n+'.'}
-                              res.status(200).send(jsonRes)
+                              var msg='No+se+ha+registrado+el+productoYa+existe+un+producto+con+el+nombre+'+(''+req.query.n).replace(/ /g, '%20')
+                              res.redirect('/res-add-producto.html?res='+msg)
                           }
                       })
     }
@@ -112,7 +120,7 @@
         })
     }
 
-    app.get('/zool/nuevoZoolUser', nuevoZoolUser);
+    app.post('/zool/nuevoZoolUser', nuevoZoolUser);
     app.get('/zool/searchuser', searchZoolUser);
     app.get('/chat/set/user', setChatUser);
     app.get('/chat/get/user', getChatUser);
