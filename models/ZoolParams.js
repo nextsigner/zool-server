@@ -3,7 +3,7 @@
 var mongoose = require('mongoose')
 var Schema = mongoose.Schema
 
-var zoolUserSchema = Schema({
+var zoolParamsSchema = Schema({
                                   tipo: String,
                                   ms: Number,
                                   msmod: Number,
@@ -17,9 +17,9 @@ var zoolUserSchema = Schema({
                                   lat: Number,
                                   lon: Number,
                                   ciudad: String,
-                                  admin: String,
+                                  adminId: String,
                                   fechaRegistro: Date
                               }, { versionKey: false })
 
-var collectionName='ZoolUsers'
-module.exports=mongoose.model(collectionName, zoolUserSchema)
+var collectionName='ZoolParams'
+module.exports=mongoose.model(collectionName, zoolParamsSchema)
