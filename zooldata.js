@@ -2,7 +2,7 @@
 
     getZoolData = function(req, res){
         console.log('getZoolData... ');
-        console.log('Dia: '+req.query.d);
+        console.log('Dia: '+req.d);
         //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
