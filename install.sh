@@ -15,11 +15,15 @@ echo "1" > files/ping.html
 
 
 #Instalando entorno de escritorio y aplicaciones necesarias para zodiacserver
-sudo apt-get install -y nano xfce4 xfce4-goodies gnome-icon-theme tightvncserver
+#sudo apt-get install -y nano xfce4 xfce4-goodies gnome-icon-theme tightvncserver
 
-sudo apt-get -y install postfix mailutils libsasl2-2 libsasl2-modules
-sudo dpkg-reconfigure postfix
-sudo service postfix start
+#sudo apt-get -y install postfix mailutils libsasl2-2 libsasl2-modules
+#sudo dpkg-reconfigure postfix
+#sudo service postfix start
+
+sudo apt install curl
+
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
@@ -39,9 +43,9 @@ npm install
 #sudo forever-service install ppres --script /root/ppres/index.js
 #sudo service ppres start
 
-echo "install.sh copiando archivo /etc/init.d/vncserver..."
-sudo cp xstartup ~/.vnc/xstartup
-sudo chmod +x ~/.vnc/xstartup
+#echo "install.sh copiando archivo /etc/init.d/vncserver..."
+#sudo cp xstartup ~/.vnc/xstartup
+#sudo chmod +x ~/.vnc/xstartup
 
 echo "install.sh copiando archivo /etc/init.d/vncserver..."
 sudo cp vncserver /etc/init.d/vncserver

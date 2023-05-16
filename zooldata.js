@@ -45,7 +45,31 @@
         //res.status(200).send(jsonRes)
         return
     }
+    getUZoolandControlVersion = function(req, res){
+        console.log('getUZoolandControlVersion... ');
+        let jsonRes={isData:false}
+        const exec = require('child_process').exec;
+        exec('ls /home/ns/nsp/zool-server/files/zooland-control-*.zip', (err, stdout, stderr) => {
+                 if (err) {
+                     console.error(err);
+                     jsonRes={isData:false, isError:true, error: err}
+                     res.status(200).send(jsonRes);
+                     return;
+                 }
+                 let v=0;
+                 let m0=stdout.split('\n')
+                 let m1=(''+m0[0]).split('/')
+                 let zipFileName=m1[m1.length-1]
+                 jsonRes={isData:true, isError:false, data: zipFileName}
+                 //jsonRes=JSON.parse(stdout);
+                 //console.log(JSON.stringify(jsonRes, null, 2));
+                 res.status(200).send(jsonRes);
+             });
+        //res.status(200).send(jsonRes)
+        return
+    }
     app.get('/zool/getZoolData', getZoolData);
     app.get('/zool/getUZoolandVersion', getUZoolandVersion);
+    app.get('/zool/getUZoolandControlVersion', getUZoolandControlVersion);
 }
 
