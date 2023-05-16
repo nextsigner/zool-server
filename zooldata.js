@@ -7,7 +7,7 @@
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('python3 "/home/ns/nsp/zool-release/py/astrologica_swe_v2.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T /home/ns/nsp/zool-release', (err, stdout, stderr) => {
+        exec('python3 "/home/root/zool-server/py/astrologica_swe_v2.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T /home/ns/nsp/zool-release', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
