@@ -2,7 +2,7 @@
 
     getZoolData = function(req, res){
         console.log('getZoolData... ');
-        console.log('Dia: '+req.d);
+        console.log('Dia: '+req.query.d);
         //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
@@ -26,7 +26,7 @@
         console.log('getUZoolandVersion... ');
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('ls /home/ns/nsp/zool-server/files/*.zip', (err, stdout, stderr) => {
+        exec('ls /root/zool-server/files/*.zip', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
