@@ -31,6 +31,7 @@ sudo apt-get install -y npm
 sudo apt install -y mongodb
 
 npm install forever -g
+npm install forever-service -g
 
 grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local
 
@@ -44,7 +45,9 @@ npm install
 
 #npm install forever -g
 #npm install -g forever-service
-#sudo forever-service install ppres --script /root/ppres/index.js
+sudo forever-service install zool-server --script /root/zool-server/index.js
+sudo forever-service zool-server start
+
 #sudo service ppres start
 
 #echo "install.sh copiando archivo /etc/init.d/vncserver..."
@@ -52,14 +55,14 @@ npm install
 #sudo chmod +x ~/.vnc/xstartup
 
 echo "install.sh copiando archivo /etc/init.d/vncserver..."
-sudo cp vncserver /etc/init.d/vncserver
-sudo chmod +x /etc/init.d/vncserver
-sudo update-rc.d vncserver defaults
+#sudo cp vncserver /etc/init.d/vncserver
+#sudo chmod +x /etc/init.d/vncserver
+#sudo update-rc.d vncserver defaults
 
-echo "install.sh copiando archivo ~/.config/autostart/zool-server.desktop..."
-sudo mkdir ~/.config/autostart
-sudo cp zool-server.desktop ~/.config/autostart/zool-server.desktop
-sudo chmod +x ~/.config/autostart/zool-server.desktop
+#echo "install.sh copiando archivo ~/.config/autostart/zool-server.desktop..."
+#sudo mkdir ~/.config/autostart
+#sudo cp zool-server.desktop ~/.config/autostart/zool-server.desktop
+#sudo chmod +x ~/.config/autostart/zool-server.desktop
 
 #echo "install.sh copiando archivo /root/mercurio-server/mercurio-server-nodejs.sh..."
 #sudo mercurio-server-nodejs.sh /root/mercurio-server/mercurio-server-nodejs.sh
@@ -68,3 +71,5 @@ sudo chmod +x ~/.config/autostart/zool-server.desktop
 #vncserver
 
 echo "Recordar abrir los puertos o rango de puertos 8080-8081 para el server nodejs.\n\n"
+
+nohup lt --port 8100 --subdomain zool
