@@ -1,4 +1,5 @@
 ﻿module.exports=function(app){
+    var ZoolParams = require('./models/ZoolParams')
 
     getZoolData = function(req, res){
         console.log('getZoolData... ');
@@ -49,7 +50,7 @@
         console.log('getUZoolandControlVersion... ');
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('ls /home/ns/nsp/zool-server/files/zooland-control-*.zip', (err, stdout, stderr) => {
+        exec('ls /root/zool-server/files/zooland-main*.zip', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
@@ -71,5 +72,32 @@
     app.get('/zool/getZoolData', getZoolData);
     app.get('/zool/getUZoolandVersion', getUZoolandVersion);
     app.get('/zool/getUZoolandControlVersion', getUZoolandControlVersion);
+
+    //Retorna un JSON con un array lista de Params
+    getZoolandParamsList = function(req, res){
+        console.log('Buscando ZoolParamsList con adminId: ['+req.query.adminId+'].')
+        let jsonRes={isData:false}
+        var regExp= new RegExp(''+(''+req.query.adminId).toUpperCase()+'|'+(''+req.query.adminId).toLocaleLowerCase())
+        console.log('Buscando ZoolParamsList regExp:['+regExp+'].')
+        ZoolParams.find({ $or: [ { adminId: regExp } ]},
+                        ['params'], // Columns to Return
+                        {
+                            skip:0, // Starting Row
+                            //limit:1, // Ending Row
+                            sort:{
+                                fechaRegistro: 1 //Sort by Date Added DESC
+                            }
+                        },
+                        function(err, resultados){
+                            if(err){
+                                jsonRes={isData:false, isError:true, error: err}
+                                res.status(200).send(JSON.stringify(jsonRes, null, 2));
+                            }else{
+                                jsonRes={isData:true, isError:false, data: resultados}
+                                res.status(200).send(JSON.stringify(jsonRes, null, 2));
+                            }
+                        })
+    }
+    app.get('/zool/getZoolandParamsList', getZoolandParamsList);
 }
 

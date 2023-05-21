@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextsigner/ppres.git"
+    "url": "git+https://github.com/nextsigner/zool-server.git"
   },
   "keywords": [
     "server",
@@ -17,16 +17,16 @@
   "author": "@nextsigner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nextsigner/ppres/issues"
+    "url": "https://github.com/nextsigner/zool-server/issues"
   },
-  "homepage": "https://github.com/nextsigner/ppres#readme",
+  "homepage": "https://github.com/nextsigner/zool-server#readme",
   "dependencies": {
     "child_process": "^1.0.2",
     "connect": "^3.7.0",
     "express": "^4.17.1",
     "forever": "^3.0.0",
     "fs": "0.0.1-security",
-    "mongoose": "^5.9.24",
+    "mongoose": "^5.13.17",
     "nodemailer": "^6.4.6",
     "path": "^0.12.7",
     "pdf2html": "^2.5.2",
