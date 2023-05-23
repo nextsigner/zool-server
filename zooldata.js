@@ -50,7 +50,7 @@
         console.log('getUZoolandControlVersion... ');
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('ls /root/zool-server/files/zooland-main*.zip', (err, stdout, stderr) => {
+        exec('ls /root/zool-server/files/zooland-control/zooland-main*.zip', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
