@@ -99,5 +99,30 @@
                         })
     }
     app.get('/zool/getZoolandParamsList', getZoolandParamsList);
+
+    //Retorna coords de ciudad
+    getZoolandCoords = function(req, res){
+        console.log('getZoolandCoords... ');
+        console.log('Ciudad: '+req.query.ciudad);
+        //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
+        //Registra el ZoolUser porque no existe ninguno con ese nombre
+        let jsonRes={isData:false}
+        const exec = require('child_process').exec;
+        exec('python3 "/root/zool-server/py/geoloc.py" "'+req.query.ciudad+'" /root/zool-server', (err, stdout, stderr) => {
+                 if (err) {
+                     console.error(err);
+                     jsonRes={isData:false, isError:true, error: err}
+                     res.status(200).send(jsonRes);
+                     return;
+                 }
+                 jsonRes={isData:true, isError:false, ciudad: req.query.ciudad, data: JSON.parse(stdout)}
+                 //jsonRes=JSON.parse(stdout);
+                 //console.log(JSON.stringify(jsonRes, null, 2));
+                 res.status(200).send(jsonRes);
+             });
+        //res.status(200).send(jsonRes)
+        return
+    }
+    app.get('/zool/getZoolandCoords', getZoolandCoords);
 }
 
