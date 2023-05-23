@@ -94,6 +94,7 @@
                                 res.status(200).send(JSON.stringify(jsonRes, null, 2));
                             }else{
                                 jsonRes={isData:true, isError:false, data: resultados}
+                                console.log('Resultado ZoolParamsList: '+JSON.stringify(jsonRes, null, 2)+'')
                                 res.status(200).send(JSON.stringify(jsonRes, null, 2));
                             }
                         })
