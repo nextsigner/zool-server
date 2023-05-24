@@ -1,5 +1,5 @@
 ﻿module.exports=function(app){
-    var ZoolParams = require('./models/ZoolParams')
+    var ZoolDoc = require('./models/ZoolDoc')
 
     getZoolData = function(req, res){
         console.log('getZoolData... ');
@@ -79,7 +79,7 @@
         let jsonRes={isData:false}
         var regExp= new RegExp(''+(''+req.query.adminId).toUpperCase()+'|'+(''+req.query.adminId).toLocaleLowerCase())
         console.log('Buscando ZoolParamsList regExp:['+regExp+'].')
-        ZoolParams.find({ $or: [ { adminId: regExp } ]},
+        ZoolDoc.find({ $or: [ { adminId: regExp } ]},
                         ['params'], // Columns to Return
                         {
                             skip:0, // Starting Row
