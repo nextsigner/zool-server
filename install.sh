@@ -48,6 +48,13 @@ npm install
 sudo forever-service install zool-server --script /root/zool-server/index.js
 sudo forever-service zool-server start
 
+sudo apt install python3
+sudo apt install python3-pip
+pip3 install geopy
+pip3 install pyswisseph
+pip3 install swisseph
+pip3 install jdutil
+
 #sudo service ppres start
 
 #echo "install.sh copiando archivo /etc/init.d/vncserver..."
