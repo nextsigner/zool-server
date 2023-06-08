@@ -181,7 +181,7 @@
             json.lon = parseFloat(req.query.lon)
             json.alt = parseInt(req.query.alt)
             json.ciudad = req.query.ciudad
-            ZoolDoc.updateOne(
+            ZoolDoc.update(
                         { _id: res._id },
                         { $push: { exts: json } },
                         function (error, success) {
