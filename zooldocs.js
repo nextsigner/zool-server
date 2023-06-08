@@ -159,13 +159,13 @@
     //--> SAVE NEW EXT IN DOC
     saveZoolExt = function(req, res){
         console.log('Buscando ZoolUser con nombre '+req.query.consulta)
-        ZoolDoc.findById(req.query.docId, function(err, res) {
+        ZoolDoc.findById(req.query.docId, function(err, result) {
             if(err){
                 console.log("errer!!", err);
                 return
             }
             //console.log("res", res);
-            console.log("res._id", res._id);
+            console.log("res._id", result._id);
             var json={}
             json.tipo = req.query.tipo
             json.ms = parseInt(req.query.ms)
@@ -182,7 +182,7 @@
             json.alt = parseInt(req.query.alt)
             json.ciudad = req.query.ciudad
             ZoolDoc.updateOne(
-                        { _id: res._id },
+                        { _id: result._id },
                         { $push: { exts: json } },
                         function (error, success) {
                             if (error) {
