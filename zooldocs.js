@@ -187,8 +187,12 @@
                         function (error, success) {
                             if (error) {
                                 console.log(error);
+                                let jsonRes={isRec: false}
+                                res.status(200).send(jsonRes)
                             } else {
-                                console.log(success);
+                                //console.log(success);
+                                let jsonRes={isRec: true}
+                                res.status(200).send(jsonRes)
                             }
                         }
                         );
