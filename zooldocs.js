@@ -182,8 +182,7 @@
             json.ciudad = req.query.ciudad
             ZoolDoc.update(
                 { _id: res._id },
-                { $push: { exts: json } },
-                done
+                { $push: { exts: json } }
             );
           });
     }
