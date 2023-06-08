@@ -191,10 +191,8 @@
                                 console.log(success);
                             }
                         });
-            );
-        });
+        }
+        app.get('/zool/saveZoolExt', saveZoolExt);
+        //<-- SAVE NEW EXT IN DOC
     }
-    app.get('/zool/saveZoolExt', saveZoolExt);
-    //<-- SAVE NEW EXT IN DOC
-}
 
