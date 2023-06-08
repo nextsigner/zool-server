@@ -7,6 +7,7 @@
         var zoolDoc = new ZoolDoc()
         zoolDoc.adminId = req.query.adminId
         zoolDoc.fechaRegistro = new Date(Date.now())
+        zoolDoc.exts=[]
         var json={}
         json.tipo = req.query.tipo
         json.ms = parseInt(req.query.ms)

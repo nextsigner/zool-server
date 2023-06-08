@@ -6,6 +6,7 @@ var Schema = mongoose.Schema
 var zoolDocSchema = Schema({
                                   adminId: String,
                                   params: Object,
+                                  exts: Array,
                                   fechaRegistro: Date
                               }, { versionKey: false })
 

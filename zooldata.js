@@ -80,7 +80,7 @@
         var regExp= new RegExp(''+(''+req.query.adminId).toUpperCase()+'|'+(''+req.query.adminId).toLocaleLowerCase())
         console.log('Buscando ZoolParamsList regExp:['+regExp+'].')
         ZoolDoc.find({ $or: [ { adminId: regExp } ]},
-                        ['params'], // Columns to Return
+                        ['params', 'exts'], // Columns to Return
                         {
                             skip:0, // Starting Row
                             //limit:1, // Ending Row
