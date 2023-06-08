@@ -165,6 +165,7 @@
                 return
             }
             console.log("res", res);
+            console.log("res._id", res._id);
             var json={}
             json.tipo = req.query.tipo
             json.ms = parseInt(req.query.ms)
@@ -181,7 +182,7 @@
             json.alt = parseInt(req.query.alt)
             json.ciudad = req.query.ciudad
             ZoolDoc.update(
-                { _id: res._id },
+                { _id: ObjectId(res._id) },
                 { $push: { exts: json } }
             );
           });
