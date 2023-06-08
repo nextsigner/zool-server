@@ -156,7 +156,18 @@
     //app.get('/chat/get/user', getChatUser);
 
 
-
-
+    //--> SAVE NEW EXT IN DOC
+    saveZoolExt = function(req, res){
+        console.log('Buscando ZoolUser con nombre '+req.query.consulta)
+        ZoolDoc.findById(req.query.docId, function(err, res) {
+            if(err){
+                console.log("errer!!", err);
+                return
+            }
+            console.log("res", res);
+          });
+    }
+    app.get('/zool/saveZoolExt', saveZoolExt);
+    //<-- SAVE NEW EXT IN DOC
 }
 
