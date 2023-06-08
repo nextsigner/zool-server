@@ -165,6 +165,26 @@
                 return
             }
             console.log("res", res);
+            var json={}
+            json.tipo = req.query.tipo
+            json.ms = parseInt(req.query.ms)
+            json.msmod = parseInt(req.query.msmod)
+            json.n  = req.query.n
+            json.d = parseInt(req.query.d)
+            json.m = parseInt(req.query.m)
+            json.a = parseInt(req.query.a)
+            json.h = parseInt(req.query.h)
+            json.min = parseInt(req.query.min)
+            json.gmt = parseInt(req.query.gmt)
+            json.lat = parseFloat(req.query.lat)
+            json.lon = parseFloat(req.query.lon)
+            json.alt = parseInt(req.query.alt)
+            json.ciudad = req.query.ciudad
+            ZoolDoc.update(
+                { _id: res._id },
+                { $push: { exts: json } },
+                done
+            );
           });
     }
     app.get('/zool/saveZoolExt', saveZoolExt);
