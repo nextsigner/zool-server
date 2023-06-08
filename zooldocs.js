@@ -106,24 +106,24 @@
                           descripcion: regExp // Search Filters
                       },*/
         zoolDoc.find({ $or: [ { codigo: regExp }, { descripcion: regExp } ] },
-                        ['descripcion', 'codigo', 'precioinstalacion', 'precioabono', 'adicionalriesgo', 'observaciones'], // Columns to Return
-                        {
-                            skip:0, // Starting Row
-                            //limit:1, // Ending Row
-                            sort:{
-                                codigo: 1 //Sort by Date Added DESC
-                            }
-                        },
-                        function(err, resultados){
-                            if(err) res.status(500).send({mensaje: `Error al buscar ZoolUsers: ${err}`})
-                            if(resultados.length===0){
-                                console.log('No se encontró ningún ZoolUser '+req.query.consulta);
-                                res.status(200).send({zoolUsers: false})
-                            }else{
-                                console.log('Se devolverán datos de ZoolUsers a la consulta: '+req.query.consulta);
-                                res.status(200).send({zoolUsers: resultados})
-                            }
-                        })
+                     ['descripcion', 'codigo', 'precioinstalacion', 'precioabono', 'adicionalriesgo', 'observaciones'], // Columns to Return
+                     {
+                         skip:0, // Starting Row
+                         //limit:1, // Ending Row
+                         sort:{
+                             codigo: 1 //Sort by Date Added DESC
+                         }
+                     },
+                     function(err, resultados){
+                         if(err) res.status(500).send({mensaje: `Error al buscar ZoolUsers: ${err}`})
+                         if(resultados.length===0){
+                             console.log('No se encontró ningún ZoolUser '+req.query.consulta);
+                             res.status(200).send({zoolUsers: false})
+                         }else{
+                             console.log('Se devolverán datos de ZoolUsers a la consulta: '+req.query.consulta);
+                             res.status(200).send({zoolUsers: resultados})
+                         }
+                     })
     }
     setChatUser = function(req, res){
         var userId = req.query.userId
@@ -164,7 +164,7 @@
                 console.log("errer!!", err);
                 return
             }
-            console.log("res", res);
+            //console.log("res", res);
             console.log("res._id", res._id);
             var json={}
             json.tipo = req.query.tipo
@@ -181,11 +181,18 @@
             json.lon = parseFloat(req.query.lon)
             json.alt = parseInt(req.query.alt)
             json.ciudad = req.query.ciudad
-            ZoolDoc.update(
-                { _id: ObjectId(res._id) },
-                { $push: { exts: json } }
+            ZoolDoc.updateOne(
+                        { _id: res._id },
+                        { $push: { exts: json } },
+                        function (error, success) {
+                            if (error) {
+                                console.log(error);
+                            } else {
+                                console.log(success);
+                            }
+                        });
             );
-          });
+        });
     }
     app.get('/zool/saveZoolExt', saveZoolExt);
     //<-- SAVE NEW EXT IN DOC
