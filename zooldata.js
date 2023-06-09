@@ -1,28 +1,6 @@
 ﻿module.exports=function(app){
     var ZoolDoc = require('./models/ZoolDoc')
 
-    getZoolData = function(req, res){
-        console.log('getZoolData... ');
-        console.log('Dia: '+req.query.d);
-        //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
-        //Registra el ZoolUser porque no existe ninguno con ese nombre
-        let jsonRes={isData:false}
-        const exec = require('child_process').exec;
-        exec('python3 "/root/zool-server/py/astrologica_swe_v2.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T /root/zool-server', (err, stdout, stderr) => {
-                 if (err) {
-                     console.error(err);
-                     jsonRes={isData:false, isError:true, error: err}
-                     res.status(200).send(jsonRes);
-                     return;
-                 }
-                 jsonRes={isData:true, isError:false, data: JSON.parse(stdout)}
-                 //jsonRes=JSON.parse(stdout);
-                 //console.log(JSON.stringify(jsonRes, null, 2));
-                 res.status(200).send(jsonRes);
-             });
-        //res.status(200).send(jsonRes)
-        return
-    }
     getUZoolandVersion = function(req, res){
         console.log('getUZoolandVersion... ');
         let jsonRes={isData:false}
@@ -69,11 +47,37 @@
         //res.status(200).send(jsonRes)
         return
     }
-    app.get('/zool/getZoolData', getZoolData);
+
     app.get('/zool/getUZoolandVersion', getUZoolandVersion);
     app.get('/zool/getUZoolandControlVersion', getUZoolandControlVersion);
 
-    //Retorna un JSON con un array lista de Params
+    //--> Get Zool Data
+    getZoolData = function(req, res){
+        console.log('getZoolData... ');
+        console.log('Dia: '+req.query.d);
+        //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
+        //Registra el ZoolUser porque no existe ninguno con ese nombre
+        let jsonRes={isData:false}
+        const exec = require('child_process').exec;
+        exec('python3 "/root/zool-server/py/astrologica_swe_v2.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T /root/zool-server', (err, stdout, stderr) => {
+                 if (err) {
+                     console.error(err);
+                     jsonRes={isData:false, isError:true, error: err}
+                     res.status(200).send(jsonRes);
+                     return;
+                 }
+                 jsonRes={isData:true, isError:false, data: JSON.parse(stdout)}
+                 //jsonRes=JSON.parse(stdout);
+                 //console.log(JSON.stringify(jsonRes, null, 2));
+                 res.status(200).send(jsonRes);
+             });
+        //res.status(200).send(jsonRes)
+        return
+    }
+    app.get('/zool/getZoolData', getZoolData);
+    //<-- Get Zool Data
+
+    //--> Retorna un JSON con un array lista de Params
     getZoolandParamsList = function(req, res){
         console.log('Buscando ZoolParamsList con adminId: ['+req.query.adminId+'].')
         let jsonRes={isData:false}
@@ -100,6 +104,7 @@
                         })
     }
     app.get('/zool/getZoolandParamsList', getZoolandParamsList);
+    //<-- Retorna un JSON con un array lista de Params
 
     //Retorna coords de ciudad
     getZoolandCoords = function(req, res){
@@ -125,5 +130,16 @@
         return
     }
     app.get('/zool/getZoolandCoords', getZoolandCoords);
+
+    //--> Test
+    app.get('/test',function(req, res) {
+        var r=JSON.stringify(req.query)
+        var pr=JSON.parse(r)
+        console.log(pr.username)
+        var ttt = false;
+        if (req.query.username === "undefined") ttt = true;
+        res.json({query: ttt});
+    });
+    //<-- Test
 }
 

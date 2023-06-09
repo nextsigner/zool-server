@@ -191,6 +191,7 @@
                                 res.status(200).send(jsonRes)
                             } else {
                                 //console.log(success);
+                                console.log('Se han agregado datos externos para el documento con nombre: '+req.query.n);
                                 let jsonRes={isRec: true}
                                 res.status(200).send(jsonRes)
                             }

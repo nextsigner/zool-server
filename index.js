@@ -22,10 +22,6 @@ app.set('port', process.env.PORT || puertoApp);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-//app.listen(app.get('port'), function() {
-//    console.log('Servidor ppres iniciado.');
-//    console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
-//});
 var mongoose = require('mongoose');
 require('./zoolusers')(app);
 //require('./zoolparams')(app);
