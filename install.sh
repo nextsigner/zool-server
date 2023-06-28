@@ -54,6 +54,7 @@ pip3 install geopy
 pip3 install pyswisseph
 pip3 install swisseph
 pip3 install jdutil
+pip3 install python-dateutil
 
 #sudo service ppres start
 
