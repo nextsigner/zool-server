@@ -21,12 +21,16 @@ echo "1" > files/ping.html
 #sudo dpkg-reconfigure postfix
 #sudo service postfix start
 
-sudo apt install curl
+#--->Funcionaba en Ubuntu 16.04
+#sudo apt install curl
+#curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+#sudo apt-get install -y nodejs
+#<---Funcionaba en Ubuntu 16.04
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
-
-sudo apt-get install -y nodejs
+#--->Funciona en Ubuntu 20.04
+sudo apt-get install -y node
 sudo apt-get install -y npm
+#<---Funciona en Ubuntu 20.04
 
 sudo apt install -y mongodb
 
@@ -37,8 +41,8 @@ grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'fore
 
 #grep -qxF 'vncserver' /etc/rc.local || echo 'vncserver' >> /etc/rc.local
 
-npm install -g localtunnel
-lt --port 8100 --subdomain zool --local_host localhost
+#npm install -g localtunnel
+#lt --port 8100 --subdomain zool --local_host localhost
 
 npm install
 
@@ -78,6 +82,6 @@ echo "install.sh copiando archivo /etc/init.d/vncserver..."
 
 #vncserver
 
-echo "Recordar abrir los puertos o rango de puertos 8080-8081 para el server nodejs.\n\n"
+echo "Recordar abrir los puertos o rango de puertos 8080-8081 para el server node.\n\n"
 
-nohup lt --port 8100 --subdomain zool
+#nohup lt --port 8100 --subdomain zool

@@ -1,1 +1,1 @@
-Se agrega pip3 intall python-dateutil a install.sh
+Se edita install.sh
