@@ -34,6 +34,7 @@ sudo apt-get install -y npm
 
 sudo apt install -y mongodb
 
+sudo apt install npm
 npm install forever -g
 npm install forever-service -g
 
@@ -81,9 +82,10 @@ echo "install.sh copiando archivo /etc/init.d/vncserver..."
 #sudo chmod +x /root/mercurio-server/mercurio-server-nodejs.sh
 
 #vncserver
+npm install
 echo "Este servidor fué ejecutado y probado con éxito el día 8/9/2020 para la versión de NodeJS v14.21.3"
 echo "Nombre del ejecutable: [node] (no nodejs)."
 echo "Nota: Si no funciona a la primera, ejecutal 2 veces el script ./install.sh"
-echo "Recordar abrir los puertos o rango de puertos 8080-8081 para el server node.\n\n"
+echo "Recordar abrir los puertos o rango de puertos 8000-8001 para el server node.\n\n"
 
 #nohup lt --port 8100 --subdomain zool
