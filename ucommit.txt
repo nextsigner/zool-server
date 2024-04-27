@@ -1,1 +1,1 @@
-Se edita install.sh 2024
+Se edita Dockerfile
