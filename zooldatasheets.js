@@ -5,6 +5,17 @@
     var aBodies= ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
     var aBodiesFiles= ['sol', 'luna', 'mercurio', 'venus', 'marte', 'jupiter', 'saturno', 'urano', 'neptuno', 'pluton', 'nodo_norte', 'nodo_sur', 'quiron', 'selena', 'lilith', 'pholus', 'ceres', 'pallas', 'juno', 'vesta']
 
+
+    inicio = function(req, res){
+        /*let s=''
+        s+='<h1>Zool</h1>'
+        s+='<h1>Zool</h1>'
+        res.status(200).send(setHtml(s, 'Zool - Inicio'));*/
+        res.status(200).send(setHtml(getListAll(), 'Zool - Lista General'));
+        return
+    }
+    app.get('/', inicio);
+
     listAll = function(req, res){
         //console.log('setHtml()... ');
         res.status(200).send(setHtml(getListAll(), 'Zool - Lista General'));

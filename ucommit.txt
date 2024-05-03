@@ -1,1 +1,1 @@
-Se eliminan files
+Se eleimina index.html
