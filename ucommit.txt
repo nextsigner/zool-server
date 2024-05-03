@@ -1,1 +1,1 @@
-Se eleimina index.html
+Se elimina carpeta data
