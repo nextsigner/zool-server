@@ -21,10 +21,20 @@ RUN npm --version
 RUN apt install -y mongodb
 RUN service mongodb start
 
+RUN mkdir -p /root/zool-server
+WORKDIR /root/zool-server
+#COPY package.json package-lock.json /root/zool-server
+COPY . /root/zool-server
+RUN npm install
+EXPOSE 8100
+EXPOSE 8101
+
+CMD [ "npm", "start"]
+
 # Establece el directorio de trabajo
-WORKDIR /root/zs
+#WORKDIR /root/zs
 
 # Puedes agregar más instrucciones aquí según tus necesidades
 
 # Define el comando predeterminado para ejecutar cuando se inicie el contenedor
-CMD ["bash"]
+#CMD ["bash"]

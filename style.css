@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+br {
+    line-height: 0.2;
+}
+.boton {
+    display: inline-block;
+    /*display: block;*/
+    padding: 4% 2% 4% 2%;
+    margin: 2% 2% 2% 2%;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    border: none;
+    border-radius: 10%;
+}
+
+.boton2 {
+    /*display: block;*/
+    padding: 4px 4px;
+    margin: 4px 4px;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    border: none;
+    border-radius: 10%;
+}
+
+ul {
+    /* Otros estilos para el <ul> */
+}
+
+li {
+    list-style: none;
+}
+.li1 {
+    line-height: 2.5; /* Establece el espaciado entre líneas */
+}
+.li2 {
+    line-height: 3.5;
+}
+div {
+    line-height: 0.5;
+}
+.divData {
+    display: block;
+    width: 50%;
+    line-height: 1.0;
+}
+.xdivs {
+    overflow: hidden; /* Esto limpia los flotadores */
+}
+
+.div1, .div2 {
+    width: 50%; /* Establece el ancho del 50% */
+    float: left; /* Flota ambos divs a la izquierda */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+}
