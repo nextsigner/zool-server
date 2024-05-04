@@ -25,7 +25,7 @@
 
     const fs = require('fs');
     getData = function(req, res){
-        let filePath='./data/'+req.query.bodie+'.json'
+        let filePath='data/'+req.query.bodie+'.json'
         //console.log('setHtml()... ');
         fs.readFile(filePath, 'utf8', (err, data) => {
                         if (err) {
