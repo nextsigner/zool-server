@@ -41,7 +41,7 @@ mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)
     }
     console.log(`Conectado a ${urlMongoDatabase}`)
-    app.listen(app.get('port'), 'localhost', function() {
+    app.listen(app.get('port'), 'zool.ar', function() {
         console.log('Servidor '+appServerName+' iniciado.');
         console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
     });
