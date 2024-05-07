@@ -1,5 +1,6 @@
-﻿module.exports=function(app){
-
+﻿module.exports=function(app, local){
+    var stringFileFolderPath=''
+    if(local)stringFileFolderPath='/root/zool-server/'
     var aSigns= ['Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo', 'Libra', 'Escorpio', 'Sagitario', 'Capricornio', 'Acuario', 'Piscis']
     var aSignsLowerStyle= ['aries', 'tauro', 'geminis', 'cancer', 'leo', 'virgo', 'libra', 'escorpio', 'sagitario', 'capricornio', 'acuario', 'piscis']
     var aBodies= ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
@@ -21,7 +22,7 @@
 
     const fs = require('fs');
     getData = function(req, res){
-        let filePath='data/'+req.query.bodie+'.json'
+        let filePath=stringFileFolderPath+'data/'+req.query.bodie+'.json'
         //console.log('setHtml()... ');
         fs.readFile(filePath, 'utf8', (err, data) => {
                         if (err) {

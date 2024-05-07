@@ -1,1 +1,1 @@
-Se agranda fuente 2
+Se corrige paht de file read jsons
