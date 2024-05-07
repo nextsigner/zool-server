@@ -1,8 +1,15 @@
+* {
+    font-size: 40px; /* Ajusta el tamaño de fuente */
+    padding: 10px; /* Ajusta el espacio interno */
+    margin: 10px; /* Ajusta el espacio externo */
+    border-radius: 5px; /* Ajusta el radio de borde */
+}
 body {
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
+    /*font-size: 500%;*/
 }
 br {
     line-height: 0.2;
