@@ -7,12 +7,13 @@ sudo apt update
 #sudo apt upgrade
 sudo apt update
 
+
 sudo chmod -R 755 .
 sudo mkdir files
 sudo chmod -R 755 files
 sudo chmod 755 sendEmail.sh
 echo "1" > files/ping.html
-
+sudo chmod -R 755 data
 
 #Instalando entorno de escritorio y aplicaciones necesarias para zodiacserver
 #sudo apt-get install -y nano xfce4 xfce4-goodies gnome-icon-theme tightvncserver
@@ -38,7 +39,7 @@ sudo apt install npm
 npm install forever -g
 npm install forever-service -g
 
-grep -qxF 'forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local
+grep -qxF 'cd /root/zool-server && forever start /root/zool-server/index.js' /etc/rc.local || echo 'forever start /root/zool-server/index.js' >> /etc/rc.local
 
 #grep -qxF 'vncserver' /etc/rc.local || echo 'vncserver' >> /etc/rc.local
 

@@ -11,7 +11,9 @@
         s+='<h1>Zool</h1>'
         s+='<h1>Zool</h1>'
         res.status(200).send(setHtml(s, 'Zool - Inicio'));*/
-        res.status(200).send(setHtml(getListAll(), 'Zool - Lista General'));
+        //http://127.0.0.1:8100/getData?bodie=luna&sign=0&home=6
+        //http://127.0.0.1:8100/getData?bodie=sol&sign=0&house=2
+        res.status(200).send(setHtml(createForm(), 'Zool - Inicio'));
         return
     }
     app.get('/', inicio);
@@ -161,5 +163,51 @@
         let s = str.charAt(0).toUpperCase() + str.slice(1);
         return s.replace(/_/g, ' ')
     }
+    function createForm() {
+        // Inicializar el string con el formulario
+        var formHTML = '<form id="miFormulario" method="GET" action="/getData">';
+
+        // Agregar el campo de selección para 'bodie' al string del formulario
+        formHTML += '<div class="form-group">';
+        formHTML += '<label for="bodie">Bodie:</label>';
+        formHTML += '<select name="bodie" id="bodie">';
+        for (var i = 0; i < aBodies.length; i++) {
+            formHTML += '<option value="' + aBodiesFiles[i] + '">' + aBodies[i] + '</option>';
+        }
+        formHTML += '</select>';
+        formHTML += '</div>';
+
+        // Agregar el campo de selección para 'sign' al string del formulario
+        formHTML += '<div class="form-group">';
+        formHTML += '<label for="sign">Signo:</label>';
+        formHTML += '<select name="sign" id="sign">';
+        for (var i = 0; i < aSigns.length; i++) {
+            formHTML += '<option value="' + i + '">' + aSigns[i] + '</option>';
+        }
+        formHTML += '</select>';
+        formHTML += '</div>';
+
+        // Agregar el campo de selección para 'home' al string del formulario
+        formHTML += '<div class="form-group">';
+        formHTML += '<label for="house">Casa:</label>';
+        formHTML += '<select name="house" id="house">';
+        for (var i = 1; i <= 12; i++) {
+            formHTML += '<option value="' + i + '">Casa ' + i + '</option>';
+        }
+        formHTML += '</select>';
+        formHTML += '</div>';
+
+        formHTML += '<input type="submit" value="Enviar"></form>';
+        //http://127.0.0.1:8100/getData?bodie=venus&sign=3&home=3
+
+        return formHTML;
+    }
+
+    // Llamar a la función para obtener el string del formulario
+    //var formString = createForm();
+
+    // Imprimir el string del formulario
+    //console.log(formString);
+
 }
 

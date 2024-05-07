@@ -7,6 +7,25 @@ var serverEmail=process.env.EMAIL
 var serverEmailPass=process.env.EMAILPASS
 var serverEmailService=process.env.EMAILSERVICE
 
+var local=false
+var localhost='localhost'
+var argumentos=process.argv
+console.log('Argumentos: '+argumentos)
+for(var i=0;i<argumentos.length;i++){
+    let arg=argumentos[i]
+    console.log('Arg '+i+': '+arg)
+    if(arg.indexOf('localhost')>=0){
+        local=true
+        console.log('Ejecutando en modo localhost. NO en zool.ar')
+    }
+    if(arg.indexOf('host=')>=0){
+        let m0=arg.split('host=')
+        localhost=m0[1]
+        console.log('Ip: '+localhost)
+    }
+}
+
+
 var connect = require('connect');
 var serveStatic = require('serve-static');
 connect().use(serveStatic(__dirname)).listen(puertoStatico);
@@ -41,8 +60,10 @@ mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)
     }
     console.log(`Conectado a ${urlMongoDatabase}`)
-    app.listen(app.get('port'), 'zool.ar', function() {
-        console.log('Servidor '+appServerName+' iniciado.');
+    let host='zool.ar'
+    if(local)host=localhost
+    app.listen(app.get('port'), host, function() {
+        console.log('Servidor '+appServerName+' iniciado en '+host+':'+app.get('port'));
         console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
     });
 })

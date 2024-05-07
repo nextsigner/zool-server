@@ -62,3 +62,16 @@ div {
     float: left; /* Flota ambos divs a la izquierda */
     box-sizing: border-box; /* Incluye el padding y border en el ancho */
 }
+
+#miFormulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
