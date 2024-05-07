@@ -12,10 +12,15 @@
         return
     }
     app.get('/', inicio);
+    contacto = function(req, res){
+        res.status(200).send(setHtml(getContact(), 'Zool - Inicio'));
+        return
+    }
+    app.get('/contacto', contacto);
 
     listAll = function(req, res){
         //console.log('setHtml()... ');
-        res.status(200).send(setHtml(getListAll(), 'Zool - Lista General'));
+        res.status(200).send(setHtml(getListAllV2(), 'Zool - Lista General'));
         return
     }
     app.get('/listAll', listAll);
@@ -100,13 +105,13 @@
         h+='        <link rel="stylesheet" href="/style.css">\n'
         h+='    </head>\n'
         h+='    <body>\n'
+        h+='        '+getMenu()+'\n'
         h+='        '+c+'\n'
         h+='    <br><h5>Zool - Datos de Astrología creado por Ricardo Martín Pizarro 2024</h5><br>\n'
         h+='    </body>\n'
         h+='</html>\n'
         return h
     }
-
     function getListAll(){
         let limit = aBodies.length-7 // Hasta Quirón
         let h='<div>\n'
@@ -143,6 +148,34 @@
                 h+='    </li>\n'
             }
             //h+='            </ul>\n'
+            h+='        </div>\n'
+
+            //h+='        </ul></div>\n</li>'
+
+        }
+        h+='</div>\n'
+        return h
+    }
+    function getListAllV2(){
+        let limit = aBodies.length-7 // Hasta Quirón
+        let h='<div>\n'
+        for(var i=0;i<limit;i++){
+            h+='    <h1>'+aBodies[i]+'</h1>\n'
+            h+='<div>\n'
+            for(var i2=0;i2<aSigns.length-6;i2++){
+                for(var i3=0;i3<12;i3++){
+                    h+='    <a class="boton" href="/getData?bodie='+aBodiesFiles[i]+'&sign='+i2+'&house='+parseInt(i3 + 1)+'">'+aBodies[i]+' en '+aSigns[i2]+' en casa '+parseInt(i3 + 1)+'</a>\n'
+                }
+                h+='    </li>\n'
+            }
+            h+='</div>\n'
+            h+='<div>\n'
+            for(i2=6;i2<aSigns.length;i2++){
+                for(i3=0;i3<12;i3++){
+                    h+='<a class="boton" href="/getData?bodie='+aBodiesFiles[i]+'&sign='+i2+'&house='+parseInt(i3 + 1)+'">'+aBodies[i]+' en '+aSigns[i2]+' en casa '+parseInt(i3 + 1)+'</a>\n'
+                }
+                h+='</div>\n'
+            }
             h+='        </div>\n'
 
             //h+='        </ul></div>\n</li>'
@@ -207,7 +240,32 @@
         h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
         return h
     }
-
+    function getContact(){
+        let h=''
+        h+='<div>'
+        h+='    <h1>Contacto</h1>'
+        h+='    <h3>Vías de contacto</h3>'
+        h+='        <ul>'
+        h+='            <li><b>Correo Electrónico:</b> qtpizarro@gmail.com</li>'
+        h+='            <li><b>Whatsapp:</b> +549 11 3802 4370</li>'
+        h+='            <li><b>Instagram:</b> <a href="https://www.instagram.com/ricardomartinpizarro">@ricardomartinpizarro</a><</li>'
+        h+='            <li><b>Facebook:</b> <a href="https://www.facebook.com/unik.nextsigner">Ricardo Martin Pizarro</a></li>'
+        h+='            <li><b>YouTube:</b> <a href="https://www.youtube.com/channel/UCG6vwq-Z8IZgUDHuCwhLa5A">Astrologo Ricardo Martin Pizarro</a></li>'
+        h+='            <li><b>Twitch:</b> <a href="https://twitch.tv/ricardomartinpizarro">Ricardo Martin Pizarro</a></li>'
+        h+='            <li><b>Kick:</b> <a href="https://kick.com/AstrologoRicardoMartin">AstrologoRicardoMartin</a></li>'
+        h+='        </ul>'
+        h+='</div>'
+        return h
+    }
+    function getMenu(){
+        let h=''
+        h+='<div id="menu">'
+        h+='    <a class="boton" href="/">Inicio</a>'
+        h+='    <a class="boton" href="/listAll">Lista Completa</a>'
+        h+='    <a class="boton" href="/contacto">Contacto</a>'
+        h+='</div>'
+        return h
+    }
 
 }
 
