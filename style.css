@@ -1,5 +1,5 @@
 * {
-    font-size: 40px; /* Ajusta el tamaño de fuente */
+    font-size: 60px; /* Ajusta el tamaño de fuente */
     padding: 10px; /* Ajusta el espacio interno */
     margin: 10px; /* Ajusta el espacio externo */
     border-radius: 5px; /* Ajusta el radio de borde */
@@ -57,7 +57,7 @@ div {
 }
 .divData {
     display: block;
-    width: 50%;
+    width: 80%;
     line-height: 1.0;
 }
 .xdivs {
