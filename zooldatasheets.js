@@ -7,13 +7,7 @@
 
 
     inicio = function(req, res){
-        /*let s=''
-        s+='<h1>Zool</h1>'
-        s+='<h1>Zool</h1>'
-        res.status(200).send(setHtml(s, 'Zool - Inicio'));*/
-        //http://127.0.0.1:8100/getData?bodie=luna&sign=0&home=6
-        //http://127.0.0.1:8100/getData?bodie=sol&sign=0&house=2
-        res.status(200).send(setHtml(createForm(), 'Zool - Inicio'));
+        res.status(200).send(setHtml(getIndexHtml(), 'Zool - Inicio'));
         return
     }
     app.get('/', inicio);
@@ -39,7 +33,7 @@
                         let key1=req.query.bodie+'_en_'+aSignsLowerStyle[parseInt(req.query.sign)]
                         let man=json[key1].manifestaciones
                         let manLength=Object.keys(man).length
-                        let s='<a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        let s='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
                         s+='<h1>'+parseMan(key1)+'</h1>'
                         s+='<div class="divData">';
                         s+='<h2>Manifestaciones</h2>';
@@ -86,7 +80,7 @@
                             }
                             s+='</div>';
                         }
-                        s+='<a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        s+='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
                         res.status(200).send(setHtml(s, 'Zool - '+title));
                         return
                     });
@@ -169,7 +163,7 @@
 
         // Agregar el campo de selección para 'bodie' al string del formulario
         formHTML += '<div class="form-group">';
-        formHTML += '<label for="bodie">Bodie:</label>';
+        formHTML += '<label for="bodie">Planeta o cuerpo Astrológico:</label>';
         formHTML += '<select name="bodie" id="bodie">';
         for (var i = 0; i < aBodies.length; i++) {
             formHTML += '<option value="' + aBodiesFiles[i] + '">' + aBodies[i] + '</option>';
@@ -202,12 +196,17 @@
 
         return formHTML;
     }
+    function getIndexHtml(){
+        let h=''
+        h+='<h1>Zool</h1>'
+        h+='<h2>Página de Astrología</h2><br>'
+        h+='<h4>Formulario para buscar significados</h4>'
+        h+=createForm()
+        h+='<br>'
+        h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
+        return h
+    }
 
-    // Llamar a la función para obtener el string del formulario
-    //var formString = createForm();
-
-    // Imprimir el string del formulario
-    //console.log(formString);
 
 }
 

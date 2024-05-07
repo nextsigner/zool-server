@@ -22,7 +22,8 @@ br {
     background-color: green;
     color: black;
     text-decoration: none;
-    font-size: 150%;
+    /*font-size: 150%;*/
+    font-size: 30px;
     border: none;
     border-radius: 10%;
 }
@@ -32,7 +33,7 @@ br {
     padding: 4px 4px;
     margin: 4px 4px;
     background-color: green;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 150%;
     border: none;
@@ -57,7 +58,7 @@ div {
 }
 .divData {
     display: block;
-    width: 80%;
+    width: 95%;
     line-height: 1.0;
 }
 .xdivs {
@@ -65,7 +66,7 @@ div {
 }
 
 .div1, .div2 {
-    width: 50%; /* Establece el ancho del 50% */
+    width: 40%; /* Establece el ancho del 50% */
     float: left; /* Flota ambos divs a la izquierda */
     box-sizing: border-box; /* Incluye el padding y border en el ancho */
 }
