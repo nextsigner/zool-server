@@ -18,8 +18,18 @@ br {
     display: inline-block;
     padding: 20px 20px 20px 20px;
     margin: 10px 10px ;
-    background-color: green;
+    background-color: black;
     color: #333;
+}
+#pie {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: black;
+    color: #333;
+}
+#pie p {
+    font-size: 20px;
 }
 
 .boton {
@@ -40,7 +50,7 @@ br {
     background-color: green;
     color: white;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 15px;
     border: none;
     border-radius: 10%;
 }
@@ -87,4 +97,17 @@ div {
 
 label {
   margin-right: 5px;
+}
+
+a {
+    color: white !important; /* Establece el color del texto de los enlaces como blanco */
+    text-decoration: none; /* Elimina la decoración de subrayado */
+}
+
+a:hover {
+    color: white !important; /* Color blanco al pasar el ratón */
+}
+
+a:visited {
+    color: white !important; /* Color blanco para enlaces visitados */
 }

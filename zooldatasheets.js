@@ -39,7 +39,8 @@
                         let key1=req.query.bodie+'_en_'+aSignsLowerStyle[parseInt(req.query.sign)]
                         let man=json[key1].manifestaciones
                         let manLength=Object.keys(man).length
-                        let s='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        //let s='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        let s=''
                         s+='<h1>'+parseMan(key1)+'</h1>'
                         s+='<div class="divData">';
                         s+='<h2>Manifestaciones</h2>';
@@ -107,7 +108,7 @@
         h+='    <body>\n'
         h+='        '+getMenu()+'\n'
         h+='        '+c+'\n'
-        h+='    <br><h5>Zool - Datos de Astrología creado por Ricardo Martín Pizarro 2024</h5><br>\n'
+        h+=getPie()
         h+='    </body>\n'
         h+='</html>\n'
         return h
@@ -197,7 +198,7 @@
 
         // Agregar el campo de selección para 'bodie' al string del formulario
         formHTML += '<div class="form-group">';
-        formHTML += '<label for="bodie">Planeta o cuerpo Astrológico:</label>';
+        formHTML += '<label for="bodie">Planeta:</label>';
         formHTML += '<select name="bodie" id="bodie">';
         for (var i = 0; i < aBodies.length; i++) {
             formHTML += '<option value="' + aBodiesFiles[i] + '">' + aBodies[i] + '</option>';
@@ -237,7 +238,7 @@
         h+='<h4>Formulario para buscar significados</h4>'
         h+=createForm()
         h+='<br>'
-        h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
+        //h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
         return h
     }
     function getContact(){
@@ -264,6 +265,13 @@
         h+='    <a class="boton" href="/listAll">Lista Completa</a>'
         h+='    <a class="boton" href="/contacto">Contacto</a>'
         h+='</div>'
+        return h
+    }
+    function getPie(){
+        let h=''
+        h+='<div id="pie">\n'
+        h+='    <p>Zool - Datos de Astrología creado por Ricardo Martín Pizarro 2024</p>\n'
+        h+='</div>\n'
         return h
     }
 
