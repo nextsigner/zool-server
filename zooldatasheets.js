@@ -226,14 +226,14 @@
         formHTML += '</select>';
         formHTML += '</div>';
 
-        formHTML += '<input type="submit" value="Enviar"></form>';
+        formHTML += '<input type="submit" value="Ver Significado"></form>';
         //http://127.0.0.1:8100/getData?bodie=venus&sign=3&home=3
 
         return formHTML;
     }
     function getIndexHtml(){
         let h=''
-        h+='<h1>Zool</h1>'
+        h+='<h1>www.Zool.ar</h1>'
         h+='<h2>Página de Astrología</h2><br>'
         h+='<h4>Formulario para buscar significados</h4>'
         h+=createForm()
@@ -270,7 +270,7 @@
     function getPie(){
         let h=''
         h+='<div id="pie">\n'
-        h+='    <p>Zool - Datos de Astrología creado por Ricardo Martín Pizarro 2024</p>\n'
+        h+='    <h6>Zool - Datos de Astrología creado por Ricardo Martín Pizarro 2024</h6>\n'
         h+='</div>\n'
         return h
     }

@@ -21,6 +21,9 @@ br {
     background-color: black;
     color: #333;
 }
+h6 {
+    font-size: 20px;
+}
 #pie {
     display: inline-block;
     padding: 20px 20px 20px 20px;
