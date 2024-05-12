@@ -13,8 +13,14 @@ ApplicationWindow{
     height: Screen.height
     property int fs: Screen.width*0.035
     property var currentDate
+    property string uSign: '?'
+    property real uDecDeg:0.00
+    property int uRsdeg: 0
+    property int uMinDeg: 0
+    property int uSec: 0
     property var aSigns: ['Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo', 'Libra', 'Escorpio', 'Sagitario', 'Capricornio', 'Acuario', 'Piscis']
-    property var aBodies: ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
+    property var aBodies: ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón']
+    property var aBodiesFiles: ['sol', 'luna', 'mercurio', 'venus', 'marte', 'jupiter', 'saturno', 'urano', 'neptuno', 'pluton']
     onCurrentDateChanged: {
         let s='Date:::'+currentDate
         updateBodieData()
@@ -31,7 +37,12 @@ ApplicationWindow{
                 gc=i*30
                 if(g>=gc && g<=gc+30.00){
                     rsgdeg=parseInt(a.deg-(i*30))
-                    log.lv(getDMA()+' '+cbBodies.currentText+' en '+aSigns[i]+' °'+rsgdeg+' \''+a.min+'\'\''+a.sec+'\n')
+                    app.uDecDeg=parseFloat(g).toFixed(2)
+                    app.uRsdeg=parseInt(uRsdeg)
+                    app.uMinDeg=parseInt(a.min)
+                    app.uSec=parseInt(a.sec)
+                    app.uSign=aSigns[i]
+                    log.lv(getDMA()+' '+getHM()+' '+cbBodies.currentText+' en '+aSigns[i]+' °'+rsgdeg+' \''+a.min+'\'\''+a.sec+'\n')
                     break
                 }
             }
@@ -69,13 +80,43 @@ ApplicationWindow{
                     Row{
                         spacing: app.fs*0.5
                         Column{
-                            Text{text: 'Día';color: 'white'; font.pixelSize: app.fs*0.5}
+                            Text{text: 'Min.';color: 'white'; font.pixelSize: app.fs*0.5}
                             CheckBox{
                                 id: cb1
                                 onCheckedChanged:{
                                     if(checked){
                                         cb2.checked=false
                                         cb3.checked=false
+                                        cb4.checked=false
+                                        cb5.checked=false
+                                    }
+                                }
+                            }
+                        }
+                        Column{
+                            Text{text: 'Hora';color: 'white'; font.pixelSize: app.fs*0.5}
+                            CheckBox{
+                                id: cb2
+                                onCheckedChanged:{
+                                    if(checked){
+                                        cb1.checked=false
+                                        cb3.checked=false
+                                        cb4.checked=false
+                                        cb5.checked=false
+                                    }
+                                }
+                            }
+                        }
+                        Column{
+                            Text{text: 'Día';color: 'white'; font.pixelSize: app.fs*0.5}
+                            CheckBox{
+                                id: cb3
+                                onCheckedChanged:{
+                                    if(checked){
+                                        cb1.checked=false
+                                        cb2.checked=false
+                                        cb4.checked=false
+                                        cb5.checked=false
                                     }
                                 }
                             }
@@ -83,11 +124,13 @@ ApplicationWindow{
                         Column{
                             Text{text: 'Mes';color: 'white'; font.pixelSize: app.fs*0.5}
                             CheckBox{
-                                id: cb2
+                                id: cb4
                                 onCheckedChanged:{
                                     if(checked){
                                         cb1.checked=false
+                                        cb2.checked=false
                                         cb3.checked=false
+                                        cb5.checked=false
                                     }
                                 }
                             }
@@ -95,15 +138,31 @@ ApplicationWindow{
                         Column{
                             Text{text: 'Año';color: 'white'; font.pixelSize: app.fs*0.5}
                             CheckBox{
-                                id: cb3
+                                id: cb5
                                 checked: true
                                 onCheckedChanged:{
                                     if(checked){
                                         cb1.checked=false
                                         cb2.checked=false
+                                        cb3.checked=false
+                                        cb4.checked=false
                                     }
                                 }
                             }
+                        }
+                    }
+                    Button{
+                        text: 'Obtener último seteado'
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        onClicked:{
+                            getLastMarcador()
+                        }
+                    }
+                    Button{
+                        text: 'Agregar Marcador'
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        onClicked:{
+                            addMarcador()
                         }
                     }
                 }
@@ -139,9 +198,36 @@ ApplicationWindow{
         }
     }
     Shortcut{
+        sequence: 'Return'
+        onActivated: {
+            addMarcador()
+        }
+    }
+    Shortcut{
         sequence: 'Down'
         onActivated: {
             downDateYear()
+        }
+    }
+    Shortcut{
+        sequence: 'Left'
+        onActivated: {
+            if(cb1.checked){
+                cb5.checked=true
+                return
+            }else if(cb2.checked){
+                cb1.checked=true
+                return
+            }else if(cb3.checked){
+                cb2.checked=true
+                return
+            }else if(cb4.checked){
+                cb3.checked=true
+                return
+            }else{
+                cb4.checked=true
+                return
+            }
         }
     }
     Shortcut{
@@ -152,6 +238,12 @@ ApplicationWindow{
                 return
             }else if(cb2.checked){
                 cb3.checked=true
+                return
+            }else if(cb3.checked){
+                cb4.checked=true
+                return
+            }else if(cb4.checked){
+                cb5.checked=true
                 return
             }else{
                 cb1.checked=true
@@ -171,8 +263,12 @@ ApplicationWindow{
     function upDateYear(){
         let d=app.currentDate
         if(cb1.checked){
-            d.setDate(d.getDate() + 1)
+            d.setMinutes(d.getMinutes() + 1)
         }else if(cb2.checked){
+            d.setHours(d.getHours() + 1)
+        }else if(cb3.checked){
+            d.setDate(d.getDate() + 1)
+        }else if(cb4.checked){
             d.setMonth(d.getMonth() + 1)
         }else{
             d.setFullYear(d.getFullYear() + 1)
@@ -183,8 +279,12 @@ ApplicationWindow{
     function downDateYear(){
         let d=app.currentDate
         if(cb1.checked){
-            d.setDate(d.getDate() - 1)
+            d.setMinutes(d.getMinutes() - 1)
         }else if(cb2.checked){
+            d.setHours(d.getHours() - 1)
+        }else if(cb3.checked){
+            d.setDate(d.getDate() - 1)
+        }else if(cb4.checked){
             d.setMonth(d.getMonth() - 1)
         }else{
             d.setFullYear(d.getFullYear() - 1)
@@ -192,12 +292,72 @@ ApplicationWindow{
         apps.ums=d.getTime()
         app.currentDate=d
     }
+    function getLastMarcador(){
+        log.lv('Obteniendo último Marcador...')
+        let fileName=aBodiesFiles[cbBodies.currentIndex]+'.json'
+        let jsonData='{"items":[]}'
+        if(unik.fileExist(fileName)){
+            jsonData=unik.getFile(fileName)
+        }else{
+            log.lv('El archivo '+fileName+' aún no existe.')
+        }
+        let j=JSON.parse(jsonData)
+        let item=j.items[j.items.length-1]
+        //unik.setFile(JSON.stringify(j, null, 2), fileName)
+        //unik.setFile(fileName, JSON.stringify(j, null, 2))
+        let d = new Date(item.ms)
+        app.currentDate=d
+        log.lv('Último marcador de '+fileName+': '+JSON.stringify(item, null, 2))
+    }
+    function addMarcador(){
+        if(app.uSign==='?')return
+        log.lv('Marcando...')
+        let fileName=aBodiesFiles[cbBodies.currentIndex]+'.json'
+        let jsonData='{"items":[]}'
+        if(unik.fileExist(fileName)){
+            jsonData=unik.getFile(fileName)
+        }
+        let j=JSON.parse(jsonData)
+        let item={}
+        item.ms=app.currentDate.getTime()
+        item.bodie=app.aBodies[cbBodies.currentIndex]
+        item.sign=app.uSign
+        item.dec=app.uDecDeg
+        item.rsdeg=app.uRsdeg
+        item.min=app.uMinDeg
+        item.sec=app.uSec
+
+        /*let date=app.currentDate
+        let d=date.getDate()
+        let m=date.getMonth() + 1
+        let a=date.getFullYear()
+        let h=date.getHours()
+        let min=date.getMinutes()
+
+        item.min=min
+        item.h=h
+        item.d=d
+        item.m=m
+        item.a=a*/
+
+        j.items.push(item)
+        //unik.setFile(JSON.stringify(j, null, 2), fileName)
+        unik.setFile(fileName, JSON.stringify(j, null, 2))
+        log.lv('Archivo Marcado '+fileName+': '+JSON.stringify(j, null, 2))
+    }
     function getDMA(){
         let date=app.currentDate
         let d=date.getDate()
         let m=date.getMonth() + 1
         let a=date.getFullYear()
         return ''+d+'/'+m+'/'+a
+    }
+    function getHM(){
+        let date=app.currentDate
+        let h=date.getHours() + 1
+        let min=date.getMinutes()
+        if(min===24)min=0
+        return ''+h+':'+min
     }
     function getDDToDMS(D) {
       return {

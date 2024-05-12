@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "ms": -8578208555648,
+      "bodie": "Neptuno",
+      "sign": "Aries",
+      "dec": 0.01,
+      "rsdeg": 0,
+      "min": 0,
+      "sec": 27
+    },
+    {
+      "ms": -8163574955648,
+      "bodie": "Neptuno",
+      "sign": "Tauro",
+      "dec": 30.01,
+      "rsdeg": 0,
+      "min": 0,
+      "sec": 40
+    },
+    {
+      "ms": -7722589355648,
+      "bodie": "Neptuno",
+      "sign": "Géminis",
+      "dec": 60.02,
+      "rsdeg": 0,
+      "min": 0,
+      "sec": 56
+    }
+  ]
+}

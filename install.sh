@@ -31,6 +31,7 @@ sudo chmod -R 755 data
 #--->Funciona en Ubuntu 20.04
 sudo apt-get install -y node
 sudo apt-get install -y npm
+sudo apt install -y libswe-dev
 #<---Funciona en Ubuntu 20.04
 
 sudo apt install -y mongodb

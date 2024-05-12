@@ -1,1 +1,1 @@
-Se agregan scripts swetest
+Se edita style.css
