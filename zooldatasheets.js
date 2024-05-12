@@ -87,8 +87,13 @@
                             }
                             s+='</div>';
                         }
-                        s+='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
-                        res.status(200).send(setHtml(s, 'Zool - '+title));
+                        //s+='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        if(req.query.onlyData){
+                            res.status(200).send(setHtmlData(s, 'Zool - '+title));
+                        }else{
+                            res.status(200).send(setHtml(s, 'Zool - '+title));
+                        }
+
                         return
                     });
 
@@ -109,6 +114,20 @@
         h+='        '+getMenu()+'\n'
         h+='        '+c+'\n'
         h+=getPie()
+        h+='    </body>\n'
+        h+='</html>\n'
+        return h
+    }
+    function setHtmlData(c, t){
+        let h='<DOCTYPE html>\n'
+        h+='<html lang="es">\n'
+        h+='    <head>\n'
+        h+='        <meta charset="utf-8">\n'
+        h+='        <title>'+t+'</title>\n'
+        h+='        <link rel="stylesheet" href="/style.css">\n'
+        h+='    </head>\n'
+        h+='    <body>\n'
+        h+='        '+c+'\n'
         h+='    </body>\n'
         h+='</html>\n'
         return h
