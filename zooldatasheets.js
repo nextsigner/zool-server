@@ -178,6 +178,7 @@
         let h='<div>\n'
         //h+='</div>\n'
         let filePath=stringFileFolderPath+'pgd.html'
+        if(!local)filePath=stringFileFolderPath+'/pgd.html'
         //console.log('setHtml()... ');
         fs.readFile(filePath, 'utf8', (err, data) => {
                         if (err) {
