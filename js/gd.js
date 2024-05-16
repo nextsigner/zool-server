@@ -65,5 +65,9 @@ function setDev(){
     document.getElementById('hora').value = 23
     document.getElementById('minutos').value = 4
     document.getElementById('gmt').value = -3
+    //Latitud: -35.4752134 Longitud: -69.585934
+    document.getElementById('lat').value = -35.4752134
+    document.getElementById('lon').value = -69.585934
 }
 setDev()
+

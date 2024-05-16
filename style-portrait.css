@@ -1,7 +1,7 @@
 * {
-    font-size: 60px; /* Ajusta el tamaño de fuente */
-    padding: 10px; /* Ajusta el espacio interno */
-    margin: 10px; /* Ajusta el espacio externo */
+    font-size: 40px; /* Ajusta el tamaño de fuente */
+    padding: 5px; /* Ajusta el espacio interno */
+    margin: 5px; /* Ajusta el espacio externo */
     border-radius: 5px; /* Ajusta el radio de borde */
 }
 body {
@@ -11,62 +11,63 @@ body {
     justify-content: center;
     /*font-size: 500%;*/
 }
+
 br {
     line-height: 0.2;
 }
 #menu {
     display: inline-block;
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
     background-color: black;
     color: #333;
 }
 h6 {
-    font-size: 20px;
+    font-size: 10px;
 }
 #pie {
     display: inline-block;
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
     background-color: black;
     color: #333;
 }
 #pie p {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .boton {
     display: inline-block;
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
     background-color: green;
     color: black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .boton2 {
-    padding: 4px 4px;
-    margin: 4px 4px;
+    padding: 4px 2px;
+    margin: 2px 2px;
     background-color: green;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 8px;
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 ul {
-    /* Otros estilos para el <ul> */
+
 }
 
 li {
     list-style: none;
 }
 .li1 {
-    line-height: 2.5; /* Establece el espaciado entre líneas */
+    line-height: 2.5;
 }
 .li2 {
     line-height: 3.5;
@@ -76,17 +77,17 @@ div {
 }
 .divData {
     display: block;
-    width: 95%;
+    width: 45%;
     line-height: 1.0;
 }
 .xdivs {
-    overflow: hidden; /* Esto limpia los flotadores */
+    overflow: hidden;
 }
 
 .div1, .div2 {
-    width: 40%; /* Establece el ancho del 50% */
-    float: left; /* Flota ambos divs a la izquierda */
-    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
 }
 
 #miFormulario {
@@ -95,7 +96,7 @@ div {
 }
 
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 label {
@@ -103,19 +104,19 @@ label {
 }
 
 a {
-    color: white !important; /* Establece el color del texto de los enlaces como blanco */
-    text-decoration: none; /* Elimina la decoración de subrayado */
+    color: white !important;
+    text-decoration: none;
 }
 
 a:hover {
-    color: white !important; /* Color blanco al pasar el ratón */
+    color: white !important;
 }
 
 a:visited {
-    color: white !important; /* Color blanco para enlaces visitados */
+    color: white !important;
 }
 
-/*Zool Data Map*/
+/*
 .form-group {
     display: flex;
     align-items: center;
@@ -128,13 +129,15 @@ a:visited {
     flex: 1;
 }
 #formZoolMap *{
-    font-size: 24px;
-}
+    font-size: 12px;
+}*/
+
 #rowBodie {
     padding: 0px 0px;
     margin: 0px 0px;
 }
 #rowBodie p,b{
-    font-size: 24px;
+    font-size: 12px;
     margin: 0px 0px;
 }
+*/

@@ -16,22 +16,32 @@
 
 
     inicio = function(req, res){
-        res.status(200).send(setHtml(getIndexHtml(), 'Zool - Inicio'));
+        //res.status(200).send(setHtml(getIndexHtml(), 'Zool - Inicio'));
+        res.status(200).send(setHtml(getZoolMapForm(), 'Zool - Inicio'));
         return
     }
-    app.get('/', inicio);
+
+    zoolDataMap = function(req, res){
+        res.status(200).send(setHtml(getZoolMapForm(), 'Zool - Crear Carta'));
+        return
+    }
+
+    formSearch = function(req, res){
+        //res.status(200).send(setHtml(getIndexHtml(), 'Zool - Inicio'));
+        res.status(200).send(setHtml(createForm(), 'Zool - Buscar'));
+        return
+    }
+
     contacto = function(req, res){
-        res.status(200).send(setHtml(getContact(), 'Zool - Inicio'));
+        res.status(200).send(setHtml(getContact(), 'Zool - Contacto'));
         return
     }
-    app.get('/contacto', contacto);
 
     listAll = function(req, res){
         //console.log('setHtml()... ');
         res.status(200).send(setHtml(getListAllV2(), 'Zool - Lista General'));
         return
     }
-    app.get('/listAll', listAll);
 
     const fs = require('fs');
     getData = function(req, res){
@@ -107,9 +117,6 @@
 
         return
     }
-    app.get('/getData', getData);
-
-
 
     //--> Get Zool Data Map
     getDataMapCoords = function(req, res){
@@ -137,7 +144,6 @@
              });
         //return
     }
-    app.get('/getDataMapCoords', getDataMapCoords);
 
     getZoolDataMap = function(req, res){
         console.log('getZoolDataMap... ');
@@ -161,7 +167,7 @@
         //res.status(200).send(jsonRes)
         return
     }
-    app.get('/getZoolDataMap', getZoolDataMap);
+
     function getJsonDataMapToHtml(j){
         let h=''
         for(var i=0;i<14;i++){
@@ -174,7 +180,8 @@
         }
         return h
     }
-    ZoolMapForm = function(req, res){
+
+    /*ZoolMapForm = function(req, res){
         let h='<div>\n'
         //h+='</div>\n'
         let filePath=stringFileFolderPath+'pgd.html'
@@ -195,9 +202,24 @@
                         return
                     });
         return
-    }
-    app.get('/ZoolMapForm', ZoolMapForm);
+    }*/
+
     //<-- Get Zool Data Map
+
+    //-->app.get(...)
+    app.get('/', inicio);
+    app.get('/ZoolMapForm', zoolDataMap);
+    app.get('/formSearch', formSearch);
+    app.get('/listAll', listAll);
+    app.get('/contacto', contacto);
+
+    app.get('/getData', getData);
+    app.get('/getDataMapCoords', getDataMapCoords);
+    app.get('/getZoolDataMap', getZoolDataMap);
+
+
+    //<--app.get(...)
+
 
     function setHtml(c, t){
         let h='<DOCTYPE html>\n'
@@ -205,7 +227,8 @@
         h+='    <head>\n'
         h+='        <meta charset="utf-8">\n'
         h+='        <title>'+t+'</title>\n'
-        h+='        <link rel="stylesheet" href="/style.css">\n'
+        //h+='        <link rel="stylesheet" href="/style.css">\n'
+        h+='        <script src="js/funcs.js"></script>\n'
         h+='    </head>\n'
         h+='    <body>\n'
         h+='        '+getMenu()+'\n'
@@ -227,6 +250,56 @@
         h+='        '+c+'\n'
         h+='    </body>\n'
         h+='</html>\n'
+        return h
+    }
+    function getZoolMapForm(){
+        let h='<form id="formZoolMap" action="/getZoolDataMap" method="GET">\n'
+        h+='<div class="form-group">\n'
+        h+='    <label for="nombre">Nombre:</label>\n'
+        h+='    <input type="text" id="nombre" name="n" required>\n'
+        h+='</div>\n'
+
+        h+='<div class="form-group">\n'
+        h+='    <label for="dia">Día:</label>\n'
+        h+='    <input type="number" id="dia" name="d" min="1" max="31" required>\n'
+
+        h+='    <label for="mes">Mes:</label>\n'
+        h+='    <input type="number" id="mes" name="m" min="1" max="12" required>\n'
+
+        h+='    <label for="anio">Año:</label>\n'
+        h+='    <input type="number" id="anio" name="a" min="1900" max="2100" required>\n'
+        h+='</div>\n'
+
+        h+='<div class="form-group">\n'
+        h+='    <label for="hora">Hora:</label>\n'
+        h+='    <input type="number" id="hora" name="h" min="0" max="24" required>\n'
+
+        h+='    <label for="minutos">Minutos:</label>\n'
+        h+='    <input type="number" id="minutos" name="min" min="0" max="59" required>\n'
+        h+='</div>\n'
+
+        h+='<label for="gmt">GMT (Ejemplo Argentina es -3):</label>\n'
+        h+='<input type="number" id="gmt" name="gmt" min="-12" max="12" required><br><br>\n'
+
+        h+='<div class="form-group">\n'
+        h+='    <label for="lugarNacimiento">Lugar de Nacimiento:</label>\n'
+        h+='    <input type="text" id="lugarNacimiento" name="lugarNacimiento" required>\n'
+        h+='</div>\n'
+        h+='<button type="button" id="obtenerCoordenadas">Obtener Coordenadas</button><br><br>\n'
+
+        h+='<input type="hidden" id="lat" name="lat">\n'
+        h+='<input type="hidden" id="lon" name="lon">\n'
+        h+='<input type="hidden" id="alt" name="alt" value=0>\n'
+        h+='<input type="hidden" id="ciudad" name="ciudad">\n'
+        h+='<input type="hidden" id="ms" name="ms" value=0>\n'
+        h+='<input type="hidden" id="msReq" name="msReq" value=0>\n'
+        h+='<input type="hidden" id="adminId" name="adminId" value="formwebzoolar">\n'
+
+        h+='<p id="salida"></p>\n'
+        h+='<input id="enviar" type="submit" value="Crear Carta Natal">\n'
+        h+='</form>\n'
+
+        h+='<script src="js/gd.js"></script>\n'
         return h
     }
     function getListAll(){
@@ -350,9 +423,10 @@
     function getIndexHtml(){
         let h=''
         h+='<h1>www.Zool.ar</h1>'
-        h+='<h2>Página de Astrología</h2><br>'
-        h+='<h4>Formulario para buscar significados</h4>'
-        h+=createForm()
+        h+='<h4>Página de Astrología</h4><br>'
+        h+='<h6>Formulario para Crear Cartan Natal</h6>'
+        h+=getZoolMapForm()
+        h+=
         h+='<br>'
         //h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
         return h
@@ -379,6 +453,7 @@
         h+='<div id="menu">'
         h+='    <a class="boton" href="/">Inicio</a>'
         h+='    <a class="boton" href="/ZoolMapForm">Crear Carta</a>'
+        h+='    <a class="boton" href="/formSearch">Buscar</a>'
         h+='    <a class="boton" href="/listAll">Lista Completa</a>'
         h+='    <a class="boton" href="/contacto">Contacto</a>'
         h+='</div>'
