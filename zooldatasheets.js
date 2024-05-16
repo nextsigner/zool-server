@@ -5,7 +5,7 @@
 
 
     var stringSWEFolderPath='/home/ns/nsp/zool-server'
-    if(!local)stringFileFolderPath='/root/zool-server/'
+    if(!local)stringSWEFolderPath='/root/zool-server'
 
 
 
