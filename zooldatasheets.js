@@ -181,7 +181,7 @@
         //console.log('setHtml()... ');
         fs.readFile(filePath, 'utf8', (err, data) => {
                         if (err) {
-                            res.status(200).send('Error al leer el dato de '+req.query.bodie);
+                            res.status(200).send('Error al leer el dato de '+filePath);
                             return;
                         }
                         let s=''
