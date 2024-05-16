@@ -1,11 +1,17 @@
-﻿module.exports=function(app){
+﻿module.exports=function(app, local){
+    var stringFileFolderPath=''
+    if(!local)stringFileFolderPath='/root/zool-server/'
+
+    var stringSWEFolderPath='/home/ns/nsp/zool-server'
+    if(!local)stringFileFolderPath='/root/zool-server'
+
     var ZoolDoc = require('./models/ZoolDoc')
 
     getUZoolandVersion = function(req, res){
         console.log('getUZoolandVersion... ');
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('ls /root/zool-server/files/*.zip', (err, stdout, stderr) => {
+        exec('ls '+stringFileFolderPath+'files/*.zip', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
@@ -28,7 +34,7 @@
         console.log('getUZoolandControlVersion... ');
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('ls /root/zool-server/files/zooland-control/zooland-control-main*.zip', (err, stdout, stderr) => {
+        exec('ls '+stringFileFolderPath+'files/zooland-control/zooland-control-main*.zip', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
@@ -59,7 +65,7 @@
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('python3 "/root/zool-server/py/astrologica_swe_v4.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T /root/zool-server '+req.query.alt, (err, stdout, stderr) => {
+        exec('python3 "'+stringFileFolderPath+'py/astrologica_swe_v4.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T '+stringSWEFolderPath+' '+req.query.alt, (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
@@ -90,7 +96,7 @@
 
         //python3 "/home/ns/nsp/zool-server/py/astrologica_swe_search_revsol_time_one.py" 20 6 1975 23 4 -3 -35.4752134 -69.585934 89 6 38 48 "/home/ns/nsp/zool-release"
         //python3 "/home/ns/nsp/zool-server/py/astrologica_swe_search_revsol_time_one.py" dia mes año hora minuto gmt lat lon absolutoGradoSol relativoMinutosSol relativoSegundosSol edad "/home/ns/nsp/zool-release"
-        exec('python3 "/root/zool-server/py/astrologica_swe_search_revsol_time_one.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' '+req.query.absGradosSol+' '+req.query.relMinutosSol+' '+req.query.relSegundosSol+' '+req.query.edad+' /root/zool-server', (err, stdout, stderr) => {
+        exec('python3 "'+stringFileFolderPath+'py/astrologica_swe_search_revsol_time_one.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' '+req.query.absGradosSol+' '+req.query.relMinutosSol+' '+req.query.relSegundosSol+' '+req.query.edad+' /root/zool-server', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
@@ -145,7 +151,7 @@
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('python3 "/root/zool-server/py/geoloc.py" "'+req.query.ciudad+'" /root/zool-server', (err, stdout, stderr) => {
+        exec('python3 "'+stringFileFolderPath+'py/geoloc.py" "'+req.query.ciudad+'" /root/zool-server', (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}

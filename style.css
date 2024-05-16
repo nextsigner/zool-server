@@ -114,3 +114,16 @@ a:hover {
 a:visited {
     color: white !important; /* Color blanco para enlaces visitados */
 }
+
+/*Zool Data Map*/
+#formZoolMap *{
+    font-size: 24px;
+}
+#rowBodie {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#rowBodie p,b{
+    font-size: 24px;
+    margin: 0px 0px;
+}

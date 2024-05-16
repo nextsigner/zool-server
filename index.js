@@ -66,7 +66,7 @@ require('./zoolusers')(app);
 //require('./zoolparams')(app);
 require('./zooldocs')(app);
 require('./zoolappids')(app);
-require('./zooldata')(app);
+require('./zooldata')(app, local);
 require('./zooldatasheets')(app, local);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

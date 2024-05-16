@@ -1,6 +1,14 @@
 ﻿module.exports=function(app, local){
+    const { exec } = require('child_process');
     var stringFileFolderPath=''
     if(!local)stringFileFolderPath='/root/zool-server/'
+
+
+    var stringSWEFolderPath='/home/ns/nsp/zool-server'
+    if(!local)stringFileFolderPath='/root/zool-server'
+
+
+
     var aSigns= ['Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo', 'Libra', 'Escorpio', 'Sagitario', 'Capricornio', 'Acuario', 'Piscis']
     var aSignsLowerStyle= ['aries', 'tauro', 'geminis', 'cancer', 'leo', 'virgo', 'libra', 'escorpio', 'sagitario', 'capricornio', 'acuario', 'piscis']
     var aBodies= ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
@@ -101,6 +109,94 @@
     }
     app.get('/getData', getData);
 
+
+
+    //--> Get Zool Data Map
+    getDataMapCoords = function(req, res){
+        const lugar = req.query.lugar;
+        const command = 'python3 '+stringFileFolderPath+'py/geoloc.py "'+lugar+'"';
+
+        exec(command, (error, stdout, stderr) => {
+                 if (error) {
+                     console.error(`Error al ejecutar el script de Python: ${error}`);
+                     res.status(500).send('Error al obtener las coordenadas.');
+                     return;
+                 }
+
+                 if (stderr) {
+                     console.error(`Error en la salida estándar del script de Python: ${stderr}`);
+                     res.status(500).send('Error al obtener las coordenadas.');
+                     return;
+                 }
+
+                 // Suponiendo que el script de Python devuelve las coordenadas en formato JSON
+                 const coordenadas = JSON.parse(stdout);
+
+                 // Enviar las coordenadas como respuesta
+                 res.json(coordenadas);
+             });
+        //return
+    }
+    app.get('/getDataMapCoords', getDataMapCoords);
+
+    getZoolDataMap = function(req, res){
+        console.log('getZoolDataMap... ');
+        console.log('Dia: '+req.query.d);
+        //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
+        //Registra el ZoolUser porque no existe ninguno con ese nombre
+        let jsonRes={isData:false}
+        const exec = require('child_process').exec;
+        exec('python3 "'+stringFileFolderPath+'py/astrologica_swe_v4.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T '+stringSWEFolderPath+' '+req.query.alt, (err, stdout, stderr) => {
+                 if (err) {
+                     console.error(err);
+                     jsonRes={isData:false, isError:true, error: err}
+                     res.status(200).send(jsonRes);
+                     return;
+                 }
+                 jsonRes={isData:true, isError:false, data: JSON.parse(stdout)}
+                 //jsonRes=JSON.parse(stdout);
+                 //console.log(JSON.stringify(jsonRes, null, 2));
+                 res.status(200).send(setHtml(getJsonDataMapToHtml(jsonRes), 'Zool Carta Natal'));
+             });
+        //res.status(200).send(jsonRes)
+        return
+    }
+    app.get('/getZoolDataMap', getZoolDataMap);
+    function getJsonDataMapToHtml(j){
+        let h=''
+        for(var i=0;i<14;i++){
+            //"c0": { "nom": "Sol", "is": 2, "gdec": 89.11073764729207, "gdeg": 89, "rsgdeg": 29, "mdeg": 6, "sdeg": 38, "ih": 5, "dh": 5.084865033626556, "retro": 1 }
+            let strRetro=''
+            if(parseInt(j.data.pc['c'+i].retro)===0 && i!==11)strRetro=' <b>Retrógrado</b>'
+            h+='<div id="rowBodie">'
+            h+='    <p>'+j.data.pc['c'+i].nom+strRetro+' en '+aSigns[j.data.pc['c'+i].is]+' en el grado °'+j.data.pc['c'+i].rsgdeg+' \''+j.data.pc['c'+i].mdeg+' \'\''+j.data.pc['c'+i].sdeg+' en la Casa '+j.data.pc['c'+i].ih+'</p>'
+            h+='</div>'
+        }
+        return h
+    }
+    ZoolMapForm = function(req, res){
+        let h='<div>\n'
+        //h+='</div>\n'
+        let filePath=stringFileFolderPath+'pgd.html'
+        //console.log('setHtml()... ');
+        fs.readFile(filePath, 'utf8', (err, data) => {
+                        if (err) {
+                            res.status(200).send('Error al leer el dato de '+req.query.bodie);
+                            return;
+                        }
+                        let s=''
+                        let sep1='<!-- In Form -->'
+                        let sep2='<!-- Out Form -->'
+                        let d1=data.split(sep1)[1]
+                        let d2=d1.split(sep2)[0]
+
+                        res.status(200).send(setHtmlData(d2, 'Zool - Carta Natal'));
+                        return
+                    });
+        return
+    }
+    app.get('/ZoolMapForm', ZoolMapForm);
+    //<-- Get Zool Data Map
 
     function setHtml(c, t){
         let h='<DOCTYPE html>\n'
@@ -281,6 +377,7 @@
         let h=''
         h+='<div id="menu">'
         h+='    <a class="boton" href="/">Inicio</a>'
+        h+='    <a class="boton" href="/ZoolMapForm">Crear Carta</a>'
         h+='    <a class="boton" href="/listAll">Lista Completa</a>'
         h+='    <a class="boton" href="/contacto">Contacto</a>'
         h+='</div>'
