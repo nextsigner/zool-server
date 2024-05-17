@@ -1,1 +1,1 @@
-Se crea getZoolDataMapFull
+Se edita install.sh
