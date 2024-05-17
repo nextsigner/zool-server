@@ -1,1 +1,1 @@
-Se edita install.sh
+Se edita style-portrait.css
