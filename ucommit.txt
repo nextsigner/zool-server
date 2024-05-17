@@ -1,1 +1,1 @@
-Se edita getMenu
+Se crea getZoolDataMapFull

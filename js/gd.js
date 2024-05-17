@@ -23,6 +23,10 @@ function setGui(){
         obtenerCoordenadasBtn.disabled = false;
         enviarBtn.disabled = false;
     }else{
+        if(dlat===-1&&dlon===-1){
+            document.getElementById('nota1a').textContent = 'Aún faltan cargar las coordenadas. Presionar botón Obtener Coordenadas antes de Crear la Carta.';
+        }
+
         obtenerCoordenadasBtn.disabled = true;
         enviarBtn.disabled = true;
     }
@@ -40,7 +44,8 @@ function obtenerCoordenadas(lugar) {
                 if(response.coords.lat===-1 && response.coords.lon===-1){
                     document.getElementById('salida').textContent = 'Error! Hay un error con el dato del lugar de nacimiento. El sistema no puede obtener las coordenadas geográficas correctamente. Corrige el nombre del lugar o intenta con otro lugar lo más cercano posible al lugar de nacimiento.';
                 }else{
-                    document.getElementById('salida').textContent = 'Latitud: '+response.coords.lat+' Longitud: '+response.coords.lon;
+                    document.getElementById('salida').textContent = 'Últimas coordenadas cargadas: Latitud: '+response.coords.lat+' Longitud: '+response.coords.lon;
+                    document.getElementById('nota1').textContent = '';
                     document.getElementById('lat').value = response.coords.lat;
                     document.getElementById('lon').value = response.coords.lon;
                     document.getElementById('ciudad').value = document.getElementById('lugarNacimiento').value

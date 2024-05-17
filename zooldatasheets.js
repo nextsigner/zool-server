@@ -1,4 +1,4 @@
-﻿module.exports=function(app, local){
+﻿module.exports=function(app, local, host){
     const { exec } = require('child_process');
     var stringFileFolderPath=''
     if(!local)stringFileFolderPath='/root/zool-server/'
@@ -162,13 +162,20 @@
                  jsonRes={isData:true, isError:false, data: JSON.parse(stdout)}
                  //jsonRes=JSON.parse(stdout);
                  //console.log(JSON.stringify(jsonRes, null, 2));
-                 res.status(200).send(setHtml(getJsonDataMapToHtml(jsonRes), 'Zool Carta Natal'));
+
+                 if(req.query.onlyJson){
+                     //Esto es para obtener en la web un json a secas
+                     //Probado con http://192.168.1.40:8100/getZoolDataMap?n=Ricardo&d=20&m=6&a=1975&h=23&min=4&gmt=-3&lugarNacimiento=Malargue+Mendoza&lat=-35.4752134&lon=-69.585934&alt=0&ciudad=Malargue+Mendoza&ms=0&msReq=0&adminId=formwebzoolar&onlyJson=true
+                     res.status(200).send(JSON.stringify(jsonRes, null, 2));
+                 }else{
+                    res.status(200).send(setHtml(getJsonDataMapToHtml(jsonRes, false), 'Zool Carta Natal'));
+                 }
              });
         //res.status(200).send(jsonRes)
         return
     }
 
-    function getJsonDataMapToHtml(j){
+    function getJsonDataMapToHtml(j, full){
         let h=''
         for(var i=0;i<14;i++){
             //"c0": { "nom": "Sol", "is": 2, "gdec": 89.11073764729207, "gdeg": 89, "rsgdeg": 29, "mdeg": 6, "sdeg": 38, "ih": 5, "dh": 5.084865033626556, "retro": 1 }
@@ -176,11 +183,36 @@
             if(parseInt(j.data.pc['c'+i].retro)===0 && i!==11)strRetro=' <b>Retrógrado</b>'
             h+='<div id="rowBodie">'
             h+='    <p>'+j.data.pc['c'+i].nom+strRetro+' en '+aSigns[j.data.pc['c'+i].is]+' en el grado °'+j.data.pc['c'+i].rsgdeg+' \''+j.data.pc['c'+i].mdeg+' \'\''+j.data.pc['c'+i].sdeg+' en la Casa '+j.data.pc['c'+i].ih+'</p>'
+            //h+='<iframe src="http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true" width="100%" height="600"></iframe>'
+            if(i===0)h+=getDivPage()
             h+='</div>'
         }
         return h
     }
 
+    getZoolDataMapFull = function(req, res){
+        console.log('getZoolDataFull... ');
+        //console.log('Dia: '+req.query.d);
+        //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
+        const exec = require('child_process').exec;
+        let nfileName='/home/ns/nsp/zool-server/htmls/p1.html'
+        //let cmd='python3 /home/ns/nsp/zool-server/scripts/mkHtmlFullMap.py "http://192.168.1.40:8100/getZoolDataMap?n=Ricardo&d=20&m=6&a=1975&h=23&min=4&gmt=-3&lugarNacimiento=Malargue+Mendoza&lat=-35.4752134&lon=-69.585934&alt=0&ciudad=Malargue+Mendoza&ms=0&msReq=0&adminId=formwebzoolar&onlyJson=true" /home/ns/nsp/zool-server '+stringSWEFolderPath
+        console.log('req.query.ciudad: '+req.query.ciudad)
+        let strLN=req.query.ciudad.replace(/ /g,'+')
+        console.log('req.query.ciudad corregido: '+strLN)
+        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+req.query.n+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath
+        console.log('getZoolDataFull cmd: '+cmd)
+        exec(cmd, (err, stdout, stderr) => {
+                 if (err) {
+                     console.error(err);
+                     res.status(200).send('<h1>Error en getZoolDataFull</h1>');
+                     return;
+                 }
+                 //res.status(200).send(stdout);
+                 res.status(200).send(setHtml(stdout, 'Zool Carta Natal'));
+             });
+        return
+    }
     /*ZoolMapForm = function(req, res){
         let h='<div>\n'
         //h+='</div>\n'
@@ -214,6 +246,7 @@
     app.get('/contacto', contacto);
 
     app.get('/getData', getData);
+    app.get('/getZoolDataMapFull', getZoolDataMapFull);
     app.get('/getDataMapCoords', getDataMapCoords);
     app.get('/getZoolDataMap', getZoolDataMap);
 
@@ -253,7 +286,10 @@
         return h
     }
     function getZoolMapForm(){
-        let h='<form id="formZoolMap" action="/getZoolDataMap" method="GET">\n'
+        let h=''
+        //getZoolDataMapFull
+        //h+='<form id="formZoolMap" action="/getZoolDataMap" method="GET">\n'
+        h+='<form id="formZoolMap" action="/getZoolDataMapFull" method="GET">\n'
         h+='<div class="form-group">\n'
         h+='    <label for="nombre">Nombre:</label>\n'
         h+='    <input type="text" id="nombre" name="n" required>\n'
@@ -296,6 +332,7 @@
         h+='<input type="hidden" id="adminId" name="adminId" value="formwebzoolar">\n'
 
         h+='<p id="salida"></p>\n'
+        h+='<p id="nota1">Nota: Antes de Crear la Carta, primero hay que Obtener las Coordenadas del lugar de Nacimiento.</p>\n'
         h+='<input id="enviar" type="submit" value="Crear Carta Natal">\n'
         h+='</form>\n'
 
@@ -427,7 +464,7 @@
         h+='<h6>Formulario para Crear Cartan Natal</h6>'
         h+=getZoolMapForm()
         h+=
-        h+='<br>'
+                h+='<br>'
         //h+='<a class="boton2" href="/listAll">Ver lista completa</a>'
         return h
     }
@@ -467,5 +504,27 @@
         return h
     }
 
+    function getDivPage(){
+        let h='<div id="contenidoExterno"></div>\n'
+        h+='<script>\n'
+        h += `
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', 'http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true', true);
+                xhr.onload = function() {
+                    if (xhr.status >= 200) {
+                        document.getElementById('contenidoExterno').innerHTML = xhr.responseText;
+                        console.log(xhr.responseText)
+                    } else {
+                        console.error('Error al cargar los datos:', xhr.statusText);
+                    }
+                };
+                xhr.onerror = function() {
+                    console.error('Error de red al cargar los datos.');
+                };
+                xhr.send();
+            `;
+        h+='</script>'
+        return h
+    }
 }
 
