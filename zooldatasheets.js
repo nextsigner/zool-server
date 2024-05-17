@@ -266,6 +266,7 @@
         h+='    <body>\n'
         h+='        '+getMenu()+'\n'
         h+='        '+c+'\n'
+        h+=getApoyoLinks()
         h+=getPie()
         h+='    </body>\n'
         h+='</html>\n'
@@ -503,28 +504,19 @@
         h+='</div>\n'
         return h
     }
-
-    function getDivPage(){
-        let h='<div id="contenidoExterno"></div>\n'
-        h+='<script>\n'
-        h += `
-                const xhr = new XMLHttpRequest();
-                xhr.open('GET', 'http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true', true);
-                xhr.onload = function() {
-                    if (xhr.status >= 200) {
-                        document.getElementById('contenidoExterno').innerHTML = xhr.responseText;
-                        console.log(xhr.responseText)
-                    } else {
-                        console.error('Error al cargar los datos:', xhr.statusText);
-                    }
-                };
-                xhr.onerror = function() {
-                    console.error('Error de red al cargar los datos.');
-                };
-                xhr.send();
-            `;
-        h+='</script>'
+    function getApoyoLinks(){
+        let h=''
+        h+='<br><br>'
+        h+='<div id="divApoyo">'
+        h+='<p>Hola! Soy Ricardo, el creador de este sitio web. Te informo que este sitio web funcionará hasta el día 1/2/2025. En esa fecha se vence el pago del servidor que aloja este sitio. Si quieres que esta página siga exisiendo te pido por favor que me ayudes a mantenerla, mejorarla y actualizarla. Sin el apoyo de los usuarios esta página dejará de existir.</p>'
+        h+='<p>Aquí debajo te dejo los enlaces o la información en donde puedes hacer tu aporte. Desde ya muchas gracias!</p>'
+        h+='    <a class="linkDivApoyo" href="https://patreon.com/zoolar">Patreon.com/ZoolAr</a>'
+        h+='    <a class="linkDivApoyo" href="https://paypal.me/lucentrica">PayPal.me/lucentrica</a>'
+        h+='    MercadoPago Alias: astrologo.mp'
+        h+='</div>'
+        h+='<br><br>'
         return h
     }
+
 }
 

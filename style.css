@@ -149,3 +149,23 @@ a:visited {
 .divDataFull h3{
     font-size: 20px;
 }
+
+#divApoyo {
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+}
+#divApoyo p{
+    font-size: 16px;
+}
+.linkDivApoyo {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: #FFA500;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 10%;
+}

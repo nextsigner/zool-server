@@ -1,1 +1,1 @@
-Se edita style-portrait.css
+Se crea divApoyo
