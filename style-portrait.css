@@ -80,6 +80,12 @@ div {
     width: 45%;
     line-height: 1.0;
 }
+.divData p, b{
+    font-size: 16px;
+}
+.divData h3{
+    font-size: 20px;
+}
 .xdivs {
     overflow: hidden;
 }
