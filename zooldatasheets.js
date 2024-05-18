@@ -45,6 +45,9 @@
 
     const fs = require('fs');
     getData = function(req, res){
+        //Ejemplo de solo datos
+        //http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true
+
         let filePath=stringFileFolderPath+'data/'+req.query.bodie+'.json'
         //console.log('setHtml()... ');
         fs.readFile(filePath, 'utf8', (err, data) => {

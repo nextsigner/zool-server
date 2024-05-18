@@ -79,11 +79,17 @@ div {
     display: block;
     width: 45%;
     line-height: 1.0;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
 }
 .divData p, b{
     font-size: 16px;
 }
 .divData h3{
+    font-size: 20px;
+}
+.divData h2{
     font-size: 20px;
 }
 .xdivs {
