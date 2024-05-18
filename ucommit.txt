@@ -1,1 +1,1 @@
-Se crea divApoyo
+Se edita style.css

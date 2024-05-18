@@ -61,6 +61,12 @@ function obtenerCoordenadas(lugar) {
     xhr.open('GET', url, true);
     xhr.send();
 }
+function setFormAction(actionUrl) {
+    //document.getElementById('formZoolMap').action = actionUrl;
+    var form = document.getElementById('formZoolMap');
+    form.action = actionUrl;
+    form.submit();
+}
 function setDev(){
     document.getElementById('nombre').value = 'Ricardo'
     document.getElementById('lugarNacimiento').value = 'Malargue Mendoza'

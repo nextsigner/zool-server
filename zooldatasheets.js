@@ -291,6 +291,7 @@
         //getZoolDataMapFull
         //h+='<form id="formZoolMap" action="/getZoolDataMap" method="GET">\n'
         h+='<form id="formZoolMap" action="/getZoolDataMapFull" method="GET">\n'
+        //h+='<form id="formZoolMap" method="GET">\n'
         h+='<div class="form-group">\n'
         h+='    <label for="nombre">Nombre:</label>\n'
         h+='    <input type="text" id="nombre" name="n" required>\n'
@@ -336,6 +337,8 @@
         h+='<p id="nota1">Nota: Antes de Crear la Carta, primero hay que Obtener las Coordenadas del lugar de Nacimiento.</p>\n'
         h+='<input id="enviar" type="submit" value="Crear Carta Natal">\n'
         h+='</form>\n'
+        //h+='<button type="submit" onclick="setFormAction(\'http://www.zool.ar/getZoolDataMap\')">Ver Solo Planetas</button>\n'
+        //h+='<button type="submit" onclick="setFormAction(\'/getZoolDataMapFull\')">Ver todos los significados</button>\n'
 
         h+='<script src="js/gd.js"></script>\n'
         return h
