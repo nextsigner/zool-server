@@ -68,6 +68,12 @@ require('./zooldocs')(app);
 require('./zoolappids')(app);
 require('./zooldata')(app, local);
 //require('./zooldatasheets')(app, local);
+let host='zool.ar'
+if(local){
+    host=localhost
+}
+require('./zooldatasheets')(app, local, host);
+
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
@@ -80,11 +86,6 @@ mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)
     }
     console.log(`Conectado a ${urlMongoDatabase}`)
-    let host='zool.ar'
-    if(local){
-        host=localhost
-    }
-    require('./zooldatasheets')(app, local, host);
     app.listen(app.get('port'), host, function() {
         console.log('Servidor '+appServerName+' iniciado en '+host+':'+app.get('port'));
         console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);

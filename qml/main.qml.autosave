@@ -15,7 +15,7 @@ Rectangle {
         text: "Hello world!"
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
-        font.pointSize: app.fs; font.bold: true
+        font.pointSize: app.f; font.bold: true
     }
 
     function setText(t){

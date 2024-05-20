@@ -166,6 +166,13 @@
                  //jsonRes=JSON.parse(stdout);
                  //console.log(JSON.stringify(jsonRes, null, 2));
 
+                 for(var i=0;i<Object.keys(jsonRes.data.pc).length; i++){
+                    //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].gdec)
+                     //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].ih)
+                     //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].ih)
+                     jsonRes.data.pc['c'+i].ih=getIndexHouse(jsonRes.data.pc['c'+i].gdec, jsonRes.data)
+                     //console.log('Corregido jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].ih)
+                 }
                  if(req.query.onlyJson){
                      //Esto es para obtener en la web un json a secas
                      //Probado con http://192.168.1.40:8100/getZoolDataMap?n=Ricardo&d=20&m=6&a=1975&h=23&min=4&gmt=-3&lugarNacimiento=Malargue+Mendoza&lat=-35.4752134&lon=-69.585934&alt=0&ciudad=Malargue+Mendoza&ms=0&msReq=0&adminId=formwebzoolar&onlyJson=true
@@ -524,5 +531,24 @@
         return h
     }
 
+    function getIndexHouse(gdec, json){
+        let index=0
+        let g=0.0
+        for(var i=0;i<12;i++){
+            let iseg=json.ph['h'+parseInt(i+1)].gdec
+            let fseg
+            if(i!==11){
+                fseg=json.ph['h'+parseInt(i+2)].gdec
+            }else{
+                fseg=json.ph['h1'].gdec
+            }
+            if(fseg<iseg)fseg=fseg+360
+            if(gdec>=iseg && gdec<=fseg){
+                index=i
+                break
+            }
+        }
+        return index
+    }
 }
 
