@@ -182,6 +182,7 @@
                  }
              });
         //res.status(200).send(jsonRes)
+        //!352Gallardo352
         return
     }
 
@@ -548,7 +549,7 @@
                 break
             }
         }
-        return index
+        return parseInt(index + 1)
     }
 }
 

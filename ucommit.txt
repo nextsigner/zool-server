@@ -1,1 +1,1 @@
-Se agrega función getIndexHouse()
+Se agrega función getIndexHouse() 2
