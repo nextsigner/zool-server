@@ -1,1 +1,1 @@
-Se agrega getDataGemini.sh
+Se retira la accion de  getDataGemini.sh

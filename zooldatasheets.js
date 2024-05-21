@@ -44,7 +44,85 @@
     }
 
     const fs = require('fs');
-    const fs2 = require('fs');
+    getData = function(req, res){
+        //Ejemplo de solo datos
+        //http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true
+
+        let filePath=stringFileFolderPath+'data/'+req.query.bodie+'.json'
+        //console.log('setHtml()... ');
+        fs.readFile(filePath, 'utf8', (err, data) => {
+                        if (err) {
+                            res.status(200).send('Error al leer el dato de '+req.query.bodie);
+                            return;
+                        }
+                        let title=''+parseMan(req.query.bodie)+'/'+aSigns[req.query.sign]+'/Casa '+parseInt(req.query.house)
+                        let json=JSON.parse(data)
+                        let key1=req.query.bodie+'_en_'+aSignsLowerStyle[parseInt(req.query.sign)]
+                        let man=json[key1].manifestaciones
+                        let manLength=Object.keys(man).length
+                        //let s='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        let s=''
+                        s+='<h1>'+parseMan(key1)+'</h1>'
+                        s+='<div class="divData">';
+                        s+='<h2>Manifestaciones</h2>';
+                        for(var i=0;i<manLength;i++){
+                            s+='<p><b>'+parseMan(Object.keys(man)[i])+': </b>';
+                            s+=''+man[Object.keys(man)[i]]+'</p><br>';
+                        }
+                        s+='</div>';
+
+                        man=json[key1].manifestaciones_negativas
+                        if(man){
+                            manLength=Object.keys(man).length
+                            s+='<div class="divData">';
+                            s+='<h2>Manifestaciones Negativas</h2>';
+                            for(i=0;i<manLength;i++){
+                                s+='<p><b>'+parseMan(Object.keys(man)[i])+': </b>';
+                                s+=''+man[Object.keys(man)[i]]+'</p><br>';
+                            }
+                            s+='</div>';
+                        }
+
+                        //Casa
+                        key1=req.query.bodie+'_en_casa_'+req.query.house
+                        man=json[key1].manifestaciones
+                        manLength=Object.keys(man).length
+                        s+='<h1>'+parseMan(key1)+'</h1>'
+                        s+='<div class="divData">';
+                        s+='<h2>Manifestaciones</h2>';
+                        for(var i=0;i<manLength;i++){
+                            s+='<p><b>'+parseMan(Object.keys(man)[i])+': </b>';
+                            s+=''+man[Object.keys(man)[i]]+'</p><br>';
+                        }
+                        s+='</div>';
+
+                        man=json[key1].manifestaciones_negativas
+                        if(man){
+                            manLength=Object.keys(man).length
+                            s+='<h1>'+parseMan(key1)+'</h1>'
+                            s+='<div class="divData">';
+                            s+='<h2>Manifestaciones Negativas</h2>';
+                            for(var i=0;i<manLength;i++){
+                                s+='<p><b>'+parseMan(Object.keys(man)[i])+': </b>';
+                                s+=''+man[Object.keys(man)[i]]+'</p><br>';
+                            }
+                            s+='</div>';
+                        }
+                        //s+='<a class="boton2" href="/">Inicio</a> <a class="boton2" href="/listAll">Volvel a la lista</a>'
+                        if(req.query.onlyData){
+                            res.status(200).send(setHtmlData(s, 'Zool - '+title));
+                        }else{
+                            res.status(200).send(setHtml(s, 'Zool - '+title));
+                        }
+
+                        return
+                    });
+
+        return
+    }
+
+
+    /*
     getData = function(req, res){
         //Ejemplo de solo datos
         //http://www.zool.ar/getData?bodie=sol&sign=0&house=1&onlyData=true
@@ -159,6 +237,7 @@
 
         return
     }
+    */
 
     //--> Get Zool Data Map
     getDataMapCoords = function(req, res){
@@ -206,7 +285,7 @@
                  //console.log(JSON.stringify(jsonRes, null, 2));
 
                  for(var i=0;i<Object.keys(jsonRes.data.pc).length; i++){
-                     //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].gdec)
+                    //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].gdec)
                      //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].ih)
                      //console.log('jsonRes.pc[c+'+i+'].gdec:'+jsonRes.data.pc['c'+i].ih)
                      jsonRes.data.pc['c'+i].ih=getIndexHouse(jsonRes.data.pc['c'+i].gdec, jsonRes.data)
@@ -217,7 +296,7 @@
                      //Ejemplo Probado con http://192.168.1.40:8100/getZoolDataMap?n=Ricardo&d=20&m=6&a=1975&h=23&min=4&gmt=-3&lugarNacimiento=Malargue+Mendoza&lat=-35.4752134&lon=-69.585934&alt=0&ciudad=Malargue+Mendoza&ms=0&msReq=0&adminId=formwebzoolar&onlyJson=true
                      res.status(200).send(JSON.stringify(jsonRes, null, 2));
                  }else{
-                     res.status(200).send(setHtml(getJsonDataMapToHtml(jsonRes, false), 'Zool Carta Natal'));
+                    res.status(200).send(setHtml(getJsonDataMapToHtml(jsonRes, false), 'Zool Carta Natal'));
                  }
              });
         //res.status(200).send(jsonRes)
