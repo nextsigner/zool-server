@@ -5,8 +5,9 @@
 #echo "p4:$4"
 
 CANT=$(cat $1 | jq .$2_en_$3.manifestaciones | jq keys | jq length)
+CANT=$(printf "%d" "$CANT")
 CANTH=$(cat $1 | jq .$2_en_$4.manifestaciones | jq keys | jq length)
-
+CANTH=$(printf "%d" "$CANTH")
 #echo "cant:$CANT"
 #echo "canth:$CANTH"
 
@@ -42,7 +43,7 @@ HTML=$HTML"</div>"
 #Houses
 HTML=$HTML"<h3>$h22</h3>"
 HTML=$HTML"<div class="divDataFull">"
-for (( c=0; c<$CANTH; c++ ))
+for (( c=0; c < $CANTH; c++ ))
 do
     ITEMNAME=$(cat $1 | jq .$2_en_$4.manifestaciones | jq keys | jq .[$c])
     #echo "Hay $ITEMNAME"
@@ -56,5 +57,11 @@ do
     #echo $des
 done
 HTML=$HTML"</div>"
+
+if [[ $2 == "sol" ]]; then
+    DATOGEMINI=$(/home/ns/nsp/zool-server/scripts/getDataGemini.sh /home/ns/nsp/zool-server/data/gemini_1 sol aries 1)
+    HTML=$DATOGEMINI" "$HTML
+    #echo "$DATOGEMINI"\n\n\n
+fi
 
 echo $HTML

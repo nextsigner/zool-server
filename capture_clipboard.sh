@@ -16,7 +16,7 @@ do
     echo "Grabando json..."
     D2=$(echo $current_clipboard | jq . | jq keys[0] | sed 's/"//g')
     #xclip -selection clipboard -o "-b sol -s aries -h 1"
-    echo "-b sol -s tauro -h 1" | xclip
+    echo "-b sol -s $1 -h 1" | xclip
     xclip -selection c < ~/aaa.txt
     #xclip -selection clipboard -o
     #/home/ns/gd/misapps/kick-chat-not/textoAWavAndPlay.sh "Archivo guardado en $D2" /tmp/at.wav es-ES

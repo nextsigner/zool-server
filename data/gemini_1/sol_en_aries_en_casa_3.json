@@ -1,28 +1,20 @@
 {
   "sol_en_aries_en_casa_3": {
-    "manifestaciones": {
-      "Comunicación efectiva": "Tienes una gran capacidad para comunicarte de forma clara, directa y concisa.",
-      "Pensamiento creativo": "Eres capaz de pensar de forma creativa y original, y de generar nuevas ideas.",
-      "Aprendizaje rápido": "Eres capaz de aprender rápidamente y de absorber nueva información con facilidad.",
-      "Entusiasmo por la comunicación": "Te apasiona la comunicación y la expresión de tus ideas.",
-      "Habilidad para el debate": "Eres un buen debatiente y disfrutas defendiendo tus puntos de vista.",
-      "Curiosidad intelectual": "Tienes una gran curiosidad intelectual y siempre estás buscando aprender cosas nuevas.",
-      "Actitud abierta": "Eres una persona de mente abierta que está dispuesta a escuchar nuevas ideas y perspectivas.",
-      "Liderazgo en la comunicación": "Eres un líder natural en la comunicación y tienes la capacidad de inspirar a otros a través de tus palabras.",
-      "Impaciencia en la comunicación": "Puedes ser impaciente en la comunicación y no escuchar atentamente a los demás.",
-      "Terquedad en las opiniones": "Puedes ser terco en tus opiniones y tener dificultades para cambiar de idea."
-    },
-    "manifestaciones_negativas": {
-      "Agresividad en la comunicación": "Puedes ser agresivo en la comunicación y usar un lenguaje hiriente.",
-      "Dominancia en las conversaciones": "Puedes tener una tendencia a dominar las conversaciones y no dar espacio a los demás para hablar.",
-      "Dificultad para escuchar": "Puedes tener dificultades para escuchar atentamente a los demás.",
-      "Intolerancia a las diferentes opiniones": "Puedes ser intolerante a las diferentes opiniones y tener dificultades para aceptar que los demás no piensen como tú.",
-      "Falta de empatía en la comunicación": "Puedes tener dificultades para ponerte en el lugar de los demás y comprender su punto de vista.",
-      "Mentiras": "Puedes mentir o engañar a los demás para conseguir tus objetivos.",
-      "Manipulación": "Puedes manipular a los demás para que hagan lo que tú quieres.",
-      "Rumores y chismes": "Puedes difundir rumores y chismes sobre los demás.",
-      "Falta de tacto": "Puedes ser insensible en tus palabras y herir los sentimientos de los demás.",
-      "Crítica destructiva": "Puedes ser demasiado crítico con los demás y no ofrecer soluciones constructivas."
-    }
+    "manifestaciones_positivas": [
+      "Independencia, liderazgo e iniciativa en la comunicación, el aprendizaje y los hermanos",
+      "Búsqueda de la autoexpresión, la individualidad y la acción en la forma de comunicarse, aprender y relacionarse con sus hermanos",
+      "Importancia de la energía, la vitalidad y la motivación en la comunicación, el aprendizaje y los hermanos",
+      "Actitud dinámica, entusiasta y competitiva en la comunicación, el aprendizaje y los hermanos",
+      "Habilidad para expresarse con claridad, defender sus ideas y aprender de forma rápida y efectiva en la forma de comunicarse, aprender y relacionarse con sus hermanos",
+      "Capacidad para desarrollar un enfoque único y original en la forma de comunicarse, aprender y relacionarse con sus hermanos, transformando estas áreas en un camino de crecimiento personal e intelectual"
+    ],
+    "manifestaciones_negativas": [
+      "Egocentrismo, impulsividad y arrogancia en la comunicación, el aprendizaje y los hermanos",
+      "Dificultad para comunicarse de manera efectiva, escuchar a los demás y aprender de forma paciente en la comunicación, el aprendizaje y los hermanos",
+      "Tendencia a la agresividad, la impaciencia y la falta de empatía en la comunicación, el aprendizaje y los hermanos",
+      "Comportamiento dominante, controlador y posesivo en la comunicación, el aprendizaje y los hermanos",
+      "Dificultad para mantener relaciones de hermanos sanas, trabajar en equipo y resolver conflictos de manera pacífica",
+      "Miedo al fracaso intelectual, al rechazo y a la pérdida de control en la comunicación, el aprendizaje y los hermanos"
+    ]
   }
 }

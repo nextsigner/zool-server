@@ -1,28 +1,20 @@
 {
   "sol_en_aries_en_casa_2": {
-    "manifestaciones": {
-      "Autosuficiencia": "Tienes una gran capacidad para valer por ti mismo y alcanzar tus objetivos económicos.",
-      "Iniciativa": "Eres una persona proactiva que toma la iniciativa y no espera a que las cosas lleguen a ti.",
-      "Dinamismo": "Tienes una gran capacidad de trabajo y eres capaz de realizar múltiples tareas al mismo tiempo.",
-      "Competitividad": "Eres una persona competitiva que disfruta de los desafíos y siempre busca dar lo mejor de sí misma.",
-      "Asertividad": "Eres capaz de defender tus intereses y necesidades de forma clara y directa.",
-      "Independencia financiera": "Aspiras a ser económicamente independiente y no depender de nadie.",
-      "Habilidad para ganar dinero": "Tienes una gran habilidad para ganar dinero y generar recursos.",
-      "Valoración de los bienes materiales": "Aprecias los bienes materiales y te gusta disfrutar de los frutos de tu trabajo.",
-      "Impulsividad en las decisiones financieras": "Puedes ser impulsivo a la hora de tomar decisiones financieras, lo que puede llevarte a cometer errores.",
-      "Tendencia al riesgo": "Puedes tener una tendencia a asumir riesgos excesivos en tus inversiones, lo que puede poner en peligro tu estabilidad financiera."
-    },
-    "manifestaciones_negativas": {
-      "Avaricia": "Puedes ser demasiado avaro y obsesionado con la acumulación de bienes materiales.",
-      "Materialismo": "Puedes dar demasiada importancia al dinero y a los bienes materiales, olvidando otros aspectos más importantes de la vida.",
-      "Impaciencia": "Puedes ser demasiado impaciente y esperar resultados inmediatos en tus inversiones, lo que puede llevarte a tomar decisiones precipitadas.",
-      "Impulsividad en los gastos": "Puedes ser impulsivo a la hora de gastar dinero, lo que puede llevarte a endeudarte.",
-      "Falta de planificación financiera": "Puedes tener dificultades para planificar tus finanzas y gestionar tu presupuesto de forma responsable.",
-      "Celos": "Puedes sentir celos del éxito económico de los demás.",
-      "Envidia": "Puedes sentir envidia de los bienes materiales que tienen los demás.",
-      "Apego a las posesiones": "Puedes tener un apego excesivo a tus posesiones materiales, lo que puede dificultarte deshacerte de ellas cuando sea necesario.",
-      "Dificultad para ahorrar": "Puedes tener dificultades para ahorrar dinero, ya que te gusta gastarlo todo.",
-      "Tendencia a la especulación": "Puedes tener una tendencia a especular en los mercados financieros, lo que puede llevarte a perder dinero."
-    }
+    "manifestaciones_positivas": [
+      "Independencia, liderazgo y iniciativa en las finanzas, los valores y la autoestima",
+      "Búsqueda de la autoexpresión, la individualidad y la acción en la forma de administrar sus finanzas, construir sus valores y desarrollar su autoestima",
+      "Importancia de la energía, la vitalidad y la motivación en las finanzas, los valores y la autoestima",
+      "Actitud dinámica, entusiasta y competitiva en las finanzas, los valores y la autoestima",
+      "Habilidad para tomar decisiones financieras, defender sus valores y construir una autoestima sólida en la forma de administrar sus finanzas, construir sus valores y desarrollar su autoestima",
+      "Capacidad para desarrollar un enfoque único y original en la forma de administrar sus finanzas, construir sus valores y desarrollar su autoestima, transformando estas áreas en un camino de crecimiento personal y financiero"
+    ],
+    "manifestaciones_negativas": [
+      "Egocentrismo, impulsividad y arrogancia en las finanzas, los valores y la autoestima",
+      "Dificultad para administrar su dinero de manera responsable, tomar decisiones financieras acertadas y mantener una autoestima sana en las finanzas, los valores y la autoestima",
+      "Tendencia a la agresividad, la impaciencia y la falta de empatía en las finanzas, los valores y la autoestima",
+      "Comportamiento dominante, controlador y posesivo en las finanzas, los valores y la autoestima",
+      "Dificultad para ahorrar dinero, invertir de manera inteligente y mantener relaciones sanas con el dinero",
+      "Miedo al fracaso financiero, a la pérdida de control y a la falta de valor personal en las finanzas, los valores y la autoestima"
+    ]
   }
 }

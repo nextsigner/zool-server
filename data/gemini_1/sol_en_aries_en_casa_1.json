@@ -1,28 +1,20 @@
 {
   "sol_en_aries_en_casa_1": {
-    "manifestaciones": {
-      "Liderazgo_natural": "Posees una habilidad innata para liderar e inspirar a otros. Tienes una gran capacidad para tomar decisiones y asumir responsabilidades.",
-      "Confianza_en_sí_mismo": "Crees en tus propias habilidades y capacidades. Eres capaz de afrontar cualquier desafío con determinación y optimismo.",
-      "Creatividad": "Tienes una mente abierta y original. Eres capaz de pensar de forma innovadora y encontrar soluciones creativas a los problemas.",
-      "Energía_dinámica": "Posees una gran cantidad de energía y vitalidad. Eres capaz de mantenerte activo y motivado durante largos períodos de tiempo.",
-      "Pasión_y_entusiasmo": "Te apasionan las cosas que haces. Eres capaz de contagiar tu entusiasmo a los demás.",
-      "Independencia": "Valoras tu libertad e independencia. Eres capaz de tomar tus propias decisiones y seguir tu propio camino.",
-      "Capacidad_de_decisión": "Eres capaz de tomar decisiones rápidas y acertadas. No te acobardas ante los desafíos y siempre estás dispuesto a asumir riesgos.",
-      "Generosidad": "Eres una persona generosa y desinteresada. Te gusta ayudar a los demás y compartir lo que tienes.",
-      "Espíritu_protector": "Eres una persona protectora con tus seres queridos. Siempre estás ahí para apoyarlos y defenderlos.",
-      "Intuición": "Tienes una gran intuición. Eres capaz de sentir las cosas sin necesidad de tener pruebas concretas."
-    },
-    "manifestaciones_negativas": {
-      "Egoísmo": "Puedes ser demasiado centrado en ti mismo y en tus propias necesidades. A veces puedes olvidar las necesidades de los demás.",
-      "Terquedad": "Puedes ser demasiado terco y aferrarte a tus ideas incluso cuando están equivocadas. Te cuesta cambiar de opinión.",
-      "Impaciencia": "Puedes ser demasiado impaciente y esperar resultados inmediatos. Te frustras fácilmente cuando las cosas no salen como tú quieres.",
-      "Arrogancia": "Puedes ser demasiado arrogante y creerte superior a los demás. Esto puede llevarte a ser egocéntrico e insensible.",
-      "Agresividad": "Puedes ser demasiado agresivo y reaccionar de forma impulsiva ante situaciones que te frustran o te enojan.",
-      "Dominación": "Puedes tener una tendencia a dominar a los demás y controlarlos. Te gusta tener el poder y la última palabra.",
-      "Impulsividad": "Puedes ser demasiado impulsivo y actuar sin pensar en las consecuencias. Esto puede llevarte a cometer errores.",
-      "Falta_de_empatía": "Puedes tener dificultades para comprender los sentimientos de los demás. Esto puede llevarte a ser insensible y egocéntrico.",
-      "Celos": "Puedes ser demasiado celoso de los éxitos y logros de los demás. Esto puede llevarte a sentir resentimiento y envidia.",
-      "Tendencia_a_la_ira": "Puedes tener una tendencia a enfadarte fácilmente y perder el control de tus emociones. Esto puede llevarte a decir o hacer cosas de las que te arrepientas."
-    }
+    "manifestaciones_positivas": [
+      "Independencia, liderazgo y iniciativa en la personalidad, la imagen personal y el cuerpo físico",
+      "Búsqueda de la autoexpresión, la individualidad y la acción en la forma de desarrollar su personalidad, construir su imagen personal y cuidar su cuerpo físico",
+      "Importancia de la energía, la vitalidad y la motivación en la personalidad, la imagen personal y el cuerpo físico",
+      "Actitud dinámica, entusiasta y competitiva en la personalidad, la imagen personal y el cuerpo físico",
+      "Habilidad para tomar decisiones, actuar con rapidez y asumir riesgos en la forma de desarrollar su personalidad, construir su imagen personal y cuidar su cuerpo físico",
+      "Capacidad para desarrollar una personalidad única y original, construir una imagen personal fuerte y mantener un cuerpo físico sano y vigoroso"
+    ],
+    "manifestaciones_negativas": [
+      "Egocentrismo, impulsividad y arrogancia en la personalidad, la imagen personal y el cuerpo físico",
+      "Dificultad para trabajar en equipo, delegar responsabilidades y controlar su temperamento en la personalidad, la imagen personal y el cuerpo físico",
+      "Tendencia a la agresividad, la impaciencia y la falta de empatía en la personalidad, la imagen personal y el cuerpo físico",
+      "Comportamiento dominante, controlador y posesivo en la personalidad, la imagen personal y el cuerpo físico",
+      "Dificultad para escuchar a los demás, aceptar críticas y manejar sus emociones intensas",
+      "Miedo al fracaso, al rechazo y a la pérdida de control en la personalidad, la imagen personal y el cuerpo físico"
+    ]
   }
 }
