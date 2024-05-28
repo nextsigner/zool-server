@@ -16,11 +16,12 @@ titulo="${bodie^}"
 h2="$titulo en $sign casa $house"
 titulo="$titulo en $sign en Casa $house"
 titulo=$(echo $titulo | sed 's/_/ /g')
-HTML="${titulo^}"
-HTML="<h1>$HTML</h1>"
+#HTML="${titulo^}"
+#HTML="<h1>$HTML</h1>"
 
 HTML=$HTML"<div class="divDataFull">"
-HTML="<h3>Manifestaciones positivas</h3>"
+HTML=$HTML"<h1>$5</h1>"
+HTML=$HTML"<h3>Manifestaciones positivas</h3>"
 for (( c=0; c<$CANTP; c++ ))
 do
     des=$(cat $1/$2_en_$3_en_casa_$4.json | jq .$2_en_$3_en_casa_$4.manifestaciones_positivas | jq .[$c]  | sed 's/"//g')
@@ -31,7 +32,7 @@ done
 HTML=$HTML"</div>"
 
 HTML=$HTML"<div class="divDataFull">"
-HTML="<h3>Manifestaciones negativas</h3>"
+HTML=$HTML"<h3>Manifestaciones negativas</h3>"
 for (( c=0; c<$CANTN; c++ ))
 do
     des=$(cat $1/$2_en_$3_en_casa_$4.json | jq .$2_en_$3_en_casa_$4.manifestaciones_negativas | jq .[$c]  | sed 's/"//g')

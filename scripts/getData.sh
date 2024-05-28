@@ -18,13 +18,16 @@ house=$4
 house=${house^}
 titulo="${bodie^}"
 h2="$titulo en $sign"
-h22="$titulo en casa $house"
+h22="$h2 en $house"
+#h222=
 titulo="$titulo en $sign en $house"
 titulo=$(echo $titulo | sed 's/_/ /g')
-HTML="${titulo^}"
-HTML="<h1>$HTML</h1>"
-HTML=$HTML"<h3>$h2</h3>"
-HTML=$HTML"<div class="divDataFull">"
+
+HTML="<div class="divDataFull">"
+TITS=$bodie
+TITS="${TITS^}"
+TITS="<h3>$TITS en $sign</h3>"
+HTML=$HTML"<h3>$TITS</h3>"
 for (( c=0; c<$CANT; c++ ))
 do
     ITEMNAME=$(cat $1 | jq .$2_en_$3.manifestaciones | jq keys | jq .[$c])
@@ -41,8 +44,14 @@ done
 HTML=$HTML"</div>"
 
 #Houses
-HTML=$HTML"<h3>$h22</h3>"
+
+
 HTML=$HTML"<div class="divDataFull">"
+TITH=$bodie
+TITH="${TITH^}"
+TITH="<h3>$TITH en $house</h3>"
+TITH=$(echo $TITH | sed 's/_/ /g')
+HTML=$HTML"<h3>$TITH</h3>"
 for (( c=0; c < $CANTH; c++ ))
 do
     ITEMNAME=$(cat $1 | jq .$2_en_$4.manifestaciones | jq keys | jq .[$c])
@@ -59,7 +68,11 @@ done
 HTML=$HTML"</div>"
 
 if [[ $2 == "sol" ]]; then
-    DATOGEMINI=$(/home/ns/nsp/zool-server/scripts/getDataGemini.sh /home/ns/nsp/zool-server/data/gemini_1 sol aries 1)
+    H=$(echo $4 | sed 's/casa_//g')
+    TITGEMINI=$(echo $h22 | sed 's/_/ /g')
+    DATOGEMINI=$($5/scripts/getDataGemini.sh $5/data/gemini_1 $2 $3 $H "$TITGEMINI")
+
+    #HTML=$TITGEMINI" "$DATOGEMINI" "$HTML
     HTML=$DATOGEMINI" "$HTML
     #echo "$DATOGEMINI"\n\n\n
 fi

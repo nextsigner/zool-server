@@ -1,1 +1,1 @@
-Se retira la accion de  getDataGemini.sh
+Se edita mkHtmlFullMap.sh

@@ -1,5 +1,5 @@
 * {
-    font-size: 60px; /* Ajusta el tamaño de fuente */
+    font-size: 24px; /* Ajusta el tamaño de fuente */
     padding: 10px; /* Ajusta el espacio interno */
     margin: 10px; /* Ajusta el espacio externo */
     border-radius: 5px; /* Ajusta el radio de borde */
@@ -22,16 +22,22 @@ br {
     color: #333;
 }
 h1 {
-    font-size: 22px;
+    font-size: 30px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 26px;
 }
 h3 {
+    font-size: 22px;
+}
+h4 {
     font-size: 18px;
 }
+h5 {
+    font-size: 14px;
+}
 h6 {
-    font-size: 20px;
+    font-size: 10px;
 }
 #pie {
     display: inline-block;
@@ -83,15 +89,17 @@ li {
 div {
     line-height: 1.0;
 }
+#tableData {
+  margin: 0 auto;
+}
 .divData {
     display: block;
     width: 95%;
     line-height: 1.0;
-    margin: 0px 0px 0px 0px;
+    margin: 0 auto;
     padding: 0px 0px 0px 0px;
 }
 .divData p, b{
-    font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -101,10 +109,6 @@ div {
 .divData h2{
     font-size: 20px;
 }
-.divData h3{
-    font-size: 18px;
-}
-
 .xdivs {
     overflow: hidden; /* Esto limpia los flotadores */
 }
@@ -166,14 +170,10 @@ a:visited {
 }
 .divDataFull {
     margin: 4px 4px 4px 4px;
-    padding: 4px 4px 4px 4px;
-    font-size: 16px;
+    padding: 4px 4px 4px 4px;    
 }
 .divDataFull p, b{
-    font-size: 16px;
-}
-.divDataFull h3{
-    font-size: 20px;
+    /*font-size: 16px;*/
 }
 
 #divApoyo {
