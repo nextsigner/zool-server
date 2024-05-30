@@ -1,1 +1,1 @@
-Se edita mkHtmlFullMap.sh
+Se corrige urano.json

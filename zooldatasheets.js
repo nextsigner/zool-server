@@ -338,7 +338,17 @@
                      return;
                  }
                  //res.status(200).send(stdout);
-                 res.status(200).send(setHtml(stdout, 'Zool Carta Natal'));
+                 let htmlFinal=''
+                 if(req.query.lite){
+                     htmlFinal=''
+                     htmlFinal += stdout
+                     res.status(200).send(htmlFinal);
+                 }else{
+                     htmlFinal='<h1>Carta Natal Astral de '+parseMan(req.query.n)+'</h1>'
+                     htmlFinal += stdout
+                     res.status(200).send(setHtml(htmlFinal, 'Zool Carta Natal'));
+                 }
+
              });
         return
     }
