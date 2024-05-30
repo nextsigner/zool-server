@@ -1,1 +1,1 @@
-Se corrige urano.json
+Se corrige req.query.n en getDataMapFull

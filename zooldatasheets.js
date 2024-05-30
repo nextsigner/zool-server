@@ -329,7 +329,8 @@
         console.log('req.query.ciudad: '+req.query.ciudad)
         let strLN=req.query.ciudad.replace(/ /g,'+')
         console.log('req.query.ciudad corregido: '+strLN)
-        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+req.query.n+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath
+        let nomCorr=(''+req.query.n).replace(/ /g, '_')
+        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath
         console.log('getZoolDataFull cmd: '+cmd)
         exec(cmd, (err, stdout, stderr) => {
                  if (err) {
