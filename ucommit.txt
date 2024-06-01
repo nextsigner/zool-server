@@ -1,1 +1,1 @@
-Se corrige req.query.n en getDataMapFull
+Se agregan puntos al final de cada item getData.sh

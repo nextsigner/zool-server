@@ -38,7 +38,7 @@ do
     #echo $titulo
     HTML=$HTML"<p><b>$titulo:</b>"
     des=$(cat $1 | jq .$2_en_$3.manifestaciones | jq '.['$ITEMNAME']'  | sed 's/"//g')
-    HTML=$HTML" $des</p>"
+    HTML=$HTML" $des.</p>"
     #echo $des
 done
 HTML=$HTML"</div>"
@@ -62,7 +62,7 @@ do
     #echo $titulo
     HTML=$HTML"<p><b>$titulo:</b>"
     des=$(cat $1 | jq .$2_en_$4.manifestaciones | jq '.['$ITEMNAME']'  | sed 's/"//g')
-    HTML=$HTML" $des</p>"
+    HTML=$HTML" $des.</p>"
     #echo $des
 done
 HTML=$HTML"</div>"

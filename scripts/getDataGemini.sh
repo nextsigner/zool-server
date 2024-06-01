@@ -26,7 +26,7 @@ for (( c=0; c<$CANTP; c++ ))
 do
     des=$(cat $1/$2_en_$3_en_casa_$4.json | jq .$2_en_$3_en_casa_$4.manifestaciones_positivas | jq .[$c]  | sed 's/"//g')
     #echo $des
-    HTML=$HTML" <p>$des</p>"
+    HTML=$HTML" <p>$des.</p>"
     #echo $des
 done
 HTML=$HTML"</div>"
@@ -37,7 +37,7 @@ for (( c=0; c<$CANTN; c++ ))
 do
     des=$(cat $1/$2_en_$3_en_casa_$4.json | jq .$2_en_$3_en_casa_$4.manifestaciones_negativas | jq .[$c]  | sed 's/"//g')
     #echo $des
-    HTML=$HTML" <p>$des</p>"
+    HTML=$HTML" <p>$des.</p>"
     #echo $des
 done
 HTML=$HTML"</div>"
