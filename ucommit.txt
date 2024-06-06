@@ -1,1 +1,1 @@
-Se agregan puntos al final de cada item getData.sh
+Se comienza recolección de datos 2p

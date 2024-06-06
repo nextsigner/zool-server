@@ -1,0 +1,626 @@
+{
+    "sol_en_aries_femenino": {
+        "manifestaciones_positivas": {
+            "energía": "Podrías mostrar una energía y vitalidad excepcionales que te permiten abordar la vida con entusiasmo y dinamismo.",
+            "iniciativa": "Podrías tener una gran iniciativa, siempre dispuesta a tomar la delantera y comenzar nuevos proyectos.",
+            "valentía": "Podrías demostrar valentía y coraje en situaciones desafiantes, enfrentando tus miedos con determinación.",
+            "independencia": "Podrías valorar la independencia y la autosuficiencia, prefiriendo tomar tus propias decisiones y seguir tu propio camino.",
+            "liderazgo": "Podrías poseer habilidades de liderazgo naturales que te permiten guiar y motivar a los demás.",
+            "competitividad": "Podrías ser competitiva, buscando siempre dar lo mejor de ti y superar los retos.",
+            "entusiasmo": "Podrías abordar la vida con un entusiasmo contagioso, inspirando a quienes te rodean.",
+            "autoconfianza": "Podrías tener una gran autoconfianza, creyendo en tus habilidades y capacidades para alcanzar tus metas.",
+            "creatividad": "Podrías ser creativa y original en tu enfoque, encontrando soluciones innovadoras a los problemas.",
+            "determinación": "Podrías mostrar una fuerte determinación y perseverancia, no dejando que los obstáculos te desanimen."
+        },
+        "manifestaciones_negativas": {
+            "impulsividad": "Podrías actuar de manera impulsiva sin considerar las consecuencias, tomando decisiones apresuradas.",
+            "agresividad": "Podrías ser agresiva y confrontativa, buscando imponer tu voluntad sobre los demás.",
+            "impaciencia": "Podrías mostrar impaciencia, queriendo resultados inmediatos y frustrándote con la demora.",
+            "egoísmo": "Podrías ser egoísta, priorizando tus propios intereses y necesidades sobre los de los demás.",
+            "temeridad": "Podrías actuar de manera temeraria, tomando riesgos innecesarios y peligrosos.",
+            "falta_de_perseverancia": "Podrías tener dificultades para mantener el compromiso a largo plazo, abandonando proyectos antes de terminarlos.",
+            "competitividad_extrema": "Podrías ser excesivamente competitiva, llegando a ser conflictiva en situaciones donde no es necesario.",
+            "arrogancia": "Podrías mostrar arrogancia y exceso de confianza, subestimando las capacidades de los demás.",
+            "falta_de_planificación": "Podrías lanzarte a nuevos proyectos sin una planificación adecuada, lo que podría llevar a errores y fracasos.",
+            "irritabilidad": "Podrías ser irritable y propensa a enojarte fácilmente, especialmente cuando las cosas no salen como esperas."
+        }
+    },
+    "sol_en_aries_masculino": {
+        "manifestaciones_positivas": {
+            "energía": "Podrías mostrar una energía y vitalidad excepcionales que te permiten abordar la vida con entusiasmo y dinamismo.",
+            "iniciativa": "Podrías tener una gran iniciativa, siempre dispuesto a tomar la delantera y comenzar nuevos proyectos.",
+            "valentía": "Podrías demostrar valentía y coraje en situaciones desafiantes, enfrentando tus miedos con determinación.",
+            "independencia": "Podrías valorar la independencia y la autosuficiencia, prefiriendo tomar tus propias decisiones y seguir tu propio camino.",
+            "liderazgo": "Podrías poseer habilidades de liderazgo naturales que te permiten guiar y motivar a los demás.",
+            "competitividad": "Podrías ser competitivo, buscando siempre dar lo mejor de ti y superar los retos.",
+            "entusiasmo": "Podrías abordar la vida con un entusiasmo contagioso, inspirando a quienes te rodean.",
+            "autoconfianza": "Podrías tener una gran autoconfianza, creyendo en tus habilidades y capacidades para alcanzar tus metas.",
+            "creatividad": "Podrías ser creativo y original en tu enfoque, encontrando soluciones innovadoras a los problemas.",
+            "determinación": "Podrías mostrar una fuerte determinación y perseverancia, no dejando que los obstáculos te desanimen."
+        },
+        "manifestaciones_negativas": {
+            "impulsividad": "Podrías actuar de manera impulsiva sin considerar las consecuencias, tomando decisiones apresuradas.",
+            "agresividad": "Podrías ser agresivo y confrontativo, buscando imponer tu voluntad sobre los demás.",
+            "impaciencia": "Podrías mostrar impaciencia, queriendo resultados inmediatos y frustrándote con la demora.",
+            "egoísmo": "Podrías ser egoísta, priorizando tus propios intereses y necesidades sobre los de los demás.",
+            "temeridad": "Podrías actuar de manera temeraria, tomando riesgos innecesarios y peligrosos.",
+            "falta_de_perseverancia": "Podrías tener dificultades para mantener el compromiso a largo plazo, abandonando proyectos antes de terminarlos.",
+            "competitividad_extrema": "Podrías ser excesivamente competitivo, llegando a ser conflictivo en situaciones donde no es necesario.",
+            "arrogancia": "Podrías mostrar arrogancia y exceso de confianza, subestimando las capacidades de los demás.",
+            "falta_de_planificación": "Podrías lanzarte a nuevos proyectos sin una planificación adecuada, lo que podría llevar a errores y fracasos.",
+            "irritabilidad": "Podrías ser irritable y propenso a enojarte fácilmente, especialmente cuando las cosas no salen como esperas."
+        }
+    },
+    "sol_en_tauro_femenino": {
+        "manifestaciones_positivas": {
+            "paciencia": "Podrías mostrar una gran paciencia, abordando las situaciones con calma y determinación.",
+            "lealtad": "Podrías ser extremadamente leal, valorando la confianza y el compromiso en tus relaciones.",
+            "perseverancia": "Podrías demostrar una notable perseverancia, manteniéndote firme en tus metas a largo plazo.",
+            "practicidad": "Podrías tener un enfoque práctico y realista, manejando los desafíos de manera efectiva y eficiente.",
+            "fiabilidad": "Podrías ser muy confiable, siendo una persona en la que los demás pueden depender.",
+            "sensualidad": "Podrías tener una fuerte conexión con tus sentidos, apreciando la belleza y el placer en la vida.",
+            "determinación": "Podrías mostrar una gran determinación, trabajando duro para alcanzar tus objetivos.",
+            "estabilidad": "Podrías buscar y proporcionar estabilidad, tanto emocional como material, en tu vida y relaciones.",
+            "prudencia": "Podrías tener la capacidad de esperar el momento adecuado para actuar, evitando decisiones impulsivas.",
+            "aprecio_por_la_belleza": "Podrías tener un gran aprecio por la belleza y el arte, disfrutando de las cosas finas y placenteras de la vida."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Podrías ser muy terca, negándote a cambiar de opinión o a considerar nuevas ideas.",
+            "posesividad": "Podrías ser posesiva, queriendo controlar y retener a las personas y cosas que valoras.",
+            "rigidez": "Podrías mostrar rigidez en tus pensamientos y acciones, resistiéndote a la flexibilidad y el cambio.",
+            "resistencia_al_cambio": "Podrías tener una fuerte resistencia al cambio, prefiriendo mantener las cosas como están.",
+            "materialismo": "Podrías enfocarte demasiado en lo material, valorando las posesiones y la seguridad financiera por encima de otras cosas.",
+            "lento_para_actuar": "Podrías ser lenta para actuar, a veces perdiendo oportunidades por falta de iniciativa.",
+            "sobreindulgencia": "Podrías ser propensa a la sobreindulgencia, disfrutando en exceso de placeres y comodidades.",
+            "apatía": "Podrías mostrar apatía o falta de motivación en situaciones que requieren rapidez y dinamismo.",
+            "inflexibilidad": "Podrías ser inflexible, aferrándote a tus propias ideas y métodos sin considerar alternativas.",
+            "rencor": "Podrías guardar rencor, encontrando difícil perdonar y olvidar ofensas pasadas."
+        }
+    },
+    "sol_en_tauro_masculino": {
+        "manifestaciones_positivas": {
+            "paciencia": "Podrías mostrar una gran paciencia, abordando las situaciones con calma y determinación.",
+            "lealtad": "Podrías ser extremadamente leal, valorando la confianza y el compromiso en tus relaciones.",
+            "perseverancia": "Podrías demostrar una notable perseverancia, manteniéndote firme en tus metas a largo plazo.",
+            "practicidad": "Podrías tener un enfoque práctico y realista, manejando los desafíos de manera efectiva y eficiente.",
+            "fiabilidad": "Podrías ser muy confiable, siendo una persona en la que los demás pueden depender.",
+            "sensualidad": "Podrías tener una fuerte conexión con tus sentidos, apreciando la belleza y el placer en la vida.",
+            "determinación": "Podrías mostrar una gran determinación, trabajando duro para alcanzar tus objetivos.",
+            "estabilidad": "Podrías buscar y proporcionar estabilidad, tanto emocional como material, en tu vida y relaciones.",
+            "prudencia": "Podrías tener la capacidad de esperar el momento adecuado para actuar, evitando decisiones impulsivas.",
+            "aprecio_por_la_belleza": "Podrías tener un gran aprecio por la belleza y el arte, disfrutando de las cosas finas y placenteras de la vida."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Podrías ser muy terco, negándote a cambiar de opinión o a considerar nuevas ideas.",
+            "posesividad": "Podrías ser posesivo, queriendo controlar y retener a las personas y cosas que valoras.",
+            "rigidez": "Podrías mostrar rigidez en tus pensamientos y acciones, resistiéndote a la flexibilidad y el cambio.",
+            "resistencia_al_cambio": "Podrías tener una fuerte resistencia al cambio, prefiriendo mantener las cosas como están.",
+            "materialismo": "Podrías enfocarte demasiado en lo material, valorando las posesiones y la seguridad financiera por encima de otras cosas.",
+            "lento_para_actuar": "Podrías ser lento para actuar, a veces perdiendo oportunidades por falta de iniciativa.",
+            "sobreindulgencia": "Podrías ser propenso a la sobreindulgencia, disfrutando en exceso de placeres y comodidades.",
+            "apatía": "Podrías mostrar apatía o falta de motivación en situaciones que requieren rapidez y dinamismo.",
+            "inflexibilidad": "Podrías ser inflexible, aferrándote a tus propias ideas y métodos sin considerar alternativas.",
+            "rencor": "Podrías guardar rencor, encontrando difícil perdonar y olvidar ofensas pasadas."
+        }
+    },
+    "sol_en_geminis_femenino": {
+        "manifestaciones_positivas": {
+            "adaptabilidad": "Podrías ser extremadamente adaptable, ajustándote fácilmente a nuevas situaciones y entornos.",
+            "curiosidad": "Podrías tener una curiosidad insaciable, siempre buscando aprender y descubrir cosas nuevas.",
+            "comunicación": "Podrías ser una comunicadora excelente, expresándote con claridad y persuasión.",
+            "versatilidad": "Podrías ser versátil, capaz de manejar múltiples tareas y roles con eficacia.",
+            "sociabilidad": "Podrías ser muy sociable, disfrutando de la interacción con diferentes tipos de personas.",
+            "inteligencia": "Podrías mostrar una inteligencia aguda, absorbiendo y procesando información rápidamente.",
+            "ingenio": "Podrías tener un gran ingenio, siendo capaz de encontrar soluciones creativas a los problemas.",
+            "entusiasmo": "Podrías abordar la vida con entusiasmo, transmitiendo energía positiva a quienes te rodean.",
+            "curiosidad_intelectual": "Podrías tener una curiosidad intelectual que te lleva a explorar diversas áreas del conocimiento.",
+            "flexibilidad_mental": "Podrías mostrar flexibilidad mental, cambiando de opinión y perspectiva con facilidad cuando es necesario."
+        },
+        "manifestaciones_negativas": {
+            "inconstancia": "Podrías ser inconstante, empezando muchos proyectos sin terminar ninguno.",
+            "superficialidad": "Podrías tender a la superficialidad, sin profundizar en los temas o relaciones.",
+            "nerviosismo": "Podrías ser nerviosa y ansiosa, especialmente en situaciones de incertidumbre.",
+            "indecisión": "Podrías mostrar indecisión, teniendo dificultades para tomar decisiones firmes.",
+            "dispersión": "Podrías dispersarte fácilmente, perdiendo el enfoque y la concentración.",
+            "dualidad": "Podrías mostrar dualidad en tus actitudes y comportamientos, siendo impredecible para los demás.",
+            "hablar_en_exceso": "Podrías tender a hablar en exceso, sin dar espacio a los demás en la conversación.",
+            "chismes": "Podrías involucrarte en chismes y rumores, afectando tus relaciones personales.",
+            "falta_de_profundidad": "Podrías evitar profundizar en los temas, prefiriendo el conocimiento superficial.",
+            "impaciencia": "Podrías ser impaciente, queriendo resultados rápidos sin dedicar el tiempo necesario."
+        }
+    },
+    "sol_en_geminis_masculino": {
+        "manifestaciones_positivas": {
+            "adaptabilidad": "Podrías ser extremadamente adaptable, ajustándote fácilmente a nuevas situaciones y entornos.",
+            "curiosidad": "Podrías tener una curiosidad insaciable, siempre buscando aprender y descubrir cosas nuevas.",
+            "comunicación": "Podrías ser un comunicador excelente, expresándote con claridad y persuasión.",
+            "versatilidad": "Podrías ser versátil, capaz de manejar múltiples tareas y roles con eficacia.",
+            "sociabilidad": "Podrías ser muy sociable, disfrutando de la interacción con diferentes tipos de personas.",
+            "inteligencia": "Podrías mostrar una inteligencia aguda, absorbiendo y procesando información rápidamente.",
+            "ingenio": "Podrías tener un gran ingenio, siendo capaz de encontrar soluciones creativas a los problemas.",
+            "entusiasmo": "Podrías abordar la vida con entusiasmo, transmitiendo energía positiva a quienes te rodean.",
+            "curiosidad_intelectual": "Podrías tener una curiosidad intelectual que te lleva a explorar diversas áreas del conocimiento.",
+            "flexibilidad_mental": "Podrías mostrar flexibilidad mental, cambiando de opinión y perspectiva con facilidad cuando es necesario."
+        },
+        "manifestaciones_negativas": {
+            "inconstancia": "Podrías ser inconstante, empezando muchos proyectos sin terminar ninguno.",
+            "superficialidad": "Podrías tender a la superficialidad, sin profundizar en los temas o relaciones.",
+            "nerviosismo": "Podrías ser nervioso y ansioso, especialmente en situaciones de incertidumbre.",
+            "indecisión": "Podrías mostrar indecisión, teniendo dificultades para tomar decisiones firmes.",
+            "dispersión": "Podrías dispersarte fácilmente, perdiendo el enfoque y la concentración.",
+            "dualidad": "Podrías mostrar dualidad en tus actitudes y comportamientos, siendo impredecible para los demás.",
+            "hablar_en_exceso": "Podrías tender a hablar en exceso, sin dar espacio a los demás en la conversación.",
+            "chismes": "Podrías involucrarte en chismes y rumores, afectando tus relaciones personales.",
+            "falta_de_profundidad": "Podrías evitar profundizar en los temas, prefiriendo el conocimiento superficial.",
+            "impaciencia": "Podrías ser impaciente, queriendo resultados rápidos sin dedicar el tiempo necesario."
+        }
+    },
+    "sol_en_cancer_femenino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías mostrar una gran empatía, comprendiendo y compartiendo los sentimientos de los demás.",
+            "cuidado": "Podrías tener un fuerte instinto de cuidado, siempre dispuesta a apoyar y proteger a quienes amas.",
+            "intuición": "Podrías tener una intuición aguda, confiando en tus instintos para tomar decisiones acertadas.",
+            "lealtad": "Podrías ser extremadamente leal, valorando la confianza y la estabilidad en tus relaciones.",
+            "creatividad": "Podrías tener una creatividad rica, expresándote a través del arte, la escritura o la música.",
+            "sensibilidad": "Podrías ser muy sensible, captando las sutilezas del entorno y las emociones de los demás.",
+            "protección": "Podrías ser protectora, creando un ambiente seguro y acogedor para tus seres queridos.",
+            "dedicación": "Podrías mostrar una gran dedicación en tus proyectos y relaciones, trabajando arduamente para mantenerlos.",
+            "imaginación": "Podrías tener una imaginación viva, que te permite soñar y crear con facilidad.",
+            "compasión": "Podrías mostrar una profunda compasión, siempre dispuesta a ayudar a quienes están en necesidad."
+        },
+        "manifestaciones_negativas": {
+            "susceptibilidad": "Podrías ser susceptible, reaccionando con facilidad a críticas o comentarios negativos.",
+            "melancolía": "Podrías caer en la melancolía, reviviendo el pasado y sintiéndote nostálgica.",
+            "dependencia": "Podrías ser dependiente, buscando constante reafirmación y apoyo emocional de los demás.",
+            "moodiness": "Podrías experimentar cambios de humor frecuentes, afectando tu estabilidad emocional.",
+            "rencor": "Podrías guardar rencor, teniendo dificultad para olvidar y perdonar ofensas pasadas.",
+            "inseguridad": "Podrías sentir inseguridad, dudando de tus capacidades y decisiones.",
+            "protección_excesiva": "Podrías ser sobreprotectora, limitando la independencia de aquellos que amas.",
+            "pereza": "Podrías caer en la pereza, prefiriendo la comodidad y evitando enfrentar desafíos.",
+            "autoindulgencia": "Podrías ser autoindulgente, refugiándote en el placer para evitar el dolor emocional.",
+            "pasividad": "Podrías ser pasiva, dejando que otros tomen decisiones importantes en tu vida."
+        }
+    },
+    "sol_en_cancer_masculino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías mostrar una gran empatía, comprendiendo y compartiendo los sentimientos de los demás.",
+            "cuidado": "Podrías tener un fuerte instinto de cuidado, siempre dispuesto a apoyar y proteger a quienes amas.",
+            "intuición": "Podrías tener una intuición aguda, confiando en tus instintos para tomar decisiones acertadas.",
+            "lealtad": "Podrías ser extremadamente leal, valorando la confianza y la estabilidad en tus relaciones.",
+            "creatividad": "Podrías tener una creatividad rica, expresándote a través del arte, la escritura o la música.",
+            "sensibilidad": "Podrías ser muy sensible, captando las sutilezas del entorno y las emociones de los demás.",
+            "protección": "Podrías ser protector, creando un ambiente seguro y acogedor para tus seres queridos.",
+            "dedicación": "Podrías mostrar una gran dedicación en tus proyectos y relaciones, trabajando arduamente para mantenerlos.",
+            "imaginación": "Podrías tener una imaginación viva, que te permite soñar y crear con facilidad.",
+            "compasión": "Podrías mostrar una profunda compasión, siempre dispuesto a ayudar a quienes están en necesidad."
+        },
+        "manifestaciones_negativas": {
+            "susceptibilidad": "Podrías ser susceptible, reaccionando con facilidad a críticas o comentarios negativos.",
+            "melancolía": "Podrías caer en la melancolía, reviviendo el pasado y sintiéndote nostálgico.",
+            "dependencia": "Podrías ser dependiente, buscando constante reafirmación y apoyo emocional de los demás.",
+            "cambios_de_humor": "Podrías experimentar cambios de humor frecuentes, afectando tu estabilidad emocional.",
+            "rencor": "Podrías guardar rencor, teniendo dificultad para olvidar y perdonar ofensas pasadas.",
+            "inseguridad": "Podrías sentir inseguridad, dudando de tus capacidades y decisiones.",
+            "protección_excesiva": "Podrías ser sobreprotector, limitando la independencia de aquellos que amas.",
+            "pereza": "Podrías caer en la pereza, prefiriendo la comodidad y evitando enfrentar desafíos.",
+            "autoindulgencia": "Podrías ser autoindulgente, refugiándote en el placer para evitar el dolor emocional.",
+            "pasividad": "Podrías ser pasivo, dejando que otros tomen decisiones importantes en tu vida."
+        }
+    },
+    "sol_en_leo_femenino": {
+        "manifestaciones_positivas": {
+            "confianza": "Podrías mostrar una gran confianza en ti misma, inspirando a otros con tu seguridad y determinación.",
+            "liderazgo": "Podrías ser una líder natural, guiando y motivando a quienes te rodean con facilidad.",
+            "generosidad": "Podrías ser extremadamente generosa, compartiendo tus recursos y tiempo con quienes lo necesitan.",
+            "creatividad": "Podrías tener una creatividad vibrante, expresándote a través del arte, la música o la escritura.",
+            "pasión": "Podrías abordar la vida con pasión, poniendo todo tu corazón en lo que haces.",
+            "carisma": "Podrías tener un carisma magnético, atrayendo a las personas con tu encanto y energía positiva.",
+            "valentía": "Podrías ser valiente, enfrentando desafíos con coraje y determinación.",
+            "nobleza": "Podrías mostrar una nobleza de espíritu, actuando con integridad y honor en todas tus acciones.",
+            "optimismo": "Podrías tener un optimismo contagioso, viendo siempre el lado positivo de las situaciones.",
+            "alegría": "Podrías irradiar alegría, creando un ambiente feliz y acogedor para quienes te rodean."
+        },
+        "manifestaciones_negativas": {
+            "arrogancia": "Podrías ser arrogante, creyendo que siempre tienes la razón y despreciando las opiniones de los demás.",
+            "dominación": "Podrías intentar dominar a los demás, imponiendo tu voluntad sin considerar sus sentimientos.",
+            "dramatismo": "Podrías ser dramática, exagerando problemas y situaciones para llamar la atención.",
+            "egocentrismo": "Podrías ser egocéntrica, centrada en tus propios intereses y necesidades.",
+            "terquedad": "Podrías mostrar terquedad, negándote a cambiar de opinión o a aceptar nuevas ideas.",
+            "exigencia": "Podrías ser exigente, esperando siempre lo mejor de los demás sin considerar sus limitaciones.",
+            "impaciencia": "Podrías ser impaciente, queriendo resultados inmediatos y frustrándote fácilmente.",
+            "necesidad_de_atención": "Podrías tener una necesidad constante de atención y reconocimiento, sintiéndote insatisfecha si no los obtienes.",
+            "autoritarismo": "Podrías ser autoritaria, intentando controlar a los demás de manera rígida.",
+            "vanidad": "Podrías ser vanidosa, preocupándote excesivamente por tu apariencia y la aprobación externa."
+        }
+    },
+    "sol_en_leo_masculino": {
+        "manifestaciones_positivas": {
+            "confianza": "Podrías mostrar una gran confianza en ti mismo, inspirando a otros con tu seguridad y determinación.",
+            "liderazgo": "Podrías ser un líder natural, guiando y motivando a quienes te rodean con facilidad.",
+            "generosidad": "Podrías ser extremadamente generoso, compartiendo tus recursos y tiempo con quienes lo necesitan.",
+            "creatividad": "Podrías tener una creatividad vibrante, expresándote a través del arte, la música o la escritura.",
+            "pasión": "Podrías abordar la vida con pasión, poniendo todo tu corazón en lo que haces.",
+            "carisma": "Podrías tener un carisma magnético, atrayendo a las personas con tu encanto y energía positiva.",
+            "valentía": "Podrías ser valiente, enfrentando desafíos con coraje y determinación.",
+            "nobleza": "Podrías mostrar una nobleza de espíritu, actuando con integridad y honor en todas tus acciones.",
+            "optimismo": "Podrías tener un optimismo contagioso, viendo siempre el lado positivo de las situaciones.",
+            "alegría": "Podrías irradiar alegría, creando un ambiente feliz y acogedor para quienes te rodean."
+        },
+        "manifestaciones_negativas": {
+            "arrogancia": "Podrías ser arrogante, creyendo que siempre tienes la razón y despreciando las opiniones de los demás.",
+            "dominación": "Podrías intentar dominar a los demás, imponiendo tu voluntad sin considerar sus sentimientos.",
+            "dramatismo": "Podrías ser dramático, exagerando problemas y situaciones para llamar la atención.",
+            "egocentrismo": "Podrías ser egocéntrico, centrado en tus propios intereses y necesidades.",
+            "terquedad": "Podrías mostrar terquedad, negándote a cambiar de opinión o a aceptar nuevas ideas.",
+            "exigencia": "Podrías ser exigente, esperando siempre lo mejor de los demás sin considerar sus limitaciones.",
+            "impaciencia": "Podrías ser impaciente, queriendo resultados inmediatos y frustrándote fácilmente.",
+            "necesidad_de_atención": "Podrías tener una necesidad constante de atención y reconocimiento, sintiéndote insatisfecho si no los obtienes.",
+            "autoritarismo": "Podrías ser autoritario, intentando controlar a los demás de manera rígida.",
+            "vanidad": "Podrías ser vanidoso, preocupándote excesivamente por tu apariencia y la aprobación externa."
+        }
+    },
+    "sol_en_virgo_femenino": {
+        "manifestaciones_positivas": {
+            "organización": "Podrías ser extremadamente organizada, manteniendo tu entorno y tus tareas en perfecto orden.",
+            "detallista": "Podrías tener un ojo agudo para los detalles, asegurándote de que todo esté bien hecho y cuidado.",
+            "practicidad": "Podrías ser muy práctica, abordando los problemas con soluciones realistas y efectivas.",
+            "dedicación": "Podrías mostrar una gran dedicación en tu trabajo y proyectos, esforzándote por alcanzar la perfección.",
+            "analítica": "Podrías tener una mente analítica, capaz de descomponer problemas complejos en partes manejables.",
+            "servicial": "Podrías ser muy servicial, siempre dispuesta a ayudar a los demás y mejorar sus vidas.",
+            "humildad": "Podrías mostrar humildad, reconociendo tus propias limitaciones y aprendiendo de los demás.",
+            "responsabilidad": "Podrías ser muy responsable, cumpliendo con tus deberes y compromisos con seriedad.",
+            "eficiencia": "Podrías ser extremadamente eficiente, logrando mucho en poco tiempo gracias a tu enfoque y habilidades organizativas.",
+            "disciplina": "Podrías tener una fuerte disciplina, manteniéndote enfocada en tus metas y rutinas."
+        },
+        "manifestaciones_negativas": {
+            "perfeccionismo": "Podrías ser perfeccionista, exigiéndote a ti misma y a los demás estándares inalcanzables.",
+            "crítica": "Podrías ser demasiado crítica, enfocándote en los defectos y errores de los demás.",
+            "preocupación_excesiva": "Podrías preocuparte en exceso, especialmente por detalles menores e insignificantes.",
+            "autocrítica": "Podrías ser muy autocrítica, juzgándote duramente por cualquier fallo o imperfección.",
+            "falta_de_relajación": "Podrías tener dificultad para relajarte, siempre encontrando algo que necesita ser mejorado o arreglado.",
+            "rigidez": "Podrías mostrar rigidez en tus rutinas y pensamientos, resistiéndote al cambio y la improvisación.",
+            "inseguridad": "Podrías sentir inseguridad, dudando de tus capacidades a pesar de tus logros.",
+            "intromisión": "Podrías ser entrometida, intentando controlar o mejorar la vida de los demás sin que te lo pidan.",
+            "estresada": "Podrías ser propensa al estrés, abrumada por tus propias expectativas y las de los demás.",
+            "insatisfacción": "Podrías sentir insatisfacción constante, nunca completamente contenta con tus logros o circunstancias."
+        }
+    },
+    "sol_en_virgo_masculino": {
+        "manifestaciones_positivas": {
+            "organización": "Podrías ser extremadamente organizado, manteniendo tu entorno y tus tareas en perfecto orden.",
+            "detallista": "Podrías tener un ojo agudo para los detalles, asegurándote de que todo esté bien hecho y cuidado.",
+            "practicidad": "Podrías ser muy práctico, abordando los problemas con soluciones realistas y efectivas.",
+            "dedicación": "Podrías mostrar una gran dedicación en tu trabajo y proyectos, esforzándote por alcanzar la perfección.",
+            "analítica": "Podrías tener una mente analítica, capaz de descomponer problemas complejos en partes manejables.",
+            "servicial": "Podrías ser muy servicial, siempre dispuesto a ayudar a los demás y mejorar sus vidas.",
+            "humildad": "Podrías mostrar humildad, reconociendo tus propias limitaciones y aprendiendo de los demás.",
+            "responsabilidad": "Podrías ser muy responsable, cumpliendo con tus deberes y compromisos con seriedad.",
+            "eficiencia": "Podrías ser extremadamente eficiente, logrando mucho en poco tiempo gracias a tu enfoque y habilidades organizativas.",
+            "disciplina": "Podrías tener una fuerte disciplina, manteniéndote enfocado en tus metas y rutinas."
+        },
+        "manifestaciones_negativas": {
+            "perfeccionismo": "Podrías ser perfeccionista, exigiéndote a ti mismo y a los demás estándares inalcanzables.",
+            "crítica": "Podrías ser demasiado crítico, enfocándote en los defectos y errores de los demás.",
+            "preocupación_excesiva": "Podrías preocuparte en exceso, especialmente por detalles menores e insignificantes.",
+            "autocrítica": "Podrías ser muy autocrítico, juzgándote duramente por cualquier fallo o imperfección.",
+            "falta_de_relajación": "Podrías tener dificultad para relajarte, siempre encontrando algo que necesita ser mejorado o arreglado.",
+            "rigidez": "Podrías mostrar rigidez en tus rutinas y pensamientos, resistiéndote al cambio y la improvisación.",
+            "inseguridad": "Podrías sentir inseguridad, dudando de tus capacidades a pesar de tus logros.",
+            "intromisión": "Podrías ser entrometido, intentando controlar o mejorar la vida de los demás sin que te lo pidan.",
+            "estresado": "Podrías ser propenso al estrés, abrumado por tus propias expectativas y las de los demás.",
+            "insatisfacción": "Podrías sentir insatisfacción constante, nunca completamente contento con tus logros o circunstancias."
+        }
+    },
+    "sol_en_libra_femenino": {
+        "manifestaciones_positivas": {
+            "equilibrio": "Podrías buscar el equilibrio en todas las áreas de tu vida, buscando armonía y paz en tus relaciones y entorno.",
+            "diplomacia": "Podrías ser extremadamente diplomática, resolviendo conflictos con gracia y tacto.",
+            "justicia": "Podrías tener un fuerte sentido de la justicia, luchando por la igualdad y la equidad en todas las situaciones.",
+            "amabilidad": "Podrías ser increíblemente amable, mostrando consideración y cortesía hacia los demás en todo momento.",
+            "compromiso": "Podrías ser comprometida en tus relaciones, buscando soluciones que beneficien a ambas partes.",
+            "belleza": "Podrías apreciar la belleza en todas sus formas, creando un entorno estético y armonioso a tu alrededor.",
+            "empatía": "Podrías tener una gran empatía, comprendiendo los sentimientos y perspectivas de los demás.",
+            "cooperación": "Podrías ser muy cooperativa, trabajando en equipo para lograr objetivos comunes.",
+            "paz": "Podrías buscar la paz interior y exterior, evitando conflictos y promoviendo la armonía en tus relaciones.",
+            "dulzura": "Podrías ser dulce y encantadora, irradiando calidez y amabilidad hacia todos los que te rodean."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podrías ser indecisa, luchando para tomar decisiones y compromisos.",
+            "inseguridad": "Podrías sentirte insegura en tus relaciones, temiendo el conflicto o la confrontación.",
+            "dependencia": "Podrías depender demasiado de los demás para validar tu valía o tomar decisiones importantes.",
+            "evitar_el_conflicto": "Podrías evitar el conflicto a toda costa, sacrificando tus propias necesidades para mantener la paz.",
+            "superficialidad": "Podrías ser superficial, priorizando la apariencia sobre la sustancia en tus relaciones.",
+            "dubitación": "Podrías ser indecisa, dudar demasiado, luchando para tomar decisiones y compromisos.",
+            "inconsistencia": "Podrías ser inconsistente en tus acciones y decisiones, causando confusión en tu entorno.",
+            "falta_de_autonomía": "Podrías carecer de autonomía, dependiendo en exceso de los demás para tomar decisiones importantes.",
+            "confrontación_evitativa": "Podrías evitar la confrontación, reprimiendo tus sentimientos y necesidades en lugar de expresarlos abiertamente.",
+            "pleaser": "Podrías ser una persona complaciente, sacrificando tus propias necesidades para satisfacer las de los demás."
+        }
+    },
+    "sol_en_libra_masculino": {
+        "manifestaciones_positivas": {
+            "equilibrio": "Podrías buscar el equilibrio en todas las áreas de tu vida, buscando armonía y paz en tus relaciones y entorno.",
+            "diplomacia": "Podrías ser extremadamente diplomático, resolviendo conflictos con gracia y tacto.",
+            "justicia": "Podrías tener un fuerte sentido de la justicia, luchando por la igualdad y la equidad en todas las situaciones.",
+            "amabilidad": "Podrías ser increíblemente amable, mostrando consideración y cortesía hacia los demás en todo momento.",
+            "compromiso": "Podrías ser comprometido en tus relaciones, buscando soluciones que beneficien a ambas partes.",
+            "belleza": "Podrías apreciar la belleza en todas sus formas, creando un entorno estético y armonioso a tu alrededor.",
+            "empatía": "Podrías tener una gran empatía, comprendiendo los sentimientos y perspectivas de los demás.",
+            "cooperación": "Podrías ser muy cooperativo, trabajando en equipo para lograr objetivos comunes.",
+            "paz": "Podrías buscar la paz interior y exterior, evitando conflictos y promoviendo la armonía en tus relaciones.",
+            "dulzura": "Podrías ser dulce y encantador, irradiando calidez y amabilidad hacia todos los que te rodean."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podrías ser indeciso, luchando para tomar decisiones y compromisos.",
+            "inseguridad": "Podrías sentirte inseguro en tus relaciones, temiendo el conflicto o la confrontación.",
+            "dependencia": "Podrías depender demasiado de los demás para validar tu valía o tomar decisiones importantes.",
+            "evitar_el_conflicto": "Podrías evitar el conflicto a toda costa, sacrificando tus propias necesidades para mantener la paz.",
+            "superficialidad": "Podrías ser superficial, priorizando la apariencia sobre la sustancia en tus relaciones.",
+            "dubitación": "Podrías ser indeciso, dudar demasiado, luchando para tomar decisiones y compromisos.",
+            "inconsistencia": "Podrías ser inconsistente en tus acciones y decisiones, causando confusión en tu entorno.",
+            "falta_de_autonomía": "Podrías carecer de autonomía, dependiendo en exceso de los demás para tomar decisiones importantes.",
+            "confrontación_evitativa": "Podrías evitar la confrontación, reprimiendo tus sentimientos y necesidades en lugar de expresarlos abiertamente.",
+            "pleaser": "Podrías ser una persona complaciente, sacrificando tus propias necesidades para satisfacer las de los demás."
+        }
+    },
+    "sol_en_escorpio_femenino": {
+        "manifestaciones_positivas": {
+            "intensidad": "Podrías ser intensamente apasionada en tus relaciones y proyectos.",
+            "determinación": "Podrías ser increíblemente decidida, enfrentando desafíos con valentía y perseverancia.",
+            "intuición": "Podrías tener una intuición aguda, permitiéndote entender profundamente las situaciones y las personas.",
+            "transformación": "Podrías experimentar transformaciones poderosas y positivas en tu vida, renaciendo con mayor fuerza y sabiduría.",
+            "fuerza_interior": "Podrías tener una fortaleza interior impresionante, superando obstáculos con resiliencia y coraje.",
+            "lealtad": "Podrías ser increíblemente leal a tus seres queridos, protegiéndolos y apoyándolos en todo momento.",
+            "profundidad_emocional": "Podrías tener una profundidad emocional notable, explorando los rincones más oscuros de tus sentimientos con valentía.",
+            "poder_personal": "Podrías poseer un poder personal magnético, atrayendo a los demás con tu presencia fuerte y enigmática.",
+            "caracter_y_actitud": "Podrías ser decidida y persistente en la búsqueda de tus metas, sin dejarte intimidar por los obstáculos.",
+            "capacidad_para_la_regeneración": "Podrías tener una sorprendente capacidad para regenerarte y renacer de las cenizas, transformando las adversidades en oportunidades de crecimiento."
+        },
+        "manifestaciones_negativas": {
+            "celos": "Podrías experimentar celos intensos, lo que podría causar tensiones en tus relaciones.",
+            "posesividad": "Podrías ser posesiva con tus seres queridos, luchando contra la sensación de perder el control.",
+            "venganza": "Podrías sentir la tentación de buscar venganza cuando te sientas herida o traicionada.",
+            "obsesión": "Podrías obsesionarte fácilmente con personas o ideas, lo que podría llevarte a comportamientos compulsivos o destructivos.",
+            "rencor": "Podrías tener dificultades para perdonar y olvidar, guardando rencor hacia aquellos que te han hecho daño.",
+            "secretismo": "Podrías ser muy reservada y reticente a compartir tus sentimientos más profundos, lo que podría crear barreras en tus relaciones.",
+            "control": "Podrías tener tendencia a querer controlar todas las situaciones y personas a tu alrededor, lo que podría generar conflictos.",
+            "suspiciousness": "Podrías ser propensa a la desconfianza y la sospecha, lo que podría afectar negativamente tus relaciones.",
+            "intensidad_emocional": "Podrías experimentar emociones intensas y volátiles, lo que podría causar altibajos emocionales.",
+            "autodestructividad": "Podrías tener tendencia a comportamientos autodestructivos cuando te sientas abrumada por tus emociones o circunstancias."
+        }
+    },
+    "sol_en_escorpio_masculino": {
+        "manifestaciones_positivas": {
+            "intensidad": "Podrías ser intensamente apasionado en tus relaciones y proyectos.",
+            "determinación": "Podrías ser increíblemente decidido, enfrentando desafíos con valentía y perseverancia.",
+            "intuición": "Podrías tener una intuición aguda, permitiéndote entender profundamente las situaciones y las personas.",
+            "transformación": "Podrías experimentar transformaciones poderosas y positivas en tu vida, renaciendo con mayor fuerza y sabiduría.",
+            "fuerza_interior": "Podrías tener una fortaleza interior impresionante, superando obstáculos con resiliencia y coraje.",
+            "lealtad": "Podrías ser increíblemente leal a tus seres queridos, protegiéndolos y apoyándolos en todo momento.",
+            "profundidad_emocional": "Podrías tener una profundidad emocional notable, explorando los rincones más oscuros de tus sentimientos con valentía.",
+            "poder_personal": "Podrías poseer un poder personal magnético, atrayendo a los demás con tu presencia fuerte y enigmática.",
+            "caracter_y_actitud": "Podrías ser decidido y persistente en la búsqueda de tus metas, sin dejarte intimidar por los obstáculos.",
+            "capacidad_para_la_regeneración": "Podrías tener una sorprendente capacidad para regenerarte y renacer de las cenizas, transformando las adversidades en oportunidades de crecimiento."
+        },
+        "manifestaciones_negativas": {
+            "celos": "Podrías experimentar celos intensos, lo que podría causar tensiones en tus relaciones.",
+            "posesividad": "Podrías ser posesivo con tus seres queridos, luchando contra la sensación de perder el control.",
+            "venganza": "Podrías sentir la tentación de buscar venganza cuando te sientas herido o traicionado.",
+            "obsesión": "Podrías obsesionarte fácilmente con personas o ideas, lo que podría llevarte a comportamientos compulsivos o destructivos.",
+            "rencor": "Podrías tener dificultades para perdonar y olvidar, guardando rencor hacia aquellos que te han hecho daño.",
+            "secretismo": "Podrías ser muy reservado y reticente a compartir tus sentimientos más profundos, lo que podría crear barreras en tus relaciones.",
+            "control": "Podrías tener tendencia a querer controlar todas las situaciones y personas a tu alrededor, lo que podría generar conflictos.",
+            "desconfianza": "Podrías ser propenso a la desconfianza y la sospecha, lo que podría afectar negativamente tus relaciones.",
+            "intensidad_emocional": "Podrías experimentar emociones intensas y volátiles, lo que podría causar altibajos emocionales.",
+            "autodestructividad": "Podrías tener tendencia a comportamientos autodestructivos cuando te sientas abrumado por tus emociones o circunstancias."
+        }
+    },
+    "sol_en_sagitario_femenino": {
+        "manifestaciones_positivas": {
+            "optimismo": "Podrías irradiar un optimismo contagioso, siempre viendo el lado positivo de la vida y buscando nuevas oportunidades.",
+            "entusiasmo": "Podrías ser extremadamente entusiasta y aventurera, buscando constantemente nuevas experiencias y desafíos emocionantes.",
+            "independencia": "Podrías valorar tu independencia y libertad por encima de todo, buscando tu propio camino en la vida sin restricciones.",
+            "espontaneidad": "Podrías ser muy espontánea, actuando según tus impulsos y disfrutando del momento presente al máximo.",
+            "amabilidad": "Podrías ser increíblemente amable y generosa, siempre dispuesta a ayudar a los demás y compartir lo que tienes.",
+            "apertura_mental": "Podrías tener una mente abierta y flexible, dispuesta a explorar nuevas ideas y filosofías sin prejuicios.",
+            "aventurera": "Podrías tener un espíritu aventurero, disfrutando de viajes emocionantes y experiencias nuevas y estimulantes.",
+            "autoconfianza": "Podrías ser optimista y confiada en tus habilidades para superar cualquier desafío que se te presente.",
+            "irradias_tu_entusiasmo_y_pasión": "Podrías ser apasionada y entusiasta en la búsqueda de tus metas y sueños, inspirando a los demás con tu energía.",
+            "sinceridad": "Podrías ser sincera y directa en tus comunicaciones, expresando tus pensamientos y sentimientos con franqueza y honestidad."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podrías ser imprudente y descuidada, tomando decisiones impulsivas sin considerar las consecuencias.",
+            "irresponsabilidad": "Podrías ser irresponsable y descuidada en tus compromisos, prefiriendo la libertad sobre las obligaciones.",
+            "exceso_de_optimismo": "Podrías ser excesivamente optimista, ignorando los posibles obstáculos o peligros en tu camino.",
+            "impulsividad": "Podrías actuar de manera impulsiva, sin pensar en las repercusiones a largo plazo de tus acciones.",
+            "inquietud": "Podrías ser inquieta e impaciente, buscando constantemente nuevas experiencias y evitando la rutina.",
+            "irreflexión": "Podrías carecer de reflexión y profundidad en tus acciones y decisiones, actuando de manera superficial.",
+            "falta_de_compromiso": "Podrías tener dificultad para comprometerte con proyectos a largo plazo, prefiriendo la libertad y la variedad.",
+            "exceso_de_confianza": "Podrías tener demasiada confianza en ti misma, lo que podría llevarte a subestimar los desafíos que enfrentas.",
+            "tacto": "Podrías carecer de tacto en tus interacciones, siendo demasiado directa o insensible a los sentimientos de los demás.",
+            "superficialidad": "Podrías ser superficial en tus relaciones y valores, prefiriendo la diversión y la emoción sobre la profundidad y el compromiso."
+        }
+    },
+    "sol_en_sagitario_masculino": {
+        "manifestaciones_positivas": {
+            "optimismo": "Podrías irradiar un optimismo contagioso, siempre viendo el lado positivo de la vida y buscando nuevas oportunidades.",
+            "entusiasmo": "Podrías ser extremadamente entusiasta y aventurero, buscando constantemente nuevas experiencias y desafíos emocionantes.",
+            "independencia": "Podrías valorar tu independencia y libertad por encima de todo, buscando tu propio camino en la vida sin restricciones.",
+            "espontaneidad": "Podrías ser muy espontáneo, actuando según tus impulsos y disfrutando del momento presente al máximo.",
+            "amabilidad": "Podrías ser increíblemente amable y generoso, siempre dispuesto a ayudar a los demás y! compartir lo que tienes.",
+            "apertura_mental": "Podrías tener una mente abierta y flexible, dispuesta a explorar nuevas ideas y filosofías sin prejuicios.",
+            "aventurero": "Podrías tener un espíritu aventurero, disfrutando de viajes emocionantes y experiencias nuevas y estimulantes.",
+            "autoconfianza": "Podrías ser optimista y confiado en tus habilidades para superar cualquier desafío que se te presente.",
+            "irradias_tu_entusiasmo_y_pasión": "Podrías ser apasionado y entusiasta en la búsqueda de tus metas y sueños, inspirando a los demás con tu energía.",
+            "sinceridad": "Podrías ser sincero y directo en tus comunicaciones, expresando tus pensamientos y sentimientos con franqueza y honestidad."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podrías ser imprudente y descuidado, tomando decisiones impulsivas sin considerar las consecuencias.",
+            "irresponsabilidad": "Podrías ser irresponsable y descuidado en tus compromisos, prefiriendo la libertad sobre las obligaciones.",
+            "exceso_de_optimismo": "Podrías ser excesivamente optimista, ignorando los posibles obstáculos o peligros en tu camino.",
+            "impulsividad": "Podrías actuar de manera impulsiva, sin pensar en las repercusiones a largo plazo de tus acciones.",
+            "inquietud": "Podrías ser inquieto e impaciente, buscando constantemente nuevas experiencias y evitando la rutina.",
+            "irreflexión": "Podrías carecer de reflexión y profundidad en tus acciones y decisiones, actuando de manera superficial.",
+            "falta_de_compromiso": "Podrías tener dificultad para comprometerte con proyectos a largo plazo, prefiriendo la libertad y la variedad.",
+            "exceso_de_confianza": "Podrías tener demasiada confianza en ti mismo, lo que podría llevarte a subestimar los desafíos que enfrentas.",
+            "tacto": "Podrías carecer de tacto en tus interacciones, siendo demasiado directo o insensible a los sentimientos de los demás.",
+            "superficialidad": "Podrías ser superficial en tus relaciones y valores, prefiriendo la diversión y la emoción sobre la profundidad y el compromiso."
+        }
+    },
+    "sol_en_capricornio_femenino": {
+        "manifestaciones_positivas": {
+            "ambición": "Podrías ser extremadamente ambiciosa, trabajando duro para alcanzar tus metas y aspiraciones.",
+            "responsabilidad": "Podrías ser muy responsable y confiable, cumpliendo con tus deberes y compromisos de manera diligente.",
+            "perseverancia": "Podrías tener una gran perseverancia, superando obstáculos y desafíos con determinación y disciplina.",
+            "organización": "Podrías ser muy organizada y metódica, planificando cuidadosamente tus acciones y recursos para lograr el éxito.",
+            "prudencia": "Podrías ser prudente y cuidadosa en tus decisiones, evaluando cuidadosamente los riesgos antes de actuar.",
+            "dedicación": "Podrías ser altamente dedicada a tus responsabilidades y objetivos, sacrificando el tiempo y el esfuerzo necesarios para lograrlos.",
+            "disciplina": "Podrías tener una disciplina impresionante, manteniéndote enfocada en tus objetivos a pesar de las distracciones y dificultades.",
+            "persigues_grandes_objetivos": "Podrías tener grandes aspiraciones y metas, trabajando con determinación para alcanzar el éxito en todas las áreas de tu vida, en especial en esos objetivos muy altos que eliges afrontar.",
+            "autocontrol": "Podrías tener un fuerte autocontrol, gestionando tus emociones y acciones de manera equilibrada y consciente.",
+            "madurez": "Podrías tener una gran madurez emocional e intelectual, manejando las situaciones difíciles con calma y sabiduría."
+        },
+        "manifestaciones_negativas": {
+            "rigidez": "Podrías ser demasiado rígida en tus creencias y comportamientos, resistiéndote al cambio y la improvisación.",
+            "poco_espíritu_de_equipo": "Podrías tener poco espíritu de equipo, prefiriendo trabajar sola en lugar de colaborar con otros.",
+            "frialdad_emocional": "Podrías parecer distante o fría emocionalmente, manteniendo un muro de protección alrededor de ti misma.",
+            "obsesión_por_el_trabajo": "Podrías obsesionarte con el trabajo y el éxito profesional, descuidando otras áreas importantes de tu vida.",
+            "pesimismo": "Podrías tener tendencia al pesimismo, viendo el lado negativo de las situaciones y dudando de tus propias capacidades.",
+            "ambición_desmedida": "Podrías tener una ambición desmedida, sacrificando tu bienestar personal y relaciones en busca del éxito.",
+            "control_excesivo": "Podrías tener tendencia a querer controlarlo todo, causando tensiones en tus relaciones personales y profesionales.",
+            "falta_de_espontaneidad": "Podrías carecer de espontaneidad y flexibilidad, prefiriendo la seguridad y la predictibilidad en tu vida.",
+            "perfeccionismo": "Podrías ser perfeccionista en tus expectativas y estándares, sintiendo estrés cuando las cosas no salen exactamente como lo planeaste.",
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, encontrando dificultades para conectar profundamente con tus seres queridos."
+        }
+    },
+    "sol_en_capricornio_masculino": {
+        "manifestaciones_positivas": {
+            "ambición": "Podrías ser extremadamente ambicioso, trabajando arduamente para alcanzar tus metas y aspiraciones.",
+            "responsabilidad": "Podrías ser muy responsable y confiable, cumpliendo con tus deberes y compromisos de manera diligente.",
+            "perseverancia": "Podrías tener una gran perseverancia, superando obstáculos y desafíos con determinación y disciplina.",
+            "organización": "Podrías ser muy organizado y metódico, planificando cuidadosamente tus acciones y recursos para lograr el éxito.",
+            "prudencia": "Podrías ser prudente y cuidadoso en tus decisiones, evaluando cuidadosamente los riesgos antes de actuar.",
+            "dedicación": "Podrías ser altamente dedicado a tus responsabilidades y objetivos, sacrificando el tiempo y el esfuerzo necesarios para lograrlos.",
+            "disciplina": "Podrías tener una disciplina impresionante, manteniéndote enfocado en tus objetivos a pesar de las distracciones y dificultades.",
+            "persigues_grandes_objetivos": "Podrías tener grandes aspiraciones y metas, trabajando con determinación para alcanzar el éxito en todas las áreas de tu vida, en especial esos objetivos que eliges afrontar.",
+            "autocontrol": "Podrías tener un fuerte autocontrol, gestionando tus emociones y acciones de manera equilibrada y consciente.",
+            "madurez": "Podrías tener una gran madurez emocional e intelectual, manejando las situaciones difíciles con calma y sabiduría."
+        },
+        "manifestaciones_negativas": {
+            "rigidez": "Podrías ser demasiado rígido en tus creencias y comportamientos, resistiéndote al cambio y la improvisación.",
+            "poco_espíritu_de_equipo": "Podrías tener poco espíritu de equipo, prefiriendo trabajar solo en lugar de colaborar con otros.",
+            "frialdad_emocional": "Podrías parecer distante o frío emocionalmente, manteniendo un muro de protección alrededor de ti mismo.",
+            "obsesión_por_el_trabajo": "Podrías obsesionarte con el trabajo y el éxito profesional, descuidando otras áreas importantes de tu vida.",
+            "pesimismo": "Podrías tener tendencia al pesimismo, viendo el lado negativo de las situaciones y dudando de tus propias capacidades.",
+            "ambición_desmedida": "Podrías tener una ambición desmedida, sacrificando tu bienestar personal y relaciones en busca del éxito.",
+            "control_excesivo": "Podrías tener tendencia a querer controlarlo todo, causando tensiones en tus relaciones personales y profesionales.",
+            "falta_de_espontaneidad": "Podrías carecer de espontaneidad y flexibilidad, prefiriendo la seguridad y la predictibilidad en tu vida.",
+            "perfeccionismo": "Podrías ser perfeccionista en tus expectativas y estándares, sintiendo estrés cuando las cosas no salen exactamente como lo planeaste.",
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, encontrando dificultades para conectar profundamente con tus seres queridos."
+        }
+    },
+    "sol_en_acuario_femenino": {
+        "manifestaciones_positivas": {
+            "originalidad": "Podrías ser excepcionalmente original en tu pensamiento y enfoque de la vida, buscando siempre nuevas formas de expresarte y de ver el mundo.",
+            "humanitarismo": "Podrías ser una verdadera humanitaria, preocupándote profundamente por el bienestar de los demás y buscando activamente formas de ayudar a la humanidad.",
+            "independencia": "Podrías valorar tu independencia y libertad por encima de todo, buscando tu propio camino en la vida sin estar restringida por las normas sociales.",
+            "mentalidad_abierta": "Podrías tener una mente abierta y receptiva, dispuesta a considerar una amplia gama de ideas y perspectivas sin prejuicios.",
+            "creatividad": "Podrías ser increíblemente creativa, encontrando inspiración en las ideas más inusuales y transformándolas en obras de arte y expresión.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensiva, aceptando a las personas tal como son y celebrando la diversidad en todas sus formas.",
+            "vanguardismo": "Podrías ser una pionera en tu campo, adelantándote a tu tiempo con ideas y visiones revolucionarias.",
+            "pensamiento_propio": "Podrías tener un enfoque original y único en la vida, destacándote entre la multitud con tu singularidad y autenticidad.",
+            "compromiso_con_la_comunidad": "Podrías estar profundamente comprometida con tu comunidad y con el mundo en general, buscando constantemente formas de contribuir al bien común.",
+            "intelectualidad": "Podrías tener una mente aguda y analítica, disfrutando de desafíos intelectuales y del intercambio de ideas con personas afines."
+        },
+        "manifestaciones_negativas": {
+            "excentricidad": "Podrías ser percibida como excéntrica o fuera de lo común, lo que podría causar incomodidad o malentendidos en tus relaciones.",
+            "frialdad_emocional": "Podrías parecer distante o fría emocionalmente, prefiriendo la lógica y la racionalidad sobre las emociones.",
+            "distancia_emocional": "Podrías tener dificultad para conectarte emocionalmente con los demás, manteniendo una cierta distancia emocional incluso en relaciones cercanas.",
+            "rebeldía": "Podrías ser rebelde por naturaleza, desafiando constantemente las normas establecidas y resistiéndote a la autoridad.",
+            "individualismo_excesivo": "Podrías ser demasiado individualista, priorizando tus propias necesidades y deseos sobre las de los demás.",
+            "falta_de_compromiso": "Podrías tener dificultad para comprometerte con relaciones o proyectos a largo plazo, prefiriendo mantener tu libertad e independencia.",
+            "distanciamiento_social": "Podrías sentirte alienada o desconectada de la sociedad en general, encontrando dificultades para integrarte en grupos o comunidades.",
+            "imprevisibilidad": "Podrías ser impredecible en tu comportamiento y decisiones, lo que podría causar confusión o inestabilidad en tus relaciones.",
+            "falta_de_empatía": "Podrías carecer de empatía hacia los demás, centrada en tus propios intereses y objetivos sin preocuparte por las necesidades de los demás.",
+            "ser_etiquetado_de_raro_por_los_demás": "Podrías tener gustos o intereses poco convencionales, lo que podría llevarte a ser percibida como extraña o excéntrica por los demás."
+        }
+    },
+    "sol_en_acuario_masculino": {
+        "manifestaciones_positivas": {
+            "originalidad": "Podrías ser excepcionalmente original en tu pensamiento y enfoque de la vida, buscando siempre nuevas formas de expresarte y de ver el mundo.",
+            "humanitarismo": "Podrías tener una profunda preocupación por el bienestar de la humanidad en su conjunto, buscando activamente formas de contribuir al progreso y la igualdad.",
+            "independencia": "Podrías valorar tu independencia y libertad por encima de todo, buscando tu propio camino en la vida sin estar restringido por las normas sociales.",
+            "mentalidad_abierta": "Podrías tener una mente abierta y receptiva, dispuesta a considerar una amplia gama de ideas y perspectivas sin prejuicios.",
+            "creatividad": "Podrías ser increíblemente creativo, encontrando inspiración en las ideas más inusuales y transformándolas en proyectos innovadores y originales.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensivo, aceptando a las personas tal como son y celebrando la diversidad en todas sus formas.",
+            "vanguardismo": "Podrías ser un pionero en tu campo, adelantándote a tu tiempo con ideas y visiones revolucionarias.",
+            "pensamiento_propio": "Podrías tener un enfoque original y único en la vida, destacándote entre la multitud con tu singularidad y autenticidad.",
+            "compromiso_con_la_comunidad": "Podrías estar profundamente comprometido con el bienestar de tu comunidad y del mundo en general, buscando constantemente formas de contribuir al bien común.",
+            "intelectualidad": "Podrías tener una mente aguda y analítica, disfrutando de desafíos intelectuales y del intercambio de ideas con personas afines."
+        },
+        "manifestaciones_negativas": {
+            "excentricidad": "Podrías ser percibido como excéntrico o fuera de lo común, lo que podría causar incomodidad o malentendidos en tus relaciones.",
+            "frialdad_emocional": "Podrías parecer distante o frío emocionalmente, prefiriendo la lógica y la racionalidad sobre las emociones.",
+            "distancia_emocional": "Podrías tener dificultad para conectarte emocionalmente con los demás, manteniendo una cierta distancia emocional incluso en relaciones cercanas.",
+            "rebeldía": "Podrías ser rebelde por naturaleza, desafiando constantemente las normas establecidas y resistiéndote a la autoridad.",
+            "individualismo_excesivo": "Podrías ser demasiado individualista, priorizando tus propias necesidades y deseos sobre las de los demás.",
+            "falta_de_compromiso": "Podrías tener dificultad para comprometerte con relaciones o proyectos a largo plazo, prefiriendo mantener tu libertad e independencia.",
+            "distanciamiento_social": "Podrías sentirte alienado o desconectado de la sociedad en general, encontrando dificultades para integrarte en grupos o comunidades.",
+            "imprevisibilidad": "Podrías ser impredecible en tu comportamiento y decisiones, lo que podría causar confusión o inestabilidad en tus relaciones.",
+            "falta_de_empatía": "Podrías carecer de empatía hacia los demás, centrado en tus propios intereses y objetivos sin preocuparte por las necesidades de los demás.",
+            "ser_etiquetado_de_raro_por_los_demás": "Podrías tener gustos o intereses poco convencionales, lo que podría llevarte a ser percibido como extraño o excéntrico por los demás."
+        }
+    },
+    "sol_en_piscis_femenino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías ser altamente empática, comprendiendo intuitivamente las emociones y necesidades de los demás y brindando apoyo y consuelo cuando sea necesario.",
+            "creatividad": "Podrías tener una imaginación vívida y una profunda creatividad, expresándote a través del arte, la música, la escritura u otras formas de expresión artística.",
+            "compasión": "Podrías ser extremadamente compasiva y comprensiva, mostrando compasión hacia todas las formas de vida y buscando activamente aliviar el sufrimiento en el mundo.",
+            "intuición": "Podrías tener una intuición aguda y confiable, confiando en tu sabiduría interior para guiar tus decisiones y acciones.",
+            "espiritualidad": "Podrías tener una profunda conexión con el mundo espiritual y los aspectos más profundos de la vida, buscando significado y propósito en todas tus experiencias.",
+            "imaginación": "Podrías tener una rica vida interior y una imaginación fértil, encontrando inspiración en los reinos de la fantasía y la imaginación.",
+            "sensibilidad": "Podrías ser extremadamente sensible y receptiva, captando fácilmente las energías y emociones que te rodean.",
+            "comprensión": "Podrías tener una capacidad natural para entender las motivaciones y los sentimientos de los demás, ofreciendo apoyo y orientación sin juzgar.",
+            "autoconocimiento_profundo_de_tu_ser_interior": "Podrías tener una conexión profunda con tu yo interior y el universo en general, buscando la verdad y la sabiduría en las experiencias de la vida.",
+            "sensibilidad_para_percibir_respuestas_de_otro_plano": "Podrías confiar en tu intuición para guiarte en la vida, permitiendo que tus corazonadas te lleven hacia caminos de crecimiento y realización."
+        },
+        "manifestaciones_negativas": {
+            "vulnerabilidad_emocional": "Podrías ser vulnerable emocionalmente, sintiendo el peso de las emociones intensamente y luchando por mantener tu equilibrio interior.",
+            "falta_de_límites": "Podrías tener dificultad para establecer límites claros con los demás, lo que podría llevarte a ser explotada o maltratada en tus relaciones.",
+            "tendencia_a_la_escapatoria": "Podrías tener tendencia a evitar enfrentar la realidad, buscando refugio en la fantasía, las drogas o el escapismo en lugar de abordar tus problemas.",
+            "dependencia_emocional": "Podrías volverte dependiente emocionalmente de los demás, buscando constantemente la validación y el apoyo de personas externas en lugar de encontrar fortaleza dentro de ti misma.",
+            "falta_de_foco": "Podrías tener dificultad para mantener el enfoque y la dirección en tu vida, sintiéndote perdida o desorientada con frecuencia.",
+            "susceptibilidad_al_engaño": "Podrías ser susceptible al engaño o la manipulación, confiando en los demás fácilmente y siendo engañada por personas sin escrúpulos.",
+            "idealización_excesiva": "Podrías tener tendencia a idealizar a las personas y situaciones, creando expectativas poco realistas que pueden llevarte a la decepción y la desilusión.",
+            "falta_de_estructura": "Podrías carecer de estructura y disciplina en tu vida diaria, lo que podría llevar a la falta de productividad y logro de metas.",
+            "victimización": "Podrías adoptar el papel de víctima en tus relaciones, permitiendo que otros te traten mal y justifiquen su comportamiento negativo.",
+            "tendencia_al_aislamiento": "Podrías tener tendencia a aislarte del mundo exterior cuando te sientes abrumada o emocionalmente cargada, prefiriendo la soledad a la interacción social."
+        }
+    },
+    "sol_en_piscis_masculino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías ser altamente empático, comprendiendo intuitivamente las emociones y necesidades de los demás y brindando apoyo y consuelo cuando sea necesario.",
+            "creatividad": "Podrías tener una imaginación vívida y una profunda creatividad, expresándote a través del arte, la música, la escritura u otras formas de expresión artística.",
+            "compasión": "Podrías ser extremadamente compasivo y comprensivo, mostrando compasión hacia todas las formas de vida y buscando activamente aliviar el sufrimiento en el mundo.",
+            "intuición": "Podrías tener una intuición aguda y confiable, confiando en tu sabiduría interior para guiar tus decisiones y acciones.",
+            "espiritualidad": "Podrías tener una profunda conexión con el mundo espiritual y los aspectos más profundos de la vida, buscando significado y propósito en todas tus experiencias.",
+            "imaginación": "Podrías tener una rica vida interior y una imaginación fértil, encontrando inspiración en los reinos de la fantasía y la imaginación.",
+            "sensibilidad": "Podrías ser extremadamente sensible y receptivo, captando fácilmente las energías y emociones que te rodean.",
+            "comprensión": "Podrías tener una capacidad natural para entender las motivaciones y los sentimientos de los demás, ofreciendo apoyo y orientación sin juzgar.",
+            "autoconocimiento_profundo_de_tu_ser_interior": "Podrías tener una conexión profunda con tu yo interior y el universo en general, buscando la verdad y la sabiduría en las experiencias de la vida.",
+            "sensibilidad_para_percibir_respuestas_de_otro_plano": "Podrías confiar en tu intuición para guiarte en la vida, permitiendo que tus corazonadas te lleven hacia caminos de crecimiento y realización."
+        },
+        "manifestaciones_negativas": {
+            "vulnerabilidad_emocional": "Podrías ser vulnerable emocionalmente, sintiendo el peso de las emociones intensamente y luchando por mantener tu equilibrio interior.",
+            "falta_de_límites": "Podrías tener dificultad para establecer límites claros con los demás, lo que podría llevarte a ser explotado o maltratado en tus relaciones.",
+            "tendencia_a_la_escapatoria": "Podrías tener tendencia a evitar enfrentar la realidad, buscando refugio en la fantasía, las drogas o el escapismo en lugar de abordar tus problemas.",
+            "dependencia_emocional": "Podrías volverte dependiente emocionalmente de los demás, buscando constantemente la validación y el apoyo de personas externas en lugar de encontrar fortaleza dentro de ti mismo.",
+            "falta_de_foco": "Podrías tener dificultad para mantener el enfoque y la dirección en tu vida, sintiéndote perdido o desorientado con frecuencia.",
+            "susceptibilidad_al_engaño": "Podrías ser susceptible al engaño o la manipulación, confiando en los demás fácilmente y siendo engañado por personas sin escrúpulos.",
+            "idealización_excesiva": "Podrías tener tendencia a idealizar a las personas y situaciones, creando expectativas poco realistas que pueden llevarte a la decepción y la desilusión.",
+            "falta_de_estructura": "Podrías carecer de estructura y disciplina en tu vida diaria, lo que podría llevar a la falta de productividad y logro de metas.",
+            "victimización": "Podrías adoptar el papel de víctima en tus relaciones, permitiendo que otros te traten mal y justifiquen su comportamiento negativo.",
+            "tendencia_al_aislamiento": "Podrías tener tendencia a aislarte del mundo exterior cuando te sientes abrumado o emocionalmente cargado, prefiriendo la soledad a la interacción social."
+        }
+    }
+}
