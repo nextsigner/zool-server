@@ -4,7 +4,7 @@
     if(!local)stringFileFolderPath='/root/zool-server/'
 
 
-    var stringSWEFolderPath='/home/ns/nsp/zool-server'
+    var stringSWEFolderPath='/root/zool-server'
     if(!local)stringSWEFolderPath='/root/zool-server'
 
 
@@ -324,7 +324,7 @@
         //console.log('Dia: '+req.query.d);
         //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
         const exec = require('child_process').exec;
-        let nfileName='/home/ns/nsp/zool-server/htmls/p1.html'
+        let nfileName=stringSWEFolderPath+'/htmls/p1.html'
         //let cmd='python3 /home/ns/nsp/zool-server/scripts/mkHtmlFullMap.py "http://192.168.1.40:8100/getZoolDataMap?n=Ricardo&d=20&m=6&a=1975&h=23&min=4&gmt=-3&lugarNacimiento=Malargue+Mendoza&lat=-35.4752134&lon=-69.585934&alt=0&ciudad=Malargue+Mendoza&ms=0&msReq=0&adminId=formwebzoolar&onlyJson=true" /home/ns/nsp/zool-server '+stringSWEFolderPath
         console.log('req.query.ciudad: '+req.query.ciudad)
         let strLN=req.query.ciudad.replace(/ /g,'+')
