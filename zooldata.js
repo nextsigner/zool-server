@@ -1,9 +1,10 @@
 ﻿module.exports=function(app, local){
-    var stringFileFolderPath='/home/ns/nsp/zool-server'
-    if(!local)stringFileFolderPath='/root/zool-server/'
-
-    var stringSWEFolderPath='/home/ns/nsp/zool-server'
+    var stringFileFolderPath='/root/zool-server'
     if(!local)stringFileFolderPath='/root/zool-server'
+    if(local)stringFileFolderPath='/home/ns/nsp/zool-server'
+
+    var stringSWEFolderPath='/root/zool-server'
+    if(local)stringFileFolderPath='/home/ns/nsp/zool-server'
 
     var ZoolDoc = require('./models/ZoolDoc')
 
