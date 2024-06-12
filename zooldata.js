@@ -1,5 +1,5 @@
 ﻿module.exports=function(app, local){
-    var stringFileFolderPath=''
+    var stringFileFolderPath='/home/ns/nsp/zool-server'
     if(!local)stringFileFolderPath='/root/zool-server/'
 
     var stringSWEFolderPath='/home/ns/nsp/zool-server'
@@ -65,7 +65,7 @@
         //Registra el ZoolUser porque no existe ninguno con ese nombre
         let jsonRes={isData:false}
         const exec = require('child_process').exec;
-        exec('python3 "'+stringFileFolderPath+'py/astrologica_swe_v4.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T '+stringSWEFolderPath+' '+req.query.alt, (err, stdout, stderr) => {
+        exec('python3 "'+stringFileFolderPath+'/py/astrologica_swe_v4.py" '+req.query.d+' '+req.query.m+' '+req.query.a+' '+req.query.h+' '+req.query.min+' '+req.query.gmt+' '+req.query.lat+' '+req.query.lon+' T '+stringSWEFolderPath+' '+req.query.alt, (err, stdout, stderr) => {
                  if (err) {
                      console.error(err);
                      jsonRes={isData:false, isError:true, error: err}
