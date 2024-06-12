@@ -242,7 +242,7 @@
     //--> Get Zool Data Map
     getDataMapCoords = function(req, res){
         const lugar = req.query.lugar;
-        const command = 'python3 '+stringFileFolderPath+'py/geoloc.py "'+lugar+'"';
+        const command = 'python3 '+stringFileFolderPath+'/py/geoloc.py "'+lugar+'"';
 
         exec(command, (error, stdout, stderr) => {
                  if (error) {
