@@ -330,7 +330,7 @@
         let strLN=req.query.ciudad.replace(/ /g,'+')
         console.log('req.query.ciudad corregido: '+strLN)
         let nomCorr=(''+req.query.n).replace(/ /g, '_')
-        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath
+        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath+' '+req.query.sexo
         console.log('getZoolDataFull cmd: '+cmd)
         exec(cmd, (err, stdout, stderr) => {
                  if (err) {
@@ -454,6 +454,13 @@
 
         h+='    <label for="minutos">Minutos:</label>\n'
         h+='    <input type="number" id="minutos" name="min" min="0" max="59" required>\n'
+        h+='    <br>\n'
+        h+='    <label for="sexoMasculino">Masculino:</label>\n'
+        h+='    <input type="radio" id="sexoMasculino" name="sexo" value="masculino" checked>\n'
+        h+='    <br>\n'
+        h+='    <label for="sexoFemenino">Femenino:</label>\n'
+        h+='    <input type="radio" id="sexoFemenino" name="sexo" value="femenino">\n'
+        h+='    <br>\n'
         h+='</div>\n'
 
         h+='<label for="gmt">GMT (Ejemplo Argentina es -3):</label>\n'

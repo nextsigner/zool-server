@@ -1,1 +1,1 @@
-Se corrige doble punto final en párrafos del ascendente
+Se agrega sexo a form

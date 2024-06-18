@@ -7,7 +7,7 @@ URL = sys.argv[1]
 FOLDERJSONS = sys.argv[2]
 FOLDERGETDATA = sys.argv[3]
 
-SEXO="femenino"
+SEXO=sys.argv[4]
 
 aBodiesFiles = ['sol', 'luna', 'mercurio', 'venus', 'marte', 'jupiter', 'saturno', 'urano', 'neptuno', 'pluton', 'nodo_norte', 'nodo_sur', 'quiron', 'selena', 'lilith', 'pholus', 'ceres', 'pallas', 'juno', 'vesta']
 aBodies = ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
