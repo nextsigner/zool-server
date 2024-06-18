@@ -1,1 +1,1 @@
-Se edita zooldata.js
+Se crear ascendentes.json

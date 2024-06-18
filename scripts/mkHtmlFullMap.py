@@ -7,10 +7,15 @@ URL = sys.argv[1]
 FOLDERJSONS = sys.argv[2]
 FOLDERGETDATA = sys.argv[3]
 
+SEXO="femenino"
+
 aBodiesFiles = ['sol', 'luna', 'mercurio', 'venus', 'marte', 'jupiter', 'saturno', 'urano', 'neptuno', 'pluton', 'nodo_norte', 'nodo_sur', 'quiron', 'selena', 'lilith', 'pholus', 'ceres', 'pallas', 'juno', 'vesta']
 aBodies = ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
 aSigns = ['Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo', 'Libra', 'Escorpio', 'Sagitario', 'Capricornio', 'Acuario', 'Piscis']
 aSignsLowerStyle = ['aries', 'tauro', 'geminis', 'cancer', 'leo', 'virgo', 'libra', 'escorpio', 'sagitario', 'capricornio', 'acuario', 'piscis']
+
+ASC="Indefinido"
+
 
 IS1 = -1
 IH1 = -1
@@ -25,6 +30,8 @@ def run_command(command):
     return output.decode().strip()
 
 curl_response = run_command(f'curl -s "{URL}"')
+#print(curl_response)
+#exit()
 JSON=json.loads(curl_response)
 
 H="<table id=\"tableData\">"
@@ -40,6 +47,8 @@ for i in range(10):  # Iterar para 'sol' y 'luna'
 
 #Ascendente
 H += "<tr><td>Ascendente</td><td>"+aSigns[JSON['data']['ph']['h1']['is']]+"</td><td>Grado °"+str(JSON['data']['ph']['h1']['rsgdeg'])+"</td></tr>"
+ASC=aSignsLowerStyle[JSON['data']['ph']['h1']['is']]
+#H += "<tr><td>Ascendente ID</td><td>"+str(ASC)+"</td><td>Grado °"+str(JSON['data']['ph']['h1']['rsgdeg'])+"</td></tr>"
 #Descendente
 H += "<tr><td>Descendente</td><td>"+aSigns[JSON['data']['ph']['h7']['is']]+"</td><td>Grado °"+str(JSON['data']['ph']['h7']['rsgdeg'])+"</td></tr>"
 #Fondo Cielo
@@ -53,6 +62,10 @@ HTML += H
 #Comineza los Signigicados
 HTML += "<h2>Significados Astrológicos</h2>"
 HTML += "<p>A continuación se muestran todos los significados astrológicos de todos los planetas o cuerpos de esta carta o mapa astral.</p>"
+
+#Ascendente
+DATAS1 = run_command(f'{FOLDERGETDATA}/scripts/getDataAsc.sh {FOLDERJSONS}/data/ascendentes.json {ASC} {SEXO}')
+HTML += DATAS1
 
 for i in range(10):  # Iterar para 'sol' y 'luna'
     IS1 = json.loads(curl_response)['data']['pc'][f'c{i}']['is']
