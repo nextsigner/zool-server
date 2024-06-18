@@ -1,1 +1,1 @@
-Se crear ascendentes.json
+Se corrige doble punto final en párrafos del ascendente

@@ -22,7 +22,7 @@ do
     #echo $titulo
     HTML=$HTML"<p><b>$titulo:</b>"
     des=$(cat $1 | jq .ascendente_en_$2_$3.manifestaciones_positivas | jq '.['$ITEMNAME']'  | sed 's/"//g')
-    HTML=$HTML" $des.</p>"
+    HTML=$HTML" $des</p>"
     #echo $des
 done
 HTML=$HTML"</div>"
@@ -47,7 +47,7 @@ do
     #echo $titulo
     HTML=$HTML"<p><b>$titulo:</b>"
     des=$(cat $1 | jq .ascendente_en_$2_$3.manifestaciones_negativas | jq '.['$ITEMNAME']'  | sed 's/"//g')
-    HTML=$HTML" $des.</p>"
+    HTML=$HTML" $des</p>"
     #echo $des
 done
 HTML=$HTML"</div>"
