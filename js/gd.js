@@ -2,6 +2,17 @@ const nombreInput = document.getElementById('nombre');
 const lugarInput = document.getElementById('lugarNacimiento');
 const obtenerCoordenadasBtn = document.getElementById('obtenerCoordenadas');
 const enviarBtn = document.getElementById('enviar');
+
+/*const btnCargar = document.getElementById('btnCargar');
+const carga = document.getElementById('carga');
+
+btnCargar.addEventListener('click', () => {
+    carga.classList.remove('hidden'); // Mostrar el div
+    setTimeout(() => {
+        carga.classList.add('hidden'); // Ocultar el div después de 10 segundos
+    }, 10000);
+});*/
+
 nombreInput.addEventListener('input', function() {
     setGui()
 });
@@ -65,6 +76,14 @@ function setFormAction(actionUrl) {
     //document.getElementById('formZoolMap').action = actionUrl;
     var form = document.getElementById('formZoolMap');
     form.action = actionUrl;
+    form.submit();
+}
+function runForm(){
+    carga.classList.remove('hidden'); // Mostrar el div
+    setTimeout(() => {
+        carga.classList.add('hidden'); // Ocultar el div después de 10 segundos
+    }, 10000);
+    var form = document.getElementById('formZoolMap');
     form.submit();
 }
 function setDev(){

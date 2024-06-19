@@ -430,6 +430,12 @@
         let h=''
         //getZoolDataMapFull
         //h+='<form id="formZoolMap" action="/getZoolDataMap" method="GET">\n'
+
+
+         h+='<div id="carga" class="hidden">\n'
+         h+='           <p>Creando la carta...</p>\n'
+         h+='       </div>\n'
+
         h+='<form id="formZoolMap" action="/getZoolDataMapFull" method="GET">\n'
         //h+='<form id="formZoolMap" method="GET">\n'
         h+='<div class="form-group">\n'
@@ -454,10 +460,11 @@
 
         h+='    <label for="minutos">Minutos:</label>\n'
         h+='    <input type="number" id="minutos" name="min" min="0" max="59" required>\n'
-        h+='    <br>\n'
+        h+='</div>\n'
+
+        h+='<div class="form-group">\n'
         h+='    <label for="sexoMasculino">Masculino:</label>\n'
         h+='    <input type="radio" id="sexoMasculino" name="sexo" value="masculino" checked>\n'
-        h+='    <br>\n'
         h+='    <label for="sexoFemenino">Femenino:</label>\n'
         h+='    <input type="radio" id="sexoFemenino" name="sexo" value="femenino">\n'
         h+='    <br>\n'
@@ -482,10 +489,11 @@
 
         h+='<p id="salida"></p>\n'
         h+='<p id="nota1">Nota: Antes de Crear la Carta, primero hay que Obtener las Coordenadas del lugar de Nacimiento.</p>\n'
-        h+='<input id="enviar" type="submit" value="Crear Carta Natal">\n'
-        h+='</form>\n'
+        //h+='<input id="enviar" type="submit" value="Crear Carta Natal">\n'
+
         //h+='<button type="submit" onclick="setFormAction(\'http://www.zool.ar/getZoolDataMap\')">Ver Solo Planetas</button>\n'
-        //h+='<button type="submit" onclick="setFormAction(\'/getZoolDataMapFull\')">Ver todos los significados</button>\n'
+        h+='<button type="submit" onclick="runForm()">Crear Carta Natal</button>\n'
+        h+='</form>\n'
 
         h+='<script src="js/gd.js"></script>\n'
         return h
