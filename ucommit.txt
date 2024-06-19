@@ -1,1 +1,1 @@
-Se agrega div Cargando
+Se crea instrucciones.txt
