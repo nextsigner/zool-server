@@ -1,1 +1,1 @@
-Se agrega nota l al pie de páginas html de files.
+NO se ocultará el boton compartir de las paginas de files

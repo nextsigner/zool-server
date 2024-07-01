@@ -66,11 +66,11 @@ HTML +="""
   const urlParams = new URLSearchParams(window.location.search);
   const showBtnShare = urlParams.get('showBtnShare');
 
-  if (showBtnShare) {
+  /*if (showBtnShare) {
           botonCopiar.style.display = 'block';
         } else {
           botonCopiar.style.display = 'none';
-        }
+        }*/
 
   botonVolverInicio.addEventListener('click', () => {
     window.location.href = 'http://www.zool.ar/';
