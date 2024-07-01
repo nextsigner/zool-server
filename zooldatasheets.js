@@ -321,6 +321,15 @@
 
     getZoolDataMapFull = function(req, res){
         console.log('getZoolDataFull... ');
+        let title=parseMan(req.query.n).replace(/ /g, '_')
+        let tipo='cn'
+        if(req.query.tipo)tipo=req.query.tipo
+        let datos=''
+        if(tipo==='cn'){
+            title=parseMan('"Carta Natal de '+req.query.n+'"')//.replace(/ /g, '_')
+            datos='"Nacido el día '+req.query.d+'/'+req.query.m+'/'+req.query.a+' a las '+req.query.h+':'+req.query.min+'hs en '+req.query.ciudad+'"'
+        }
+
         //console.log('Dia: '+req.query.d);
         //res.redirect('/res-add-producto.html?res=no'+mensajes.length)
         const exec = require('child_process').exec;
@@ -330,7 +339,10 @@
         let strLN=req.query.ciudad.replace(/ /g,'+')
         console.log('req.query.ciudad corregido: '+strLN)
         let nomCorr=(''+req.query.n).replace(/ /g, '_')
-        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://www.zool.ar/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath+' '+req.query.sexo
+        //let hostFinal='www.zool.ar'
+        let hostFinal='127.0.0.1:8100'
+        let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://'+hostFinal+'/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath+' '+req.query.sexo+' '+title+' '+datos
+        cmd=cmd.replace(/\+/g,'%20')
         console.log('getZoolDataFull cmd: '+cmd)
         exec(cmd, (err, stdout, stderr) => {
                  if (err) {
@@ -339,15 +351,23 @@
                      return;
                  }
                  //res.status(200).send(stdout);
+
                  let htmlFinal=''
+                 if(req.query.title){
+                    title=parseMan(req.query.title)
+                 }
                  if(req.query.lite){
                      htmlFinal=''
                      htmlFinal += stdout
                      res.status(200).send(htmlFinal);
                  }else{
-                     htmlFinal='<h1>Carta Natal Astral de '+parseMan(req.query.n)+'</h1>'
+                     //htmlFinal='<h1>Carta Natal Astral de '+parseMan(req.query.n)+'</h1>'
                      htmlFinal += stdout
-                     res.status(200).send(setHtml(htmlFinal, 'Zool Carta Natal'));
+                     //res.status(200).send(setHtml(htmlFinal, title));
+                     let page=''+title+'.html'
+                     page=page.replace(/"/g, '')
+                     page=page.replace(/ /g, '_')
+                     res.redirect('http://www.zool.ar/files/'+page);
                  }
 
              });
@@ -486,6 +506,8 @@
         h+='<input type="hidden" id="ms" name="ms" value=0>\n'
         h+='<input type="hidden" id="msReq" name="msReq" value=0>\n'
         h+='<input type="hidden" id="adminId" name="adminId" value="formwebzoolar">\n'
+        h+='<input type="hidden" id="showBtnShare" name="showBtnShare" value="true">\n'
+
 
         h+='<p id="salida"></p>\n'
         h+='<p id="nota1">Nota: Antes de Crear la Carta, primero hay que Obtener las Coordenadas del lugar de Nacimiento.</p>\n'

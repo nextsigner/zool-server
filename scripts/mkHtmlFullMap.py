@@ -8,6 +8,19 @@ FOLDERJSONS = sys.argv[2]
 FOLDERGETDATA = sys.argv[3]
 
 SEXO=sys.argv[4]
+TITLE=sys.argv[5]
+INFO=sys.argv[6]
+
+
+TITLE=TITLE.replace('"', '')
+
+htmlFileNameLink = "http://www.zool.ar/files/"
+htmlFileNameLink += TITLE.replace(" ", "_")
+htmlFileNameLink += ".html"
+
+htmlFileName = TITLE.replace(" ", "_")
+htmlFileName += ".html"
+
 
 aBodiesFiles = ['sol', 'luna', 'mercurio', 'venus', 'marte', 'jupiter', 'saturno', 'urano', 'neptuno', 'pluton', 'nodo_norte', 'nodo_sur', 'quiron', 'selena', 'lilith', 'pholus', 'ceres', 'pallas', 'juno', 'vesta']
 aBodies = ['Sol', 'Luna', 'Mercurio', 'Venus', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'N.Norte', 'N.Sur', 'Quirón', 'Selena', 'Lilith', 'Pholus', 'Ceres', 'Pallas', 'Juno', 'Vesta']
@@ -22,6 +35,47 @@ IH1 = -1
 DATAS1 = ""
 CANT = 10
 HTML = ""
+
+HTML += "<DOCTYPE html>\n"
+HTML += "<html lang=\"es\">\n"
+HTML += "    <head>\n"
+HTML += "        <meta charset=\"utf-8\">\n"
+HTML += "        <title>"+str(TITLE)+"</title>\n"
+HTML += "   <style>"
+HTML += "        /* Aquí se agregará el contenido CSS */"
+HTML += "    </style>"
+HTML += "    </head>\n"
+HTML += "<body>\n"
+HTML += "        <h1>"+str(TITLE)+"</h1><br>\n"
+HTML += "        <p>"+str(INFO)+"</p><br>\n"
+HTML += "<button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
+HTML +="""
+<script>
+  const botonCopiar = document.getElementById('copiarEnlace');
+  //const enlacePagina = window.location.href;
+  const enlacePagina = '"""+str(htmlFileNameLink)+"""';
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const showBtnShare = urlParams.get('showBtnShare');
+
+  if (showBtnShare) {
+          botonCopiar.style.display = 'block';
+        } else {
+          botonCopiar.style.display = 'none';
+        }
+
+  botonCopiar.addEventListener('click', () => {
+    navigator.clipboard.writeText(enlacePagina)
+      .then(() => {
+        alert('Listo! Ya tienes el enlace copiado para compartir: """+str(htmlFileNameLink)+"""');
+      })
+      .catch(error => {
+        alert('Ha ocurrido un error. No se ha podido copiar el enlace en el portapapeles!');
+        console.error('Error al copiar enlace:', error);
+      });
+  });
+</script>
+"""
 
 # Función para ejecutar comandos shell y obtener su salida
 def run_command(command):
@@ -74,5 +128,20 @@ for i in range(10):  # Iterar para 'sol' y 'luna'
     SIGN = aSignsLowerStyle[IS1]
     DATAS1 = run_command(f'{FOLDERGETDATA}/scripts/getData.sh {FOLDERJSONS}/data/{BODIE}.json {BODIE} {SIGN} casa_{IH1} {FOLDERGETDATA}')
     HTML += DATAS1
+
+
+HTML += "   </body>\n"
+HTML += "</html>\n"
+
+contenido_css=""
+with open(f'{FOLDERGETDATA}/style.css', "r") as archivo_css:
+    contenido_css = archivo_css.read()
+
+
+HTML = HTML.replace("/* Aquí se agregará el contenido CSS */", contenido_css)
+#htmlFileName="/home/ns/pagina.html"
+htmlFileName=f'{FOLDERGETDATA}/files/{htmlFileName}'
+with open(htmlFileName, "w") as archivo:
+        print(HTML, file=archivo)
 
 print(HTML)
