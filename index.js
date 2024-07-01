@@ -103,12 +103,12 @@ mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)
     }
     console.log(`Conectado a ${urlMongoDatabase}`)
-    /*app.listen(app.get('port'), host, function() {
-        console.log('Servidor '+appServerName+' iniciado en '+host+':'+app.get('port'));
-        console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
-    });*/
-
-    https.createServer(options, app).listen(app.get('port'), host, () => {
-      console.log('HTTPS Server running at https://'+host+':'+app.get('port')+'/');
+    app.listen(app.get('port'), host, function() {
+        console.log('app Servidor '+appServerName+' iniciado en '+host+':'+app.get('port'));
+        console.log('app Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
     });
+
+    /*https.createServer(options, app).listen(app.get('port'), host, () => {
+      console.log('HTTPS Server running at https://'+host+':'+app.get('port')+'/');
+    });*/
 })
