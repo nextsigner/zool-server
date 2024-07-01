@@ -50,9 +50,25 @@ connect().use(serveStatic(__dirname)).listen(puertoStatico);
 var fs = require('fs');
 var path = require('path');
 
+const https = require('https');
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
+const options = {
+  key: fs.readFileSync(path.join(__dirname, 'key.pem')),
+  cert: fs.readFileSync(path.join(__dirname, 'cert.pem'))
+};
+
+/*https.createServer(options, (req, res) => {
+  res.writeHead(200);
+  res.end('Hello Secure World!\n');
+}).listen(443, () => {
+  console.log('Server running at https://localhost:443/');
+});*/
+//const server = https.createServer(httpsOptions, app);
+
+
+
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -80,14 +96,19 @@ db.once('open', function() {
     console.log('db conectada!');
     // we're connected!
 });
+
 var urlMongoDatabase='mongodb://127.0.0.1:27017/'+appServerName
 mongoose.connect(urlMongoDatabase, { useNewUrlParser: true }, function (err, res){
     if(err){
         return console.log(`Error al conectar a ${urlMongoDatabase} ${err}`)
     }
     console.log(`Conectado a ${urlMongoDatabase}`)
-    app.listen(app.get('port'), host, function() {
+    /*app.listen(app.get('port'), host, function() {
         console.log('Servidor '+appServerName+' iniciado en '+host+':'+app.get('port'));
         console.log('Puertos: App=' + app.get('port') + '  Files='+ puertoStatico);
+    });*/
+
+    https.createServer(options, app).listen(app.get('port'), host, () => {
+      console.log('HTTPS Server running at https://'+host+':'+app.get('port')+'/');
     });
 })

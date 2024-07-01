@@ -38,6 +38,7 @@ sudo apt install -y libswe-dev
 sudo apt install -y mongodb
 
 sudo apt install npm
+npm install https
 npm install forever -g
 npm install forever-service -g
 
