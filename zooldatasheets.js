@@ -339,8 +339,8 @@
         let strLN=req.query.ciudad.replace(/ /g,'+')
         console.log('req.query.ciudad corregido: '+strLN)
         let nomCorr=(''+req.query.n).replace(/ /g, '_')
-        //let hostFinal='www.zool.ar'
-        let hostFinal='127.0.0.1:8100'
+        let hostFinal='www.zool.ar'
+        //let hostFinal='127.0.0.1:8100'
         let cmd='python3 '+stringSWEFolderPath+'/scripts/mkHtmlFullMap.py "http://'+hostFinal+'/getZoolDataMap?n='+nomCorr+'&d='+req.query.d+'&m='+req.query.m+'&a='+req.query.a+'&h='+req.query.h+'&min='+req.query.min+'&gmt='+req.query.gmt+'&lugarNacimiento='+strLN+'&lat='+req.query.lat+'&lon='+req.query.lon+'&alt='+req.query.alt+'&ciudad='+strLN+'&ms='+req.query.ms+'&msReq='+req.query.msReq+'&adminId='+req.query.adminId+'&onlyJson=true" '+stringSWEFolderPath+' '+stringSWEFolderPath+' '+req.query.sexo+' '+title+' '+datos
         cmd=cmd.replace(/\+/g,'%20')
         console.log('getZoolDataFull cmd: '+cmd)
