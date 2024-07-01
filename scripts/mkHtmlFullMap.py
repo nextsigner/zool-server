@@ -72,7 +72,7 @@ HTML +="""
           botonCopiar.style.display = 'none';
         }*/
 
-  botonVolverInicio.addEventListener('click', () => {
+  botonVolverAlInicio.addEventListener('click', () => {
     window.location.href = 'http://www.zool.ar/';
   });
   botonCopiar.addEventListener('click', () => {

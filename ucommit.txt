@@ -1,1 +1,1 @@
-NO se ocultará el boton compartir de las paginas de files
+Se corrige error en botonVolverAlInicio
