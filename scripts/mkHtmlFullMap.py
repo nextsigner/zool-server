@@ -48,9 +48,14 @@ HTML += "    </head>\n"
 HTML += "<body>\n"
 HTML += "        <h1>"+str(TITLE)+"</h1><br>\n"
 HTML += "        <p>"+str(INFO)+"</p><br>\n"
-HTML += "<button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
+HTML += "<div>\n"
+HTML += "   <button id=\"volvelAlInicio\">Ir a Zool.ar</button>\n"
+HTML += "   <button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
+HTML += "</div>\n"
+
 HTML +="""
 <script>
+  const botonVolverAlInicio = document.getElementById('volvelAlInicio');
   const botonCopiar = document.getElementById('copiarEnlace');
   //const enlacePagina = window.location.href;
   const enlacePagina = '"""+str(htmlFileNameLink)+"""';
@@ -64,6 +69,9 @@ HTML +="""
           botonCopiar.style.display = 'none';
         }
 
+  botonVolverInicio.addEventListener('click', () => {
+    window.location.href = 'http://www.zool.ar/';
+  });
   botonCopiar.addEventListener('click', () => {
     navigator.clipboard.writeText(enlacePagina)
       .then(() => {
