@@ -48,7 +48,7 @@ HTML += "    </head>\n"
 HTML += "<body>\n"
 
 HTML += "<div>\n"
-HTML += "   <button id=\"volvelAlInicio\">Ir a Zool.ar</button>\n"
+HTML += "   <button id=\"volverAlInicio\">Ir a Zool.ar</button>\n"
 HTML += "   <button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
 HTML += "</div>\n"
 
@@ -58,7 +58,7 @@ HTML += "        <p>"+str(INFO)+"</p><br>\n"
 
 HTML +="""
 <script>
-  const botonVolverAlInicio = document.getElementById('volvelAlInicio');
+  const botonVolverAlInicio = document.getElementById('volverAlInicio');
   const botonCopiar = document.getElementById('copiarEnlace');
   //const enlacePagina = window.location.href;
   const enlacePagina = '"""+str(htmlFileNameLink)+"""';
