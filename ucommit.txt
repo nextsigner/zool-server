@@ -1,1 +1,1 @@
-Se agrega boton volver al inicio.
+Se agrega nota l al pie de páginas html de files.

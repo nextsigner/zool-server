@@ -46,12 +46,15 @@ HTML += "        /* Aquí se agregará el contenido CSS */"
 HTML += "    </style>"
 HTML += "    </head>\n"
 HTML += "<body>\n"
-HTML += "        <h1>"+str(TITLE)+"</h1><br>\n"
-HTML += "        <p>"+str(INFO)+"</p><br>\n"
+
 HTML += "<div>\n"
 HTML += "   <button id=\"volvelAlInicio\">Ir a Zool.ar</button>\n"
 HTML += "   <button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
 HTML += "</div>\n"
+
+HTML += "        <h1>"+str(TITLE)+"</h1><br>\n"
+HTML += "        <p>"+str(INFO)+"</p><br>\n"
+
 
 HTML +="""
 <script>
@@ -138,6 +141,7 @@ for i in range(10):  # Iterar para 'sol' y 'luna'
     HTML += DATAS1
 
 
+HTML += "<br><br><p id=\"notaAlPie\" style=\"text-align: center;\">Zool.ar - Creado por Ricardo Martin Pizarro - Buenos Aires Argentina 2024</p><br><br>"
 HTML += "   </body>\n"
 HTML += "</html>\n"
 
