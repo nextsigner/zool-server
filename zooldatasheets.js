@@ -327,7 +327,12 @@
         let datos=''
         if(tipo==='cn'){
             title=parseMan('"Carta Natal de '+req.query.n+'"')//.replace(/ /g, '_')
-            datos='"Nacido el día '+req.query.d+'/'+req.query.m+'/'+req.query.a+' a las '+req.query.h+':'+req.query.min+'hs en '+req.query.ciudad+'"'
+            if(req.query.sexo==='masculino'){
+                datos='"Nacido el día '
+            }else{
+                datos='"Nacida el día '
+            }
+            datos+=req.query.d+'/'+req.query.m+'/'+req.query.a+' a las '+req.query.h+':'+req.query.min+'hs en '+req.query.ciudad+'"'
         }
 
         //console.log('Dia: '+req.query.d);
