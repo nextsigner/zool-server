@@ -1,1 +1,1 @@
-Se corrige dato Nacido/a
+Se retira boton copiarEnlace

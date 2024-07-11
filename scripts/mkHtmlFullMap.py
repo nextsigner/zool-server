@@ -49,7 +49,7 @@ HTML += "<body>\n"
 
 HTML += "<div>\n"
 HTML += "   <button id=\"volverAlInicio\">Ir a Zool.ar</button>\n"
-HTML += "   <button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
+//HTML += "   <button id=\"copiarEnlace\">Copiar enlace / Para Compartir</button>\n"
 HTML += "</div>\n"
 
 HTML += "        <h1>"+str(TITLE)+"</h1><br>\n"
@@ -69,7 +69,7 @@ HTML +="""
   botonVolverAlInicio.addEventListener('click', () => {
     window.location.href = 'http://www.zool.ar/';
   });
-  botonCopiar.addEventListener('click', () => {
+  /*botonCopiar.addEventListener('click', () => {
     navigator.clipboard.writeText(enlacePagina)
       .then(() => {
         alert('Listo! Ya tienes el enlace copiado para compartir: """+str(htmlFileNameLink)+"""');
@@ -78,7 +78,7 @@ HTML +="""
         alert('Ha ocurrido un error. No se ha podido copiar el enlace en el portapapeles!');
         console.error('Error al copiar enlace:', error);
       });
-  });
+  });*/
 </script>
 """
 
