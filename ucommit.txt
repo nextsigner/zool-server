@@ -1,1 +1,1 @@
-Se retira boton copiarEnlace
+Se retira boton copiarEnlace 2
