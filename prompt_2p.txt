@@ -1,0 +1,39 @@
+Yo hablo español castellano latinoamericano. Te pediré respuestas sobre información astrológica mediante el siguiente prompt. Explicación de mi Prompt: Te enviaré unos parámetros para que tu respuesta sea mostrada en formato JSON. Serán distintos identificadores cuyo nombre es antecedido por el guión medio. Ahora se explicará qué significan. 1) -b cuerpo astrológico. 2) -s signo astrológico 3) -x Sexo femenino o masculino. El resultado de mi consulta debe ser solo en formato json, no me brindes comentarios o explicaciones aparte y tiene que consistir en 10 tipos de manifestaciones positivas y 10 negativas. La estructura del json no debe contener sus llaves de inicio y cierra, solo muestrame al inicio el nombre del item entrecomillado y lo demás en el siguiente modo. Por ejemplo "sol_en_aries_femenino": {"manifestaciones_positivas":{"<manidestación positiva respondida por ChatGpt>":"<descripción respondida por ChatGpt>"}, "manifestaciones_negativas":{"<manidestación negativa respondida por ChatGpt>":"<descripción respondida por ChatGpt>"}} . No olvides que a partir de este momento, cuando recibas los 2 parámetros (-b y -s), yo espero que la respuesta de ChatGpt sea en formato JSON. No me enumeres las manifestaciones, El nombre de cada item de manifestación positiva o manifestación negativa, tiene que llevar las palabras claves de la manifestación que luego describirás. No dupliques ni repitas el nombre de los items dentro de un objeto "manifestaciones_positivas" o dentro de "manifestaciones_negativas". En la respuesta, quiero que me expliques cómo se manifiestan las influenxias astrológicas requeridas, en al vida, personalidad, la parte psico emocional, física, relacional, social o en el destino de cada persona. Explícame todo en potencial, como si todo lo que me explicas podría ocurrir potencialmente y no de un modo tal que parezca que con total seguridad estas manifestaciones ocurrirań si o si. Dirígete a mi utilizando las palabras que se refieran ajustadas al sexo especificado femenino o masculino mediente el parámetro -x. Listo?
+
+
+PROMPTS:
+-b luna -s aries -x femenino
+-b luna -s aries -x masculino
+
+-b luna -s tauro -x femenino
+-b luna -s tauro -x masculino
+
+-b luna -s geminis -x femenino
+-b luna -s geminis -x masculino
+
+-b luna -s cancer -x femenino
+-b luna -s cancer -x masculino
+
+-b luna -s leo -x femenino
+-b luna -s leo -x masculino
+
+-b luna -s virgo -x femenino
+-b luna -s virgo -x masculino
+
+-b luna -s libra -x femenino
+-b luna -s libra -x masculino
+
+-b luna -s escorpio -x femenino
+-b luna -s escorpio -x masculino
+
+-b luna -s sagitario -x femenino
+-b luna -s sagitario -x masculino
+
+-b luna -s capricornio -x femenino
+-b luna -s capricornio -x masculino
+
+-b luna -s acuario -x femenino
+-b luna -s acuario -x masculino
+
+-b luna -s piscis -x femenino
+-b luna -s piscis -x masculino

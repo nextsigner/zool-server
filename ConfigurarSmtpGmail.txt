@@ -1,0 +1,40 @@
+
+CONTEXTO
+
+Atención!!: No tuve que abrir ningún puerto en el firewall de DonWeb.
+
+Funcionó en el servidor con Ubuntu 16.04 desde cero, limpio, sin update ni upgrade.
+
+
+Seguir paso a paso las intrucciones de esta página.
+https://www.administradortotal.org.es/sistemas/linux/configurar-postfix-smtp-relay-usando-gmail/
+
+Atención: Es posible que luego de las instalaciones de mailutil y otros no se inicie la configuración del Postfix.
+Configurarlo manualmente con el dpkg.
+
+Primero usar el comando hostname para saber el nombre del host
+#:hostname
+
+luego
+
+#:sudo dpkg-reconfigure postfix
+
+Elegir Satélite, poner hostname, no forzar nada, aceptar todo incluso poner todos en ipv4/ipv6
+
+El script del sendEmail que envio bien el remitente es el siguiente:
+
+#!/bin/bash
+echo "$1" | mail -a "From: Ppres <pizarromario@gmail.com>" -s "$2" $3
+
+Usando el comando siguiente se envió todo correcto un correo a nextsigner@gmail.com
+
+#:sh ./sendEmail.sh "Datos del email" "Asunto del Email" nextsigner@gmail.com
+
+PUERTOS FIREWALL
+
+TCP	5049	0.0.0.0/0	
+TCP	443	0.0.0.0/0	
+TCP	5049	::/0	
+TCP	443	::/0	
+TCP	80	0.0.0.0/0	
+TCP	80	::/0

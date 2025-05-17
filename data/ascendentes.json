@@ -1,0 +1,608 @@
+{
+    "ascendente_en_aries_femenino": {
+        "manifestaciones_positivas": {
+            "energia_inagotable": "Tal vez tenga una energía física que le permita estar activa y realizar muchas actividades a lo largo del día.",
+            "liderazgo_natural": "Probablemente posea habilidades naturales para liderar, tomar la iniciativa y motivar a otros en diferentes aspectos de su vida.",
+            "valentía_excepcional": "Podría mostrar una gran valentía al enfrentar desafíos, tomando riesgos calculados y enfrentándose a situaciones difíciles con determinación.",
+            "entusiasmo_contagioso": "En algunas ocasiones, su entusiasmo y pasión inspirarán a los demás, generando un ambiente positivo y motivador en su entorno.",
+            "espontaneidad": "Tal vez actúe de manera espontánea, lo que puede llevar a experiencias emocionantes y momentos memorables tanto para ella como para quienes la rodean.",
+            "independencia": "Probablemente demuestre una fuerte independencia, prefiriendo tomar sus propias decisiones y seguir su propio camino en la vida.",
+            "confianza_en_sí_misma": "Existen grandes probabilidades de que tenga una gran confianza en sus habilidades y capacidades, lo que le permite afrontar desafíos con seguridad.",
+            "ambición": "Podría ser muy ambiciosa, siempre buscando alcanzar nuevas metas y superar sus propios límites.",
+            "capacidad_para_iniciar_proyectos": "Tal vez tenga una habilidad especial para iniciar proyectos nuevos y motivar a otros a unirse a sus iniciativas.",
+            "optimismo": "Probablemente tenga una visión optimista de la vida, siempre buscando el lado positivo de las situaciones y animando a otros a hacer lo mismo."
+        },
+        "manifestaciones_negativas": {
+            "impaciencia": "Tal vez tenga poca tolerancia para la espera, lo que puede llevar a la frustración y al estrés en situaciones que requieren paciencia.",
+            "agresividad": "Probablemente, en momentos de tensión, pueda mostrar un comportamiento agresivo o confrontacional, afectando sus relaciones interpersonales.",
+            "impulsividad": "A veces toma decisiones de manera impulsiva sin considerar todas las consecuencias, lo que podría traerle problemas.",
+            "egoísmo": "Es posible que, en su afán de alcanzar sus objetivos, tienda a ser egoísta, priorizando sus necesidades sobre las de los demás.",
+            "competitividad_excesiva": "Tal vez muestre una competitividad extrema, que puede llevar a conflictos con otros, especialmente si se siente amenazada.",
+            "dificultad_para_escuchar": "En algunas ocasiones, puede tener dificultades para escuchar a los demás, prefiriendo imponer sus propias ideas y opiniones.",
+            "falta_de_persistencia": "Podría empezar muchos proyectos con entusiasmo pero abandonar algunos de ellos cuando se encuentra con obstáculos difíciles.",
+            "arrogancia": "Probablemente muestre una actitud arrogante, subestimando las capacidades de otros y creyendo que siempre tiene la razón.",
+            "intolerancia": "Tal vez tenga poca tolerancia hacia las opiniones y comportamientos de los demás que no coinciden con los suyos.",
+            "tendencia_a_los_enfrentamientos": "Podría tener una tendencia a buscar confrontaciones y disputas, lo que puede dificultar la armonía en sus relaciones."
+        }
+    },
+    "ascendente_en_aries_masculino": {
+        "manifestaciones_positivas": {
+            "energia_inagotable": "Tal vez tenga una energía física que le permita estar activo y realizar muchas actividades a lo largo del día.",
+            "liderazgo_natural": "Probablemente posea habilidades naturales para liderar, tomar la iniciativa y motivar a otros en diferentes aspectos de su vida.",
+            "valentía_excepcional": "Podría mostrar una gran valentía al enfrentar desafíos, tomando riesgos calculados y enfrentándose a situaciones difíciles con determinación.",
+            "entusiasmo_contagioso": "En algunas ocasiones, su entusiasmo y pasión inspirarán a los demás, generando un ambiente positivo y motivador en su entorno.",
+            "espontaneidad": "Tal vez actúe de manera espontánea, lo que puede llevar a experiencias emocionantes y momentos memorables tanto para él como para quienes lo rodean.",
+            "independencia": "Probablemente demuestre una fuerte independencia, prefiriendo tomar sus propias decisiones y seguir su propio camino en la vida.",
+            "confianza_en_sí_mismo": "Existen grandes probabilidades de que tenga una gran confianza en sus habilidades y capacidades, lo que le permite afrontar desafíos con seguridad.",
+            "ambición": "Podría ser muy ambicioso, siempre buscando alcanzar nuevas metas y superar sus propios límites.",
+            "capacidad_para_iniciar_proyectos": "Tal vez tenga una habilidad especial para iniciar proyectos nuevos y motivar a otros a unirse a sus iniciativas.",
+            "optimismo": "Probablemente tenga una visión optimista de la vida, siempre buscando el lado positivo de las situaciones y animando a otros a hacer lo mismo."
+        },
+        "manifestaciones_negativas": {
+            "impaciencia": "Tal vez tenga poca tolerancia para la espera, lo que puede llevar a la frustración y al estrés en situaciones que requieren paciencia.",
+            "agresividad": "Probablemente, en momentos de tensión, pueda mostrar un comportamiento agresivo o confrontacional, afectando sus relaciones interpersonales.",
+            "impulsividad": "A veces toma decisiones de manera impulsiva sin considerar todas las consecuencias, lo que podría traerle problemas.",
+            "egoísmo": "Es posible que, en su afán de alcanzar sus objetivos, tienda a ser egoísta, priorizando sus necesidades sobre las de los demás.",
+            "competitividad_excesiva": "Tal vez muestre una competitividad extrema, que puede llevar a conflictos con otros, especialmente si se siente amenazado.",
+            "dificultad_para_escuchar": "En algunas ocasiones, puede tener dificultades para escuchar a los demás, prefiriendo imponer sus propias ideas y opiniones.",
+            "falta_de_persistencia": "Podría empezar muchos proyectos con entusiasmo pero abandonar algunos de ellos cuando se encuentra con obstáculos difíciles.",
+            "arrogancia": "Probablemente muestre una actitud arrogante, subestimando las capacidades de otros y creyendo que siempre tiene la razón.",
+            "intolerancia": "Tal vez tenga poca tolerancia hacia las opiniones y comportamientos de los demás que no coinciden con los suyos.",
+            "tendencia_a_los_enfrentamientos": "Podría tener una tendencia a buscar confrontaciones y disputas, lo que puede dificultar la armonía en sus relaciones."
+        }
+    },
+    "ascendente_en_tauro_femenino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Tal vez tenga una gran capacidad para persistir y seguir adelante incluso cuando enfrenta desafíos, mostrando una determinación inquebrantable.",
+            "practicidad": "Probablemente posea una actitud práctica hacia la vida, prefiriendo soluciones tangibles y realistas a los problemas.",
+            "paciencia": "Podría mostrar una notable paciencia, capaz de esperar el momento adecuado para actuar o tomar decisiones importantes.",
+            "estabilidad": "En algunas ocasiones, proporcionará una sensación de estabilidad y seguridad a quienes la rodean, siendo un pilar de apoyo en tiempos difíciles.",
+            "lealtad": "Existen grandes probabilidades de que sea extremadamente leal, valorando profundamente sus relaciones y compromisos.",
+            "aprecio_por_las_comodidades": "Probablemente tenga un fuerte aprecio por las comodidades materiales y un entorno agradable, disfrutando de los placeres de la vida.",
+            "practicidad_en_finanzas": "Tal vez maneje sus finanzas con prudencia y sensatez, asegurándose de tener una base económica sólida.",
+            "conexión_con_la_naturaleza": "Podría sentir una profunda conexión con la naturaleza, disfrutando de actividades al aire libre y encontrando paz en entornos naturales.",
+            "resistencia_física": "En algunas ocasiones, mostrará una notable resistencia física, siendo capaz de mantener su energía y esfuerzo en tareas prolongadas.",
+            "calidez": "Existen grandes probabilidades de que irradie una calidez y amabilidad que hace que los demás se sientan acogidos y valorados."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Tal vez sea extremadamente terca, rehusándose a cambiar de opinión o de enfoque, incluso cuando se enfrenta a nueva información.",
+            "posesividad": "Probablemente tienda a ser posesiva en sus relaciones, lo que puede generar tensiones y conflictos con sus seres queridos.",
+            "resistencia_al_cambio": "Podría mostrar una fuerte resistencia al cambio, prefiriendo mantener las cosas tal como están aunque no sean óptimas.",
+            "materialismo_excesivo": "En algunas ocasiones, puede enfocarse demasiado en los aspectos materiales de la vida, descuidando otros valores importantes.",
+            "lentitud_en_tomar_decisiones": "Existen grandes probabilidades de que a veces tome decisiones de manera muy lenta, perdiendo oportunidades debido a su cautela excesiva.",
+            "rigidez_mental": "Tal vez sea mentalmente rígida, mostrando poca flexibilidad en sus pensamientos y enfoques.",
+            "propensión_a_la_comodidad": "Probablemente prefiera la comodidad y evite situaciones que le requieran salir de su zona de confort.",
+            "dificultad_para_dejar_ir": "Podría tener dificultades para dejar ir cosas o personas, aferrándose a lo conocido por seguridad emocional.",
+            "conservadurismo": "En algunas ocasiones, puede ser muy conservadora, resistiéndose a adoptar nuevas ideas o formas de hacer las cosas.",
+            "inseguridad": "Existen grandes probabilidades de que en ciertos momentos, se sienta insegura respecto a su valor personal, buscando validación externa."
+        }
+    },
+    "ascendente_en_tauro_masculino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Tal vez tenga una gran capacidad para persistir y seguir adelante incluso cuando enfrenta desafíos, mostrando una determinación inquebrantable.",
+            "practicidad": "Probablemente posea una actitud práctica hacia la vida, prefiriendo soluciones tangibles y realistas a los problemas.",
+            "paciencia": "Podría mostrar una notable paciencia, capaz de esperar el momento adecuado para actuar o tomar decisiones importantes.",
+            "estabilidad": "En algunas ocasiones, proporcionará una sensación de estabilidad y seguridad a quienes lo rodean, siendo un pilar de apoyo en tiempos difíciles.",
+            "lealtad": "Existen grandes probabilidades de que sea extremadamente leal, valorando profundamente sus relaciones y compromisos.",
+            "aprecio_por_las_comodidades": "Probablemente tenga un fuerte aprecio por las comodidades materiales y un entorno agradable, disfrutando de los placeres de la vida.",
+            "practicidad_en_finanzas": "Tal vez maneje sus finanzas con prudencia y sensatez, asegurándose de tener una base económica sólida.",
+            "conexión_con_la_naturaleza": "Podría sentir una profunda conexión con la naturaleza, disfrutando de actividades al aire libre y encontrando paz en entornos naturales.",
+            "resistencia_física": "En algunas ocasiones, mostrará una notable resistencia física, siendo capaz de mantener su energía y esfuerzo en tareas prolongadas.",
+            "calidez": "Existen grandes probabilidades de que irradie una calidez y amabilidad que hace que los demás se sientan acogidos y valorados."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Tal vez sea extremadamente terco, rehusándose a cambiar de opinión o de enfoque, incluso cuando se enfrenta a nueva información.",
+            "posesividad": "Probablemente tienda a ser posesivo en sus relaciones, lo que puede generar tensiones y conflictos con sus seres queridos.",
+            "resistencia_al_cambio": "Podría mostrar una fuerte resistencia al cambio, prefiriendo mantener las cosas tal como están aunque no sean óptimas.",
+            "materialismo_excesivo": "En algunas ocasiones, puede enfocarse demasiado en los aspectos materiales de la vida, descuidando otros valores importantes.",
+            "lentitud_en_tomar_decisiones": "Existen grandes probabilidades de que a veces tome decisiones de manera muy lenta, perdiendo oportunidades debido a su cautela excesiva.",
+            "rigidez_mental": "Tal vez sea mentalmente rígido, mostrando poca flexibilidad en sus pensamientos y enfoques.",
+            "propensión_a_la_comodidad": "Probablemente prefiera la comodidad y evite situaciones que le requieran salir de su zona de confort.",
+            "dificultad_para_dejar_ir": "Podría tener dificultades para dejar ir cosas o personas, aferrándose a lo conocido por seguridad emocional.",
+            "conservadurismo": "En algunas ocasiones, puede ser muy conservador, resistiéndose a adoptar nuevas ideas o formas de hacer las cosas.",
+            "inseguridad": "Existen grandes probabilidades de que en ciertos momentos, se sienta inseguro respecto a su valor personal, buscando validación externa."
+        }
+    },
+    "ascendente_en_geminis_femenino": {
+        "manifestaciones_positivas": {
+            "comunicación_hábil": "Probablemente tenga una habilidad innata para comunicarse eficazmente, expresando sus ideas y pensamientos de manera clara y persuasiva.",
+            "adaptabilidad": "Tal vez sea muy adaptable, capaz de ajustarse rápidamente a nuevas situaciones y cambios en su entorno.",
+            "curiosidad_intelectual": "Podría tener una curiosidad intelectual insaciable, siempre buscando aprender cosas nuevas y expandir sus conocimientos.",
+            "versatilidad": "Existen grandes probabilidades de que sea versátil, manejando múltiples tareas y roles con facilidad.",
+            "espíritu_joven": "En algunas ocasiones, mostrará un espíritu joven y vivaz, manteniendo una actitud positiva y energética hacia la vida.",
+            "sociabilidad": "Tal vez sea muy sociable, disfrutando de interactuar con diferentes tipos de personas y haciendo amigos con facilidad.",
+            "inteligencia_ágil": "Probablemente posea una mente ágil, capaz de pensar rápido y encontrar soluciones creativas a los problemas.",
+            "capacidad_de_persuasión": "Podría tener una capacidad de persuasión notable, influenciando a otros con su elocuencia y carisma.",
+            "entusiasmo_por_las_novedades": "Existen grandes probabilidades de que se entusiasme con las novedades, siempre buscando experiencias y actividades nuevas y emocionantes.",
+            "habilidad_para_el_aprendizaje": "Tal vez tenga una habilidad natural para aprender rápidamente y adaptarse a nuevos conocimientos y habilidades."
+        },
+        "manifestaciones_negativas": {
+            "inconstancia": "Podría ser inconstante, empezando muchos proyectos pero teniendo dificultades para terminarlos.",
+            "superficialidad": "Tal vez tenga una tendencia a ser superficial, centrándose en lo inmediato sin profundizar en los detalles.",
+            "nerviosismo": "Probablemente muestre nerviosismo, especialmente en situaciones estresantes o cuando enfrenta incertidumbre.",
+            "falta_de_concentración": "Existen grandes probabilidades de que tenga dificultades para mantener la concentración en una tarea durante mucho tiempo.",
+            "inquietud": "En algunas ocasiones, puede sentirse inquieta, siempre buscando algo nuevo y emocionante para evitar el aburrimiento.",
+            "indecisión": "Tal vez sea indecisa, dudando entre varias opciones y tomando tiempo para decidirse.",
+            "tendencia_a_la_dispersión": "Podría tener una tendencia a dispersarse, dejando tareas a medio camino por perseguir nuevas ideas.",
+            "superficialidad_en_relaciones": "Probablemente tenga relaciones superficiales, evitando profundizar en las conexiones emocionales por temor a perder su libertad.",
+            "inconsistencia_en_opiniones": "Existen grandes probabilidades de que cambie de opinión con frecuencia, dificultando que los demás la comprendan completamente.",
+            "dificultad_para_comprometerse": "En algunas ocasiones, puede mostrar dificultad para comprometerse a largo plazo en proyectos o relaciones, buscando siempre nuevas experiencias."
+        }
+    },
+    "ascendente_en_geminis_masculino": {
+        "manifestaciones_positivas": {
+            "comunicación_hábil": "Probablemente tenga una habilidad innata para comunicarse eficazmente, expresando sus ideas y pensamientos de manera clara y persuasiva.",
+            "adaptabilidad": "Tal vez sea muy adaptable, capaz de ajustarse rápidamente a nuevas situaciones y cambios en su entorno.",
+            "curiosidad_intelectual": "Podría tener una curiosidad intelectual insaciable, siempre buscando aprender cosas nuevas y expandir sus conocimientos.",
+            "versatilidad": "Existen grandes probabilidades de que sea versátil, manejando múltiples tareas y roles con facilidad.",
+            "espíritu_joven": "En algunas ocasiones, mostrará un espíritu joven y vivaz, manteniendo una actitud positiva y energética hacia la vida.",
+            "sociabilidad": "Tal vez sea muy sociable, disfrutando de interactuar con diferentes tipos de personas y haciendo amigos con facilidad.",
+            "inteligencia_ágil": "Probablemente posea una mente ágil, capaz de pensar rápido y encontrar soluciones creativas a los problemas.",
+            "capacidad_de_persuasión": "Podría tener una capacidad de persuasión notable, influenciando a otros con su elocuencia y carisma.",
+            "entusiasmo_por_las_novedades": "Existen grandes probabilidades de que se entusiasme con las novedades, siempre buscando experiencias y actividades nuevas y emocionantes.",
+            "habilidad_para_el_aprendizaje": "Tal vez tenga una habilidad natural para aprender rápidamente y adaptarse a nuevos conocimientos y habilidades."
+        },
+        "manifestaciones_negativas": {
+            "inconstancia": "Podría ser inconstante, empezando muchos proyectos pero teniendo dificultades para terminarlos.",
+            "superficialidad": "Tal vez tenga una tendencia a ser superficial, centrándose en lo inmediato sin profundizar en los detalles.",
+            "nerviosismo": "Probablemente muestre nerviosismo, especialmente en situaciones estresantes o cuando enfrenta incertidumbre.",
+            "falta_de_concentración": "Existen grandes probabilidades de que tenga dificultades para mantener la concentración en una tarea durante mucho tiempo.",
+            "inquietud": "En algunas ocasiones, puede sentirse inquieto, siempre buscando algo nuevo y emocionante para evitar el aburrimiento.",
+            "indecisión": "Tal vez sea indeciso, dudando entre varias opciones y tomando tiempo para decidirse.",
+            "tendencia_a_la_dispersión": "Podría tener una tendencia a dispersarse, dejando tareas a medio camino por perseguir nuevas ideas.",
+            "superficialidad_en_relaciones": "Probablemente tenga relaciones superficiales, evitando profundizar en las conexiones emocionales por temor a perder su libertad.",
+            "inconsistencia_en_opiniones": "Existen grandes probabilidades de que cambie de opinión con frecuencia, dificultando que los demás lo comprendan completamente.",
+            "dificultad_para_comprometerse": "En algunas ocasiones, puede mostrar dificultad para comprometerse a largo plazo en proyectos o relaciones, buscando siempre nuevas experiencias."
+        }
+    },
+    "ascendente_en_cancer_femenino": {
+        "manifestaciones_positivas": {
+            "empatía_profunda": "Tal vez tenga una capacidad innata para entender y sentir las emociones de los demás, ofreciendo apoyo emocional genuino.",
+            "sensibilidad": "Probablemente sea muy sensible y receptiva emocionalmente, captando los estados de ánimo y las necesidades de las personas a su alrededor.",
+            "intuición_aguda": "Podría poseer una intuición aguda, confiando en su instinto para tomar decisiones importantes en la vida.",
+            "cuidado_maternal": "Existen grandes probabilidades de que tenga un instinto maternal fuerte, cuidando y protegiendo a quienes considera su familia o seres queridos.",
+            "imaginación_creativa": "En algunas ocasiones, podría tener una imaginación creativa desarrollada, encontrando soluciones innovadoras a problemas cotidianos.",
+            "compromiso_familiar": "Tal vez tenga un fuerte compromiso con su familia y hogar, siendo un pilar de apoyo emocional y práctico para sus seres queridos.",
+            "inteligencia_emocional": "Probablemente posea una alta inteligencia emocional, siendo capaz de manejar sus propias emociones y las de los demás de manera efectiva.",
+            "lealtad_incondicional": "Existen grandes probabilidades de que sea extremadamente leal, valorando profundamente las relaciones duraderas y comprometiéndose totalmente con quienes ama.",
+            "intuición_en_negocios": "Tal vez utilice su intuición no solo en lo emocional, sino también en el ámbito de los negocios, tomando decisiones basadas en percepciones sutiles.",
+            "protección_natural": "Probablemente tenga un instinto protector natural, cuidando de los más vulnerables y defendiendo sus valores con determinación."
+        },
+        "manifestaciones_negativas": {
+            "hipersensibilidad_emocional": "Podría ser extremadamente sensible emocionalmente, reaccionando de manera exagerada a pequeños problemas o conflictos.",
+            "apego_excesivo": "Tal vez tienda a aferrarse demasiado a las personas y cosas, sintiendo ansiedad cuando percibe cualquier amenaza de pérdida.",
+            "necesidad_de_aprobación": "Probablemente busque constantemente la aprobación y el reconocimiento externo, sintiéndose insegura sin la validación de otros.",
+            "vulnerabilidad_emocional": "Existen grandes probabilidades de que se sienta vulnerable emocionalmente, sintiendo profundamente las críticas y los rechazos.",
+            "temor_al_cambio": "Tal vez tenga miedo al cambio, prefiriendo la estabilidad y resistiéndose a cualquier alteración en su rutina o entorno.",
+            "manipulación_emocional": "Probablemente pueda recurrir a la manipulación emocional en situaciones de conflicto o para obtener lo que desea.",
+            "dependencia_emocional": "Existen grandes probabilidades de que pueda volverse emocionalmente dependiente de los demás, buscando constantemente apoyo y validación externa.",
+            "resistencia_a_los_cambios": "Tal vez muestre resistencia a los cambios en su entorno o en sus relaciones, sintiéndose incómoda con lo desconocido.",
+            "posesividad_emocional": "Probablemente pueda mostrar posesividad emocional hacia sus seres queridos, sintiendo celos o queriendo controlar las situaciones.",
+            "evitación_del_conflicto": "Existen grandes probabilidades de que prefiera evitar el conflicto a enfrentarlo directamente, buscando mantener la armonía a cualquier costo."
+        }
+    },
+    "ascendente_en_cancer_masculino": {
+        "manifestaciones_positivas": {
+            "empatía_profunda": "Tal vez tenga una capacidad innata para entender y sentir las emociones de los demás, ofreciendo apoyo emocional genuino.",
+            "sensibilidad": "Probablemente sea muy sensible y receptivo emocionalmente, captando los estados de ánimo y las necesidades de las personas a su alrededor.",
+            "intuición_aguda": "Podría poseer una intuición aguda, confiando en su instinto para tomar decisiones importantes en la vida.",
+            "cuidado_protector": "Existen grandes probabilidades de que tenga un instinto protector fuerte hacia su familia y seres queridos, cuidándolos con dedicación y cariño.",
+            "imaginación_creativa": "En algunas ocasiones, podría tener una imaginación creativa desarrollada, encontrando soluciones innovadoras a problemas cotidianos.",
+            "compromiso_familiar": "Tal vez tenga un fuerte compromiso con su familia y hogar, siendo un pilar de apoyo emocional y práctico para sus seres queridos.",
+            "inteligencia_emocional": "Probablemente posea una alta inteligencia emocional, siendo capaz de manejar sus propias emociones y las de los demás de manera efectiva.",
+            "lealtad_incondicional": "Existen grandes probabilidades de que sea extremadamente leal, valorando profundamente las relaciones duraderas y comprometiéndose totalmente con quienes ama.",
+            "intuición_en_negocios": "Tal vez utilice su intuición no solo en lo emocional, sino también en el ámbito de los negocios, tomando decisiones basadas en percepciones sutiles.",
+            "protección_natural": "Probablemente tenga un instinto protector natural, cuidando de los más vulnerables y defendiendo sus valores con determinación."
+        },
+        "manifestaciones_negativas": {
+            "hipersensibilidad_emocional": "Podría ser extremadamente sensible emocionalmente, reaccionando de manera exagerada a pequeños problemas o conflictos.",
+            "apego_excesivo": "Tal vez tienda a aferrarse demasiado a las personas y cosas, sintiendo ansiedad cuando percibe cualquier amenaza de pérdida.",
+            "necesidad_de_aprobación": "Probablemente busque constantemente la aprobación y el reconocimiento externo, sintiéndose inseguro sin la validación de otros.",
+            "vulnerabilidad_emocional": "Existen grandes probabilidades de que se sienta vulnerable emocionalmente, sintiendo profundamente las críticas y los rechazos.",
+            "temor_al_cambio": "Tal vez tenga miedo al cambio, prefiriendo la estabilidad y resistiéndose a cualquier alteración en su rutina o entorno.",
+            "manipulación_emocional": "Probablemente pueda recurrir a la manipulación emocional en situaciones de conflicto o para obtener lo que desea.",
+            "dependencia_emocional": "Existen grandes probabilidades de que pueda volverse emocionalmente dependiente de los demás, buscando constantemente apoyo y validación externa.",
+            "resistencia_a_los_cambios": "Tal vez muestre resistencia a los cambios en su entorno o en sus relaciones, sintiéndose incómodo con lo desconocido.",
+            "posesividad_emocional": "Probablemente pueda mostrar posesividad emocional hacia sus seres queridos, sintiendo celos o queriendo controlar las situaciones.",
+            "evitación_del_conflicto": "Existen grandes probabilidades de que prefiera evitar el conflicto a enfrentarlo directamente, buscando mantener la armonía a cualquier costo."
+        }
+    },
+    "ascendente_en_leo_femenino": {
+        "manifestaciones_positivas": {
+            "carisma": "Tal vez tenga un carisma natural que atrae a los demás, irradiando confianza y atrayendo la atención dondequiera que vaya.",
+            "creatividad_expresiva": "Probablemente sea muy creativa y expresiva, encontrando formas únicas y emocionantes de mostrar su arte y habilidades.",
+            "generosidad": "Podría ser extremadamente generosa, compartiendo libremente sus recursos y tiempo con quienes lo necesitan.",
+            "liderazgo_nato": "Existen grandes probabilidades de que tenga habilidades innatas de liderazgo, inspirando a otros y tomando la iniciativa en proyectos importantes.",
+            "determinación": "Tal vez sea muy determinada y enfocada en alcanzar sus metas, superando obstáculos con fuerza y ​​perseverancia.",
+            "confianza_en_sí_misma": "Probablemente tenga una gran confianza en sí misma y en sus habilidades, creyendo en su capacidad para lograr lo que se proponga.",
+            "espíritu_de_independencia": "Podría tener un fuerte espíritu de independencia, prefiriendo tomar decisiones por sí misma y seguir su propio camino.",
+            "amor_propio": "Existen grandes probabilidades de que se ame y se valore a sí misma, reconociendo su propio mérito y cuidando su bienestar emocional y físico.",
+            "aprecio_por_el_reconocimiento": "Tal vez aprecie el reconocimiento y la admiración, disfrutando de ser el centro de atención en situaciones sociales.",
+            "optimismo": "Probablemente tenga una actitud optimista hacia la vida, viendo el lado positivo de las situaciones y animando a los demás a hacer lo mismo."
+        },
+        "manifestaciones_negativas": {
+            "orgullo_excesivo": "Podría mostrar un orgullo excesivo, volviéndose arrogante o egocéntrica en situaciones donde se siente desafiada.",
+            "necesidad_de_atención": "Tal vez busque constantemente la atención y el reconocimiento de los demás, sintiéndose incompleta sin la validación externa.",
+            "dramatismo": "Probablemente pueda ser dramática en sus emociones y reacciones, intensificando situaciones para llamar la atención sobre sí misma.",
+            "imperiosa": "Existen grandes probabilidades de que pueda mostrarse imperiosa o dominante en sus interacciones, buscando tener el control de las situaciones.",
+            "egoísmo": "Tal vez tenga tendencias egoístas, poniendo sus propios intereses por encima de los demás en ciertas circunstancias.",
+            "necesidad_de_admiración": "Probablemente necesite ser admirada y elogiada constantemente, buscando validación externa para sentirse valorada.",
+            "intolerancia_a_la_critica": "Existen grandes probabilidades de que tenga dificultades para aceptar críticas constructivas, sintiéndose herida o atacada ante opiniones negativas.",
+            "exigencia_excesiva": "Tal vez sea exigente consigo misma y con los demás, estableciendo estándares elevados que pueden ser difíciles de cumplir.",
+            "autoritarismo": "Probablemente pueda mostrar un comportamiento autoritario, esperando que los demás sigan sus directrices y decisiones sin cuestionarlas.",
+            "vanidad": "Existen grandes probabilidades de que pueda ser vanidosa, preocupándose excesivamente por su apariencia y por cómo la perciben los demás."
+        }
+    },
+    "ascendente_en_leo_masculino": {
+        "manifestaciones_positivas": {
+            "carisma": "Tal vez tenga un carisma natural que atrae a los demás, irradiando confianza y atrayendo la atención dondequiera que vaya.",
+            "creatividad_expresiva": "Probablemente sea muy creativo y expresivo, encontrando formas únicas y emocionantes de mostrar su arte y habilidades.",
+            "generosidad": "Podría ser extremadamente generoso, compartiendo libremente sus recursos y tiempo con quienes lo necesitan.",
+            "liderazgo_nato": "Existen grandes probabilidades de que tenga habilidades innatas de liderazgo, inspirando a otros y tomando la iniciativa en proyectos importantes.",
+            "determinación": "Tal vez sea muy determinado y enfocado en alcanzar sus metas, superando obstáculos con fuerza y ​​perseverancia.",
+            "confianza_en_sí_mismo": "Probablemente tenga una gran confianza en sí mismo y en sus habilidades, creyendo en su capacidad para lograr lo que se proponga.",
+            "espíritu_de_independencia": "Podría tener un fuerte espíritu de independencia, prefiriendo tomar decisiones por sí mismo y seguir su propio camino.",
+            "amor_propio": "Existen grandes probabilidades de que se ame y se valore a sí mismo, reconociendo su propio mérito y cuidando su bienestar emocional y físico.",
+            "aprecio_por_el_reconocimiento": "Tal vez aprecie el reconocimiento y la admiración, disfrutando de ser el centro de atención en situaciones sociales.",
+            "optimismo": "Probablemente tenga una actitud optimista hacia la vida, viendo el lado positivo de las situaciones y animando a los demás a hacer lo mismo."
+        },
+        "manifestaciones_negativas": {
+            "orgullo_excesivo": "Podría mostrar un orgullo excesivo, volviéndose arrogante o egocéntrico en situaciones donde se siente desafiado.",
+            "necesidad_de_atención": "Tal vez busque constantemente la atención y el reconocimiento de los demás, sintiéndose incompleto sin la validación externa.",
+            "dramatismo": "Probablemente pueda ser dramático en sus emociones y reacciones, intensificando situaciones para llamar la atención sobre sí mismo.",
+            "imperioso": "Existen grandes probabilidades de que pueda mostrarse imperioso o dominante en sus interacciones, buscando tener el control de las situaciones.",
+            "egoísmo": "Tal vez tenga tendencias egoístas, poniendo sus propios intereses por encima de los demás en ciertas circunstancias.",
+            "necesidad_de_admiración": "Probablemente necesite ser admirado y elogiado constantemente, buscando validación externa para sentirse valorado.",
+            "intolerancia_a_la_crítica": "Existen grandes probabilidades de que tenga dificultades para aceptar críticas constructivas, sintiéndose herido o atacado ante opiniones negativas.",
+            "exigencia_excesiva": "Tal vez sea exigente consigo mismo y con los demás, estableciendo estándares elevados que pueden ser difíciles de cumplir.",
+            "autoritarismo": "Probablemente pueda mostrar un comportamiento autoritario, esperando que los demás sigan sus directrices y decisiones sin cuestionarlas.",
+            "vanidad": "Existen grandes probabilidades de que pueda ser vanidoso, preocupándose excesivamente por su apariencia y por cómo lo perciben los demás."
+        }
+    },
+    "ascendente_en_virgo_femenino": {
+        "manifestaciones_positivas": {
+            "meticulosidad": "Tal vez sea extremadamente meticulosa y detallista en sus actividades diarias, asegurándose de hacer las cosas correctamente.",
+            "organización_eficiente": "Probablemente sea muy organizada y eficiente, teniendo todo en orden y cumpliendo con sus responsabilidades de manera efectiva.",
+            "análisis_crítico": "Podría tener una habilidad destacada para el análisis crítico, evaluando situaciones con precisión y encontrando soluciones prácticas.",
+            "responsabilidad": "Existen grandes probabilidades de que sea muy responsable, cumpliendo con sus compromisos y cuidando de los demás con diligencia.",
+            "pragmatismo": "Tal vez tenga un enfoque pragmático hacia la vida, tomando decisiones basadas en la realidad y en lo que es práctico.",
+            "dedicación_al_trabajo": "Probablemente sea muy dedicada al trabajo, esforzándose por alcanzar la excelencia en sus tareas y proyectos.",
+            "modestia": "Existen grandes probabilidades de que sea modesta y humilde, no buscando destacar ni presumir de sus logros ante los demás.",
+            "perfeccionismo_controlado": "Tal vez tenga un perfeccionismo controlado, buscando mejorar constantemente sin dejar que el detalle minucioso la paralice.",
+            "cuidado_por_la_salud": "Probablemente tenga un enfoque consciente hacia su salud y bienestar, adoptando hábitos de vida saludables y cuidando su cuerpo.",
+            "comprensión_empática": "Existen grandes probabilidades de que sea comprensiva y empática, comprendiendo las necesidades y sentimientos de quienes la rodean."
+        },
+        "manifestaciones_negativas": {
+            "crítica_constante": "Podría ser crítica consigo misma y con los demás, encontrando siempre detalles a mejorar y siendo perfeccionista hasta el extremo.",
+            "obsesión_por_el_control": "Tal vez tenga una tendencia a querer controlar todo a su alrededor, sintiéndose ansiosa cuando las cosas no van según lo planeado.",
+            "preocupación_excesiva": "Probablemente se preocupe en exceso por cosas pequeñas y detalles irrelevantes, afectando su capacidad para relajarse y disfrutar.",
+            "rigidez_mental": "Existen grandes probabilidades de que pueda mostrarse inflexible en sus ideas y opiniones, resistiéndose al cambio y a nuevas perspectivas.",
+            "autoexigencia_extrema": "Tal vez se imponga estándares demasiado altos, sintiendo presión constante por ser perfecta en todo lo que hace.",
+            "miedo_al_error": "Probablemente tenga miedo al error y a cometer equivocaciones, evitando tomar riesgos que puedan llevarla fuera de su zona de confort.",
+            "falta_de_espontaneidad": "Existen grandes probabilidades de que carezca de espontaneidad, prefiriendo planificar y organizar cada aspecto de su vida.",
+            "dificultad_para_delegar": "Tal vez tenga dificultades para delegar tareas o confiar en que otros puedan hacerlas correctamente, prefiriendo hacerlo todo por sí misma.",
+            "crítica_dura": "Probablemente pueda ser dura en sus críticas hacia los demás, sin considerar suficientemente sus sentimientos o circunstancias.",
+            "auto-culpabilidad": "Existen grandes probabilidades de que se culpe a sí misma en exceso por errores o situaciones negativas, afectando su autoestima y bienestar emocional."
+        }
+    },
+    "ascendente_en_virgo_masculino": {
+        "manifestaciones_positivas": {
+            "meticulosidad": "Tal vez sea extremadamente meticuloso y detallista en sus actividades diarias, asegurándose de hacer las cosas correctamente.",
+            "organización_eficiente": "Probablemente sea muy organizado y eficiente, teniendo todo en orden y cumpliendo con sus responsabilidades de manera efectiva.",
+            "análisis_crítico": "Podría tener una habilidad destacada para el análisis crítico, evaluando situaciones con precisión y encontrando soluciones prácticas.",
+            "responsabilidad": "Existen grandes probabilidades de que sea muy responsable, cumpliendo con sus compromisos y cuidando de los demás con diligencia.",
+            "pragmatismo": "Tal vez tenga un enfoque pragmático hacia la vida, tomando decisiones basadas en la realidad y en lo que es práctico.",
+            "dedicación_al_trabajo": "Probablemente sea muy dedicado al trabajo, esforzándose por alcanzar la excelencia en sus tareas y proyectos.",
+            "modestia": "Existen grandes probabilidades de que sea modesto y humilde, no buscando destacar ni presumir de sus logros ante los demás.",
+            "perfeccionismo_controlado": "Tal vez tenga un perfeccionismo controlado, buscando mejorar constantemente sin dejar que el detalle minucioso lo paralice.",
+            "cuidado_por_la_salud": "Probablemente tenga un enfoque consciente hacia su salud y bienestar, adoptando hábitos de vida saludables y cuidando su cuerpo.",
+            "comprensión_empática": "Existen grandes probabilidades de que sea comprensivo y empático, comprendiendo las necesidades y sentimientos de quienes lo rodean."
+        },
+        "manifestaciones_negativas": {
+            "crítica_constante": "Podría ser crítico consigo mismo y con los demás, encontrando siempre detalles a mejorar y siendo perfeccionista hasta el extremo.",
+            "obsesión_por_el_control": "Tal vez tenga una tendencia a querer controlar todo a su alrededor, sintiéndose ansioso cuando las cosas no van según lo planeado.",
+            "preocupación_excesiva": "Probablemente se preocupe en exceso por cosas pequeñas y detalles irrelevantes, afectando su capacidad para relajarse y disfrutar.",
+            "rigidez_mental": "Existen grandes probabilidades de que pueda mostrarse inflexible en sus ideas y opiniones, resistiéndose al cambio y a nuevas perspectivas.",
+            "autoexigencia_extrema": "Tal vez se imponga estándares demasiado altos, sintiendo presión constante por ser perfecto en todo lo que hace.",
+            "miedo_al_error": "Probablemente tenga miedo al error y a cometer equivocaciones, evitando tomar riesgos que puedan llevarlo fuera de su zona de confort.",
+            "falta_de_espontaneidad": "Existen grandes probabilidades de que carezca de espontaneidad, prefiriendo planificar y organizar cada aspecto de su vida.",
+            "dificultad_para_delegar": "Tal vez tenga dificultades para delegar tareas o confiar en que otros puedan hacerlas correctamente, prefiriendo hacerlo todo por sí mismo.",
+            "crítica_dura": "Probablemente pueda ser duro en sus críticas hacia los demás, sin considerar suficientemente sus sentimientos o circunstancias.",
+            "auto-culpabilidad": "Existen grandes probabilidades de que se culpe a sí mismo en exceso por errores o situaciones negativas, afectando su autoestima y bienestar emocional."
+        }
+    },
+    "ascendente_en_libra_femenino": {
+        "manifestaciones_positivas": {
+            "equilibrio_emocional": "Tal vez tenga un sentido natural de equilibrio emocional, buscando armonía y paz en sus relaciones interpersonales.",
+            "diplomacia": "Probablemente sea muy diplomática, capaz de manejar conflictos de manera suave y encontrar soluciones que satisfagan a todas las partes involucradas.",
+            "belleza_interior_y_exterior": "Podría destacarse por su aprecio y creación de belleza tanto interior como exterior, valorando el arte y la estética en todas sus formas.",
+            "justicia": "Existen grandes probabilidades de que tenga un fuerte sentido de justicia y equidad, defendiendo la igualdad y los derechos de los demás.",
+            "empatía": "Tal vez sea extremadamente empática, comprendiendo profundamente las emociones y puntos de vista de los demás.",
+            "cooperación": "Probablemente valore la cooperación y el trabajo en equipo, prefiriendo encontrar soluciones colaborativas en lugar de imponer su propia voluntad.",
+            "encanto_social": "Existen grandes probabilidades de que tenga un encanto social innato, siendo agradable y encantadora en diferentes contextos sociales.",
+            "perspectiva_amplia": "Tal vez tenga una perspectiva amplia y tolerante hacia las diferencias individuales y culturales, aceptando y valorando la diversidad.",
+            "composición_estética": "Probablemente tenga un ojo para la composición estética, disfrutando de la armonía visual en su entorno y en sus creaciones personales.",
+            "paz_interior": "Existen grandes probabilidades de que busque constantemente la paz interior, cultivando un estado de serenidad y equilibrio emocional."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podría enfrentar dificultades para tomar decisiones, pesando en exceso las opciones y buscando siempre el equilibrio perfecto.",
+            "evitar_conflictos": "Tal vez prefiera evitar los conflictos a confrontarlos directamente, sacrificando sus propias necesidades por mantener la armonía.",
+            "dependencia_emocional": "Probablemente pueda volverse emocionalmente dependiente de los demás, buscando constantemente validación y apoyo externo.",
+            "superficialidad": "Existen grandes probabilidades de que pueda mostrar superficialidad en sus relaciones o intereses, valorando más la apariencia que la profundidad emocional.",
+            "indecisión_por_evitar_confrontaciones": "Tal vez se enfrente a la indecisión, encontrando difícil tomar decisiones claras y comprometerse con una dirección específica.",
+            "indecisión_por_evitar_desacuerdos": "Probablemente tenga miedo de ser confrontado o de confrontar a otros, evitando situaciones que puedan llevar a conflictos o desacuerdos.",
+            "indecisión_por_por_complacencia": "Existen grandes probabilidades de que tenga problemas para establecer límites claros, permitiendo que otros puedan aprovecharse de su naturaleza amable y complaciente.",
+            "indecisión_expresada_como_falta_de_firmeza": "Tal vez tenga problemas para mantenerse firme en sus convicciones o principios, cediendo fácilmente ante la presión externa o las expectativas de los demás.",
+            "indecisión_por_influencia_o_interferencia_de_los_demás": "Probablemente pueda mostrarse manipulable en ciertas situaciones, permitiendo que otros influyan en sus decisiones o acciones con relativa facilidad.",
+            "indecisión_que_perjudica_el_propio_bienestar": "Existen grandes probabilidades de que tenga dificultades para defender sus propios intereses o necesidades, priorizando el bienestar de los demás sobre el suyo propio."
+        }
+    },
+    "ascendente_en_libra_masculino": {
+        "manifestaciones_positivas": {
+            "equilibrio_emocional": "Tal vez tenga un sentido natural de equilibrio emocional, buscando armonía y paz en sus relaciones interpersonales.",
+            "diplomacia": "Probablemente sea muy diplomático, capaz de manejar conflictos de manera suave y encontrar soluciones que satisfagan a todas las partes involucradas.",
+            "belleza_interior_y_exterior": "Podría destacarse por su aprecio y creación de belleza tanto interior como exterior, valorando el arte y la estética en todas sus formas.",
+            "justicia": "Existen grandes probabilidades de que tenga un fuerte sentido de justicia y equidad, defendiendo la igualdad y los derechos de los demás.",
+            "empatía": "Tal vez sea extremadamente empático, comprendiendo profundamente las emociones y puntos de vista de los demás.",
+            "cooperación": "Probablemente valore la cooperación y el trabajo en equipo, prefiriendo encontrar soluciones colaborativas en lugar de imponer su propia voluntad.",
+            "encanto_social": "Existen grandes probabilidades de que tenga un encanto social innato, siendo agradable y encantador en diferentes contextos sociales.",
+            "perspectiva_amplia": "Tal vez tenga una perspectiva amplia y tolerante hacia las diferencias individuales y culturales, aceptando y valorando la diversidad.",
+            "composición_estética": "Probablemente tenga un ojo para la composición estética, disfrutando de la armonía visual en su entorno y en sus creaciones personales.",
+            "paz_interior": "Existen grandes probabilidades de que busque constantemente la paz interior, cultivando un estado de serenidad y equilibrio emocional."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podría enfrentar dificultades para tomar decisiones, pesando en exceso las opciones y buscando siempre el equilibrio perfecto.",
+            "evitar_conflictos": "Tal vez prefiera evitar los conflictos a confrontarlos directamente, sacrificando sus propias necesidades por mantener la armonía.",
+            "dependencia_emocional": "Probablemente pueda volverse emocionalmente dependiente de los demás, buscando constantemente validación y apoyo externo.",
+            "superficialidad": "Existen grandes probabilidades de que pueda mostrar superficialidad en sus relaciones o intereses, valorando más la apariencia que la profundidad emocional.",
+            "indecisión_por_evitar_confrontaciones": "Tal vez se enfrente a la indecisión, encontrando difícil tomar decisiones claras y comprometerse con una dirección específica.",
+            "indecisión_por_evitar_desacuerdos": "Probablemente tenga miedo de ser confrontado o de confrontar a otros, evitando situaciones que puedan llevar a conflictos o desacuerdos.",
+            "indecisión_por_por_complacencia": "Existen grandes probabilidades de que tenga problemas para establecer límites claros, permitiendo que otros puedan aprovecharse de su naturaleza amable y complaciente.",
+            "indecisión_expresada_como_falta_de_firmeza": "Tal vez tenga problemas para mantenerse firme en sus convicciones o principios, cediendo fácilmente ante la presión externa o las expectativas de los demás.",
+            "indecisión_por_influencia_o_interferencia_de_los_demás": "Probablemente pueda mostrarse manipulable en ciertas situaciones, permitiendo que otros influyan en sus decisiones o acciones con relativa facilidad.",
+            "indecisión_que_perjudica_el_propio_bienestar": "Existen grandes probabilidades de que tenga dificultades para defender sus propios intereses o necesidades, priorizando el bienestar de los demás sobre el suyo propio."
+        }
+    },
+    "ascendente_en_escorpio_femenino": {
+        "manifestaciones_positivas": {
+            "intensidad_emocional": "Tal vez experimente emociones intensas y profundas, lo que le permite conectarse íntimamente con los demás y con su propio mundo interior.",
+            "capacidad_de_transformación": "Probablemente tenga una notable capacidad para transformar situaciones adversas en oportunidades de crecimiento personal y espiritual.",
+            "perseverancia": "Podría ser extremadamente perseverante y tenaz, persistiendo en la búsqueda de sus metas a pesar de los obstáculos y desafíos.",
+            "intuición_aguda": "Existen grandes probabilidades de que tenga una intuición aguda y confíe en sus corazonadas para tomar decisiones importantes en la vida.",
+            "profundidad_emocional": "Tal vez sea capaz de explorar y comprender profundamente sus propios sentimientos y los de los demás, buscando significado en las relaciones y experiencias.",
+            "fuerza_interior": "Probablemente tenga una gran fuerza interior, superando adversidades personales con coraje y determinación.",
+            "capacidad_de_regeneración": "Existen grandes probabilidades de que tenga una notable capacidad de regeneración, sanando de manera profunda y transformadora después de tiempos difíciles.",
+            "compromiso_emocional": "Tal vez se comprometa emocionalmente de manera profunda y leal en sus relaciones, valorando la autenticidad y la conexión emocional genuina.",
+            "liderazgo_transformador": "Probablemente pueda ejercer un liderazgo transformador, inspirando a otros a enfrentar sus miedos y a crecer personalmente.",
+            "determinación_férrea": "Existen grandes probabilidades de que tenga una determinación férrea para alcanzar sus objetivos, enfrentando cualquier desafío con resolución."
+        },
+        "manifestaciones_negativas": {
+            "posesividad_emocional_controladora": "Podría mostrar tendencias posesivas o celosas en sus relaciones, sintiendo la necesidad de controlar a los demás o a las situaciones.",
+            "venganza": "Probablemente pueda ser propenso a sentimientos de venganza o a guardar rencor, sintiendo la necesidad de saldar cuentas con aquellos que percibe como enemigos.",
+            "suspicacia_excesiva": "Tal vez tenga una tendencia a desconfiar de las intenciones de los demás, siendo demasiado suspicaz o escéptica en sus relaciones interpersonales.",
+            "obsesión": "Existen grandes probabilidades de que pueda obsesionarse con ideas, personas o situaciones, perdiendo la perspectiva y dedicando demasiado tiempo y energía en ello.",
+            "secretismo": "Tal vez pueda ser demasiado reservada o secreta sobre sus pensamientos y sentimientos, dificultando la conexión emocional profunda con los demás.",
+            "manipulación_emocional": "Probablemente pueda recurrir a tácticas de manipulación emocional para obtener lo que desea, influenciando a los demás de manera sutil o indirecta.",
+            "rencor": "Existen grandes probabilidades de que pueda guardar rencores por mucho tiempo, recordando y resentido por eventos pasados que la han herido.",
+            "intensidad_emocional": "Tal vez experimente emociones tan intensas que le resulte difícil controlarlas o manejarlas adecuadamente en ciertas situaciones.",
+            "posesividad_emocional_en_las_relaciones": "Probablemente pueda mostrar una tendencia posesiva en sus relaciones, queriendo controlar la atención y el afecto de las personas cercanas.",
+            "desconfianza": "Existen grandes probabilidades de que tenga dificultades para confiar en los demás, siempre cuestionando las verdaderas intenciones detrás de las acciones de las personas."
+        }
+    },
+    "ascendente_en_escorpio_masculino": {
+        "manifestaciones_positivas": {
+            "intensidad_emocional": "Tal vez experimente emociones intensas y profundas, lo que le permite conectarse íntimamente con los demás y con su propio mundo interior.",
+            "capacidad_de_transformación": "Probablemente tenga una notable capacidad para transformar situaciones adversas en oportunidades de crecimiento personal y espiritual.",
+            "perseverancia": "Podría ser extremadamente perseverante y tenaz, persistiendo en la búsqueda de sus metas a pesar de los obstáculos y desafíos.",
+            "intuición_aguda": "Existen grandes probabilidades de que tenga una intuición aguda y confíe en sus corazonadas para tomar decisiones importantes en la vida.",
+            "profundidad_emocional": "Tal vez sea capaz de explorar y comprender profundamente sus propios sentimientos y los de los demás, buscando significado en las relaciones y experiencias.",
+            "fuerza_interior": "Probablemente tenga una gran fuerza interior, superando adversidades personales con coraje y determinación.",
+            "capacidad_de_regeneración": "Existen grandes probabilidades de que tenga una notable capacidad de regeneración, sanando de manera profunda y transformadora después de tiempos difíciles.",
+            "compromiso_emocional": "Tal vez se comprometa emocionalmente de manera profunda y leal en sus relaciones, valorando la autenticidad y la conexión emocional genuina.",
+            "liderazgo_transformador": "Probablemente pueda ejercer un liderazgo transformador, inspirando a otros a enfrentar sus miedos y a crecer personalmente.",
+            "determinación_férrea": "Existen grandes probabilidades de que tenga una determinación férrea para alcanzar sus objetivos, enfrentando cualquier desafío con resolución."
+        },
+        "manifestaciones_negativas": {
+            "posesividad_emocional_controladora": "Podría mostrar tendencias posesivas o celosas en sus relaciones, sintiendo la necesidad de controlar a los demás o a las situaciones.",
+            "venganza": "Probablemente pueda ser propenso a sentimientos de venganza o a guardar rencor, sintiendo la necesidad de saldar cuentas con aquellos que percibe como enemigos.",
+            "suspicacia_excesiva": "Tal vez tenga una tendencia a desconfiar de las intenciones de los demás, siendo demasiado suspicaz o escéptico en sus relaciones interpersonales.",
+            "obsesión": "Existen grandes probabilidades de que pueda obsesionarse con ideas, personas o situaciones, perdiendo la perspectiva y dedicando demasiado tiempo y energía en ello.",
+            "secretismo": "Tal vez pueda ser demasiado reservado o secreto sobre sus pensamientos y sentimientos, dificultando la conexión emocional profunda con los demás.",
+            "manipulación_emocional": "Probablemente pueda recurrir a tácticas de manipulación emocional para obtener lo que desea, influenciando a los demás de manera sutil o indirecta.",
+            "rencor": "Existen grandes probabilidades de que pueda guardar rencores por mucho tiempo, recordando y resentido por eventos pasados que lo han herido.",
+            "intensidad_emocional": "Tal vez experimente emociones tan intensas que le resulte difícil controlarlas o manejarlas adecuadamente en ciertas situaciones.",
+            "posesividad_emocional_en_las_relaciones": "Probablemente pueda mostrar una tendencia posesiva en sus relaciones, queriendo controlar la atención y el afecto de las personas cercanas.",
+            "desconfianza": "Existen grandes probabilidades de que tenga dificultades para confiar en los demás, siempre cuestionando las verdaderas intenciones detrás de las acciones de las personas."
+        }
+    },
+    "ascendente_en_sagitario_femenino": {
+        "manifestaciones_positivas": {
+            "optimismo_y_entusiasmo": "Tal vez tenga una actitud optimista y positiva hacia la vida, viendo oportunidades en cada situación y inspirando a otros con su entusiasmo.",
+            "aventura_y_exploración": "Probablemente disfrute de la aventura y la exploración, buscando constantemente nuevas experiencias y aprendizajes en diferentes áreas de la vida.",
+            "espontaneidad": "Podría ser espontánea y libre en sus acciones, siguiendo su intuición y disfrutando del momento presente sin preocuparse demasiado por el futuro.",
+            "amplitud_mental": "Existen grandes probabilidades de que tenga una mente abierta y un gran interés por aprender sobre diferentes culturas, filosofías y perspectivas.",
+            "independencia": "Tal vez valore mucho su independencia y libertad personal, buscando expandir sus horizontes y tomar sus propias decisiones.",
+            "optimismo_motivador": "Probablemente contagie optimismo a su entorno, siendo una fuente de motivación y aliento para quienes la rodean.",
+            "entusiasmo_contagioso": "Existen grandes probabilidades de que tenga un entusiasmo contagioso, inspirando a otros a perseguir sus sueños y aspiraciones con fervor.",
+            "visión_amplia": "Tal vez tenga una visión amplia y prospectiva del futuro, visualizando metas ambiciosas y trabajando para alcanzarlas con determinación.",
+            "generosidad": "Probablemente sea generosa y desinteresada, compartiendo sus recursos y conocimientos con quienes los necesiten sin esperar nada a cambio.",
+            "búsqueda_de_sentido": "Existen grandes probabilidades de que busque un propósito y significado más profundo en la vida, explorando diversas filosofías y creencias."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podría actuar de manera imprudente o impulsiva, tomando decisiones sin considerar completamente las consecuencias a largo plazo.",
+            "exceso_de_optimismo_exponiendose_a_riesgos": "Probablemente pueda ser excesivamente optimista, ignorando riesgos reales o posibles obstáculos en su camino.",
+            "falta_de_compromiso_y_responsabilidad": "Tal vez tenga dificultades para comprometerse con responsabilidades a largo plazo, prefiriendo la variedad y el cambio sobre la estabilidad.",
+            "superficialidad": "Existen grandes probabilidades de que pueda mostrar superficialidad en sus relaciones o intereses, enfocándose más en la emoción del momento que en la profundidad emocional.",
+            "irresponsabilidad_postergando_lo_importante": "Tal vez pueda ser irresponsable en ciertas áreas de su vida, evitando responsabilidades importantes o postergando decisiones difíciles.",
+            "exceso_de_optimismo_y_poco_análisis_de_la_situación": "Probablemente pueda ser excesivamente optimista, esperando resultados positivos sin considerar adecuadamente los posibles desafíos o contratiempos.",
+            "impulsividad": "Existen grandes probabilidades de que pueda actuar de manera impulsiva, sin reflexionar completamente sobre las consecuencias de sus acciones.",
+            "falta_de_compromiso_duradero_y_firme": "Tal vez tenga dificultades para comprometerse con proyectos a largo plazo, prefiriendo la variedad y la exploración sobre la estabilidad y el compromiso.",
+            "irresponsabilidad_para_decidir_firmemente": "Probablemente pueda ser irresponsable en ciertos aspectos de su vida, evitando tomar decisiones difíciles o cumplir con compromisos importantes."
+        }
+    },
+    "ascendente_en_sagitario_masculino": {
+        "manifestaciones_positivas": {
+            "optimismo_y_entusiasmo": "Tal vez tenga una actitud optimista y positiva hacia la vida, viendo oportunidades en cada situación y animando a otros con su entusiasmo contagioso.",
+            "aventura_y_exploración": "Probablemente disfrute de la aventura y la exploración, buscando constantemente nuevas experiencias y aprendizajes en diferentes áreas de la vida.",
+            "espontaneidad": "Podría ser espontáneo y libre en sus acciones, siguiendo su intuición y disfrutando del momento presente sin preocuparse demasiado por el futuro.",
+            "amplitud_mental": "Existen grandes probabilidades de que tenga una mente abierta y un gran interés por aprender sobre diferentes culturas, filosofías y perspectivas.",
+            "independencia": "Tal vez valore mucho su independencia y libertad personal, buscando expandir sus horizontes y tomar sus propias decisiones.",
+            "optimismo_motivador": "Probablemente contagie optimismo a su entorno, siendo una fuente de motivación y aliento para quienes lo rodean.",
+            "entusiasmo_contagioso": "Existen grandes probabilidades de que tenga un entusiasmo contagioso, inspirando a otros a perseguir sus sueños y aspiraciones con fervor.",
+            "visión_amplia": "Tal vez tenga una visión amplia y prospectiva del futuro, visualizando metas ambiciosas y trabajando para alcanzarlas con determinación.",
+            "generosidad": "Probablemente sea generoso y desinteresado, compartiendo sus recursos y conocimientos con quienes los necesiten sin esperar nada a cambio.",
+            "búsqueda_de_sentido": "Existen grandes probabilidades de que busque un propósito y significado más profundo en la vida, explorando diversas filosofías y creencias."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podría actuar de manera imprudente o impulsiva, tomando decisiones sin considerar completamente las consecuencias a largo plazo.",
+            "exceso_de_optimismo_exponiendose_a_riesgos": "Probablemente pueda ser excesivamente optimista, ignorando riesgos reales o posibles obstáculos en su camino.",
+            "falta_de_compromiso_y_responsabilidad": "Tal vez tenga dificultades para comprometerse con responsabilidades a largo plazo, prefiriendo la variedad y el cambio sobre la estabilidad.",
+            "superficialidad": "Existen grandes probabilidades de que pueda mostrar superficialidad en sus relaciones o intereses, enfocándose más en la emoción del momento que en la profundidad emocional.",
+            "irresponsabilidad_postergando_lo_importante": "Tal vez pueda ser irresponsable en ciertas áreas de su vida, evitando responsabilidades importantes o postergando decisiones difíciles.",
+            "exceso_de_optimismo_y_poco_anásisis_de_la_situación": "Probablemente pueda ser excesivamente optimista, esperando resultados positivos sin considerar adecuadamente los posibles desafíos o contratiempos.",
+            "impulsividad": "Existen grandes probabilidades de que pueda actuar de manera impulsiva, sin reflexionar completamente sobre las consecuencias de sus acciones.",
+            "falta_de_compromiso_duradero_y_firme": "Tal vez tenga dificultades para comprometerse con proyectos a largo plazo, prefiriendo la variedad y la exploración sobre la estabilidad y el compromiso.",
+            "irresponsabilidad_para_decidir_firmemente": "Probablemente pueda ser irresponsable en ciertos aspectos de su vida, evitando tomar decisiones difíciles o cumplir con compromisos importantes."
+        }
+    },
+    "ascendente_en_capricornio_femenino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Tal vez tenga una notable perseverancia y disciplina, trabajando de manera constante hacia sus metas a largo plazo con determinación.",
+            "responsabilidad": "Probablemente sea muy responsable y confiable, cumpliendo con sus compromisos y expectativas tanto personales como profesionales.",
+            "ambición": "Podría tener una gran ambición y aspiraciones elevadas, buscando constantemente alcanzar altos estándares de éxito en todas las áreas de su vida.",
+            "prudencia": "Existen grandes probabilidades de que sea prudente y cuidadosa en la toma de decisiones, evaluando cuidadosamente los riesgos y beneficios antes de actuar.",
+            "autocontrol": "Tal vez tenga un fuerte sentido de autocontrol y disciplina personal, manejando sus emociones y acciones de manera equilibrada y racional.",
+            "realismo": "Probablemente tenga una visión realista y práctica de la vida, abordando los desafíos con pragmatismo y buscando soluciones efectivas.",
+            "persistencia": "Existen grandes probabilidades de que sea persistente en la búsqueda de sus objetivos, superando obstáculos con determinación y paciencia.",
+            "gestión_eficiente": "Tal vez tenga habilidades naturales para la gestión eficiente del tiempo y los recursos, optimizando procesos para lograr resultados óptimos.",
+            "independencia": "Probablemente valore su independencia y autonomía, prefiriendo tomar decisiones por sí misma y asumir la responsabilidad de sus propias acciones.",
+            "sensatez": "Existen grandes probabilidades de que sea sensata y prudente en sus relaciones y decisiones, buscando estabilidad y seguridad en todas sus interacciones."
+        },
+        "manifestaciones_negativas": {
+            "rigidez_en_las_relaciones": "Podría mostrar rigidez en su enfoque hacia la vida y en sus relaciones, resistiéndose al cambio y prefiriendo la seguridad sobre la innovación.",
+            "frialdad_emocional": "Probablemente pueda ser percibida como fría o distante emocionalmente, priorizando la lógica y la razón sobre las emociones y los sentimientos.",
+            "excesivo_control_y_autocrítico": "Tal vez tienda a ejercer un control excesivo sobre sí misma y sobre los demás, buscando manejar todos los aspectos de su vida de manera meticulosa.",
+            "obsesión_por_el_trabajo": "Existen grandes probabilidades de que pueda obsesionarse con el trabajo o las responsabilidades, sacrificando el equilibrio entre vida laboral y personal.",
+            "inflexibilidad": "Tal vez sea inflexible en sus opiniones y decisiones, encontrando dificultades para adaptarse a nuevas circunstancias o ideas diferentes a las suyas.",
+            "rigidez_de_ideas_o_puntos_de_vista": "Probablemente pueda mostrar rigidez en sus puntos de vista y enfoques, prefiriendo seguir métodos probados y seguros en lugar de explorar nuevas posibilidades.",
+            "falta_de_espontaneidad": "Existen grandes probabilidades de que pueda carecer de espontaneidad y flexibilidad, prefiriendo seguir un plan estructurado en lugar de adaptarse a cambios repentinos.",
+            "rigidez_o_frialdad_que_restringe_el_placer": "Tal vez tenga dificultades para relajarse y disfrutar del momento presente, enfocándose en metas futuras y obligaciones en lugar de vivir el aquí y ahora.",
+            "excesivo_control_en_vínculos_del_entorno_cercano": "Probablemente pueda tener tendencias de querer controlar las situaciones y a las personas a su alrededor, buscando seguridad y estabilidad a través del control.",
+            "perfeccionismo": "Existen grandes probabilidades de que sea perfeccionista en sus estándares y expectativas, buscando siempre alcanzar un nivel de excelencia en todo lo que emprende."
+        }
+    },
+    "ascendente_en_capricornio_masculino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Tal vez tenga una notable perseverancia y disciplina, trabajando de manera constante hacia sus metas a largo plazo con determinación.",
+            "responsabilidad": "Probablemente sea muy responsable y confiable, cumpliendo con sus compromisos y expectativas tanto personales como profesionales.",
+            "ambición": "Podría tener una gran ambición y aspiraciones elevadas, buscando constantemente alcanzar altos estándares de éxito en todas las áreas de su vida.",
+            "prudencia": "Existen grandes probabilidades de que sea prudente y cuidadoso en la toma de decisiones, evaluando cuidadosamente los riesgos y beneficios antes de actuar.",
+            "autocontrol": "Tal vez tenga un fuerte sentido de autocontrol y disciplina personal, manejando sus emociones y acciones de manera equilibrada y racional.",
+            "realismo": "Probablemente tenga una visión realista y práctica de la vida, abordando los desafíos con pragmatismo y buscando soluciones efectivas.",
+            "persistencia": "Existen grandes probabilidades de que sea persistente en la búsqueda de sus objetivos, superando obstáculos con determinación y paciencia.",
+            "gestión_eficiente": "Tal vez tenga habilidades naturales para la gestión eficiente del tiempo y los recursos, optimizando procesos para lograr resultados óptimos.",
+            "independencia": "Probablemente valore su independencia y autonomía, prefiriendo tomar decisiones por sí mismo y asumir la responsabilidad de sus propias acciones.",
+            "sensatez": "Existen grandes probabilidades de que sea sensato y prudente en sus relaciones y decisiones, buscando estabilidad y seguridad en todas sus interacciones."
+        },
+        "manifestaciones_negativas": {
+            "rigidez_en_las_relaciones": "Podría mostrar rigidez en su enfoque hacia la vida y en sus relaciones, resistiéndose al cambio y prefiriendo la seguridad sobre la innovación.",
+            "frialdad_emocional": "Probablemente pueda ser percibido como frío o distante emocionalmente, priorizando la lógica y la razón sobre las emociones y los sentimientos.",
+            "excesivo_control_y_autocr": "Tal vez tienda a ejercer un control excesivo sobre sí mismo y sobre los demás, buscando manejar todos los aspectos de su vida de manera meticulosa.",
+            "obsesión_por_el_trabajo": "Existen grandes probabilidades de que pueda obsesionarse con el trabajo o las responsabilidades, sacrificando el equilibrio entre vida laboral y personal.",
+            "inflexibilidad": "Tal vez sea inflexible en sus opiniones y decisiones, encontrando dificultades para adaptarse a nuevas circunstancias o ideas diferentes a las suyas.",
+            "rigidez_de_ideas_o_puntos_de_vista": "Probablemente pueda mostrar rigidez en sus puntos de vista y enfoques, prefiriendo seguir métodos probados y seguros en lugar de explorar nuevas posibilidades.",
+            "falta_de_espontaneidad": "Existen grandes probabilidades de que pueda carecer de espontaneidad y flexibilidad, prefiriendo seguir un plan estructurado en lugar de adaptarse a cambios repentinos.",
+            "rigidez_o_frialdad_que_restringe_el_placer": "Tal vez tenga dificultades para relajarse y disfrutar del momento presente, enfocándose en metas futuras y obligaciones en lugar de vivir el aquí y ahora.",
+            "excesivo_control_en_vínculos_del_entorno_cercano": "Probablemente pueda tener tendencias de querer controlar las situaciones y a las personas a su alrededor, buscando seguridad y estabilidad a través del control.",
+            "perfeccionismo": "Existen grandes probabilidades de que sea perfeccionista en sus estándares y expectativas, buscando siempre alcanzar un nivel de excelencia en todo lo que emprende."
+        }
+    },
+    "ascendente_en_acuario_femenino": {
+        "manifestaciones_positivas": {
+            "participación_social_activa": "Tal vez tenga una fuerte inclinación hacia causas humanitarias y sociales, buscando activamente mejorar la comunidad y el mundo.",
+            "originalidad_en_su_punto_de_vista": "Probablemente tenga un punto de vista muy original y creativo en sus ideas y expresiones, destacándose por su enfoque innovador y único, muy diferente al resto.",
+            "independencia": "Podría valorar mucho su independencia y libertad personal, buscando explorar diferentes ideas y perspectivas por sí misma.",
+            "mentalidad_abierta": "Existen grandes probabilidades de que tenga una mente abierta y receptiva, interesada en nuevas ideas y conceptos progresistas.",
+            "tolerancia": "Tal vez tenga una alta tolerancia hacia las diferencias y la diversidad, respetando las opiniones y estilos de vida de los demás.",
+            "visionario": "Probablemente sea visionaria, con una capacidad para ver más allá de lo convencional y anticipar futuros escenarios y posibilidades.",
+            "innovación": "Existen grandes probabilidades de que tenga un enfoque innovador y revolucionario en la resolución de problemas y la creación de soluciones.",
+            "adaptabilidad": "Tal vez tenga una gran capacidad de adaptación a diferentes entornos y circunstancias, encontrando siempre formas de ajustarse y prosperar.",
+            "humanitarismo_con_compromiso_social": "Probablemente esté comprometida con causas humanitarias y sociales, buscando hacer del mundo un lugar mejor para todos.",
+            "originalidad_creativa": "Existen grandes probabilidades de que sea original en su pensamiento y enfoque, destacándose por ideas creativas y únicas."
+        },
+        "manifestaciones_negativas": {
+            "distancia_emocional": "Podría parecer distante emocionalmente, prefiriendo mantener un cierto grado de separación emocional en sus relaciones personales.",
+            "rebeldía": "Tal vez tenga tendencias rebeldes o contraculturales, desafiando las normas establecidas y buscando constantemente nuevas formas de expresión.",
+            "excentricidad": "Existen grandes probabilidades de que pueda parecer excéntrica en su comportamiento y pensamiento, alejándose de lo convencional.",
+            "rechazo_a_la_rutina_o_monotonía": "Tal vez pueda ser resistente a las rutinas o estructuras establecidas, poco variadas, poco diversas o poco cambiantes, prefiriendo la espontaneidad y la libertad en su estilo de vida.",
+            "falta_de_compromiso": "Existen grandes probabilidades de que pueda tener dificultades para comprometerse profundamente en relaciones a largo plazo, valorando su independencia y libertad personal.",
+            "resistencia_a_las_rutinas_dogmáticas": "Existen grandes probabilidades de que pueda ser resistente a las rutinas o estructuras, dogmáticas, cargadas de reglas, normas, mandatos o llenas de reglas establecidas, prefiriendo moverse en un contexto menos asfixiante en donde poder respirar libertad."
+        }
+    },
+    "ascendente_en_acuario_masculino": {
+        "manifestaciones_positivas": {
+            "participación_social_activa": "Tal vez tenga una fuerte inclinación hacia causas humanitarias y sociales, buscando activamente mejorar la comunidad y el mundo.",
+            "originalidad_en_su_punto_de_vista": "Probablemente tenga un punto de vista muy original y creativo en sus ideas y expresiones, destacándose por su enfoque innovador y único, muy diferente al resto.",
+            "independencia": "Podría valorar mucho su independencia y libertad personal, buscando explorar diferentes ideas y perspectivas por sí mismo.",
+            "mentalidad_abierta": "Existen grandes probabilidades de que tenga una mente abierta y receptiva, interesada en nuevas ideas y conceptos progresistas.",
+            "tolerancia": "Tal vez tenga una alta tolerancia hacia las diferencias y la diversidad, respetando las opiniones y estilos de vida de los demás.",
+            "visionario": "Probablemente sea visionario, con una capacidad para ver más allá de lo convencional y anticipar futuros escenarios y posibilidades.",
+            "innovación": "Existen grandes probabilidades de que tenga un enfoque innovador y revolucionario en la resolución de problemas y la creación de soluciones.",
+            "adaptabilidad": "Tal vez tenga una gran capacidad de adaptación a diferentes entornos y circunstancias, encontrando siempre formas de ajustarse y prosperar.",
+            "humanitarismo_con_compromiso_social": "Probablemente esté comprometido con causas humanitarias y sociales, buscando hacer del mundo un lugar mejor para todos.",
+            "originalidad_creativa": "Existen grandes probabilidades de que sea original en su pensamiento y enfoque, destacándose por ideas creativas y únicas."
+        },
+        "manifestaciones_negativas": {
+            "distancia_emocional": "Podría parecer distante emocionalmente, prefiriendo mantener un cierto grado de separación emocional en sus relaciones personales.",
+            "rebeldía": "Tal vez tenga tendencias rebeldes o contraculturales, desafiando las normas establecidas y buscando constantemente nuevas formas de expresión.",
+            "excentricidad": "Existen grandes probabilidades de que pueda parecer excéntrico en su comportamiento y pensamiento, alejándose de lo convencional.",
+            "rechazo_a_la_rutina_o_monotonía": "Tal vez pueda ser resistente a las rutinas o estructuras establecidas, poco variadas, poco diversas o poco cambiantes, prefiriendo la espontaneidad y la libertad en su estilo de vida.",
+            "falta_de_compromiso": "Existen grandes probabilidades de que pueda tener dificultades para comprometerse profundamente en relaciones a largo plazo, valorando su independencia y libertad personal.",
+            "resistencia_a_las_rutinas_dogmáticas": "Existen grandes probabilidades de que pueda ser resistente a las rutinas o estructuras, dogmáticas, cargadas de reglas, normas, mandatos o llenas de reglas establecidas, prefiriendo moverse en un contexto menos asfixiante en donde poder respirar libertad."
+        }
+    },
+    "ascendente_en_piscis_femenino": {
+        "manifestaciones_positivas": {
+            "empatía_con_sensibilidad_emocional": "Tal vez tenga una profunda empatía y comprensión hacia los demás, siendo sensible a las emociones y necesidades de las personas a su alrededor.",
+            "creatividad_que_fluye_de_su_mundo_interior": "Probablemente sea muy creativa y artística, expresándose a través de diversas formas de arte y encontrando inspiración en su mundo interior.",
+            "compasión": "Podría mostrar una gran compasión y comprensión hacia quienes están en necesidad, buscando ayudar y apoyar a los demás de manera desinteresada.",
+            "intuición": "Existen grandes probabilidades de que tenga una fuerte intuición y capacidad para percibir situaciones más allá de lo evidente, confiando en su instinto.",
+            "imaginación": "Tal vez tenga una rica imaginación y capacidad para soñar despierta, viendo el mundo desde perspectivas únicas y fantásticas.",
+            "espiritualidad": "Probablemente tenga una conexión profunda con lo espiritual y lo trascendental, buscando significado y propósito en aspectos más allá de lo material.",
+            "sensibilidad": "Existen grandes probabilidades de que sea altamente sensible a su entorno y a las emociones de los demás, captando sutilezas que otros podrían pasar por alto.",
+            "adaptabilidad": "Tal vez tenga una gran capacidad de adaptarse a diferentes circunstancias y personas, encontrando armonía incluso en entornos cambiantes.",
+            "empatía_para_comprender_al_otro": "Probablemente sea empática y comprensiva, conectándose emocionalmente con los sentimientos y experiencias de quienes la rodean.",
+            "creatividad_artística": "Existen grandes probabilidades de que sea creativa y artística, encontrando inspiración en su mundo interior místico o misterioso. Todo fluye de un modo incomprensible, caótico, e intuitivo, expresándose a través de diversas formas de arte, principalmente la música, la actuación, el cine, la fotografía o asuntos ligados a las imágenes, videos o contenidos audiovisuales."
+        },
+        "manifestaciones_negativas": {
+            "huye_evadiendo_la_realidad": "Podría sentirse desconectada o escapista, buscando evadirse de las realidades difíciles en lugar de enfrentarlas de frente.",
+            "vulnerabilidad_emocional": "Probablemente pueda ser emocionalmente vulnerable o susceptible a las influencias externas, sintiendo profundamente las alegrías y tristezas de los demás.",
+            "idealismo_extremo": "Tal vez tenga tendencia a idealizar situaciones o personas, enfrentándose a decepciones cuando la realidad no cumple con sus expectativas elevadas.",
+            "falta_de_límites": "Existen grandes probabilidades de que pueda carecer de límites claros en sus relaciones personales, sacrificando su bienestar por el de los demás.",
+            "indecisión": "Tal vez pueda tener dificultades para tomar decisiones claras y definir sus objetivos, siendo influenciada por sus emociones y estados de ánimo.",
+            "absorbe_las_emociones_de_los_demás": "Existen grandes probabilidades de que pueda ser emocionalmente vulnerable o susceptible a las influencias externas, sintiendo profundamente las alegrías y tristezas de los demás."
+        }
+    },
+    "ascendente_en_piscis_masculino": {
+        "manifestaciones_positivas": {
+            "empatía_con_sensibilidad_emocional": "Tal vez tenga una profunda empatía y comprensión hacia los demás, siendo sensible a las emociones y necesidades de las personas a su alrededor.",
+            "creatividad_que_fluye_de_su_mundo_interior": "Probablemente sea muy creativo y artístico, encontrando inspiración en su mundo interior y expresándose a través de diversas formas de arte.",
+            "compasión": "Podría mostrar una gran compasión y comprensión hacia quienes están en necesidad, buscando ayudar y apoyar a los demás de manera desinteresada.",
+            "intuición": "Existen grandes probabilidades de que tenga una fuerte intuición y capacidad para percibir situaciones más allá de lo evidente, confiando en su instinto.",
+            "imaginación": "Tal vez tenga una rica imaginación y capacidad para soñar despierto, viendo el mundo desde perspectivas únicas y fantásticas.",
+            "espiritualidad": "Probablemente tenga una conexión profunda con lo espiritual y lo trascendental, buscando significado y propósito en aspectos más allá de lo material.",
+            "sensibilidad": "Existen grandes probabilidades de que sea altamente sensible a su entorno y a las emociones de los demás, captando sutilezas que otros podrían pasar por alto.",
+            "adaptabilidad": "Tal vez tenga una gran capacidad de adaptación a diferentes circunstancias y personas, encontrando armonía incluso en entornos cambiantes.",
+            "empatía_para_comprender_al_otro": "Probablemente sea empático y comprensivo, conectándose emocionalmente con los sentimientos y experiencias de quienes lo rodean.",
+            "creatividad_artística": "Existen grandes probabilidades de que sea creativa y artística, encontrando inspiración en su mundo interior místico o misterioso. Todo fluye de un modo incomprensible, caótico, e intuitivo, expresándose a través de diversas formas de arte, principalmente la música, la actuación, el cine, la fotografía o asuntos ligados a las imágenes, videos o contenidos audiovisuales."
+        },
+        "manifestaciones_negativas": {
+            "huye_evadiendo_la_realidad": "Podría sentirse desconectado o escapista, buscando evadirse de las realidades difíciles en lugar de enfrentarlas de frente.",
+            "vulnerabilidad_emocional": "Probablemente pueda ser emocionalmente vulnerable o susceptible a las influencias externas, sintiendo profundamente las alegrías y tristezas de los demás.",
+            "idealismo_extremo": "Tal vez tenga tendencia a idealizar situaciones o personas, enfrentándose a decepciones cuando la realidad no cumple con sus expectativas elevadas.",
+            "falta_de_límites": "Existen grandes probabilidades de que pueda carecer de límites claros en sus relaciones personales, sacrificando su bienestar por el de los demás.",
+            "indecisión": "Tal vez pueda tener dificultades para tomar decisiones claras y definir sus objetivos, siendo influenciado por sus emociones y estados de ánimo.",
+            "absorbe_las_emociones_de_los_demás": "Existen grandes probabilidades de que pueda ser emocionalmente vulnerable o susceptible a las influencias externas, sintiendo profundamente las alegrías y tristezas de los demás."
+        }
+    }
+}

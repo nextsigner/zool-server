@@ -1,0 +1,626 @@
+{
+    "luna_en_aries_femenino": {
+        "manifestaciones_positivas": {
+            "valentía_emocional": "Podrías mostrar una valentía emocional notable, enfrentando tus sentimientos y emociones con gran coraje y determinación.",
+            "independencia": "Podrías tener un fuerte sentido de independencia emocional, prefiriendo resolver tus propios problemas y no depender de los demás.",
+            "energía": "Podrías tener una energía emocional vibrante que te impulsa a tomar iniciativas y actuar rápidamente en tus sentimientos e impulsos.",
+            "espontaneidad": "Podrías mostrar una espontaneidad refrescante en tus emociones, respondiendo de manera auténtica y sincera a las situaciones que se presenten.",
+            "entusiasmo": "Podrías tener un entusiasmo contagioso que inspira y motiva a las personas a tu alrededor, especialmente en situaciones emocionales.",
+            "determinación": "Podrías mostrar una gran determinación emocional, enfrentando desafíos con una actitud resolutiva y perseverante.",
+            "liderazgo_emocional": "Podrías asumir roles de liderazgo en situaciones emocionales, guiando y apoyando a otros con confianza y asertividad.",
+            "autoafirmación": "Podrías tener una fuerte capacidad para afirmar tus necesidades emocionales y defender tus sentimientos sin temor.",
+            "directa": "Podrías ser muy directa y honesta en tus expresiones emocionales, prefiriendo la comunicación clara y sin rodeos.",
+            "iniciativa": "Podrías tomar la iniciativa en situaciones emocionales, no esperando a que otros den el primer paso en asuntos del corazón."
+        },
+        "manifestaciones_negativas": {
+            "impulsividad": "Podrías ser emocionalmente impulsiva, reaccionando rápidamente sin considerar todas las consecuencias de tus acciones.",
+            "agresividad": "Podrías mostrar una tendencia hacia la agresividad emocional, expresando tus sentimientos de manera brusca o confrontacional.",
+            "impatiencia": "Podrías tener poca paciencia en situaciones emocionales, deseando soluciones rápidas y sintiéndote frustrada cuando las cosas no se resuelven de inmediato.",
+            "egoísmo_emocional": "Podrías enfocarte demasiado en tus propias necesidades emocionales, a veces sin considerar los sentimientos de los demás.",
+            "competitividad": "Podrías ser emocionalmente competitiva, sintiendo la necesidad de sobresalir y ganar en situaciones emocionales.",
+            "falta_de_reflexión": "Podrías actuar sin reflexionar profundamente sobre tus emociones, lo que podría llevar a decisiones precipitadas o desacertadas.",
+            "volatilidad": "Podrías tener una naturaleza emocional volátil, con cambios rápidos y bruscos en tu estado de ánimo.",
+            "arrebatos": "Podrías tener arrebatos emocionales, expresando tus sentimientos de manera intensa y a veces desproporcionada.",
+            "agresividad_pasiva": "Podrías mostrar comportamientos de agresividad pasiva, utilizando el sarcasmo o la indiferencia para expresar tus sentimientos.",
+            "intransigencia": "Podrías ser intransigente en tus emociones, teniendo dificultad para comprometerte o aceptar las perspectivas emocionales de los demás."
+        }
+    },
+    "luna_en_aries_masculino": {
+        "manifestaciones_positivas": {
+            "valentía_emocional": "Podrías mostrar una gran valentía emocional, enfrentando tus sentimientos y desafíos emocionales con coraje y determinación.",
+            "independencia": "Podrías ser emocionalmente independiente, confiando en ti mismo para resolver tus problemas emocionales sin depender de otros.",
+            "energía": "Podrías tener una energía emocional intensa, que te impulsa a actuar rápidamente en respuesta a tus sentimientos e impulsos.",
+            "espontaneidad": "Podrías ser espontáneo en tus expresiones emocionales, respondiendo de manera auténtica y sincera a las situaciones que enfrentas.",
+            "entusiasmo": "Podrías tener un entusiasmo emocional que motiva e inspira a los demás, especialmente en situaciones emocionales desafiantes.",
+            "determinación": "Podrías mostrar una gran determinación emocional, enfrentando dificultades con una actitud resolutiva y perseverante.",
+            "liderazgo_emocional": "Podrías asumir roles de liderazgo en situaciones emocionales, guiando y apoyando a otros con confianza y asertividad.",
+            "autoafirmación": "Podrías tener una capacidad fuerte para afirmar tus necesidades emocionales y defender tus sentimientos sin temor.",
+            "directo": "Podrías ser muy directo y honesto en tus expresiones emocionales, prefiriendo la comunicación clara y sin rodeos.",
+            "iniciativa": "Podrías tomar la iniciativa en situaciones emocionales, no esperando a que otros den el primer paso en asuntos del corazón."
+        },
+        "manifestaciones_negativas": {
+            "impulsividad": "Podrías ser emocionalmente impulsivo, reaccionando rápidamente sin considerar todas las consecuencias de tus acciones.",
+            "agresividad": "Podrías mostrar una tendencia hacia la agresividad emocional, expresando tus sentimientos de manera brusca o confrontacional.",
+            "impatiencia": "Podrías tener poca paciencia en situaciones emocionales, deseando soluciones rápidas y sintiéndote frustrado cuando las cosas no se resuelven de inmediato.",
+            "egoísmo_emocional": "Podrías enfocarte demasiado en tus propias necesidades emocionales, a veces sin considerar los sentimientos de los demás.",
+            "competitividad": "Podrías ser emocionalmente competitivo, sintiendo la necesidad de sobresalir y ganar en situaciones emocionales.",
+            "falta_de_reflexión": "Podrías actuar sin reflexionar profundamente sobre tus emociones, lo que podría llevar a decisiones precipitadas o desacertadas.",
+            "volatilidad": "Podrías tener una naturaleza emocional volátil, con cambios rápidos y bruscos en tu estado de ánimo.",
+            "arrebatos": "Podrías tener arrebatos emocionales, expresando tus sentimientos de manera intensa y a veces desproporcionada.",
+            "agresividad_pasiva": "Podrías mostrar comportamientos de agresividad pasiva, utilizando el sarcasmo o la indiferencia para expresar tus sentimientos.",
+            "intransigencia": "Podrías ser intransigente en tus emociones, teniendo dificultad para comprometerte o aceptar las perspectivas emocionales de los demás."
+        }
+    },
+    "luna_en_tauro_femenino": {
+        "manifestaciones_positivas": {
+            "estabilidad_emocional": "Podrías tener una gran estabilidad emocional, manteniéndote calmada y serena incluso en situaciones difíciles.",
+            "practicidad": "Podrías ser práctica en tu manera de manejar las emociones, encontrando soluciones realistas y efectivas a los problemas emocionales.",
+            "lealtad": "Podrías ser extremadamente leal en tus relaciones, brindando apoyo constante y confiable a tus seres queridos.",
+            "paciencia": "Podrías mostrar una notable paciencia emocional, permitiendo que las situaciones se desarrollen a su propio ritmo sin apresurarte.",
+            "sensualidad": "Podrías tener una conexión profunda con tus sentidos, disfrutando y apreciando las experiencias sensoriales de la vida.",
+            "consistencia": "Podrías ser consistente en tus emociones, evitando cambios bruscos de humor y proporcionando un ambiente emocional seguro para los demás.",
+            "aprecio_por_lo_material": "Podrías tener un fuerte aprecio por la belleza y el confort material, encontrando seguridad y felicidad en un entorno agradable y bien cuidado.",
+            "resiliencia": "Podrías mostrar una gran resiliencia emocional, recuperándote con firmeza de las dificultades emocionales.",
+            "generosidad": "Podrías ser generosa con tus afectos y recursos, siempre dispuesta a compartir y apoyar a quienes te rodean.",
+            "sentido_común": "Podrías tener un excelente sentido común en asuntos emocionales, basando tus decisiones en la lógica y la practicidad."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Podrías ser emocionalmente terca, aferrándote a tus puntos de vista y resistiéndote a cambiar de opinión incluso cuando es necesario.",
+            "posesividad": "Podrías ser posesiva en tus relaciones, deseando controlar y retener a tus seres queridos de manera excesiva.",
+            "rutinaria": "Podrías caer en la rutina emocional, resistiéndote a nuevas experiencias y prefiriendo lo familiar por encima de lo novedoso.",
+            "materialismo": "Podrías enfocarte demasiado en lo material, buscando seguridad emocional a través de posesiones y bienes tangibles.",
+            "inflexibilidad": "Podrías ser inflexible en tus emociones, teniendo dificultades para adaptarte a cambios y nuevas circunstancias.",
+            "lentitud": "Podrías ser lenta en procesar y expresar tus emociones, lo que podría causar frustración en situaciones que requieren respuestas rápidas.",
+            "indulgencia": "Podrías tender a la indulgencia emocional, evitando enfrentar problemas y prefiriendo el confort y la complacencia.",
+            "resentimiento": "Podrías guardar resentimientos y rencores, teniendo dificultades para perdonar y olvidar ofensas pasadas.",
+            "dependencia_material": "Podrías depender en exceso de las posesiones materiales para sentirte emocionalmente segura.",
+            "resistencia_al_cambio": "Podrías mostrar una fuerte resistencia al cambio, prefiriendo mantener el status quo incluso cuando el cambio es necesario para el crecimiento emocional."
+        }
+    },
+    "luna_en_tauro_masculino": {
+        "manifestaciones_positivas": {
+            "estabilidad_emocional": "Podrías tener una gran estabilidad emocional, manteniéndote calmado y sereno incluso en situaciones difíciles.",
+            "practicidad": "Podrías ser práctico en tu manera de manejar las emociones, encontrando soluciones realistas y efectivas a los problemas emocionales.",
+            "lealtad": "Podrías ser extremadamente leal en tus relaciones, brindando apoyo constante y confiable a tus seres queridos.",
+            "paciencia": "Podrías mostrar una notable paciencia emocional, permitiendo que las situaciones se desarrollen a su propio ritmo sin apresurarte.",
+            "sensualidad": "Podrías tener una conexión profunda con tus sentidos, disfrutando y apreciando las experiencias sensoriales de la vida.",
+            "consistencia": "Podrías ser consistente en tus emociones, evitando cambios bruscos de humor y proporcionando un ambiente emocional seguro para los demás.",
+            "aprecio_por_lo_material": "Podrías tener un fuerte aprecio por la belleza y el confort material, encontrando seguridad y felicidad en un entorno agradable y bien cuidado.",
+            "resiliencia": "Podrías mostrar una gran resiliencia emocional, recuperándote con firmeza de las dificultades emocionales.",
+            "generosidad": "Podrías ser generoso con tus afectos y recursos, siempre dispuesto a compartir y apoyar a quienes te rodean.",
+            "sentido_común": "Podrías tener un excelente sentido común en asuntos emocionales, basando tus decisiones en la lógica y la practicidad."
+        },
+        "manifestaciones_negativas": {
+            "terquedad": "Podrías ser emocionalmente terco, aferrándote a tus puntos de vista y resistiéndote a cambiar de opinión incluso cuando es necesario.",
+            "posesividad": "Podrías ser posesivo en tus relaciones, deseando controlar y retener a tus seres queridos de manera excesiva.",
+            "rutinario": "Podrías caer en la rutina emocional, resistiéndote a nuevas experiencias y prefiriendo lo familiar por encima de lo novedoso.",
+            "materialismo": "Podrías enfocarte demasiado en lo material, buscando seguridad emocional a través de posesiones y bienes tangibles.",
+            "inflexibilidad": "Podrías ser inflexible en tus emociones, teniendo dificultades para adaptarte a cambios y nuevas circunstancias.",
+            "lentitud": "Podrías ser lento en procesar y expresar tus emociones, lo que podría causar frustración en situaciones que requieren respuestas rápidas.",
+            "indulgencia": "Podrías tender a la indulgencia emocional, evitando enfrentar problemas y prefiriendo el confort y la complacencia.",
+            "resentimiento": "Podrías guardar resentimientos y rencores, teniendo dificultades para perdonar y olvidar ofensas pasadas.",
+            "dependencia_material": "Podrías depender en exceso de las posesiones materiales para sentirte emocionalmente seguro.",
+            "resistencia_al_cambio": "Podrías mostrar una fuerte resistencia al cambio, prefiriendo mantener el status quo incluso cuando el cambio es necesario para el crecimiento emocional."
+        }
+    },
+    "luna_en_geminis_femenino": {
+        "manifestaciones_positivas": {
+            "curiosidad_emocional": "Podrías tener una gran curiosidad emocional, interesándote por comprender tus propios sentimientos y los de los demás.",
+            "comunicación": "Podrías ser excelente comunicadora, expresando tus emociones de manera clara y efectiva a través de palabras.",
+            "adaptabilidad": "Podrías adaptarte fácilmente a diferentes situaciones emocionales, ajustándote rápidamente a nuevos entornos y circunstancias.",
+            "versatilidad": "Podrías ser versátil en tus emociones, capaz de manejar una amplia gama de sentimientos y situaciones con facilidad.",
+            "sociabilidad": "Podrías tener una naturaleza sociable, disfrutando de la interacción emocional con diversas personas y estableciendo conexiones profundas.",
+            "agilidad_mental": "Podrías tener una agilidad mental que te permite procesar y entender rápidamente tus emociones y las de los demás.",
+            "entusiasmo": "Podrías mostrar un gran entusiasmo emocional, contagiar tu energía positiva a quienes te rodean.",
+            "ingenio": "Podrías tener un ingenio emocional, encontrando soluciones creativas y originales a problemas emocionales.",
+            "empatía_intelectual": "Podrías ser empática desde un punto de vista intelectual, comprendiendo racionalmente las emociones de los demás.",
+            "flexibilidad": "Podrías ser emocionalmente flexible, capaz de cambiar de perspectiva y adaptarte a nuevas circunstancias con facilidad."
+        },
+        "manifestaciones_negativas": {
+            "superficialidad_emocional": "Podrías tender a la superficialidad emocional, evitando profundizar en tus propios sentimientos y los de los demás.",
+            "inconstancia": "Podrías ser inconstante en tus emociones, experimentando cambios frecuentes de humor y de intereses emocionales.",
+            "nerviosismo": "Podrías ser emocionalmente nerviosa, experimentando ansiedad y tensión en situaciones emocionales.",
+            "dispersión": "Podrías tener una dispersión emocional, encontrando difícil concentrarte en un solo sentimiento o problema emocional por mucho tiempo.",
+            "manipulación": "Podrías mostrar tendencias manipuladoras, utilizando tus habilidades comunicativas para influir en las emociones de los demás de manera indebida.",
+            "indecisión": "Podrías ser indecisa en asuntos emocionales, teniendo dificultades para tomar decisiones claras sobre tus sentimientos.",
+            "dualidad": "Podrías experimentar una dualidad emocional, sintiendo emociones contradictorias o enfrentadas al mismo tiempo.",
+            "falta_de_profundidad": "Podrías carecer de profundidad emocional, prefiriendo mantener las cosas en un nivel superficial y evitando enfrentarte a sentimientos intensos.",
+            "inquietud": "Podrías sentir una constante inquietud emocional, encontrando difícil relajarte y sentirte en paz.",
+            "distracción": "Podrías ser fácilmente distraída por estímulos externos, dificultando tu capacidad para concentrarte en tus propios sentimientos y necesidades emocionales."
+        }
+    },
+    "luna_en_geminis_masculino": {
+        "manifestaciones_positivas": {
+            "curiosidad_emocional": "Podrías tener una gran curiosidad emocional, interesándote por comprender tus propios sentimientos y los de los demás.",
+            "comunicación": "Podrías ser excelente comunicador, expresando tus emociones de manera clara y efectiva a través de palabras.",
+            "adaptabilidad": "Podrías adaptarte fácilmente a diferentes situaciones emocionales, ajustándote rápidamente a nuevos entornos y circunstancias.",
+            "versatilidad": "Podrías ser versátil en tus emociones, capaz de manejar una amplia gama de sentimientos y situaciones con facilidad.",
+            "sociabilidad": "Podrías tener una naturaleza sociable, disfrutando de la interacción emocional con diversas personas y estableciendo conexiones profundas.",
+            "agilidad_mental": "Podrías tener una agilidad mental que te permite procesar y entender rápidamente tus emociones y las de los demás.",
+            "entusiasmo": "Podrías mostrar un gran entusiasmo emocional, contagiando tu energía positiva a quienes te rodean.",
+            "ingenio": "Podrías tener un ingenio emocional, encontrando soluciones creativas y originales a problemas emocionales.",
+            "empatía_intelectual": "Podrías ser empático desde un punto de vista intelectual, comprendiendo racionalmente las emociones de los demás.",
+            "flexibilidad": "Podrías ser emocionalmente flexible, capaz de cambiar de perspectiva y adaptarte a nuevas circunstancias con facilidad."
+        },
+        "manifestaciones_negativas": {
+            "superficialidad_emocional": "Podrías tender a la superficialidad emocional, evitando profundizar en tus propios sentimientos y los de los demás.",
+            "inconstancia": "Podrías ser inconstante en tus emociones, experimentando cambios frecuentes de humor y de intereses emocionales.",
+            "nerviosismo": "Podrías ser emocionalmente nervioso, experimentando ansiedad y tensión en situaciones emocionales.",
+            "dispersión": "Podrías tener una dispersión emocional, encontrando difícil concentrarte en un solo sentimiento o problema emocional por mucho tiempo.",
+            "manipulación": "Podrías mostrar tendencias manipuladoras, utilizando tus habilidades comunicativas para influir en las emociones de los demás de manera indebida.",
+            "indecisión": "Podrías ser indeciso en asuntos emocionales, teniendo dificultades para tomar decisiones claras sobre tus sentimientos.",
+            "dualidad": "Podrías experimentar una dualidad emocional, sintiendo emociones contradictorias o enfrentadas al mismo tiempo.",
+            "falta_de_profundidad": "Podrías carecer de profundidad emocional, prefiriendo mantener las cosas en un nivel superficial y evitando enfrentarte a sentimientos intensos.",
+            "inquietud": "Podrías sentir una constante inquietud emocional, encontrando difícil relajarte y sentirte en paz.",
+            "distracción": "Podrías ser fácilmente distraído por estímulos externos, dificultando tu capacidad para concentrarte en tus propios sentimientos y necesidades emocionales."
+        }
+    },
+    "luna_en_cancer_femenino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías tener una profunda empatía, comprendiendo y compartiendo los sentimientos de los demás de manera intuitiva.",
+            "nutrición_emocional": "Podrías ser muy protectora y cuidadora, brindando apoyo emocional y seguridad a quienes te rodean.",
+            "intuición": "Podrías tener una fuerte intuición, confiando en tus instintos emocionales para guiar tus decisiones.",
+            "sensibilidad": "Podrías ser altamente sensible, captando matices emocionales que otros podrían pasar por alto.",
+            "dedicación_familiar": "Podrías tener un fuerte sentido de la familia, priorizando las relaciones familiares y creando un hogar emocionalmente seguro.",
+            "lealtad": "Podrías ser extremadamente leal, manteniéndote fiel a tus seres queridos incluso en momentos difíciles.",
+            "memoria_emocional": "Podrías tener una memoria emocional aguda, recordando experiencias y sentimientos pasados con claridad.",
+            "imaginación": "Podrías poseer una rica vida interior y una gran imaginación, lo que te permite soñar y crear con facilidad.",
+            "resiliencia": "Podrías ser emocionalmente resiliente, recuperándote rápidamente de las dificultades emocionales.",
+            "apoyo_incondicional": "Podrías ofrecer un apoyo incondicional a tus seres queridos, brindando consuelo y comprensión sin reservas."
+        },
+        "manifestaciones_negativas": {
+            "hipersensibilidad": "Podrías ser excesivamente sensible, afectándote fácilmente por críticas o comentarios negativos.",
+            "dependencia_emocional": "Podrías volverte dependiente emocionalmente, necesitando constantemente la aprobación y el apoyo de los demás.",
+            "susceptibilidad": "Podrías ser susceptible a los cambios de humor, experimentando fluctuaciones emocionales intensas.",
+            "aferramiento_al_pasado": "Podrías tener dificultades para dejar ir el pasado, aferrándote a recuerdos y experiencias antiguas.",
+            "sobreprotección": "Podrías tender a sobreproteger a tus seres queridos, limitando su independencia y crecimiento.",
+            "miedo_al_rechazo": "Podrías tener un gran miedo al rechazo, evitando situaciones donde podrías sentirte no querida o aceptada.",
+            "auto_sacrificio": "Podrías sacrificarte demasiado por los demás, descuidando tus propias necesidades emocionales.",
+            "rencor": "Podrías guardar rencor, teniendo dificultades para perdonar y olvidar ofensas pasadas.",
+            "inseguridad": "Podrías ser insegura en tus relaciones, dudando constantemente del afecto y compromiso de los demás.",
+            "moodiness": "Podrías ser propensa a cambios bruscos de humor, afectando tu estabilidad emocional y tus relaciones."
+        }
+    },
+    "luna_en_cancer_masculino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías tener una profunda empatía, comprendiendo y compartiendo los sentimientos de los demás de manera intuitiva.",
+            "nutrición_emocional": "Podrías ser muy protector y cuidador, brindando apoyo emocional y seguridad a quienes te rodean.",
+            "intuición": "Podrías tener una fuerte intuición, confiando en tus instintos emocionales para guiar tus decisiones.",
+            "sensibilidad": "Podrías ser altamente sensible, captando matices emocionales que otros podrían pasar por alto.",
+            "dedicación_familiar": "Podrías tener un fuerte sentido de la familia, priorizando las relaciones familiares y creando un hogar emocionalmente seguro.",
+            "lealtad": "Podrías ser extremadamente leal, manteniéndote fiel a tus seres queridos incluso en momentos difíciles.",
+            "memoria_emocional": "Podrías tener una memoria emocional aguda, recordando experiencias y sentimientos pasados con claridad.",
+            "imaginación": "Podrías poseer una rica vida interior y una gran imaginación, lo que te permite soñar y crear con facilidad.",
+            "resiliencia": "Podrías ser emocionalmente resiliente, recuperándote rápidamente de las dificultades emocionales.",
+            "apoyo_incondicional": "Podrías ofrecer un apoyo incondicional a tus seres queridos, brindando consuelo y comprensión sin reservas."
+        },
+        "manifestaciones_negativas": {
+            "hipersensibilidad": "Podrías ser excesivamente sensible, afectándote fácilmente por críticas o comentarios negativos.",
+            "dependencia_emocional": "Podrías volverte dependiente emocionalmente, necesitando constantemente la aprobación y el apoyo de los demás.",
+            "susceptibilidad": "Podrías ser susceptible a los cambios de humor, experimentando fluctuaciones emocionales intensas.",
+            "aferramiento_al_pasado": "Podrías tener dificultades para dejar ir el pasado, aferrándote a recuerdos y experiencias antiguas.",
+            "sobreprotección": "Podrías tender a sobreproteger a tus seres queridos, limitando su independencia y crecimiento.",
+            "miedo_al_rechazo": "Podrías tener un gran miedo al rechazo, evitando situaciones donde podrías sentirte no querido o aceptado.",
+            "auto_sacrificio": "Podrías sacrificarte demasiado por los demás, descuidando tus propias necesidades emocionales.",
+            "rencor": "Podrías guardar rencor, teniendo dificultades para perdonar y olvidar ofensas pasadas.",
+            "inseguridad": "Podrías ser inseguro en tus relaciones, dudando constantemente del afecto y compromiso de los demás.",
+            "moodiness": "Podrías ser propenso a cambios bruscos de humor, afectando tu estabilidad emocional y tus relaciones."
+        }
+    },
+    "luna_en_leo_femenino": {
+        "manifestaciones_positivas": {
+            "autoexpresión": "Podrías tener una fuerte autoexpresión emocional, mostrando tus sentimientos de manera directa y apasionada.",
+            "generosidad": "Podrías ser generosa emocionalmente, compartiendo tu alegría y entusiasmo con los demás de manera desinteresada.",
+            "confianza": "Podrías tener una gran confianza en ti misma, mostrándote segura y valiente frente a los desafíos emocionales.",
+            "creatividad": "Podrías ser muy creativa emocionalmente, encontrando nuevas formas de expresar tus sentimientos y emociones.",
+            "calidez": "Podrías irradiar calidez y energía positiva, atrayendo a los demás con tu encanto y carisma emocional.",
+            "determinación": "Podrías ser emocionalmente determinada, persiguiendo tus objetivos con pasión y perseverancia.",
+            "orgullo": "Podrías sentirte orgullosa de tus emociones y logros, mostrando tu dignidad y fortaleza emocional.",
+            "afecto": "Podrías demostrar tu afecto de manera abierta y sincera, mostrando tu amor y aprecio a quienes te importan.",
+            "liderazgo_emocional": "Podrías tener habilidades de liderazgo emocional, inspirando y motivando a otros con tu ejemplo y entusiasmo.",
+            "esplendor": "Podrías tener un esplendor emocional, brillando con una luz interna que ilumina tu vida y la de los demás."
+        },
+        "manifestaciones_negativas": {
+            "narcisismo": "Podrías mostrar tendencias narcisistas, centrando demasiado la atención en ti misma y buscando constantemente la admiración de los demás.",
+            "autoritarismo": "Podrías volverte autoritaria emocionalmente, imponiendo tus opiniones y deseos sobre los demás sin considerar sus sentimientos.",
+            "orgullo_herido": "Podrías ser propensa a tener el orgullo herido, reaccionando de manera exagerada ante críticas o rechazos emocionales.",
+            "egocentrismo": "Podrías ser egocéntrica emocionalmente, viendo el mundo principalmente desde tu propia perspectiva y sin considerar los sentimientos de los demás.",
+            "exigencia": "Podrías ser exigente emocionalmente, esperando mucho de ti misma y de los demás en términos de expresión emocional y lealtad.",
+            "dramatismo": "Podrías ser propensa a exagerar emocionalmente, dramatizando tus experiencias y reacciones para llamar la atención.",
+            "dominación_emocional": "Podrías tener tendencias dominantes emocionalmente, controlando las emociones de los demás para satisfacer tus propias necesidades y deseos.",
+            "arrogancia": "Podrías mostrar arrogancia emocional, creyéndote superior a los demás y menospreciando sus sentimientos.",
+            "intolerancia": "Podrías ser emocionalmente intolerante, rechazando puntos de vista y expresiones emocionales que difieran de los tuyos.",
+            "vanidad": "Podrías ser vanidosa emocionalmente, buscando constantemente la admiración y el reconocimiento de tu belleza emocional y personalidad."
+        }
+    },
+    "luna_en_leo_masculino": {
+        "manifestaciones_positivas": {
+            "autoexpresión": "Podrías tener una fuerte autoexpresión emocional, mostrando tus sentimientos de manera directa y apasionada.",
+            "generosidad": "Podrías ser generoso emocionalmente, compartiendo tu alegría y entusiasmo con los demás de manera desinteresada.",
+            "confianza": "Podrías tener una gran confianza en ti mismo, mostrándote seguro y valiente frente a los desafíos emocionales.",
+            "creatividad": "Podrías ser muy creativo emocionalmente, encontrando nuevas formas de expresar tus sentimientos y emociones.",
+            "calidez": "Podrías irradiar calidez y energía positiva, atrayendo a los demás con tu encanto y carisma emocional.",
+            "determinación": "Podrías ser emocionalmente determinado, persiguiendo tus objetivos con pasión y perseverancia.",
+            "orgullo": "Podrías sentirte orgulloso de tus emociones y logros, mostrando tu dignidad y fortaleza emocional.",
+            "afecto": "Podrías demostrar tu afecto de manera abierta y sincera, mostrando tu amor y aprecio a quienes te importan.",
+            "liderazgo_emocional": "Podrías tener habilidades de liderazgo emocional, inspirando y motivando a otros con tu ejemplo y entusiasmo.",
+            "esplendor": "Podrías tener un esplendor emocional, brillando con una luz interna que ilumina tu vida y la de los demás."
+        },
+        "manifestaciones_negativas": {
+            "narcisismo": "Podrías mostrar tendencias narcisistas, centrando demasiado la atención en ti mismo y buscando constantemente la admiración de los demás.",
+            "autoritarismo": "Podrías volverte autoritario emocionalmente, imponiendo tus opiniones y deseos sobre los demás sin considerar sus sentimientos.",
+            "orgullo_herido": "Podrías ser propenso a tener el orgullo herido, reaccionando de manera exagerada ante críticas o rechazos emocionales.",
+            "egocentrismo": "Podrías ser egocéntrico emocionalmente, viendo el mundo principalmente desde tu propia perspectiva y sin considerar los sentimientos de los demás.",
+            "exigencia": "Podrías ser exigente emocionalmente, esperando mucho de ti mismo y de los demás en términos de expresión emocional y lealtad.",
+            "dramatismo": "Podrías ser propenso a exagerar emocionalmente, dramatizando tus experiencias y reacciones para llamar la atención.",
+            "dominación_emocional": "Podrías tener tendencias dominantes emocionalmente, controlando las emociones de los demás para satisfacer tus propias necesidades y deseos.",
+            "arrogancia": "Podrías mostrar arrogancia emocional, creyéndote superior a los demás y menospreciando sus sentimientos.",
+            "intolerancia": "Podrías ser emocionalmente intolerante, rechazando puntos de vista y expresiones emocionales que difieran de los tuyos.",
+            "vanidad": "Podrías ser vanidoso emocionalmente, buscando constantemente la admiración y el reconocimiento de tu belleza emocional y personalidad."
+        }
+    },
+    "luna_en_virgo_femenino": {
+        "manifestaciones_positivas": {
+            "atención_al_detalle": "Podrías tener una gran atención al detalle emocional, notando y comprendiendo los matices emocionales en tu entorno.",
+            "servicialidad": "Podrías ser muy servicial emocionalmente, brindando apoyo práctico y emocional a quienes te rodean de manera discreta.",
+            "análisis_emocional": "Podrías tener habilidades analíticas emocionales, desentrañando los sentimientos complejos para encontrar soluciones prácticas.",
+            "disciplina_emocional": "Podrías tener una disciplina emocional sólida, manejando tus emociones de manera ordenada y racional.",
+            "perfeccionismo": "Podrías aspirar a la perfección emocional, buscando mejorar constantemente tus habilidades emocionales y las de los demás.",
+            "organización_emocional": "Podrías ser muy organizada emocionalmente, estableciendo rutinas y estructuras que te ayuden a manejar tus sentimientos de manera eficiente.",
+            "adaptabilidad": "Podrías ser emocionalmente adaptable, ajustándote fácilmente a los cambios emocionales y circunstanciales.",
+            "autocuidado": "Podrías priorizar el autocuidado emocional, asegurándote de satisfacer tus propias necesidades emocionales antes de ayudar a los demás.",
+            "empatía_práctica": "Podrías demostrar empatía de manera práctica, ofreciendo soluciones concretas y útiles a los problemas emocionales de los demás.",
+            "resolución_de_problemas": "Podrías ser experta en la resolución de problemas emocionales, encontrando soluciones prácticas y eficientes para los desafíos emocionales que enfrentas."
+        },
+        "manifestaciones_negativas": {
+            "crítica_constante": "Podrías ser crítica contigo misma y con los demás, enfocándote en los errores y defectos emocionales en lugar de en las fortalezas.",
+            "exigencia_extrema": "Podrías tener estándares emocionales extremadamente altos, lo que te lleva a sentirte constantemente insatisfecha con tus propios sentimientos y los de los demás.",
+            "rigidez_emocional": "Podrías ser emocionalmente rígida, resistiéndote al cambio emocional y a nuevas formas de pensar y sentir.",
+            "autoexigencia": "Podrías ser muy exigente contigo misma emocionalmente, sintiendo que nunca estás a la altura de tus propias expectativas.",
+            "autoanálisis": "Podrías ser propensa a sobreanalizar tus emociones y las de los demás, lo que puede generar ansiedad y estrés emocional.",
+            "preocupación_constante": "Podrías preocuparte constantemente por el bienestar emocional de los demás, sacrificando tu propia paz mental en el proceso.",
+            "falta_de_espontaneidad": "Podrías tener dificultades para ser espontánea emocionalmente, prefiriendo la seguridad y la previsibilidad en tus interacciones emocionales.",
+            "frialdad_emocional": "Podrías parecer fría emocionalmente para algunos, ya que tiendes a racionalizar tus sentimientos en lugar de expresarlos abiertamente.",
+            "exceso_de_control": "Podrías tener un exceso de control emocional, evitando situaciones o emociones que no puedas manejar completamente.",
+            "autocrítica_dañina": "Podrías ser autocrítica hasta el punto de dañarte emocionalmente, siendo demasiado dura contigo misma y minando tu autoestima."
+        }
+    },
+    "luna_en_virgo_masculino": {
+        "manifestaciones_positivas": {
+            "atención_al_detalle": "Podrías tener una gran atención al detalle emocional, notando y comprendiendo los matices emocionales en tu entorno.",
+            "servicialidad": "Podrías ser muy servicial emocionalmente, brindando apoyo práctico y emocional a quienes te rodean de manera discreta.",
+            "análisis_emocional": "Podrías tener habilidades analíticas emocionales, desentrañando los sentimientos complejos para encontrar soluciones prácticas.",
+            "disciplina_emocional": "Podrías tener una disciplina emocional sólida, manejando tus emociones de manera ordenada y racional.",
+            "perfeccionismo": "Podrías aspirar a la perfección emocional, buscando mejorar constantemente tus habilidades emocionales y las de los demás.",
+            "organización_emocional": "Podrías ser muy organizado emocionalmente, estableciendo rutinas y estructuras que te ayuden a manejar tus sentimientos de manera eficiente.",
+            "adaptabilidad": "Podrías ser emocionalmente adaptable, ajustándote fácilmente a los cambios emocionales y circunstanciales.",
+            "autocuidado": "Podrías priorizar el autocuidado emocional, asegurándote de satisfacer tus propias necesidades emocionales antes de ayudar a los demás.",
+            "empatía_práctica": "Podrías demostrar empatía de manera práctica, ofreciendo soluciones concretas y útiles a los problemas emocionales de los demás.",
+            "resolución_de_problemas": "Podrías ser experto en la resolución de problemas emocionales, encontrando soluciones prácticas y eficientes para los desafíos emocionales que enfrentas."
+        },
+        "manifestaciones_negativas": {
+            "crítica_constante": "Podrías ser crítico contigo mismo y con los demás, enfocándote en los errores y defectos emocionales en lugar de en las fortalezas.",
+            "exigencia_extrema": "Podrías tener estándares emocionales extremadamente altos, lo que te lleva a sentirte constantemente insatisfecho con tus propios sentimientos y los de los demás.",
+            "rigidez_emocional": "Podrías ser emocionalmente rígido, resistiéndote al cambio emocional y a nuevas formas de pensar y sentir.",
+            "autoexigencia": "Podrías ser muy exigente contigo mismo emocionalmente, sintiendo que nunca estás a la altura de tus propias expectativas.",
+            "autoanálisis": "Podrías ser propenso a sobreanalizar tus emociones y las de los demás, lo que puede generar ansiedad y estrés emocional.",
+            "preocupación_constante": "Podrías preocuparte constantemente por el bienestar emocional de los demás, sacrificando tu propia paz mental en el proceso.",
+            "falta_de_espontaneidad": "Podrías tener dificultades para ser espontáneo emocionalmente, prefiriendo la seguridad y la previsibilidad en tus interacciones emocionales.",
+            "frialdad_emocional": "Podrías parecer frío emocionalmente para algunos, ya que tiendes a racionalizar tus sentimientos en lugar de expresarlos abiertamente.",
+            "exceso_de_control": "Podrías tener un exceso de control emocional, evitando situaciones o emociones que no puedas manejar completamente.",
+            "autocrítica_dañina": "Podrías ser autocrítico hasta el punto de dañarte emocionalmente, siendo demasiado duro contigo mismo y minando tu autoestima."
+        }
+    },
+    "luna_en_libra_femenino": {
+        "manifestaciones_positivas": {
+            "equilibrio_emocional": "Podrías tener un gran equilibrio emocional, buscando siempre la armonía y la paz en tus relaciones y entorno emocional.",
+            "empatía": "Podrías ser muy empática emocionalmente, comprendiendo y sintiendo las emociones de los demás de manera profunda y sincera.",
+            "diplomacia": "Podrías ser diplomática emocionalmente, buscando resolver conflictos y mantener relaciones armoniosas con tacto y cortesía.",
+            "belleza_interior": "Podrías tener una belleza interior que brilla a través de tu capacidad para crear y mantener relaciones emocionalmente satisfactorias y equilibradas.",
+            "compañerismo": "Podrías ser una gran compañera emocional, estando siempre presente para apoyar y acompañar a tus seres queridos en sus momentos de necesidad.",
+            "paz_interior": "Podrías cultivar una profunda paz interior, encontrando serenidad y tranquilidad en tus relaciones y en tu entorno emocional.",
+            "justicia_emocional": "Podrías tener una fuerte sensibilidad hacia la justicia emocional, buscando siempre tratar a los demás con imparcialidad y equidad.",
+            "armonía_relacional": "Podrías ser experta en crear y mantener armonía en tus relaciones emocionales, evitando conflictos y promoviendo la cooperación y el entendimiento mutuo.",
+            "colaboración": "Podrías ser una excelente colaboradora emocional, trabajando en equipo con los demás para lograr objetivos comunes y construir relaciones sólidas y satisfactorias.",
+            "compromiso_emocional": "Podrías comprometerte emocionalmente de manera profunda y auténtica en tus relaciones, buscando construir vínculos duraderos basados en el amor y la confianza mutua."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podrías tener dificultades para tomar decisiones emocionales, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones.",
+            "corazon_indeciso": "Por miedo a equivocarte, a no acertar, a no ser justo, puedes tener dificultades para tomar decisiones emocionales, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones.",
+            "dependencia_emocional": "Podrías volverte emocionalmente dependiente de los demás, buscando constantemente la validación y la aprobación externa para sentirte segura y completa.",
+            "superficialidad": "Podrías ser percibida como superficial emocionalmente, ya que tiendes a evitar conflictos y confrontaciones profundas en tus relaciones.",
+            "falta_de_autonomía": "Podrías tener dificultades para establecer límites emocionales claros, permitiendo que las necesidades y deseos de los demás influyan demasiado en tus propias decisiones y acciones.",
+            "dificultad_para_terminar_vínculos": "Puedes sentir temor o un demasiado respeto por los vínculos, por lo cual puedes tener dificultades para tomar decisiones emocionales que puedan acabar o terminar con esas relaciones, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones o rupturas dolorozas de las cuales luego sientas culpa.",
+            "inseguridad_emocional": "Podrías experimentar inseguridad emocional, especialmente en tus relaciones, sintiendo la necesidad constante de confirmación y validación de tu valía.",
+            "evitación_del_conflicto": "Podrías evitar el conflicto emocional a toda costa, incluso a expensas de tu propia autenticidad y honestidad emocional.",
+            "dificultad_para_elegir": "Es muy probable que varias veces estes en la duda, dilema o disyuntiva si eleiges a una opción u otra, en especial en asuntos del amor, el corazón o puedes tener sentimientos que te confunden porque quieres ambas opciones o peor aún, una opción que sospechas que tal vez en el futuro llegará. Quieres sentir algu justo pero lo que sientes tal vez dañe o lastime a alguien y no sabes qué hacer.",
+            "falta_de_autenticidad": "Podrías sacrificar tu autenticidad emocional en aras de mantener la paz y la armonía en tus relaciones, sintiendo que debes ocultar tus verdaderos sentimientos para evitar conflictos."
+        }
+    },
+    "luna_en_libra_masculino": {
+        "manifestaciones_positivas": {
+            "equilibrio_emocional": "Podrías tener un gran equilibrio emocional, buscando siempre la armonía y la paz en tus relaciones y entorno emocional.",
+            "empatía": "Podrías ser muy empático emocionalmente, comprendiendo y sintiendo las emociones de los demás de manera profunda y sincera.",
+            "diplomacia": "Podrías ser diplomático emocionalmente, buscando resolver conflictos y mantener relaciones armoniosas con tacto y cortesía.",
+            "belleza_interior": "Podrías tener una belleza interior que brilla a través de tu capacidad para crear y mantener relaciones emocionalmente satisfactorias y equilibradas.",
+            "compañerismo": "Podrías ser un gran compañero emocional, estando siempre presente para apoyar y acompañar a tus seres queridos en sus momentos de necesidad.",
+            "paz_interior": "Podrías cultivar una profunda paz interior, encontrando serenidad y tranquilidad en tus relaciones y en tu entorno emocional.",
+            "justicia_emocional": "Podrías tener una fuerte sensibilidad hacia la justicia emocional, buscando siempre tratar a los demás con imparcialidad y equidad.",
+            "armonía_relacional": "Podrías ser experto en crear y mantener armonía en tus relaciones emocionales, evitando conflictos y promoviendo la cooperación y el entendimiento mutuo.",
+            "colaboración": "Podrías ser un excelente colaborador emocional, trabajando en equipo con los demás para lograr objetivos comunes y construir relaciones sólidas y satisfactorias.",
+            "compromiso_emocional": "Podrías comprometerte emocionalmente de manera profunda y auténtica en tus relaciones, buscando construir vínculos duraderos basados en el amor y la confianza mutua."
+        },
+        "manifestaciones_negativas": {
+            "indecisión": "Podrías tener dificultades para tomar decisiones emocionales, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones.",
+            "corazon_indeciso": "Por miedo a equivocarte, a no acertar, a no ser justo, puedes tener dificultades para tomar decisiones emocionales, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones.",
+            "dependencia_emocional": "Podrías volverte emocionalmente dependiente de los demás, buscando constantemente la validación y la aprobación externa para sentirte seguro y completo.",
+            "superficialidad": "Podrías ser percibido como superficial emocionalmente, ya que tiendes a evitar conflictos y confrontaciones profundas en tus relaciones.",
+            "falta_de_autonomía": "Podrías tener dificultades para establecer límites emocionales claros, permitiendo que las necesidades y deseos de los demás influyan demasiado en tus propias decisiones y acciones.",
+            "dificultad_para_terminar_vínculos": "Puedes sentir temor o un demasiado respeto por los vínculos, por lo cual puedes tener dificultades para tomar decisiones emocionales que puedan acabar o terminar con esas relaciones, ya que buscas constantemente el equilibrio y la armonía y evitas confrontaciones o rupturas dolorozas de las cuales luego sientas culpa.",
+            "inseguridad_emocional": "Podrías experimentar inseguridad emocional, especialmente en tus relaciones, sintiendo la necesidad constante de confirmación y validación de tu valía.",
+            "evitación_del_conflicto": "Podrías evitar el conflicto emocional a toda costa, incluso a expensas de tu propia autenticidad y honestidad emocional.",
+            "dificultad_para_elegir": "Es muy probable que varias veces estes en la duda, dilema o disyuntiva si eleiges a una opción u otra, en especial en asuntos del amor, el corazón o puedes tener sentimientos que te confunden porque quieres ambas opciones o peor aún, una opción que sospechas que tal vez en el futuro llegará. Quieres sentir algu justo pero lo que sientes tal vez dañe o lastime a alguien y no sabes qué hacer.",
+            "falta_de_autenticidad": "Podrías sacrificar tu autenticidad emocional en aras de mantener la paz y la armonía en tus relaciones, sintiendo que debes ocultar tus verdaderos sentimientos para evitar conflictos."
+        }
+    },
+    "luna_en_escorpio_femenino": {
+        "manifestaciones_positivas": {
+            "intensidad_emocional": "Podrías experimentar emociones intensas y profundas, lo que te permite conectar profundamente con tus propios sentimientos y los de los demás.",
+            "intuición_aguda": "Podrías tener una intuición aguda sobre las emociones y motivaciones de las personas, lo que te permite comprender intuitivamente lo que están sintiendo.",
+            "transformación_emocional": "Podrías experimentar una gran capacidad para transformar tus emociones, permitiendo el crecimiento personal y la curación emocional.",
+            "fuerza_interior": "Podrías tener una gran fuerza interior, lo que te permite enfrentar y superar desafíos emocionales con valentía y determinación.",
+            "lealtad_inquebrantable": "Podrías ser extremadamente leal emocionalmente, mostrando un compromiso inquebrantable hacia tus seres queridos y defendiéndolos en todo momento.",
+            "intimidad_profunda": "Podrías buscar una intimidad emocional profunda en tus relaciones, sintiendo una conexión intensa y significativa con tus seres queridos.",
+            "capacidad_de_sanación": "Podrías tener una gran capacidad para sanar emocionalmente a los demás, ofreciendo apoyo y consuelo en momentos de necesidad.",
+            "perseverancia_emocional": "Podrías demostrar una gran perseverancia emocional, enfrentando desafíos emocionales con determinación y resistencia.",
+            "compromiso_apasionado": "Podrías comprometerte emocionalmente de manera apasionada en tus relaciones, mostrando una entrega total y un profundo compromiso.",
+            "profundidad_emocional": "Podrías explorar la profundidad de tus emociones, lo que te permite comprender tu mundo interno de manera completa y auténtica."
+        },
+        "manifestaciones_negativas": {
+            "posesividad_excesiva": "Podrías volverte posesiva emocionalmente, sintiendo la necesidad de controlar y dominar las relaciones para evitar el miedo al abandono.",
+            "celos_extremos": "Podrías experimentar celos intensos y destructivos, lo que puede generar conflictos y tensiones en tus relaciones emocionales.",
+            "obsesión_emocional": "Podrías obsesionarte emocionalmente con personas o situaciones, lo que puede afectar tu bienestar emocional y tu capacidad para disfrutar del presente.",
+            "venganza_emocional": "Podrías sentir la tentación de buscar venganza emocionalmente cuando te sientas herida o traicionada, lo que puede generar resentimiento y amargura.",
+            "control_emocional": "Podrías tener tendencia a controlar emocionalmente a los demás o a ti misma, lo que puede limitar tu capacidad para experimentar la libertad emocional.",
+            "suspicacia_extrema": "Podrías ser extremadamente suspicaz emocionalmente, desconfiando de las intenciones de los demás y sintiéndote constantemente amenazada.",
+            "secretismo_excesivo": "Podrías mantener secretos emocionales o guardar rencores, lo que puede dificultar la intimidad emocional y la confianza en tus relaciones.",
+            "sentimientos_de_abandono": "Podrías experimentar sentimientos intensos de abandono emocional, lo que puede desencadenar miedos y ansiedades emocionales.",
+            "destructividad_emocional": "Podrías tener tendencia a expresar emociones de manera destructiva, lo que puede dañar tus relaciones y tu bienestar emocional.",
+            "manipulación_emocional": "Podrías recurrir a la manipulación emocional para obtener lo que deseas en tus relaciones, lo que puede generar desconfianza y resentimiento en los demás."
+        }
+    },
+    "luna_en_escorpio_masculino": {
+        "manifestaciones_positivas": {
+            "intensidad_emocional": "Podrías experimentar emociones intensas y profundas, lo que te permite conectar profundamente con tus propios sentimientos y los de los demás.",
+            "intuición_aguda": "Podrías tener una intuición aguda sobre las emociones y motivaciones de las personas, lo que te permite comprender intuitivamente lo que están sintiendo.",
+            "transformación_emocional": "Podrías experimentar una gran capacidad para transformar tus emociones, permitiendo el crecimiento personal y la curación emocional.",
+            "fuerza_interior": "Podrías tener una gran fuerza interior, lo que te permite enfrentar y superar desafíos emocionales con valentía y determinación.",
+            "lealtad_inquebrantable": "Podrías ser extremadamente leal emocionalmente, mostrando un compromiso inquebrantable hacia tus seres queridos y defendiéndolos en todo momento.",
+            "intimidad_profunda": "Podrías buscar una intimidad emocional profunda en tus relaciones, sintiendo una conexión intensa y significativa con tus seres queridos.",
+            "capacidad_de_sanación": "Podrías tener una gran capacidad para sanar emocionalmente a los demás, ofreciendo apoyo y consuelo en momentos de necesidad.",
+            "perseverancia_emocional": "Podrías demostrar una gran perseverancia emocional, enfrentando desafíos emocionales con determinación y resistencia.",
+            "compromiso_apasionado": "Podrías comprometerte emocionalmente de manera apasionada en tus relaciones, mostrando una entrega total y un profundo compromiso.",
+            "profundidad_emocional": "Podrías explorar la profundidad de tus emociones, lo que te permite comprender tu mundo interno de manera completa y auténtica."
+        },
+        "manifestaciones_negativas": {
+            "posesividad_excesiva": "Podrías volverte posesivo emocionalmente, sintiendo la necesidad de controlar y dominar las relaciones para evitar el miedo al abandono.",
+            "celos_extremos": "Podrías experimentar celos intensos y destructivos, lo que puede generar conflictos y tensiones en tus relaciones emocionales.",
+            "obsesión_emocional": "Podrías obsesionarte emocionalmente con personas o situaciones, lo que puede afectar tu bienestar emocional y tu capacidad para disfrutar del presente.",
+            "venganza_emocional": "Podrías sentir la tentación de buscar venganza emocionalmente cuando te sientas herido o traicionado, lo que puede generar resentimiento y amargura.",
+            "control_emocional": "Podrías tener tendencia a controlar emocionalmente a los demás o a ti mismo, lo que puede limitar tu capacidad para experimentar la libertad emocional.",
+            "suspicacia_extrema": "Podrías ser extremadamente suspicaz emocionalmente, desconfiando de las intenciones de los demás y sintiéndote constantemente amenazado.",
+            "secretismo_excesivo": "Podrías mantener secretos emocionales o guardar rencores, lo que puede dificultar la intimidad emocional y la confianza en tus relaciones.",
+            "sentimientos_de_abandono": "Podrías experimentar sentimientos intensos de abandono emocional, lo que puede desencadenar miedos y ansiedades emocionales.",
+            "destructividad_emocional": "Podrías tener tendencia a expresar emociones de manera destructiva, lo que puede dañar tus relaciones y tu bienestar emocional.",
+            "manipulación_emocional": "Podrías recurrir a la manipulación emocional para obtener lo que deseas en tus relaciones, lo que puede generar desconfianza y resentimiento en los demás."
+        }
+    },
+    "luna_en_sagitario_femenino": {
+        "manifestaciones_positivas": {
+            "optimismo_hacia_la_autosuperación": "Podrías tener un enfoque optimista de la vida, viendo siempre el lado positivo de las cosas y manteniendo una actitud esperanzadora incluso en momentos difíciles.",
+            "espíritu_aventurero": "Podrías tener un espíritu aventurero y explorador, disfrutando de la libertad y la emoción que proviene de descubrir nuevos lugares y experiencias.",
+            "sabiduría_interior": "Podrías poseer una profunda sabiduría interior, que te guía en tus decisiones y te ayuda a encontrar significado y propósito en tu vida.",
+            "entusiasmo_contagioso": "Podrías irradiar entusiasmo y energía positiva, inspirando a los demás con tu pasión y tu alegría de vivir.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensiva, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista.",
+            "filosofía_de_vida": "Podrías tener una filosofía de vida expansiva y optimista, buscando constantemente el crecimiento personal y la expansión de tu conciencia.",
+            "libertad_emocional": "Podrías valorar tu libertad emocional por encima de todo, buscando relaciones que te permitan ser auténtica y seguir tu propio camino.",
+            "compasión": "Podrías sentir compasión por los demás y por ti misma, mostrando empatía y preocupándote por el bienestar de todos los seres vivos.",
+            "mentalidad_abierta": "Podrías tener una mentalidad abierta y receptiva, estando siempre dispuesta a aprender y crecer a través de nuevas experiencias y conocimientos.",
+            "optimismo_esperanzador": "Podrías tener un enfoque optimista de la vida, viendo siempre el lado positivo de las cosas y manteniendo una actitud esperanzadora incluso en momentos difíciles."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podrías ser impulsiva emocionalmente, actuando sin pensar en las consecuencias a largo plazo de tus acciones y decisiones.",
+            "exceso_de_confianza": "Podrías tener exceso de confianza emocionalmente, subestimando los riesgos y sobreestimando tus habilidades y capacidades.",
+            "falta_de_compromiso": "Podrías tener dificultades para comprometerte emocionalmente, sintiendo la necesidad constante de libertad e independencia en tus relaciones.",
+            "superficialidad": "Podrías ser percibida como superficial emocionalmente, evitando profundizar en tus sentimientos o en las relaciones íntimas.",
+            "falta_de_enfoque": "Podrías tener dificultades para mantener el enfoque emocionalmente, sintiéndote constantemente atraída por nuevas experiencias y oportunidades.",
+            "impulsividad": "Podrías ser impulsiva emocionalmente, actuando sin pensar en las consecuencias a largo plazo de tus acciones y decisiones.",
+            "exceso_de_optimismo": "Podrías tener un exceso de optimismo emocional, ignorando los posibles desafíos y obstáculos que puedan surgir en tu camino.",
+            "rebeldía": "Podrías sentir la necesidad de desafiar las normas y convenciones emocionales, buscando constantemente la libertad y la independencia en tus relaciones.",
+            "falta_de_responsabilidad": "Podrías tener dificultades para asumir la responsabilidad emocionalmente, evitando enfrentarte a tus compromisos y obligaciones emocionales.",
+            "corazon_arriesgado": "Tu corazón aventurero, tal vez conlleve a que emocionalmente tengas un exceso de confianza. Tal es así que puede influenciar muy fuerte en tu ego o auto estima tal vez de un modo desbordado o desequilibrado. Puedes tomar caminos complicados, subestimando los riesgos y puedes intentar ocupar un rol para el cual no estabas muy preparado."
+        }
+    },
+    "luna_en_sagitario_masculino": {
+        "manifestaciones_positivas": {
+            "optimismo_hacia_la_autosuperación": "Podrías tener un enfoque optimista de la vida, viendo siempre el lado positivo de las cosas y manteniendo una actitud esperanzadora incluso en momentos difíciles.",
+            "espíritu_aventurero": "Podrías tener un espíritu aventurero y explorador, disfrutando de la libertad y la emoción que proviene de descubrir nuevos lugares y experiencias.",
+            "sabiduría_interior": "Podrías poseer una profunda sabiduría interior, que te guía en tus decisiones y te ayuda a encontrar significado y propósito en tu vida.",
+            "entusiasmo_contagioso": "Podrías irradiar entusiasmo y energía positiva, inspirando a los demás con tu pasión y tu alegría de vivir.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensivo, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista.",
+            "filosofía_de_vida": "Podrías tener una filosofía de vida expansiva y optimista, buscando constantemente el crecimiento personal y la expansión de tu conciencia.",
+            "libertad_emocional": "Podrías valorar tu libertad emocional por encima de todo, buscando relaciones que te permitan ser auténtico y seguir tu propio camino.",
+            "compasión": "Podrías sentir compasión por los demás y por ti mismo, mostrando empatía y preocupándote por el bienestar de todos los seres vivos.",
+            "mentalidad_abierta": "Podrías tener una mentalidad abierta y receptiva, estando siempre dispuesto a aprender y crecer a través de nuevas experiencias y conocimientos.",
+            "optimismo_esperanzador": "Podrías tener un enfoque optimista de la vida, viendo siempre el lado positivo de las cosas y manteniendo una actitud esperanzadora incluso en momentos difíciles."
+        },
+        "manifestaciones_negativas": {
+            "imprudencia": "Podrías ser impulsivo emocionalmente, actuando sin pensar en las consecuencias a largo plazo de tus acciones y decisiones.",
+            "exceso_de_confianza": "Podrías tener exceso de confianza emocionalmente, subestimando los riesgos y sobreestimando tus habilidades y capacidades.",
+            "falta_de_compromiso": "Podrías tener dificultades para comprometerte emocionalmente, sintiendo la necesidad constante de libertad e independencia en tus relaciones.",
+            "superficialidad": "Podrías ser percibido como superficial emocionalmente, evitando profundizar en tus sentimientos o en las relaciones íntimas.",
+            "falta_de_enfoque": "Podrías tener dificultades para mantener el enfoque emocionalmente, sintiéndote constantemente atraído por nuevas experiencias y oportunidades.",
+            "impulsividad": "Podrías ser impulsivo emocionalmente, actuando sin pensar en las consecuencias a largo plazo de tus acciones y decisiones.",
+            "exceso_de_optimismo": "Podrías tener un exceso de optimismo emocional, ignorando los posibles desafíos y obstáculos que puedan surgir en tu camino.",
+            "rebeldía": "Podrías sentir la necesidad de desafiar las normas y convenciones emocionales, buscando constantemente la libertad y la independencia en tus relaciones.",
+            "falta_de_responsabilidad": "Podrías tener dificultades para asumir la responsabilidad emocionalmente, evitando enfrentarte a tus compromisos y obligaciones emocionales.",
+            "corazon_arriesgado": "Tu corazón aventurero, tal vez conlleve a que emocionalmente tengas un exceso de confianza. Tal es así que puede influenciar muy fuerte en tu ego o auto estima tal vez de un modo desbordado o desequilibrado. Puedes tomar caminos complicados, subestimando los riesgos y puedes intentar ocupar un rol para el cual no estabas muy preparado."
+        }
+    },
+    "luna_en_capricornio_femenino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Podrías demostrar una gran perseverancia emocional, enfrentando desafíos con determinación y resistencia, lo que te lleva al éxito a largo plazo.",
+            "responsabilidad": "Podrías ser emocionalmente responsable, asumiendo tus compromisos y obligaciones con seriedad y cumpliendo tus promesas.",
+            "madurez_emocional": "Podrías tener una madurez emocional notable, mostrando una comprensión profunda de tus propias emociones y las de los demás.",
+            "autodisciplina": "Podrías tener una fuerte autodisciplina emocional, lo que te permite controlar tus impulsos y trabajar hacia tus metas con determinación.",
+            "ambición": "Podrías ser emocionalmente ambiciosa, aspirando constantemente a lograr más en tu vida y a alcanzar tus objetivos con perseverancia.",
+            "estabilidad_emocional": "Podrías tener una gran estabilidad emocional, manteniendo la calma y la compostura incluso en situaciones estresantes o difíciles.",
+            "capacidad_de_planificación": "Podrías tener una gran capacidad para planificar emocionalmente, estableciendo metas claras y desarrollando estrategias para alcanzarlas.",
+            "realismo": "Podrías ser emocionalmente realista, evaluando las situaciones de manera objetiva y tomando decisiones fundamentadas en la realidad en lugar de la fantasía.",
+            "disciplina": "Podrías ser emocionalmente disciplinada, manteniendo el control sobre tus emociones y actuando con prudencia en todas las situaciones.",
+            "autorreflexión": "Podrías ser propensa a la autorreflexión emocional, examinando tus propias acciones y emociones con honestidad y objetividad."
+        },
+        "manifestaciones_negativas": {
+            "rigidez_emocional": "Podrías ser emocionalmente rígida, resistiéndote al cambio y aferrándote a estructuras emocionales que ya no son útiles o saludables.",
+            "pesimismo": "Podrías tener tendencia al pesimismo emocional, viendo el lado negativo de las situaciones y perdiendo la esperanza en el futuro.",
+            "frialdad_emocional": "Podrías ser percibida como fría emocionalmente, mostrando poco afecto o expresión emocional hacia los demás.",
+            "obsesión_por_el_trabajo": "Podrías obsesionarte emocionalmente con el trabajo o el éxito, descuidando tus necesidades emocionales y las de tus seres queridos.",
+            "falta_de_empatía": "Podrías tener dificultades para mostrar empatía emocional, centrándote más en tus propios logros y objetivos que en los sentimientos de los demás.",
+            "autoritarismo": "Podrías ser emocionalmente autoritaria, imponiendo tus opiniones y creencias a los demás sin considerar sus puntos de vista o sentimientos.",
+            "cálculo_emocional": "Podrías ser percibida como calculadora emocionalmente, tomando decisiones basadas en la conveniencia o el beneficio personal en lugar de la empatía o la compasión.",
+            "falta_de_espontaneidad": "Podrías carecer de espontaneidad emocional, prefiriendo seguir rutinas y estructuras preestablecidas en lugar de buscar nuevas experiencias o aventuras.",
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, manteniendo tus emociones en reserva y evitando la intimidad emocional.",
+            "inflexibilidad": "Podrías ser emocionalmente inflexible, resistiéndote al cambio o a nuevas ideas y aferrándote obstinadamente a tus propias opiniones y creencias."
+        }
+    },
+    "luna_en_capricornio_masculino": {
+        "manifestaciones_positivas": {
+            "perseverancia": "Podrías demostrar una gran perseverancia emocional, enfrentando desafíos con determinación y resistencia, lo que te lleva al éxito a largo plazo.",
+            "responsabilidad": "Podrías ser emocionalmente responsable, asumiendo tus compromisos y obligaciones con seriedad y cumpliendo tus promesas.",
+            "madurez_emocional": "Podrías tener una madurez emocional notable, mostrando una comprensión profunda de tus propias emociones y las de los demás.",
+            "autodisciplina": "Podrías tener una fuerte autodisciplina emocional, lo que te permite controlar tus impulsos y trabajar hacia tus metas con determinación.",
+            "ambición": "Podrías ser emocionalmente ambicioso, aspirando constantemente a lograr más en tu vida y a alcanzar tus objetivos con perseverancia.",
+            "estabilidad_emocional": "Podrías tener una gran estabilidad emocional, manteniendo la calma y la compostura incluso en situaciones estresantes o difíciles.",
+            "capacidad_de_planificación": "Podrías tener una gran capacidad para planificar emocionalmente, estableciendo metas claras y desarrollando estrategias para alcanzarlas.",
+            "realismo": "Podrías ser emocionalmente realista, evaluando las situaciones de manera objetiva y tomando decisiones fundamentadas en la realidad en lugar de la fantasía.",
+            "disciplina": "Podrías ser emocionalmente disciplinado, manteniendo el control sobre tus emociones y actuando con prudencia en todas las situaciones.",
+            "autorreflexión": "Podrías ser propenso a la autorreflexión emocional, examinando tus propias acciones y emociones con honestidad y objetividad."
+        },
+        "manifestaciones_negativas": {
+            "rigidez_emocional": "Podrías ser emocionalmente rígido, resistiéndote al cambio y aferrándote a estructuras emocionales que ya no son útiles o saludables.",
+            "pesimismo": "Podrías tener tendencia al pesimismo emocional, viendo el lado negativo de las situaciones y perdiendo la esperanza en el futuro.",
+            "frialdad_emocional": "Podrías ser percibido como frío emocionalmente, mostrando poco afecto o expresión emocional hacia los demás.",
+            "obsesión_por_el_trabajo": "Podrías obsesionarte emocionalmente con el trabajo o el éxito, descuidando tus necesidades emocionales y las de tus seres queridos.",
+            "falta_de_empatía": "Podrías tener dificultades para mostrar empatía emocional, centrándote más en tus propios logros y objetivos que en los sentimientos de los demás.",
+            "autoritarismo": "Podrías ser emocionalmente autoritario, imponiendo tus opiniones y creencias a los demás sin considerar sus puntos de vista o sentimientos.",
+            "cálculo_emocional": "Podrías ser percibido como calculador emocionalmente, tomando decisiones basadas en la conveniencia o el beneficio personal en lugar de la empatía o la compasión.",
+            "falta_de_espontaneidad": "Podrías carecer de espontaneidad emocional, prefiriendo seguir rutinas y estructuras preestablecidas en lugar de buscar nuevas experiencias o aventuras.",
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, manteniendo tus emociones en reserva y evitando la intimidad emocional.",
+            "inflexibilidad": "Podrías ser emocionalmente inflexible, resistiéndote al cambio o a nuevas ideas y aferrándote obstinadamente a tus propias opiniones y creencias."
+        }
+    },
+    "luna_en_acuario_femenino": {
+        "manifestaciones_positivas": {
+            "originalidad": "Podrías destacarte por tu originalidad emocional, mostrando un enfoque único y poco convencional en la vida y en tus relaciones.",
+            "humanitarismo": "Podrías sentir una profunda conexión emocional con la humanidad en su conjunto, buscando formas de contribuir al bienestar y progreso de la sociedad.",
+            "independencia_emocional": "Podrías valorar tu independencia emocional por encima de todo, buscando relaciones que te permitan ser auténtica y seguir tu propio camino.",
+            "mente_abierta": "Podrías tener una mente abierta y receptiva emocionalmente, estando siempre dispuesta a explorar nuevas ideas y perspectivas.",
+            "amistad": "Podrías ser emocionalmente amigable y sociable, disfrutando de la compañía de una amplia variedad de personas y cultivando relaciones profundas y significativas.",
+            "intuición": "Podrías tener una intuición emocional aguda, que te permite sintonizar con los sentimientos y necesidades de los demás de manera natural y comprensiva.",
+            "creatividad": "Podrías ser emocionalmente creativa, encontrando inspiración en la expresión artística y buscando formas innovadoras de expresar tus emociones.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensiva, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista.",
+            "libertad_emocional": "Podrías valorar tu libertad emocional por encima de todo, buscando relaciones que te permitan ser auténtica y seguir tu propio camino.",
+            "la_libertad_en_el_corazón": "Naciste con un corazón que pide a gritos libertad. Sientes que todo aquello que condicione tu libertad te provocará una horrible sensación de encierro, esclavitud o situación injusta. Siempre sentirás el deseo de ser libre y tal vez quieras ayudar a que las personas, los animales o todos los seres vivos se sientan tan libres como tú misma."
+        },
+        "manifestaciones_negativas": {
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, manteniendo una cierta reserva emocional y evitando la intimidad emocional.",
+            "falta_de_compromiso": "Podrías tener dificultades para comprometerte emocionalmente, sintiendo la necesidad constante de libertad e independencia en tus relaciones.",
+            "frialdad_emocional": "Podrías ser percibida como fría emocionalmente, mostrando poco afecto o expresión emocional hacia los demás.",
+            "excentricidad": "Podrías ser emocionalmente excéntrica, mostrando comportamientos o ideas poco convencionales que pueden resultar desconcertantes para los demás.",
+            "desapego_emocional": "Podrías ser emocionalmente desapegada, mostrando una actitud distante o indiferente hacia tus propias emociones y las de los demás.",
+            "rebeldía": "Podrías sentir la necesidad de desafiar las normas y convenciones emocionales, buscando constantemente la libertad y la independencia en tus relaciones.",
+            "inconsistencia_emocional": "Podrías ser emocionalmente inconsistente, experimentando cambios repentinos en tus estados de ánimo o comportamientos que pueden desconcertar a los demás.",
+            "falta_de_empatía": "Podrías tener dificultades para mostrar empatía emocional, centrándote más en tus propias experiencias y perspectivas que en las de los demás.",
+            "corazon_cambiante": "Tu corazon valora tanto la libertad que el hecho de estar sintiendo algo durante mucho tiempo es algo antinatural para estte corazon que tendrá cambios permanentes y repentinos. Dichos cambios seran dificiles de predecir, ver venir, anticipar, entender o explicar, solo sucederán y tendrías que aprender a adaptarte a cada cambio sin juzgarte. No esperes que los demas comprendan a este corazon cambiante, tu corazón pocas veces será comprendido plenamente, es por eso que tu corazon preferirá mantenerse libre sin tantos lazos, vínculos o compromisos duraderos. Tu corazon permanecerá más tiempo al lado de todo aquello que te haga sentir libre.",
+            "distanciamiento_de_un_corazón_frío": "Tu corazon estará funcionando con una lógica algo fría, matemática, calculadora al tal punto que hasta sentira el resultado del futuro pudiendo predecir en qué derivará todo lo que sientes. Esto podría provocar el distanciamiento emocional a tal punto de que seas etiquetado como un ser con el corazon frío, alguien sin sentimientos o alguien en el cual es muy dificil confiar."
+        }
+    },
+    "luna_en_acuario_masculino": {
+        "manifestaciones_positivas": {
+            "originalidad": "Podrías destacarte por tu originalidad emocional, mostrando un enfoque único y poco convencional en la vida y en tus relaciones.",
+            "humanitarismo": "Podrías sentir una profunda conexión emocional con la humanidad en su conjunto, buscando formas de contribuir al bienestar y progreso de la sociedad.",
+            "independencia_emocional": "Podrías valorar tu independencia emocional por encima de todo, buscando relaciones que te permitan ser auténtico y seguir tu propio camino.",
+            "mente_abierta": "Podrías tener una mente abierta y receptiva emocionalmente, estando siempre dispuesto a explorar nuevas ideas y perspectivas.",
+            "amistad": "Podrías ser emocionalmente amigable y sociable, disfrutando de la compañía de una amplia variedad de personas y cultivando relaciones profundas y significativas.",
+            "intuición": "Podrías tener una intuición emocional aguda, que te permite sintonizar con los sentimientos y necesidades de los demás de manera natural y comprensiva.",
+            "creatividad": "Podrías ser emocionalmente creativo, encontrando inspiración en la expresión artística y buscando formas innovadoras de expresar tus emociones.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensivo, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista.",
+            "libertad_emocional": "Podrías valorar tu libertad emocional por encima de todo, buscando relaciones que te permitan ser auténtico y seguir tu propio camino.",
+            "la_libertad_en_el_corazón": "Naciste con un corazón que pide a gritos libertad. Sientes que todo aquello que condicione tu libertad te provocará una horrible sensación de encierro, esclavitud o situación injusta. Siempre sentirás el deseo de ser libre y tal vez quieras ayudar a que las personas, los animales o todos los seres vivos se sientan tan libres como tú mismo."
+        },
+        "manifestaciones_negativas": {
+            "distanciamiento_emocional": "Podrías distanciarte emocionalmente de los demás, manteniendo una cierta reserva emocional y evitando la intimidad emocional.",
+            "falta_de_compromiso": "Podrías tener dificultades para comprometerte emocionalmente, sintiendo la necesidad constante de libertad e independencia en tus relaciones.",
+            "frialdad_emocional": "Podrías ser percibido como frío emocionalmente, mostrando poco afecto o expresión emocional hacia los demás.",
+            "excentricidad": "Podrías ser emocionalmente excéntrico, mostrando comportamientos o ideas poco convencionales que pueden resultar desconcertantes para los demás.",
+            "desapego_emocional": "Podrías ser emocionalmente desapegado, mostrando una actitud distante o indiferente hacia tus propias emociones y las de los demás.",
+            "rebeldía": "Podrías sentir la necesidad de desafiar las normas y convenciones emocionales, buscando constantemente la libertad y la independencia en tus relaciones.",
+            "inconsistencia_emocional": "Podrías ser emocionalmente inconsistente, experimentando cambios repentinos en tus estados de ánimo o comportamientos que pueden desconcertar a los demás.",
+            "falta_de_empatía": "Podrías tener dificultades para mostrar empatía emocional, centrándote más en tus propias experiencias y perspectivas que en las de los demás.",
+            "corazon_cambiante": "Tu corazon valora tanto la libertad que el hecho de estar sintiendo algo durante mucho tiempo es algo antinatural para estte corazon que tendrá cambios permanentes y repentinos. Dichos cambios seran dificiles de predecir, ver venir, anticipar, entender o explicar, solo sucederán y tendrías que aprender a adaptarte a cada cambio sin juzgarte. No esperes que los demas comprendan a este corazon cambiante, tu corazón pocas veces será comprendido plenamente, es por eso que tu corazon preferirá mantenerse libre sin tantos lazos, vínculos o compromisos duraderos. Tu corazon permanecerá más tiempo al lado de todo aquello que te haga sentir libre.",
+            "distanciamiento_de_un_corazón_frío": "Tu corazon estará funcionando con una lógica algo fría, matemática, calculadora al tal punto que hasta sentira el resultado del futuro pudiendo predecir en qué derivará todo lo que sientes. Esto podría provocar el distanciamiento emocional a tal punto de que seas etiquetado como un ser con el corazon frío, alguien sin sentimientos o alguien en el cual es muy dificil confiar."
+        }
+    },
+    "luna_en_piscis_femenino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías ser muy empática emocionalmente, sintiendo profundamente las emociones de los demás y siendo comprensiva y compasiva hacia sus experiencias.",
+            "creatividad": "Podrías tener una gran creatividad emocional, expresándote a través del arte, la música o la escritura para canalizar y procesar tus propias emociones.",
+            "intuición": "Podrías tener una intuición emocional aguda, confiando en tus corazonadas y en tu capacidad para percibir los estados emocionales de las personas que te rodean.",
+            "compasión": "Podrías ser extremadamente compasiva emocionalmente, mostrando una profunda preocupación por el bienestar de los demás y buscando formas de ayudar y apoyar a quienes lo necesitan.",
+            "imaginación": "Podrías tener una rica vida emocional e imaginativa, explorando mundos internos a través de la fantasía y la visualización creativa.",
+            "espiritualidad": "Podrías sentir una conexión emocional con lo divino y lo trascendental, buscando significado y propósito en tus experiencias emocionales y espirituales.",
+            "sensibilidad": "Podrías ser extremadamente sensible emocionalmente, percibiendo los matices más sutiles de las situaciones y las emociones de los demás.",
+            "generosidad": "Podrías ser emocionalmente generosa, dando libremente tu tiempo, energía y apoyo a aquellos que lo necesitan sin esperar nada a cambio.",
+            "comprensión": "Podrías tener una gran comprensión emocional de las personas y situaciones que te rodean, sintiendo simpatía y empatía por los desafíos y luchas de los demás.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensiva emocionalmente, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista."
+        },
+        "manifestaciones_negativas": {
+            "vulnerabilidad_emocional": "Podrías ser emocionalmente vulnerable, sintiendo que tus emociones son fácilmente influenciables por el entorno o las opiniones de los demás.",
+            "idealización": "Podrías tener tendencia a idealizar emocionalmente a las personas y situaciones, viendo el mundo a través de lentes rosadas y siendo susceptible a la decepción cuando la realidad no coincide con tus expectativas.",
+            "falta_de_límites": "Podrías tener dificultades para establecer límites emocionales saludables, dejando que las necesidades y emociones de los demás te abrumen y agoten.",
+            "victimización": "Podrías adoptar el papel de víctima emocionalmente, sintiéndote impotente frente a las circunstancias y permitiendo que otros te manipulen o te exploten.",
+            "evitación_emocional": "Podrías tener tendencia a evitar emociones difíciles o dolorosas, buscando refugio en la fantasía, la evasión o el escapismo en lugar de enfrentar y procesar tus sentimientos.",
+            "dependencia_emocional": "Podrías volverte emocionalmente dependiente de los demás, buscando constantemente seguridad y validación en las relaciones en lugar de confiar en tu propia fuerza interior.",
+            "autoengaño": "Podrías engañarte a ti misma emocionalmente, negando o minimizando las dificultades y los desafíos en tu vida para evitar sentir dolor o incomodidad.",
+            "sobrecompromiso": "Podrías comprometerte emocionalmente en exceso, sacrificando tus propias necesidades y deseos para satisfacer los de los demás, lo que podría llevarte a sentirte agotada o resentida.",
+            "pesimismo": "Podrías tener tendencia al pesimismo emocional, anticipando lo peor en las situaciones y perdiendo la esperanza en el futuro.",
+            "auto sacrificio": "Podrías ser propensa al sacrificio emocional en beneficio de los demás, priorizando las necesidades y deseos de los demás sobre los tuyos propios, lo que podría llevarte a sentirte agotada o resentida."
+        }
+    },
+    "luna_en_piscis_masculino": {
+        "manifestaciones_positivas": {
+            "empatía": "Podrías ser muy empático emocionalmente, sintiendo profundamente las emociones de los demás y siendo comprensivo y compasivo hacia sus experiencias.",
+            "creatividad": "Podrías tener una gran creatividad emocional, expresándote a través del arte, la música o la escritura para canalizar y procesar tus propias emociones.",
+            "intuición": "Podrías tener una intuición emocional aguda, confiando en tus corazonadas y en tu capacidad para percibir los estados emocionales de las personas que te rodean.",
+            "compasión": "Podrías ser extremadamente compasivo emocionalmente, mostrando una profunda preocupación por el bienestar de los demás y buscando formas de ayudar y apoyar a quienes lo necesitan.",
+            "imaginación": "Podrías tener una rica vida emocional e imaginativa, explorando mundos internos a través de la fantasía y la visualización creativa.",
+            "espiritualidad": "Podrías sentir una conexión emocional con lo divino y lo trascendental, buscando significado y propósito en tus experiencias emocionales y espirituales.",
+            "sensibilidad": "Podrías ser extremadamente sensible emocionalmente, percibiendo los matices más sutiles de las situaciones y las emociones de los demás.",
+            "generosidad": "Podrías ser emocionalmente generoso, dando libremente tu tiempo, energía y apoyo a aquellos que lo necesitan sin esperar nada a cambio.",
+            "comprensión": "Podrías tener una gran comprensión emocional de las personas y situaciones que te rodean, sintiendo simpatía y empatía por los desafíos y luchas de los demás.",
+            "tolerancia": "Podrías ser extremadamente tolerante y comprensivo emocionalmente, aceptando a las personas tal como son y respetando sus diferencias y puntos de vista."
+        },
+        "manifestaciones_negativas": {
+            "vulnerabilidad_emocional": "Podrías ser emocionalmente vulnerable, sintiendo que tus emociones son fácilmente influenciables por el entorno o las opiniones de los demás.",
+            "idealización": "Podrías tener tendencia a idealizar emocionalmente a las personas y situaciones, viendo el mundo a través de lentes rosadas y siendo susceptible a la decepción cuando la realidad no coincide con tus expectativas.",
+            "falta_de_límites": "Podrías tener dificultades para establecer límites emocionales saludables, dejando que las necesidades y emociones de los demás te abrumen y agoten.",
+            "victimización": "Podrías adoptar el papel de víctima emocionalmente, sintiéndote impotente frente a las circunstancias y permitiendo que otros te manipulen o te exploten.",
+            "evitación_emocional": "Podrías tener tendencia a evitar emociones difíciles o dolorosas, buscando refugio en la fantasía, la evasión o el escapismo en lugar de enfrentar y procesar tus sentimientos.",
+            "dependencia_emocional": "Podrías volverte emocionalmente dependiente de los demás, buscando constantemente seguridad y validación en las relaciones en lugar de confiar en tu propia fuerza interior.",
+            "autoengaño": "Podrías engañarte a ti mismo emocionalmente, negando o minimizando las dificultades y los desafíos en tu vida para evitar sentir dolor o incomodidad.",
+            "sobrecompromiso": "Podrías comprometerte emocionalmente en exceso, sacrificando tus propias necesidades y deseos para satisfacer los de los demás, lo que podría llevarte a sentirte agotado o resentido.",
+            "pesimismo": "Podrías tener tendencia al pesimismo emocional, anticipando lo peor en las situaciones y perdiendo la esperanza en el futuro.",
+            "auto sacrificio": "Podrías ser propenso al sacrificio emocional en beneficio de los demás, priorizando las necesidades y deseos de los demás sobre los tuyos propios, lo que podría llevarte a sentirte agotado o resentido."
+        }
+    }
+}

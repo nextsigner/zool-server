@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zool Data Map</title>
+
+</head>
+<body>
+<!-- In Form -->
+<form id="formZoolMap" action="/getZoolDataMap" method="GET">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="n" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dia">Día:</label>
+            <input type="number" id="dia" name="d" min="1" max="31" required>
+
+            <label for="mes">Mes:</label>
+            <input type="number" id="mes" name="m" min="1" max="12" required>
+
+            <label for="anio">Año:</label>
+            <input type="number" id="anio" name="a" min="1900" max="2100" required>
+        </div>
+
+        <div class="form-group">
+            <label for="hora">Hora:</label>
+            <input type="number" id="hora" name="h" min="0" max="24" required>
+
+            <label for="minutos">Minutos:</label>
+            <input type="number" id="minutos" name="min" min="0" max="59" required>
+        </div>
+
+        <label for="gmt">GMT (Ejemplo Argentina es -3):</label>
+        <input type="number" id="gmt" name="gmt" min="-12" max="12" required><br><br>
+
+        <div class="form-group">
+            <label for="lugarNacimiento">Lugar de Nacimiento:</label>
+            <input type="text" id="lugarNacimiento" name="lugarNacimiento" required>
+        </div>
+        <button type="button" id="obtenerCoordenadas">Obtener Coordenadas</button><br><br>
+
+        <input type="hidden" id="lat" name="lat">
+        <input type="hidden" id="lon" name="lon">
+        <input type="hidden" id="alt" name="alt" value=0>
+        <input type="hidden" id="ciudad" name="ciudad">
+        <input type="hidden" id="ms" name="ms" value=0>
+        <input type="hidden" id="msReq" name="msReq" value=0>
+        <input type="hidden" id="adminId" name="adminId" value="formwebzoolar">
+
+        <p id="salida"></p>
+        <input id="enviar" type="submit" value="Crear Carta Natal">
+    </form>
+
+    <script src="js/gd.js"></script>
+<!-- Out Form -->
+   </body>
+
+</html>

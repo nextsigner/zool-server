@@ -1,0 +1,219 @@
+* {
+    font-size: 24px; /* Ajusta el tamaño de fuente */
+    padding: 10px; /* Ajusta el espacio interno */
+    margin: 10px; /* Ajusta el espacio externo */
+    border-radius: 5px; /* Ajusta el radio de borde */
+}
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /*font-size: 500%;*/
+}
+br {
+    line-height: 0.2;
+}
+#menu {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: black;
+    color: #333;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 10px;
+}
+#pie {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: black;
+    color: #333;
+}
+#pie p {
+    font-size: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
+}
+
+.boton2 {
+    padding: 4px 4px;
+    margin: 4px 4px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 10%;
+}
+
+ul {
+    /* Otros estilos para el <ul> */
+}
+
+li {
+    list-style: none;
+}
+.li1 {
+    line-height: 2.5; /* Establece el espaciado entre líneas */
+}
+.li2 {
+    line-height: 3.5;
+}
+div {
+    line-height: 1.0;
+}
+#tableData {
+  margin: 0 auto;
+}
+.divData {
+    display: block;
+    width: 95%;
+    line-height: 1.0;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+.divData p, b{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.divData h1{
+    font-size: 22px;
+}
+.divData h2{
+    font-size: 20px;
+}
+.xdivs {
+    overflow: hidden; /* Esto limpia los flotadores */
+}
+
+.div1, .div2 {
+    width: 40%; /* Establece el ancho del 50% */
+    float: left; /* Flota ambos divs a la izquierda */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+}
+
+#miFormulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+a {
+    color: white !important; /* Establece el color del texto de los enlaces como blanco */
+    text-decoration: none; /* Elimina la decoración de subrayado */
+}
+
+a:hover {
+    color: white !important; /* Color blanco al pasar el ratón */
+}
+
+a:visited {
+    color: white !important; /* Color blanco para enlaces visitados */
+}
+
+/*Zool Data Map*/
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.form-group label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 1;
+}
+#formZoolMap *{
+    font-size: 24px;
+}
+#rowBodie {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#rowBodie p,b{
+    font-size: 24px;
+    margin: 0px 0px;
+}
+.divDataFull {
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;    
+}
+.divDataFull p, b{
+    /*font-size: 16px;*/
+}
+
+#divApoyo {
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+}
+#divApoyo p{
+    font-size: 16px;
+}
+.linkDivApoyo {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px ;
+    background-color: #FFA500;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 10%;
+}
+
+#carga {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegurar que esté sobre todos los demás elementos */
+}
+
+#carga.hidden {
+    display: none;
+}
+
+#carga p {
+    font-size: 24px;
+}

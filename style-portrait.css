@@ -1,0 +1,166 @@
+* {
+    font-size: 40px; /* Ajusta el tamaño de fuente */
+    padding: 5px; /* Ajusta el espacio interno */
+    margin: 5px; /* Ajusta el espacio externo */
+    border-radius: 5px; /* Ajusta el radio de borde */
+}
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /*font-size: 500%;*/
+}
+
+br {
+    line-height: 0.2;
+}
+#menu {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
+    background-color: black;
+    color: #333;
+}
+h6 {
+    font-size: 10px;
+}
+#pie {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
+    background-color: black;
+    color: #333;
+}
+#pie p {
+    font-size: 10px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px ;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    border-radius: 5%;
+}
+
+.boton2 {
+    padding: 4px 2px;
+    margin: 2px 2px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    border: none;
+    border-radius: 5%;
+}
+
+ul {
+
+}
+
+li {
+    list-style: none;
+}
+.li1 {
+    line-height: 2.5;
+}
+.li2 {
+    line-height: 3.5;
+}
+div {
+    line-height: 1.0;
+}
+.divData {
+    display: block;
+    width: 45%;
+    line-height: 1.0;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+.divData p, b{
+    font-size: 16px;
+}
+.divData h3{
+    font-size: 20px;
+}
+.divData h2{
+    font-size: 20px;
+}
+.xdivs {
+    overflow: hidden;
+}
+
+.div1, .div2 {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#miFormulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white !important;
+}
+
+a:visited {
+    color: white !important;
+}
+
+/*
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.form-group label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 1;
+}
+#formZoolMap *{
+    font-size: 12px;
+}*/
+
+#rowBodie {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#rowBodie p,b{
+    font-size: 12px;
+    margin: 0px 0px;
+}
+.divDataFull {
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+}
+.divDataFull p, b{
+    font-size: 16px;
+}
+.divDataFull h3{
+    font-size: 20px;
+}
+

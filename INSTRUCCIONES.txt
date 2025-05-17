@@ -1,0 +1,50 @@
+Instrucciones para hacer funcionar este servidor.
+
+Contexto: GNU/Linx Ubuntu 20.04 o similar.
+
+Realizar todas las siguientes tareas como administrador root.
+El prompt tiene que figurar con un signo numeral al final.
+Por ejemplo:
+root@ubuntu#:
+
+1) Ubicarse en la carpeta root
+cd /root
+
+2) Instalar git
+sudo apt install git
+
+3) Clonar repositorio Git de Zool-Server
+git clone https://github.com/nextsigner/zool-server
+
+4) Entrar a la zool-server
+cd /root/zool-server
+
+5) Ejecutar el script de instalación.
+./install.sh
+
+6) Rebootear el sistema operativo.
+reboot
+
+Notas:
+* En en caso de que se hagan cambios en el repositorio, sera muy fácil actualizar el servidor ejecutando el script update.sh.
+* Si se modificaron en el repositorio los archivos .js y se ejecutó update.sh, será necesario rebootear el sistema operativo para que el servidor inicie con los cambios.
+
+PRUEBA LOCAL
+* Crean un enlace simbólico en /root/server enlazado a la carpeta del código fuente.
+Por ejemplo: Como root, mkdir /root/zool-server && ln /home/ns/nsp/zool-server /root/zool-server
+* Iniciar servidor con: Entrar a la carpeta /root/zool-server y ejecutar "npm start localhost", esto permitirá hacer pruebas en http://127.0.0.1:8100
+
+PRUEBA EN SERVIDOR REMOTO
+* Iniciar servidor con: Entrar a la carpeta /root/zool-server y ejecutar "npm start", esto permitiría que el sito web se vea en la url http://zool.ar.
+
+Atención!!
+El dominio zool.ar debe estar activo y vinculado al cloud donde se ejecuta el servidor remoto.
+
+Nota: Se se requiere modificar el dominio del server, hay que editar el archivo index.js y alli cambiar zool.ar por el dominio o ip del servidor remoto donde se alojará este servidor.
+
+Versiones actuales.
+Node v14.14.0
+NPM v6.14.8
+Python 3.8.10
+Modulo Python pyswisseph v2.10.3.1
+Datos actualizado en 6/2024
